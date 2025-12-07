@@ -6,6 +6,14 @@ import os
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {
+        "status": "active", 
+        "service": "CAT/MAT Engine Backend",
+        "docs_url": "/docs" # FastAPI provides free documentation here
+    }
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
