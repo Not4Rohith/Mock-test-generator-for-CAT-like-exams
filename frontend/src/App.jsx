@@ -124,8 +124,8 @@ function App() {
                 <p className="text-sm font-medium text-gray-400">
                     Made with <span className="text-red-500 animate-pulse">❤️</span>
                 </p>
-                <p className="text-xs text-gray-500 mt-1 font-bold tracking-[0.2em] uppercase">
-                    - Rohith
+                <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">
+                    -Rohith
                 </p>
             </div>
         </div>
