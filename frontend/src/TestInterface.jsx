@@ -41,25 +41,21 @@ export default function TestInterface({ testData, onExit }) {
   const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : (isMAT ? 7200 : 2400));
   const isSubmitting = useRef(false);
 
-  // --- RESIZABLE STATES ---
   const [sidebarWidth, setSidebarWidth] = useState(260); 
   const [passageWidth, setPassageWidth] = useState(50);
   const [isResizing, setIsResizing] = useState(null);
 
-  // Safety
   if (!testData || !SECTIONS.length) return <div className="p-10 text-white">Error: Empty Test Data</div>;
   const currentSectionName = SECTIONS[currentSectionIndex];
   const questions = testData.sections[currentSectionName] || [];
   const currentQuestion = questions[currentQIndex];
 
-  // --- MOUSE HANDLERS ---
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
 
   const resize = useCallback((e) => {
     if (isResizing === 'sidebar') {
       const newWidth = e.clientX;
-      // UPDATED: Allow shrinking down to 70px
       if (newWidth > 70 && newWidth < 600) setSidebarWidth(newWidth);
     } 
     else if (isResizing === 'passage') {
@@ -89,8 +85,6 @@ export default function TestInterface({ testData, onExit }) {
     };
   }, [isResizing, resize, stopResizing]);
 
-
-  // --- LOGIC ---
   useEffect(() => {
       if(currentQuestion) setVisited(prev => ({ ...prev, [currentQuestion.id]: true }));
   }, [currentQIndex, currentQuestion]);
@@ -152,14 +146,14 @@ export default function TestInterface({ testData, onExit }) {
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
       
-      {/* RESIZABLE SIDEBAR */}
+      {/* SIDEBAR */}
       <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
               <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
               <div className="text-xs text-gray-500 truncate">{currentSectionName}</div>
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-              {/* UPDATED: Dynamic Grid */}
+              {/* Dynamic Grid */}
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
                   {questions.map((q, idx) => (
                       <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
@@ -179,7 +173,13 @@ export default function TestInterface({ testData, onExit }) {
           </div>
       </div>
 
-      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><div className="h-8 w-0.5 bg-gray-600 rounded-full" /></div>
+      {/* SIDEBAR HANDLE (NAVY BLUE) */}
+      <div 
+        onMouseDown={() => startResizing('sidebar')} 
+        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
+      >
+        <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
+      </div>
 
       {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
@@ -205,7 +205,13 @@ export default function TestInterface({ testData, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><GripVertical size={12} className="text-gray-500" /></div>
+                    {/* PASSAGE HANDLE (NAVY BLUE) */}
+                    <div 
+                        onMouseDown={() => startResizing('passage')} 
+                        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
+                    >
+                        <GripVertical size={12} className="text-blue-400/50" />
+                    </div>
                 </>
             )}
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">

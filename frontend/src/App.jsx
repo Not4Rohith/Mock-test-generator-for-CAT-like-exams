@@ -114,6 +114,10 @@ function App() {
                     <h2 className="text-3xl font-bold">MAT</h2>
                     <p className="text-gray-500 mt-2 text-sm">AIMA Management</p>
                 </button>
+                    <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
+                        <p className="text-gray-500 text-sm"> Made with ❤️</p>
+                        <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">- rohith</p>
+                    </div>
             </div>
         </div>
       )

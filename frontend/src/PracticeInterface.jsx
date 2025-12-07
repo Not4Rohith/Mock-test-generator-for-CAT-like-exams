@@ -16,12 +16,7 @@ const ImageDisplay = ({ images, singleUrl }) => {
     <div className="flex flex-col gap-4 my-6">
       {imgs.map((src, idx) => (
         <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
-          <img 
-            src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} 
-            alt={`Figure ${idx + 1}`} 
-            className="max-w-full h-auto"
-            onError={(e) => { e.target.style.display = 'none'; }}
-          />
+          <img src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} alt={`Figure ${idx + 1}`} className="max-w-full h-auto" onError={(e) => { e.target.style.display = 'none'; }} />
         </div>
       ))}
     </div>
@@ -43,7 +38,6 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : settings.timeLimit * 60);
   const isSubmitting = useRef(false);
 
-  // --- RESIZABLE STATES ---
   const [sidebarWidth, setSidebarWidth] = useState(260); 
   const [passageWidth, setPassageWidth] = useState(50);
   const [isResizing, setIsResizing] = useState(null);
@@ -51,14 +45,12 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const questions = testData.questions;
   const currentQuestion = questions[currentQIndex];
 
-  // --- MOUSE HANDLERS ---
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
 
   const resize = useCallback((e) => {
     if (isResizing === 'sidebar') {
       const newWidth = e.clientX;
-      // UPDATED: Allow shrinking down to 70px (approx 1 column)
       if (newWidth > 70 && newWidth < 600) setSidebarWidth(newWidth);
     } 
     else if (isResizing === 'passage') {
@@ -88,7 +80,6 @@ export default function PracticeInterface({ testData, settings, onExit }) {
     };
   }, [isResizing, resize, stopResizing]);
 
-  // --- LOGIC ---
   useEffect(() => {
       setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
   }, [currentQIndex, questions]);
@@ -137,9 +128,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
               <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
               <p className="text-xs text-gray-500 truncate">Questions</p>
           </div>
-          
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-              {/* UPDATED: Dynamic Grid */}
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
                   {questions.map((q, idx) => (
                       <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
@@ -148,7 +137,6 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                   ))}
               </div>
           </div>
-
           <div className="p-4 border-t border-subtle bg-black/20">
               <div className="grid grid-cols-2 gap-2 text-xs text-gray-400 mb-4">
                   <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> <span className="truncate">Ans</span></div>
@@ -160,8 +148,15 @@ export default function PracticeInterface({ testData, settings, onExit }) {
           </div>
       </div>
 
-      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><div className="h-8 w-0.5 bg-gray-600 rounded-full" /></div>
+      {/* --- SIDEBAR RESIZER (NAVY BLUE) --- */}
+      <div 
+        onMouseDown={() => startResizing('sidebar')} 
+        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
+      >
+        <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
+      </div>
 
+      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
             <div><h2 className="font-bold text-white text-lg">Practice Mode</h2><span className="text-xs text-accent uppercase tracking-widest">{settings.section}</span></div>
@@ -180,7 +175,13 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><GripVertical size={12} className="text-gray-500" /></div>
+                    {/* --- PASSAGE RESIZER (NAVY BLUE) --- */}
+                    <div 
+                        onMouseDown={() => startResizing('passage')} 
+                        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
+                    >
+                        <GripVertical size={12} className="text-blue-400/50" />
+                    </div>
                 </>
             )}
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">
