@@ -3,37 +3,24 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-katex';
 import { Timer, ChevronRight, ChevronLeft } from 'lucide-react';
 
-// --- 1. CRASH GUARD FOR MATH ---
 class SafeLatex extends Component {
   constructor(props) { super(props); this.state = { hasError: false }; }
   static getDerivedStateFromError() { return { hasError: true }; }
   render() { if (this.state.hasError) return <span>{this.props.children}</span>; return <Latex>{this.props.children}</Latex>; }
 }
 
-// --- 2. MULTI-IMAGE RENDERER HELPER ---
 const ImageDisplay = ({ images, singleUrl }) => {
-  // Consolidate into one array
-  const imgs = (images && images.length > 0) 
-      ? images 
-      : (singleUrl ? [singleUrl] : []);
-
+  const imgs = (images && images.length > 0) ? images : (singleUrl ? [singleUrl] : []);
   if (imgs.length === 0) return null;
-
   return (
     <div className="flex flex-col gap-4 my-6">
       {imgs.map((src, idx) => (
         <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
           <img 
-            src={
-                src.startsWith('http') 
-                ? src 
-                : `/${src.startsWith('/') ? src.slice(1) : src}`
-            } 
+            src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} 
             alt={`Figure ${idx + 1}`} 
             className="max-w-full h-auto"
-            onError={(e) => {
-                e.target.style.display = 'none';
-            }}
+            onError={(e) => { e.target.style.display = 'none'; }}
           />
         </div>
       ))}
@@ -42,13 +29,33 @@ const ImageDisplay = ({ images, singleUrl }) => {
 };
 
 export default function PracticeInterface({ testData, settings, onExit }) {
-  const [currentQIndex, setCurrentQIndex] = useState(0);
-  const [answers, setAnswers] = useState({});
-  const [timeLeft, setTimeLeft] = useState(settings.timeLimit * 60);
+  // --- SESSION PERSISTENCE ---
+  // Note: Since practice IDs are random, we use a generic 'current_practice_session' 
+  // OR rely on App.jsx sending the same testData ID. App.jsx saves activeData, so ID is stable.
+  const SESSION_KEY = `session_${testData.id || 'practice'}`;
+  
+  const loadSession = () => {
+    const saved = localStorage.getItem(SESSION_KEY);
+    return saved ? JSON.parse(saved) : null;
+  };
+  const initialSession = loadSession() || {};
 
-  // --- TIMER LOGIC ---
+  const [currentQIndex, setCurrentQIndex] = useState(initialSession.currentQIndex || 0);
+  const [answers, setAnswers] = useState(initialSession.answers || {});
+  const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : settings.timeLimit * 60);
+
+  // --- SAVE STATE ---
   useEffect(() => {
-    if (settings.timeLimit === 0) return; // No timer
+    localStorage.setItem(SESSION_KEY, JSON.stringify({
+        currentQIndex,
+        answers,
+        timeLeft
+    }));
+  }, [currentQIndex, answers, timeLeft, SESSION_KEY]);
+
+
+  useEffect(() => {
+    if (settings.timeLimit === 0) return; 
     const timer = setInterval(() => {
         setTimeLeft((prev) => {
             if (prev <= 1) {
@@ -64,24 +71,14 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const questions = testData.questions;
   const currentQuestion = questions[currentQIndex];
 
-  // --- TEXT CLEANER ---
   const clean = (text) => {
       if(!text) return "";
-      return String(text)
-        .replace(/â€™/g, "'")
-        .replace(/â€œ/g, '"')
-        .replace(/â€/g, '"')
-        .replace(/&nbsp;/g, " ")
-        .replace(/<[^>]+>/g, '');
+      return String(text).replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, '');
   };
 
   const RenderText = ({ text }) => {
     if (!text) return null;
-    return (
-      <span className="leading-7 tracking-wide whitespace-pre-line">
-         <SafeLatex>{clean(text)}</SafeLatex>
-      </span>
-    );
+    return <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span>;
   };
 
   const handleOptionSelect = (optId) => {
@@ -112,31 +109,18 @@ export default function PracticeInterface({ testData, settings, onExit }) {
 
       {/* CONTENT AREA */}
       <div className="flex-1 overflow-hidden flex flex-row">
-        
-        {/* LEFT PANEL: PASSAGE */}
         {hasPassage && (
             <div className="w-1/2 border-r border-subtle h-full overflow-y-auto p-8 bg-[#161616] custom-scrollbar">
                 <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
-                
-                {/* Image for Passage */}
                 <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
             </div>
         )}
-
-        {/* RIGHT PANEL: QUESTION */}
         <div className={`h-full overflow-y-auto p-8 flex flex-col custom-scrollbar ${hasPassage ? 'w-1/2' : 'w-full max-w-5xl mx-auto'}`}>
             <div className="flex justify-between items-end mb-6 border-b border-gray-800 pb-4">
                 <span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span>
             </div>
-            
-            <div className="text-xl font-medium text-white mb-2 leading-relaxed">
-                <RenderText text={currentQuestion.question_text} />
-            </div>
-
-            {/* Image for Question (only if not already shown in passage) */}
-            {!hasPassage && (
-                <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
-            )}
+            <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
+            {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
 
             <div className="space-y-4 mb-10 mt-6">
                 {currentQuestion.options && currentQuestion.options.length > 0 ? (

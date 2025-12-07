@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Layers, Zap, BookOpen, GraduationCap } from 'lucide-react'
 import TestInterface from './TestInterface'
@@ -7,24 +7,60 @@ import PracticeConfig from './PracticeConfig'
 import ResultScreen from './ResultScreen'
 
 function App() {
-  // --- 1. DEFINE API URL CORRECTLY ---
-  // If Vercel provides a URL, use it. Otherwise, fallback to localhost.
   const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 
-  const [activeData, setActiveData] = useState(null)
-  const [loading, setLoading] = useState(false)
-  const [mode, setMode] = useState('landing') 
-  const [examType, setExamType] = useState('CAT') 
-  const [userAnswers, setUserAnswers] = useState({})
+  // --- 1. PERSISTENT STATE INITIALIZATION ---
+  // We check localStorage first. If data exists, we load it; otherwise, use defaults.
+  const [activeData, setActiveData] = useState(() => {
+    const saved = localStorage.getItem('cat_app_activeData');
+    return saved ? JSON.parse(saved) : null;
+  });
+
+  const [mode, setMode] = useState(() => {
+    return localStorage.getItem('cat_app_mode') || 'landing';
+  });
+
+  const [examType, setExamType] = useState(() => {
+    return localStorage.getItem('cat_app_examType') || 'CAT';
+  });
+
+  const [userAnswers, setUserAnswers] = useState(() => {
+    const saved = localStorage.getItem('cat_app_userAnswers');
+    return saved ? JSON.parse(saved) : {};
+  });
   
-  const [practiceSettings, setPracticeSettings] = useState(null)
+  const [practiceSettings, setPracticeSettings] = useState(() => {
+    const saved = localStorage.getItem('cat_app_practiceSettings');
+    return saved ? JSON.parse(saved) : null;
+  });
+
+  const [loading, setLoading] = useState(false);
   const [mockConfig, setMockConfig] = useState({ startYear: 2017, endYear: 2024 });
 
-  // --- API HELPERS ---
+  // --- 2. SAVE STATE ON CHANGE ---
+  // Whenever these change, save them to the browser's hard drive.
+  useEffect(() => { localStorage.setItem('cat_app_activeData', JSON.stringify(activeData)); }, [activeData]);
+  useEffect(() => { localStorage.setItem('cat_app_mode', mode); }, [mode]);
+  useEffect(() => { localStorage.setItem('cat_app_examType', examType); }, [examType]);
+  useEffect(() => { localStorage.setItem('cat_app_userAnswers', JSON.stringify(userAnswers)); }, [userAnswers]);
+  useEffect(() => { localStorage.setItem('cat_app_practiceSettings', JSON.stringify(practiceSettings)); }, [practiceSettings]);
+
+  // --- HELPER: CLEAR SESSION ---
+  // Call this when we want to genuinely restart (e.g., clicking "Home")
+  const resetSession = () => {
+    localStorage.removeItem('cat_app_activeData');
+    localStorage.removeItem('cat_app_mode');
+    localStorage.removeItem('cat_app_userAnswers');
+    localStorage.removeItem('cat_app_practiceSettings');
+    // We leave examType as is for convenience
+    setActiveData(null);
+    setMode('home');
+    setUserAnswers({});
+  };
+
   const startMock = async () => {
     setLoading(true);
     try {
-      // USE BACKTICKS (`) NOT QUOTES (')
       const res = await axios.get(`${API_URL}/generate-mock`, {
         params: { 
             exam_type: examType, 
@@ -32,7 +68,6 @@ function App() {
             year_end: examType === 'MAT' ? 9999 : mockConfig.endYear 
         }
       });
-      
       if (res.data && res.data.sections && Object.keys(res.data.sections).length > 0) {
           setActiveData(res.data);
           setMode('mock-test');
@@ -51,7 +86,6 @@ function App() {
     setPracticeSettings(settings);
     setLoading(true);
     try {
-      // USE BACKTICKS HERE TOO
       const res = await axios.get(`${API_URL}/generate-practice`, {
         params: { 
             exam_type: examType, 
@@ -77,6 +111,7 @@ function App() {
   };
 
   // --- RENDERING ---
+
   if (mode === 'landing') {
       return (
         <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white">
@@ -102,12 +137,41 @@ function App() {
       )
   }
 
-  if (mode === 'mock-test' && activeData) return <TestInterface testData={activeData} onExit={(ans) => { setUserAnswers(ans); setMode('result'); }} />
+  // --- PASS CLEANUP FUNCTION ---
+  // When exiting a test, we clear the saved session so the user doesn't get stuck in the old test.
+  
+  if (mode === 'mock-test' && activeData) {
+      return <TestInterface 
+        testData={activeData} 
+        onExit={(ans) => { 
+            setUserAnswers(ans); 
+            // Clear test progress but keep answers for result screen
+            localStorage.removeItem(`session_${activeData.id}`);
+            setMode('result'); 
+        }} 
+      />
+  }
+
   if (mode === 'practice-test' && activeData) {
       const allQs = Object.values(activeData.sections).flat();
-      return <PracticeInterface testData={{questions: allQs}} settings={practiceSettings} onExit={(ans) => { setUserAnswers(ans); setMode('result'); }} />
+      return <PracticeInterface 
+        testData={{questions: allQs}} 
+        settings={practiceSettings} 
+        onExit={(ans) => { 
+            setUserAnswers(ans); 
+            localStorage.removeItem(`session_${activeData.id}`); // Clear practice progress
+            setMode('result'); 
+        }} 
+      />
   }
-  if (mode === 'result' && activeData) return <ResultScreen testData={activeData} userAnswers={userAnswers} onRestart={() => { setActiveData(null); setMode('home'); }} />
+
+  if (mode === 'result' && activeData) {
+      return <ResultScreen 
+        testData={activeData} 
+        userAnswers={userAnswers} 
+        onRestart={resetSession} 
+      />
+  }
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white relative">
@@ -136,8 +200,8 @@ function App() {
             </div>
             {examType === 'MAT' && (
                 <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
-                    <p className="text-gray-500 text-sm">Thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a></p>
-                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold"> -Rohith </p>
+                    <p className="text-gray-500 text-sm">Thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a>🤗</p>
+                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">-Rohith</p>
                 </div>
             )}
         </>
@@ -156,13 +220,13 @@ function App() {
              )}
              {examType === 'MAT' && <div className="bg-blue-900/20 p-4 rounded-lg mb-4 border border-blue-800 text-blue-200 text-sm">MAT Mock generates a random paper from all available question banks covering 5 sections.</div>}
              <button onClick={startMock} disabled={loading} className="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-xl mt-4 flex justify-center items-center gap-2">{loading ? "Generating..." : "Start Mock Exam"}</button>
-             <button onClick={() => setMode('home')} className="w-full text-gray-500 py-2">Back</button>
+             <button onClick={resetSession} className="w-full text-gray-500 py-2">Back</button>
           </div>
       )}
       {mode === 'practice-config' && (
           <div className="animate-in fade-in zoom-in duration-300">
              <PracticeConfig onStart={startPractice} examType={examType} />
-             <button onClick={() => setMode('home')} className="w-full text-gray-500 py-4 mt-2">Back to Home</button>
+             <button onClick={resetSession} className="w-full text-gray-500 py-4 mt-2">Back to Home</button>
           </div>
       )}
     </div>

@@ -3,18 +3,15 @@ import 'katex/dist/katex.min.css';
 import Latex from 'react-katex';
 import { Timer, ChevronRight, ChevronLeft } from 'lucide-react';
 
-// --- 1. CRASH GUARD FOR MATH ---
 class SafeLatex extends Component {
   constructor(props) { super(props); this.state = { hasError: false }; }
   static getDerivedStateFromError() { return { hasError: true }; }
   render() { if (this.state.hasError) return <span>{this.props.children}</span>; return <Latex>{this.props.children}</Latex>; }
 }
 
-// --- 2. MULTI-IMAGE RENDERER HELPER ---
 const ImageDisplay = ({ images, singleUrl }) => {
   const imgs = (images && images.length > 0) ? images : (singleUrl ? [singleUrl] : []);
   if (imgs.length === 0) return null;
-
   return (
     <div className="flex flex-col gap-4 my-6">
       {imgs.map((src, idx) => (
@@ -32,38 +29,55 @@ const ImageDisplay = ({ images, singleUrl }) => {
 };
 
 export default function TestInterface({ testData, onExit }) {
-  // --- DETECT EXAM TYPE ---
-  // If ID starts with "MAT", enable MAT features (Global Timer, Free Nav)
   const isMAT = testData.id && testData.id.startsWith("MAT");
-
   const SECTIONS = testData.sections ? Object.keys(testData.sections) : [];
   
-  const [currentSectionIndex, setCurrentSectionIndex] = useState(0);
-  const [currentQIndex, setCurrentQIndex] = useState(0);
-  const [answers, setAnswers] = useState({});
-  
-  // TIMER LOGIC: 
-  // MAT = 120 mins (7200s) Total
-  // CAT = 40 mins (2400s) Per Section
-  const [timeLeft, setTimeLeft] = useState(isMAT ? 7200 : 2400); 
+  // --- 1. SESSION RESTORE LOGIC ---
+  // Create a unique key for this specific test ID
+  const SESSION_KEY = `session_${testData.id}`;
+
+  const loadSession = () => {
+      const saved = localStorage.getItem(SESSION_KEY);
+      if (saved) return JSON.parse(saved);
+      return null;
+  };
+
+  const initialSession = loadSession() || {};
+
+  // Initialize state with saved values OR defaults
+  const [currentSectionIndex, setCurrentSectionIndex] = useState(initialSession.currentSectionIndex || 0);
+  const [currentQIndex, setCurrentQIndex] = useState(initialSession.currentQIndex || 0);
+  const [answers, setAnswers] = useState(initialSession.answers || {});
+  // Default Times: 7200 (MAT 2hr), 2400 (CAT 40min)
+  const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : (isMAT ? 7200 : 2400));
+
+  // --- 2. SESSION SAVE LOGIC ---
+  // Save progress every time something changes
+  useEffect(() => {
+      const sessionData = {
+          currentSectionIndex,
+          currentQIndex,
+          answers,
+          timeLeft
+      };
+      localStorage.setItem(SESSION_KEY, JSON.stringify(sessionData));
+  }, [currentSectionIndex, currentQIndex, answers, timeLeft, SESSION_KEY]);
+
 
   useEffect(() => {
     const timer = setInterval(() => {
         setTimeLeft((prev) => {
             if (prev <= 1) {
-                // Time Up Logic
                 if (isMAT) {
-                    // MAT: Global time up -> Submit whole test
                     alert("Time is up! Submitting exam.");
                     onExit(answers);
                     return 0;
                 } else {
-                    // CAT: Section time up -> Next Section
                     if (currentSectionIndex < SECTIONS.length - 1) {
                         handleSectionSwitch();
-                        return 2400; // Reset for next section
+                        return 2400; 
                     } else {
-                        onExit(answers); // Finish
+                        onExit(answers); 
                         return 0;
                     }
                 }
@@ -72,29 +86,20 @@ export default function TestInterface({ testData, onExit }) {
         });
     }, 1000);
     return () => clearInterval(timer);
-  }, [currentSectionIndex, isMAT]); // Dependency ensures CAT timer resets correctly
+  }, [currentSectionIndex, isMAT, SECTIONS.length]); // Added dependencies
 
-  // Safety Checks
   if (!testData || !SECTIONS.length) return <div className="p-10 text-white">Error: Empty Test Data</div>;
   
   const currentSectionName = SECTIONS[currentSectionIndex];
   const questions = testData.sections[currentSectionName];
   
-  if (!questions || !questions.length) {
-       return <div className="text-white p-10">Section {currentSectionName} is empty. <button onClick={onExit} className="underline">Exit</button></div>
-  }
+  if (!questions || !questions.length) return <div className="text-white p-10">Section {currentSectionName} is empty. <button onClick={onExit} className="underline">Exit</button></div>
   
   const currentQuestion = questions[currentQIndex];
 
-  // --- TEXT CLEANER ---
   const clean = (text) => {
       if(!text) return "";
-      return String(text)
-        .replace(/â€™/g, "'")
-        .replace(/â€œ/g, '"')
-        .replace(/â€/g, '"')
-        .replace(/&nbsp;/g, " ")
-        .replace(/<[^>]+>/g, ''); 
+      return String(text).replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, ''); 
   };
 
   const RenderText = ({ text }) => {
@@ -114,12 +119,10 @@ export default function TestInterface({ testData, onExit }) {
     if (currentQIndex > 0) setCurrentQIndex(currentQIndex - 1);
   };
 
-  // --- TAB CLICK (MAT Only) ---
   const handleTabClick = (idx) => {
       if (isMAT) {
           setCurrentSectionIndex(idx);
           setCurrentQIndex(0);
-          // Do NOT reset timer for MAT
       }
   };
 
@@ -127,10 +130,7 @@ export default function TestInterface({ testData, onExit }) {
     if (currentSectionIndex < SECTIONS.length - 1) {
       setCurrentSectionIndex(currentSectionIndex + 1);
       setCurrentQIndex(0);
-      
-      // Only Reset Timer for CAT
       if (!isMAT) setTimeLeft(2400); 
-      
     } else {
       if(window.confirm("Are you sure you want to submit the test?")) {
           onExit(answers);
@@ -142,7 +142,6 @@ export default function TestInterface({ testData, onExit }) {
 
   return (
     <div className="flex flex-col h-screen bg-obsidian text-gray-200 font-sans">
-      {/* HEADER */}
       <div className="h-16 border-b border-subtle flex items-center justify-between px-6 bg-charcoal shrink-0 z-10 shadow-md">
         <div>
             <h2 className="font-bold text-lg text-white tracking-wide">{isMAT ? "MAT" : "CAT"} MOCK</h2>
@@ -155,13 +154,12 @@ export default function TestInterface({ testData, onExit }) {
                     {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}
                 </span>
             </div>
-            {/* DYNAMIC TABS (Clickable for MAT) */}
             <div className="flex gap-1 bg-black/20 p-1 rounded-lg overflow-x-auto max-w-xl">
                 {SECTIONS.map((sec, idx) => (
                     <button 
                         key={sec} 
                         onClick={() => handleTabClick(idx)}
-                        disabled={!isMAT && idx !== currentSectionIndex} // Lock for CAT
+                        disabled={!isMAT && idx !== currentSectionIndex}
                         className={`px-4 py-1.5 rounded text-sm font-medium whitespace-nowrap transition-colors
                         ${idx === currentSectionIndex ? 'bg-accent text-black shadow-lg' : 'text-gray-500 hover:text-gray-300'}
                         ${!isMAT && idx !== currentSectionIndex ? 'opacity-50 cursor-not-allowed' : ''}
@@ -174,7 +172,6 @@ export default function TestInterface({ testData, onExit }) {
         </div>
       </div>
 
-      {/* CONTENT */}
       <div className="flex-1 overflow-hidden flex flex-row">
         {hasPassage && (
             <div className="w-1/2 border-r border-subtle h-full overflow-y-auto p-8 bg-[#161616] custom-scrollbar">
@@ -211,11 +208,10 @@ export default function TestInterface({ testData, onExit }) {
         </div>
       </div>
 
-      {/* FOOTER */}
       <div className="h-20 border-t border-subtle bg-charcoal flex items-center justify-between px-8 shrink-0 z-20">
         <button onClick={handlePrev} disabled={currentQIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
         <button onClick={handleSectionSwitch} className="text-red-400 border border-red-900/50 px-4 py-2 rounded hover:bg-red-900/20">
-            {currentSectionIndex === SECTIONS.length - 1 ? "Finish Exam" : "Next Section"}
+            {currentSectionIndex === SECTIONS.length - 1 ? "Finish Exam" : "Submit Section"}
         </button>
         <button onClick={handleNext} disabled={currentQIndex === questions.length - 1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2">Save & Next <ChevronRight size={20} /></button>
       </div>
