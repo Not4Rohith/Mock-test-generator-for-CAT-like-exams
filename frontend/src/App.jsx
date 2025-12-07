@@ -9,21 +9,13 @@ import ResultScreen from './ResultScreen'
 function App() {
   const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 
-  // --- 1. PERSISTENT STATE INITIALIZATION ---
-  // We check localStorage first. If data exists, we load it; otherwise, use defaults.
   const [activeData, setActiveData] = useState(() => {
     const saved = localStorage.getItem('cat_app_activeData');
     return saved ? JSON.parse(saved) : null;
   });
 
-  const [mode, setMode] = useState(() => {
-    return localStorage.getItem('cat_app_mode') || 'landing';
-  });
-
-  const [examType, setExamType] = useState(() => {
-    return localStorage.getItem('cat_app_examType') || 'CAT';
-  });
-
+  const [mode, setMode] = useState(() => localStorage.getItem('cat_app_mode') || 'landing');
+  const [examType, setExamType] = useState(() => localStorage.getItem('cat_app_examType') || 'CAT');
   const [userAnswers, setUserAnswers] = useState(() => {
     const saved = localStorage.getItem('cat_app_userAnswers');
     return saved ? JSON.parse(saved) : {};
@@ -37,22 +29,17 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [mockConfig, setMockConfig] = useState({ startYear: 2017, endYear: 2024 });
 
-  // --- 2. SAVE STATE ON CHANGE ---
-  // Whenever these change, save them to the browser's hard drive.
   useEffect(() => { localStorage.setItem('cat_app_activeData', JSON.stringify(activeData)); }, [activeData]);
   useEffect(() => { localStorage.setItem('cat_app_mode', mode); }, [mode]);
   useEffect(() => { localStorage.setItem('cat_app_examType', examType); }, [examType]);
   useEffect(() => { localStorage.setItem('cat_app_userAnswers', JSON.stringify(userAnswers)); }, [userAnswers]);
   useEffect(() => { localStorage.setItem('cat_app_practiceSettings', JSON.stringify(practiceSettings)); }, [practiceSettings]);
 
-  // --- HELPER: CLEAR SESSION ---
-  // Call this when we want to genuinely restart (e.g., clicking "Home")
   const resetSession = () => {
     localStorage.removeItem('cat_app_activeData');
     localStorage.removeItem('cat_app_mode');
     localStorage.removeItem('cat_app_userAnswers');
     localStorage.removeItem('cat_app_practiceSettings');
-    // We leave examType as is for convenience
     setActiveData(null);
     setMode('home');
     setUserAnswers({});
@@ -68,17 +55,14 @@ function App() {
             year_end: examType === 'MAT' ? 9999 : mockConfig.endYear 
         }
       });
-      if (res.data && res.data.sections && Object.keys(res.data.sections).length > 0) {
+      if (res.data && res.data.sections) {
           setActiveData(res.data);
           setMode('mock-test');
           setUserAnswers({});
       } else {
-          alert("Error: Received empty mock test from backend.");
+          alert("Error: Empty mock data.");
       }
-    } catch (e) { 
-        const msg = e.response?.data?.detail || e.message;
-        alert("Failed to start mock: " + msg); 
-    }
+    } catch (e) { alert("Start failed: " + e.message); }
     setLoading(false);
   };
 
@@ -110,11 +94,9 @@ function App() {
     setLoading(false);
   };
 
-  // --- RENDERING ---
-
   if (mode === 'landing') {
       return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white">
+        <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white font-sans">
             <h1 className="text-6xl font-bold mb-4 tracking-tighter">Exam Engine</h1>
             <p className="text-gray-400 mb-12 text-xl">Select your target exam</p>
             <div className="flex gap-8">
@@ -137,15 +119,15 @@ function App() {
       )
   }
 
-  // --- PASS CLEANUP FUNCTION ---
-  // When exiting a test, we clear the saved session so the user doesn't get stuck in the old test.
+  // --- THE FIX: ADD key={activeData.id} ---
+  // This forces React to destroy and recreate the component when a new test starts.
   
   if (mode === 'mock-test' && activeData) {
       return <TestInterface 
+        key={activeData.id} 
         testData={activeData} 
         onExit={(ans) => { 
             setUserAnswers(ans); 
-            // Clear test progress but keep answers for result screen
             localStorage.removeItem(`session_${activeData.id}`);
             setMode('result'); 
         }} 
@@ -155,30 +137,25 @@ function App() {
   if (mode === 'practice-test' && activeData) {
       const allQs = Object.values(activeData.sections).flat();
       return <PracticeInterface 
-        testData={{questions: allQs}} 
+        key={activeData.id}
+        testData={{questions: allQs, id: activeData.id}} 
         settings={practiceSettings} 
         onExit={(ans) => { 
             setUserAnswers(ans); 
-            localStorage.removeItem(`session_${activeData.id}`); // Clear practice progress
+            localStorage.removeItem(`session_${activeData.id}`); 
             setMode('result'); 
         }} 
       />
   }
 
   if (mode === 'result' && activeData) {
-      return <ResultScreen 
-        testData={activeData} 
-        userAnswers={userAnswers} 
-        onRestart={resetSession} 
-      />
+      return <ResultScreen testData={activeData} userAnswers={userAnswers} onRestart={resetSession} />
   }
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white relative">
       <div className="absolute top-8 left-8">
-          <button onClick={() => setMode('landing')} className="text-gray-500 hover:text-white flex items-center gap-2">
-              &larr; Switch Exam
-          </button>
+          <button onClick={() => setMode('landing')} className="text-gray-500 hover:text-white flex items-center gap-2">&larr; Switch Exam</button>
       </div>
       <div className="mb-12 text-center">
         <h1 className="text-5xl font-bold tracking-tighter text-white mb-2">{examType} Engine <span className="text-accent text-lg">Pro</span></h1>
@@ -200,12 +177,13 @@ function App() {
             </div>
             {examType === 'MAT' && (
                 <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
-                    <p className="text-gray-500 text-sm">Thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a>🤗</p>
-                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">-Rohith</p>
+                    <p className="text-gray-500 text-sm">thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a> 🤗</p>
+                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">- rohith</p>
                 </div>
             )}
         </>
       )}
+      {/* Config Screens (Mock/Practice) remain the same... */}
       {mode === 'mock-config' && (
           <div className="w-full max-w-md bg-charcoal p-8 rounded-2xl border border-subtle animate-in fade-in zoom-in duration-300">
              <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2"><Layers size={24}/> Mock Settings</h2>
