@@ -1,0 +1,1862 @@
+
+{
+  "question_bank": [
+    {
+      "id": "2018_S2_VARC_Q1",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The complexity of modern problems often precludes any one person from fully understanding them. Factors contributing to rising obesity levels, for example, include transportation systems and infrastructure, media, convenience foods, changing social norms, human biology and psychological factors. The multidimensional or layered character of complex problems also undermines the principle of meritocracy: the idea that the ‘best person' should be hired. There is no best person. When putting together an oncological research team, a biotech company such as Gilead or Genentech would not construct a multiple-choice test and hire the top scorers, or hire people whose resumes score highest according to some performance criteria. Instead, they would seek diversity. They would build a team of people who bring diverse knowledge bases, tools and analytic skills.\nBelievers in a meritocracy might grant that teams ought to be diverse but then argue that meritocratic principles should apply within each category. Thus the team should consist of the 'best' mathematicians, the ‘best' oncologists, and the 'best' biostatisticians from within the pool. That position suffers from a similar flaw. Even with a knowledge domain, no test or criteria applied to individuals will produce the best team. Each of these domains possesses such depth and breadth, that no test can exist. Consider the field of neuroscience. Upwards of 50,000 papers were published last year covering various techniques, domains of enquiry and levels of analysis, ranging from molecules and synapses up through networks of neurons. Given that complexity, any attempt to rank a collection of neuroscientists from best to worst, as if they were competitors in the 50-metre butterfly, must fail. What could be true is that given a specific task and the composition of a particular team, one scientist would be more likely to contribute than another. Optimal hiring depends on context. Optimal teams will be diverse.\nEvidence for this claim can be seen in the way that papers and patents that combine diverse ideas tend to rank as high-impact. It can also be found in the structure of the so-called random decision forest, a state-of-the-art machine-learning algorithm. Random forests consist of ensembles of decision trees. If classifying pictures, each tree makes a vote: is that a picture of a fox or a dog? A weighted majority rules. Random forests can serve many ends. They can identify bank fraud and diseases, recommend ceiling fans and predict online dating behaviour. When building a forest, you do not select the best trees as they tend to make similar classifications. You want diversity. Programmers achieve that diversity by training each tree on different data, a technique known as bagging. They also boost the forest ‘cognitively' by training trees on the hardest cases – those that the current forest gets wrong. This ensures even more diversity and accurate forests.\nYet the fallacy of meritocracy persists. Corporations, non-profits, governments, universities and even preschools test, score and hire the ‘best’. This all but guarantees not creating the best team. Ranking people by common criteria produces homogeneity. . . . That's not likely to lead to breakthroughs.",
+      "question_text": "Which of the following conditions, if true, would invalidate the passage's main argument?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "If top-scorers possessed multidisciplinary knowledge that enabled them to look at a problem from several perspectives.",
+        "If assessment tests were made more extensive and rigorous.",
+        "If it were proven that teams characterised by diversity end up being conflicted about problems and take a long time to arrive at a solution.",
+        "If a new machine-learning algorithm were developed that proved to be more effective than the random decision forest."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q2",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The complexity of modern problems often precludes any one person from fully understanding them. Factors contributing to rising obesity levels, for example, include transportation systems and infrastructure, media, convenience foods, changing social norms, human biology and psychological factors. The multidimensional or layered character of complex problems also undermines the principle of meritocracy: the idea that the ‘best person' should be hired. There is no best person. When putting together an oncological research team, a biotech company such as Gilead or Genentech would not construct a multiple-choice test and hire the top scorers, or hire people whose resumes score highest according to some performance criteria. Instead, they would seek diversity. They would build a team of people who bring diverse knowledge bases, tools and analytic skills.\nBelievers in a meritocracy might grant that teams ought to be diverse but then argue that meritocratic principles should apply within each category. Thus the team should consist of the 'best' mathematicians, the ‘best' oncologists, and the 'best' biostatisticians from within the pool. That position suffers from a similar flaw. Even with a knowledge domain, no test or criteria applied to individuals will produce the best team. Each of these domains possesses such depth and breadth, that no test can exist. Consider the field of neuroscience. Upwards of 50,000 papers were published last year covering various techniques, domains of enquiry and levels of analysis, ranging from molecules and synapses up through networks of neurons. Given that complexity, any attempt to rank a collection of neuroscientists from best to worst, as if they were competitors in the 50-metre butterfly, must fail. What could be true is that given a specific task and the composition of a particular team, one scientist would be more likely to contribute than another. Optimal hiring depends on context. Optimal teams will be diverse.\nEvidence for this claim can be seen in the way that papers and patents that combine diverse ideas tend to rank as high-impact. It can also be found in the structure of the so-called random decision forest, a state-of-the-art machine-learning algorithm. Random forests consist of ensembles of decision trees. If classifying pictures, each tree makes a vote: is that a picture of a fox or a dog? A weighted majority rules. Random forests can serve many ends. They can identify bank fraud and diseases, recommend ceiling fans and predict online dating behaviour. When building a forest, you do not select the best trees as they tend to make similar classifications. You want diversity. Programmers achieve that diversity by training each tree on different data, a technique known as bagging. They also boost the forest ‘cognitively' by training trees on the hardest cases – those that the current forest gets wrong. This ensures even more diversity and accurate forests.\nYet the fallacy of meritocracy persists. Corporations, non-profits, governments, universities and even preschools test, score and hire the ‘best’. This all but guarantees not creating the best team. Ranking people by common criteria produces homogeneity. . . . That's not likely to lead to breakthroughs.",
+      "question_text": "The author critiques meritocracy for all the following reasons EXCEPT that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "an ideal team comprises of best individuals from diverse fields of knowledge.",
+        "modern problems are multifaceted and require varied skill-sets to be solved.",
+        "criteria designed to assess merit are insufficient to test expertise in any field of knowledge.",
+        "diversity and context-specificity are important for making major advances in any field."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q3",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The complexity of modern problems often precludes any one person from fully understanding them. Factors contributing to rising obesity levels, for example, include transportation systems and infrastructure, media, convenience foods, changing social norms, human biology and psychological factors. The multidimensional or layered character of complex problems also undermines the principle of meritocracy: the idea that the ‘best person' should be hired. There is no best person. When putting together an oncological research team, a biotech company such as Gilead or Genentech would not construct a multiple-choice test and hire the top scorers, or hire people whose resumes score highest according to some performance criteria. Instead, they would seek diversity. They would build a team of people who bring diverse knowledge bases, tools and analytic skills.\nBelievers in a meritocracy might grant that teams ought to be diverse but then argue that meritocratic principles should apply within each category. Thus the team should consist of the 'best' mathematicians, the ‘best' oncologists, and the 'best' biostatisticians from within the pool. That position suffers from a similar flaw. Even with a knowledge domain, no test or criteria applied to individuals will produce the best team. Each of these domains possesses such depth and breadth, that no test can exist. Consider the field of neuroscience. Upwards of 50,000 papers were published last year covering various techniques, domains of enquiry and levels of analysis, ranging from molecules and synapses up through networks of neurons. Given that complexity, any attempt to rank a collection of neuroscientists from best to worst, as if they were competitors in the 50-metre butterfly, must fail. What could be true is that given a specific task and the composition of a particular team, one scientist would be more likely to contribute than another. Optimal hiring depends on context. Optimal teams will be diverse.\nEvidence for this claim can be seen in the way that papers and patents that combine diverse ideas tend to rank as high-impact. It can also be found in the structure of the so-called random decision forest, a state-of-the-art machine-learning algorithm. Random forests consist of ensembles of decision trees. If classifying pictures, each tree makes a vote: is that a picture of a fox or a dog? A weighted majority rules. Random forests can serve many ends. They can identify bank fraud and diseases, recommend ceiling fans and predict online dating behaviour. When building a forest, you do not select the best trees as they tend to make similar classifications. You want diversity. Programmers achieve that diversity by training each tree on different data, a technique known as bagging. They also boost the forest ‘cognitively' by training trees on the hardest cases – those that the current forest gets wrong. This ensures even more diversity and accurate forests.\nYet the fallacy of meritocracy persists. Corporations, non-profits, governments, universities and even preschools test, score and hire the ‘best’. This all but guarantees not creating the best team. Ranking people by common criteria produces homogeneity. . . . That's not likely to lead to breakthroughs.",
+      "question_text": "Which of the following conditions would weaken the efficacy of a random decision forest?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "If a large number of decision trees in the ensemble were trained on data derived from easy cases.",
+        "If the types of decision trees in each ensemble of the forest were doubled.",
+        "If a large number of decision trees in the ensemble were trained on data derived from easy and hard cases.",
+        "If the types of ensembles of decision trees in the forest were doubled."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q4",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The complexity of modern problems often precludes any one person from fully understanding them. Factors contributing to rising obesity levels, for example, include transportation systems and infrastructure, media, convenience foods, changing social norms, human biology and psychological factors. The multidimensional or layered character of complex problems also undermines the principle of meritocracy: the idea that the ‘best person' should be hired. There is no best person. When putting together an oncological research team, a biotech company such as Gilead or Genentech would not construct a multiple-choice test and hire the top scorers, or hire people whose resumes score highest according to some performance criteria. Instead, they would seek diversity. They would build a team of people who bring diverse knowledge bases, tools and analytic skills.\nBelievers in a meritocracy might grant that teams ought to be diverse but then argue that meritocratic principles should apply within each category. Thus the team should consist of the 'best' mathematicians, the ‘best' oncologists, and the 'best' biostatisticians from within the pool. That position suffers from a similar flaw. Even with a knowledge domain, no test or criteria applied to individuals will produce the best team. Each of these domains possesses such depth and breadth, that no test can exist. Consider the field of neuroscience. Upwards of 50,000 papers were published last year covering various techniques, domains of enquiry and levels of analysis, ranging from molecules and synapses up through networks of neurons. Given that complexity, any attempt to rank a collection of neuroscientists from best to worst, as if they were competitors in the 50-metre butterfly, must fail. What could be true is that given a specific task and the composition of a particular team, one scientist would be more likely to contribute than another. Optimal hiring depends on context. Optimal teams will be diverse.\nEvidence for this claim can be seen in the way that papers and patents that combine diverse ideas tend to rank as high-impact. It can also be found in the structure of the so-called random decision forest, a state-of-the-art machine-learning algorithm. Random forests consist of ensembles of decision trees. If classifying pictures, each tree makes a vote: is that a picture of a fox or a dog? A weighted majority rules. Random forests can serve many ends. They can identify bank fraud and diseases, recommend ceiling fans and predict online dating behaviour. When building a forest, you do not select the best trees as they tend to make similar classifications. You want diversity. Programmers achieve that diversity by training each tree on different data, a technique known as bagging. They also boost the forest ‘cognitively' by training trees on the hardest cases – those that the current forest gets wrong. This ensures even more diversity and accurate forests.\nYet the fallacy of meritocracy persists. Corporations, non-profits, governments, universities and even preschools test, score and hire the ‘best’. This all but guarantees not creating the best team. Ranking people by common criteria produces homogeneity. . . . That's not likely to lead to breakthroughs.",
+      "question_text": "On the basis of the passage, which of the following teams is likely to be most effective in solving the problem of rising obesity levels?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A team comprised of nutritionists, psychologists, urban planners and media personnel, who have each scored a distinction in their respective subject tests.",
+        "A team comprised of nutritionists, psychologists, urban planners and media personnel, who have each performed well in their respective subject tests.",
+        "A specialised team of nutritionists from various countries, who are also trained in the machine-learning algorithm of random decision forest.",
+        "A specialised team of top nutritionists from various countries, who also possess some knowledge of psychology."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q5",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The complexity of modern problems often precludes any one person from fully understanding them. Factors contributing to rising obesity levels, for example, include transportation systems and infrastructure, media, convenience foods, changing social norms, human biology and psychological factors. The multidimensional or layered character of complex problems also undermines the principle of meritocracy: the idea that the ‘best person' should be hired. There is no best person. When putting together an oncological research team, a biotech company such as Gilead or Genentech would not construct a multiple-choice test and hire the top scorers, or hire people whose resumes score highest according to some performance criteria. Instead, they would seek diversity. They would build a team of people who bring diverse knowledge bases, tools and analytic skills.\nBelievers in a meritocracy might grant that teams ought to be diverse but then argue that meritocratic principles should apply within each category. Thus the team should consist of the 'best' mathematicians, the ‘best' oncologists, and the 'best' biostatisticians from within the pool. That position suffers from a similar flaw. Even with a knowledge domain, no test or criteria applied to individuals will produce the best team. Each of these domains possesses such depth and breadth, that no test can exist. Consider the field of neuroscience. Upwards of 50,000 papers were published last year covering various techniques, domains of enquiry and levels of analysis, ranging from molecules and synapses up through networks of neurons. Given that complexity, any attempt to rank a collection of neuroscientists from best to worst, as if they were competitors in the 50-metre butterfly, must fail. What could be true is that given a specific task and the composition of a particular team, one scientist would be more likely to contribute than another. Optimal hiring depends on context. Optimal teams will be diverse.\nEvidence for this claim can be seen in the way that papers and patents that combine diverse ideas tend to rank as high-impact. It can also be found in the structure of the so-called random decision forest, a state-of-the-art machine-learning algorithm. Random forests consist of ensembles of decision trees. If classifying pictures, each tree makes a vote: is that a picture of a fox or a dog? A weighted majority rules. Random forests can serve many ends. They can identify bank fraud and diseases, recommend ceiling fans and predict online dating behaviour. When building a forest, you do not select the best trees as they tend to make similar classifications. You want diversity. Programmers achieve that diversity by training each tree on different data, a technique known as bagging. They also boost the forest ‘cognitively' by training trees on the hardest cases – those that the current forest gets wrong. This ensures even more diversity and accurate forests.\nYet the fallacy of meritocracy persists. Corporations, non-profits, governments, universities and even preschools test, score and hire the ‘best’. This all but guarantees not creating the best team. Ranking people by common criteria produces homogeneity. . . . That's not likely to lead to breakthroughs.",
+      "question_text": "Which of the following best describes the purpose of the example of neuroscience?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Unlike other fields of knowledge, neuroscience is an exceptionally complex field, making a meaningful assessment of neuroscientists impossible.",
+        "In narrow fields of knowledge, a meaningful assessment of expertise has always been possible.",
+        "Neuroscience is an advanced field of science because of its connections with other branches of science like oncology and biostatistics.",
+        "In the modern age, every field of knowledge is so vast that a meaningful assessment of merit is impossible."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q6",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Grove snails as a whole are distributed all over Europe, but a specific variety of the snail, with a distinctive white-lipped shell, is found exclusively in Ireland and in the Pyrenees mountains that lie on the border between France and Spain. The researchers sampled a total of 423 snail specimens from 36 sites distributed across Europe, with an emphasis on gathering large numbers of the white-lipped variety. When they sequenced genes from the mitochondrial DNA of each of these snails and used algorithms to analyze the genetic diversity between them, they found that. . a distinct lineage (the snails with the white-lipped shells) was indeed endemic to the two very specific and distant places in question.\nExplaining this is tricky. Previously, some had speculated that the strange distributions of creatures such as the white-lipped grove snails could be explained by convergent evolution—in which two populations evolve the same trait by coincidence—but the underlying genetic similarities between the two groups rules that out. Alternately, some scientists had suggested that the white-lipped variety had simply spread over the whole continent, then been wiped out everywhere besides Ireland and the Pyrenees, but the researchers say their sampling and subsequent DNA analysis eliminate that possibility too. “If the snails naturally colonized Ireland, you would expect to find some of the same genetic type in other areas of Europe, especially Britain. We just don't find them,” Davidson, the lead author, said in a press statement.\nMoreover, if they'd gradually spread across the continent, there would be some genetic variation within the white-lipped type, because evolution would introduce variety over the thousands of years it would have taken them to spread from the Pyrenees to Ireland. That variation doesn't exist, at least in the genes sampled. This means that rather than the organism gradually expanding its range, large populations instead were somehow moved en mass to the other location within the space of a few dozen generations, ensuring a lack of genetic variety.\n\"There is a very clear pattern, which is difficult to explain except by involving humans,\" Davidson said. Humans, after all, colonized Ireland roughly 9,000 years ago, and the oldest fossil evidence of grove snails in Ireland dates to roughly the same era. Additionally, there is archaeological evidence of early sea trade between the ancient peoples of Spain and Ireland via the Atlantic and even evidence that humans routinely ate these types of snails before the advent of agriculture, as their burnt shells have been found in Stone Age trash heaps. The simplest explanation, then? Boats. These snails may have inadvertently traveled on the floor of the small, coast-hugging skiffs these early humans used for travel, or they may have been intentionally carried to Ireland by the seafarers as a food source. “The highways of the past were rivers and the ocean–as the river that flanks the Pyrenees was an ancient trade route to the Atlantic, what we're actually seeing might be the long lasting legacy of snails that hitched a ride...as humans travelled from the South of France to Ireland 8,000 years ago,” Davidson said.",
+      "question_text": "All of the following evidence supports the passage's explanation of sea travel/trade EXCEPT:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "archaeological evidence of early sea trade between the ancient peoples of Spain and Ireland via the Atlantic Ocean.",
+        "the oldest fossil evidence of white-lipped grove snails in Ireland dates back to roughly 9,000 years ago, the time when humans colonised Ireland.",
+        "absence of genetic variation within the white-lipped grove snails of Ireland and the Pyrenees, whose genes were sampled.",
+        "the coincidental existence of similar traits in the white-lipped grove snails of Ireland and the Pyrenees because of convergent evolution."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q7",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Grove snails as a whole are distributed all over Europe, but a specific variety of the snail, with a distinctive white-lipped shell, is found exclusively in Ireland and in the Pyrenees mountains that lie on the border between France and Spain. The researchers sampled a total of 423 snail specimens from 36 sites distributed across Europe, with an emphasis on gathering large numbers of the white-lipped variety. When they sequenced genes from the mitochondrial DNA of each of these snails and used algorithms to analyze the genetic diversity between them, they found that. . a distinct lineage (the snails with the white-lipped shells) was indeed endemic to the two very specific and distant places in question.\nExplaining this is tricky. Previously, some had speculated that the strange distributions of creatures such as the white-lipped grove snails could be explained by convergent evolution—in which two populations evolve the same trait by coincidence—but the underlying genetic similarities between the two groups rules that out. Alternately, some scientists had suggested that the white-lipped variety had simply spread over the whole continent, then been wiped out everywhere besides Ireland and the Pyrenees, but the researchers say their sampling and subsequent DNA analysis eliminate that possibility too. “If the snails naturally colonized Ireland, you would expect to find some of the same genetic type in other areas of Europe, especially Britain. We just don't find them,” Davidson, the lead author, said in a press statement.\nMoreover, if they'd gradually spread across the continent, there would be some genetic variation within the white-lipped type, because evolution would introduce variety over the thousands of years it would have taken them to spread from the Pyrenees to Ireland. That variation doesn't exist, at least in the genes sampled. This means that rather than the organism gradually expanding its range, large populations instead were somehow moved en mass to the other location within the space of a few dozen generations, ensuring a lack of genetic variety.\n\"There is a very clear pattern, which is difficult to explain except by involving humans,\" Davidson said. Humans, after all, colonized Ireland roughly 9,000 years ago, and the oldest fossil evidence of grove snails in Ireland dates to roughly the same era. Additionally, there is archaeological evidence of early sea trade between the ancient peoples of Spain and Ireland via the Atlantic and even evidence that humans routinely ate these types of snails before the advent of agriculture, as their burnt shells have been found in Stone Age trash heaps. The simplest explanation, then? Boats. These snails may have inadvertently traveled on the floor of the small, coast-hugging skiffs these early humans used for travel, or they may have been intentionally carried to Ireland by the seafarers as a food source. “The highways of the past were rivers and the ocean–as the river that flanks the Pyrenees was an ancient trade route to the Atlantic, what we're actually seeing might be the long lasting legacy of snails that hitched a ride...as humans travelled from the South of France to Ireland 8,000 years ago,” Davidson said.",
+      "question_text": "In paragraph 4, the evidence that “humans routinely ate these types of snails before the advent of agriculture” can be used to conclude that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "9,000 years ago, during the Stone Age, humans traveled from the South of France to Ireland via the Atlantic Ocean.",
+        "white-lipped grove snails may have inadvertently traveled from the Pyrenees to Ireland on the floor of the small, coast-hugging skiffs that early seafarers used for travel.",
+        "the seafarers who traveled from the Pyrenees to Ireland might have carried white-lipped grove snails with them as edibles.",
+        "rivers and oceans in the Stone Age facilitated trade in white-lipped grove snails."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q8",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Grove snails as a whole are distributed all over Europe, but a specific variety of the snail, with a distinctive white-lipped shell, is found exclusively in Ireland and in the Pyrenees mountains that lie on the border between France and Spain. The researchers sampled a total of 423 snail specimens from 36 sites distributed across Europe, with an emphasis on gathering large numbers of the white-lipped variety. When they sequenced genes from the mitochondrial DNA of each of these snails and used algorithms to analyze the genetic diversity between them, they found that. . a distinct lineage (the snails with the white-lipped shells) was indeed endemic to the two very specific and distant places in question.\nExplaining this is tricky. Previously, some had speculated that the strange distributions of creatures such as the white-lipped grove snails could be explained by convergent evolution—in which two populations evolve the same trait by coincidence—but the underlying genetic similarities between the two groups rules that out. Alternately, some scientists had suggested that the white-lipped variety had simply spread over the whole continent, then been wiped out everywhere besides Ireland and the Pyrenees, but the researchers say their sampling and subsequent DNA analysis eliminate that possibility too. “If the snails naturally colonized Ireland, you would expect to find some of the same genetic type in other areas of Europe, especially Britain. We just don't find them,” Davidson, the lead author, said in a press statement.\nMoreover, if they'd gradually spread across the continent, there would be some genetic variation within the white-lipped type, because evolution would introduce variety over the thousands of years it would have taken them to spread from the Pyrenees to Ireland. That variation doesn't exist, at least in the genes sampled. This means that rather than the organism gradually expanding its range, large populations instead were somehow moved en mass to the other location within the space of a few dozen generations, ensuring a lack of genetic variety.\n\"There is a very clear pattern, which is difficult to explain except by involving humans,\" Davidson said. Humans, after all, colonized Ireland roughly 9,000 years ago, and the oldest fossil evidence of grove snails in Ireland dates to roughly the same era. Additionally, there is archaeological evidence of early sea trade between the ancient peoples of Spain and Ireland via the Atlantic and even evidence that humans routinely ate these types of snails before the advent of agriculture, as their burnt shells have been found in Stone Age trash heaps. The simplest explanation, then? Boats. These snails may have inadvertently traveled on the floor of the small, coast-hugging skiffs these early humans used for travel, or they may have been intentionally carried to Ireland by the seafarers as a food source. “The highways of the past were rivers and the ocean–as the river that flanks the Pyrenees was an ancient trade route to the Atlantic, what we're actually seeing might be the long lasting legacy of snails that hitched a ride...as humans travelled from the South of France to Ireland 8,000 years ago,” Davidson said.",
+      "question_text": "Which one of the following makes the author eliminate convergent evolution as a probable explanation for why white-lipped grove snails are found in Ireland and the Pyrenees?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The absence of genetic similarities between white-lipped grove snails of Ireland and snails from other parts of Europe, especially Britain.",
+        "The distinct lineage of white-lipped grove snails found specifically in Ireland and the Pyrenees.",
+        "The absence of genetic variation between white-lipped grove snails of Ireland and the Pyrenees.",
+        "The coincidental evolution of similar traits (white-lipped shell) in the grove snails of Ireland and the Pyrenees."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q9",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Grove snails as a whole are distributed all over Europe, but a specific variety of the snail, with a distinctive white-lipped shell, is found exclusively in Ireland and in the Pyrenees mountains that lie on the border between France and Spain. The researchers sampled a total of 423 snail specimens from 36 sites distributed across Europe, with an emphasis on gathering large numbers of the white-lipped variety. When they sequenced genes from the mitochondrial DNA of each of these snails and used algorithms to analyze the genetic diversity between them, they found that. . a distinct lineage (the snails with the white-lipped shells) was indeed endemic to the two very specific and distant places in question.\nExplaining this is tricky. Previously, some had speculated that the strange distributions of creatures such as the white-lipped grove snails could be explained by convergent evolution—in which two populations evolve the same trait by coincidence—but the underlying genetic similarities between the two groups rules that out. Alternately, some scientists had suggested that the white-lipped variety had simply spread over the whole continent, then been wiped out everywhere besides Ireland and the Pyrenees, but the researchers say their sampling and subsequent DNA analysis eliminate that possibility too. “If the snails naturally colonized Ireland, you would expect to find some of the same genetic type in other areas of Europe, especially Britain. We just don't find them,” Davidson, the lead author, said in a press statement.\nMoreover, if they'd gradually spread across the continent, there would be some genetic variation within the white-lipped type, because evolution would introduce variety over the thousands of years it would have taken them to spread from the Pyrenees to Ireland. That variation doesn't exist, at least in the genes sampled. This means that rather than the organism gradually expanding its range, large populations instead were somehow moved en mass to the other location within the space of a few dozen generations, ensuring a lack of genetic variety.\n\"There is a very clear pattern, which is difficult to explain except by involving humans,\" Davidson said. Humans, after all, colonized Ireland roughly 9,000 years ago, and the oldest fossil evidence of grove snails in Ireland dates to roughly the same era. Additionally, there is archaeological evidence of early sea trade between the ancient peoples of Spain and Ireland via the Atlantic and even evidence that humans routinely ate these types of snails before the advent of agriculture, as their burnt shells have been found in Stone Age trash heaps. The simplest explanation, then? Boats. These snails may have inadvertently traveled on the floor of the small, coast-hugging skiffs these early humans used for travel, or they may have been intentionally carried to Ireland by the seafarers as a food source. “The highways of the past were rivers and the ocean–as the river that flanks the Pyrenees was an ancient trade route to the Atlantic, what we're actually seeing might be the long lasting legacy of snails that hitched a ride...as humans travelled from the South of France to Ireland 8,000 years ago,” Davidson said.",
+      "question_text": "The passage outlines several hypotheses and evidence related to white-lipped grove snails to arrive at the most convincing explanation for:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "how the white-lipped variety of grove snails independently evolved in Ireland and the Pyrenees.",
+        "how the white-lipped variety of grove snails might have migrated from the Pyrenees to Ireland.",
+        "why the white-lipped variety of grove snails are found only in Ireland and the Pyrenees.",
+        "why the white-lipped variety of grove snails were wiped out everywhere except in Ireland and the Pyrenees."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q10",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon: ‘metric fixation'. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.\nThe rewards can be monetary, in the form of pay for performance, say, or reputational, in the form of college rankings, hospital ratings, surgical report cards and so on. But the most dramatic negative effect of metric fixation is its propensity to incentivise gaming: that is, encouraging professionals to maximise the metrics in ways that are at odds with the larger purpose of the organisation. If the rate of major crimes in a district becomes the metric according to which police officers are promoted, then some officers will respond by simply not recording crimes or downgrading them from major offences to misdemeanours. Or take the case of surgeons. When the metrics of success and failure are made public – affecting their reputation and income – some surgeons will improve their metric scores by refusing to operate on patients with more complex problems, whose surgical outcomes are more likely to be negative. Who suffers? The patients who don't get operated upon.\nWhen reward is tied to measured performance, metric fixation invites just this sort of gaming. But metric fixation also leads to a variety of more subtle unintended negative consequences. These include goal displacement, which comes in various varieties: when performance is judged by a few measures, and the stakes are high (keeping one's job, getting a pay rise or raising the stock price at the time that stock options are vested), people focus on satisfying those measures – often at the expense of other, more important organisational goals that are not measured. The best-known example is ‘teaching to the test', a widespread phenomenon that has distorted primary and secondary education in the United States since the adoption of the No Child Left Behind Act of 2001.\nShort-termism is another negative. Measured performance encourages what the US sociologist Robert K Merton in 1936 called 'the imperious immediacy of interests ... where the actor's paramount concern with the foreseen immediate consequences excludes consideration of further or other consequences'. In short, advancing short-term goals at the expense of long-range considerations. This problem is endemic to publicly traded corporations that sacrifice long-term research and development, and the development of their staff, to the perceived imperatives of the quarterly report.\nTo the debit side of the ledger must also be added the transactional costs of metrics: the expenditure of employee time by those tasked with compiling and processing the metrics in the first place - not to mention the time required to actually read them. . . .",
+      "question_text": "What main point does the author want to convey through the examples of the police officer and the surgeon?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Some professionals are likely to be significantly influenced by the design of performance measurement systems.",
+        "Metrics-linked rewards may encourage unethical behaviour among some professionals.",
+        "The actions of police officers and surgeons have a significantly impact on society.",
+        "Critical public roles should not be evaluated on metrics-based performance measures."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q11",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon: ‘metric fixation'. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.\nThe rewards can be monetary, in the form of pay for performance, say, or reputational, in the form of college rankings, hospital ratings, surgical report cards and so on. But the most dramatic negative effect of metric fixation is its propensity to incentivise gaming: that is, encouraging professionals to maximise the metrics in ways that are at odds with the larger purpose of the organisation. If the rate of major crimes in a district becomes the metric according to which police officers are promoted, then some officers will respond by simply not recording crimes or downgrading them from major offences to misdemeanours. Or take the case of surgeons. When the metrics of success and failure are made public – affecting their reputation and income – some surgeons will improve their metric scores by refusing to operate on patients with more complex problems, whose surgical outcomes are more likely to be negative. Who suffers? The patients who don't get operated upon.\nWhen reward is tied to measured performance, metric fixation invites just this sort of gaming. But metric fixation also leads to a variety of more subtle unintended negative consequences. These include goal displacement, which comes in various varieties: when performance is judged by a few measures, and the stakes are high (keeping one's job, getting a pay rise or raising the stock price at the time that stock options are vested), people focus on satisfying those measures – often at the expense of other, more important organisational goals that are not measured. The best-known example is ‘teaching to the test', a widespread phenomenon that has distorted primary and secondary education in the United States since the adoption of the No Child Left Behind Act of 2001.\nShort-termism is another negative. Measured performance encourages what the US sociologist Robert K Merton in 1936 called 'the imperious immediacy of interests ... where the actor's paramount concern with the foreseen immediate consequences excludes consideration of further or other consequences'. In short, advancing short-term goals at the expense of long-range considerations. This problem is endemic to publicly traded corporations that sacrifice long-term research and development, and the development of their staff, to the perceived imperatives of the quarterly report.\nTo the debit side of the ledger must also be added the transactional costs of metrics: the expenditure of employee time by those tasked with compiling and processing the metrics in the first place - not to mention the time required to actually read them. . . .",
+      "question_text": "Which of the following is NOT a consequence of the 'metric fixation' phenomenon mentioned in the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Improving cooperation among employees leading to increased organisational effectiveness in the long run.",
+        "Short-term orientation induced by frequent measurement of performance.",
+        "Finding a way to show better results without actually improving performance.",
+        "Deviating from organisationally important objectives to measurable yet less important objectives."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q12",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon: ‘metric fixation'. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.\nThe rewards can be monetary, in the form of pay for performance, say, or reputational, in the form of college rankings, hospital ratings, surgical report cards and so on. But the most dramatic negative effect of metric fixation is its propensity to incentivise gaming: that is, encouraging professionals to maximise the metrics in ways that are at odds with the larger purpose of the organisation. If the rate of major crimes in a district becomes the metric according to which police officers are promoted, then some officers will respond by simply not recording crimes or downgrading them from major offences to misdemeanours. Or take the case of surgeons. When the metrics of success and failure are made public – affecting their reputation and income – some surgeons will improve their metric scores by refusing to operate on patients with more complex problems, whose surgical outcomes are more likely to be negative. Who suffers? The patients who don't get operated upon.\nWhen reward is tied to measured performance, metric fixation invites just this sort of gaming. But metric fixation also leads to a variety of more subtle unintended negative consequences. These include goal displacement, which comes in various varieties: when performance is judged by a few measures, and the stakes are high (keeping one's job, getting a pay rise or raising the stock price at the time that stock options are vested), people focus on satisfying those measures – often at the expense of other, more important organisational goals that are not measured. The best-known example is ‘teaching to the test', a widespread phenomenon that has distorted primary and secondary education in the United States since the adoption of the No Child Left Behind Act of 2001.\nShort-termism is another negative. Measured performance encourages what the US sociologist Robert K Merton in 1936 called 'the imperious immediacy of interests ... where the actor's paramount concern with the foreseen immediate consequences excludes consideration of further or other consequences'. In short, advancing short-term goals at the expense of long-range considerations. This problem is endemic to publicly traded corporations that sacrifice long-term research and development, and the development of their staff, to the perceived imperatives of the quarterly report.\nTo the debit side of the ledger must also be added the transactional costs of metrics: the expenditure of employee time by those tasked with compiling and processing the metrics in the first place - not to mention the time required to actually read them. . . .",
+      "question_text": "Of the following, which would have added the least depth to the author's argument?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "An analysis of the reasons why metrics fixation is becoming popular despite its drawbacks.",
+        "More real-life illustrations of the consequences of employees and professionals gaming metrics-based performance measurement systems.",
+        "A comparative case study of metrics- and non-metrics-based evaluation, and its impact on the main goals of an organisation.",
+        "Assessment of the pros and cons of a professional judgment-based evaluation system."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q13",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon: ‘metric fixation'. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.\nThe rewards can be monetary, in the form of pay for performance, say, or reputational, in the form of college rankings, hospital ratings, surgical report cards and so on. But the most dramatic negative effect of metric fixation is its propensity to incentivise gaming: that is, encouraging professionals to maximise the metrics in ways that are at odds with the larger purpose of the organisation. If the rate of major crimes in a district becomes the metric according to which police officers are promoted, then some officers will respond by simply not recording crimes or downgrading them from major offences to misdemeanours. Or take the case of surgeons. When the metrics of success and failure are made public – affecting their reputation and income – some surgeons will improve their metric scores by refusing to operate on patients with more complex problems, whose surgical outcomes are more likely to be negative. Who suffers? The patients who don't get operated upon.\nWhen reward is tied to measured performance, metric fixation invites just this sort of gaming. But metric fixation also leads to a variety of more subtle unintended negative consequences. These include goal displacement, which comes in various varieties: when performance is judged by a few measures, and the stakes are high (keeping one's job, getting a pay rise or raising the stock price at the time that stock options are vested), people focus on satisfying those measures – often at the expense of other, more important organisational goals that are not measured. The best-known example is ‘teaching to the test', a widespread phenomenon that has distorted primary and secondary education in the United States since the adoption of the No Child Left Behind Act of 2001.\nShort-termism is another negative. Measured performance encourages what the US sociologist Robert K Merton in 1936 called 'the imperious immediacy of interests ... where the actor's paramount concern with the foreseen immediate consequences excludes consideration of further or other consequences'. In short, advancing short-term goals at the expense of long-range considerations. This problem is endemic to publicly traded corporations that sacrifice long-term research and development, and the development of their staff, to the perceived imperatives of the quarterly report.\nTo the debit side of the ledger must also be added the transactional costs of metrics: the expenditure of employee time by those tasked with compiling and processing the metrics in the first place - not to mention the time required to actually read them. . . .",
+      "question_text": "All of the following can be a possible feature of the No Child Left Behind Act of 2001, EXCEPT:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "standardised test scores can be critical in determining a student's educational future.",
+        "the focus is more on test-taking skills than on higher order thinking and problem-solving.",
+        "school funding and sanctions are tied to yearly improvement shown on tests.",
+        "assessment is dependent on the teacher's subjective evaluation of students' class participation."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q14",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon: ‘metric fixation'. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.\nThe rewards can be monetary, in the form of pay for performance, say, or reputational, in the form of college rankings, hospital ratings, surgical report cards and so on. But the most dramatic negative effect of metric fixation is its propensity to incentivise gaming: that is, encouraging professionals to maximise the metrics in ways that are at odds with the larger purpose of the organisation. If the rate of major crimes in a district becomes the metric according to which police officers are promoted, then some officers will respond by simply not recording crimes or downgrading them from major offences to misdemeanours. Or take the case of surgeons. When the metrics of success and failure are made public – affecting their reputation and income – some surgeons will improve their metric scores by refusing to operate on patients with more complex problems, whose surgical outcomes are more likely to be negative. Who suffers? The patients who don't get operated upon.\nWhen reward is tied to measured performance, metric fixation invites just this sort of gaming. But metric fixation also leads to a variety of more subtle unintended negative consequences. These include goal displacement, which comes in various varieties: when performance is judged by a few measures, and the stakes are high (keeping one's job, getting a pay rise or raising the stock price at the time that stock options are vested), people focus on satisfying those measures – often at the expense of other, more important organisational goals that are not measured. The best-known example is ‘teaching to the test', a widespread phenomenon that has distorted primary and secondary education in the United States since the adoption of the No Child Left Behind Act of 2001.\nShort-termism is another negative. Measured performance encourages what the US sociologist Robert K Merton in 1936 called 'the imperious immediacy of interests ... where the actor's paramount concern with the foreseen immediate consequences excludes consideration of further or other consequences'. In short, advancing short-term goals at the expense of long-range considerations. This problem is endemic to publicly traded corporations that sacrifice long-term research and development, and the development of their staff, to the perceived imperatives of the quarterly report.\nTo the debit side of the ledger must also be added the transactional costs of metrics: the expenditure of employee time by those tasked with compiling and processing the metrics in the first place - not to mention the time required to actually read them. . . .",
+      "question_text": "What is the main idea that the author is trying to highlight in the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "All kinds of organisations are now relying on metrics to measure performance and to give rewards and punishments.",
+        "Long-term organisational goals should not be ignored for short-term measures of organisational success.",
+        "Performance measurement needs to be precise and cost-effective to be useful for evaluating organisational performance.",
+        "Evaluating performance by using measurable performance metrics may misguide organisational goal achievement."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q15",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "NOT everything looks lovelier the longer and closer its inspection. But Saturn does. It is gorgeous through Earthly telescopes. However, the 13 years of close observation provided by Cassini, an American spacecraft, showed the planet, its moons and its remarkable rings off better and better, revealing finer structures, striking novelties and greater drama. . . .\nBy and large the big things in the solar system—planets and moons—are thought of as having been around since the beginning. The suggestion that rings and moons are new is, though, made even more interesting by the fact that one of those moons, Enceladus, is widely considered the most promising site in the solar system on which to look for alien life. If Enceladus is both young and bears life, that life must have come into being quickly. This is also believed to have been the case on Earth. Were it true on Enceladus, that would encourage the idea that life evolves easily when conditions are right.\nOne reason for thinking Saturn's rings are young is that they are bright. The solar system is suffused with comet dust, and comet dust is dark. Leaving Saturn's ring system (which Cassini has shown to be more than 90% water ice) out in such a mist is like leaving laundry hanging on a line downwind from a smokestack: it will get dirty. The lighter the rings are, the faster this will happen, for the less mass they contain, the less celestial pollution they can absorb before they start to discolour. . . . Jeff Cuzzi, a scientist at America's space agency, NASA, who helped run Cassini, told the Lunar and Planetary Science Conference in Houston that combining the mass estimates with Cassini's measurements of the density of comet-dust near Saturn suggests the rings are no older than the first dinosaurs, nor younger than the last of them—that is, they are somewhere between 200m and 70m years old.\nThat timing fits well with a theory put forward in 2016, by Matija Cuk of the SETI Institute, in California and his colleagues. They suggest that at around the same time as the rings came into being an old set of moons orbiting Saturn destroyed themselves, and from their remains emerged not only the rings but also the planet's current suite of inner moons—Rhea, Dione, Tethys, Enceladus and Mimas. . . .\nDr Cuk and his colleagues used computer simulations of Saturn's moons' orbits as a sort of time machine. Looking at the rate at which tidal friction is causing these orbits to lengthen they extrapolated backwards to find out what those orbits would have looked like in the past. They discovered that about 100m years ago the orbits of two of them, Tethys and Dione, would have interacted in a way that left the planes in which they orbit markedly tilted. But their orbits are untilted. The obvious, if unsettling, conclusion was that this interaction never happened—and thus that at the time when it should have happened, Dione and Tethys were simply not there. They must have come into being later. . . .",
+      "question_text": "Data provided by Cassini challenged the assumption that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Saturn's ring system is composed mostly of water ice.",
+        "there was life on earth when Saturn's rings were being formed.",
+        "new celestial bodies can form from the destruction of old celestial bodies.",
+        "all big things in the solar system have been around since the beginning."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q16",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "NOT everything looks lovelier the longer and closer its inspection. But Saturn does. It is gorgeous through Earthly telescopes. However, the 13 years of close observation provided by Cassini, an American spacecraft, showed the planet, its moons and its remarkable rings off better and better, revealing finer structures, striking novelties and greater drama. . . .\nBy and large the big things in the solar system—planets and moons—are thought of as having been around since the beginning. The suggestion that rings and moons are new is, though, made even more interesting by the fact that one of those moons, Enceladus, is widely considered the most promising site in the solar system on which to look for alien life. If Enceladus is both young and bears life, that life must have come into being quickly. This is also believed to have been the case on Earth. Were it true on Enceladus, that would encourage the idea that life evolves easily when conditions are right.\nOne reason for thinking Saturn's rings are young is that they are bright. The solar system is suffused with comet dust, and comet dust is dark. Leaving Saturn's ring system (which Cassini has shown to be more than 90% water ice) out in such a mist is like leaving laundry hanging on a line downwind from a smokestack: it will get dirty. The lighter the rings are, the faster this will happen, for the less mass they contain, the less celestial pollution they can absorb before they start to discolour. . . . Jeff Cuzzi, a scientist at America's space agency, NASA, who helped run Cassini, told the Lunar and Planetary Science Conference in Houston that combining the mass estimates with Cassini's measurements of the density of comet-dust near Saturn suggests the rings are no older than the first dinosaurs, nor younger than the last of them—that is, they are somewhere between 200m and 70m years old.\nThat timing fits well with a theory put forward in 2016, by Matija Cuk of the SETI Institute, in California and his colleagues. They suggest that at around the same time as the rings came into being an old set of moons orbiting Saturn destroyed themselves, and from their remains emerged not only the rings but also the planet's current suite of inner moons—Rhea, Dione, Tethys, Enceladus and Mimas. . . .\nDr Cuk and his colleagues used computer simulations of Saturn's moons' orbits as a sort of time machine. Looking at the rate at which tidal friction is causing these orbits to lengthen they extrapolated backwards to find out what those orbits would have looked like in the past. They discovered that about 100m years ago the orbits of two of them, Tethys and Dione, would have interacted in a way that left the planes in which they orbit markedly tilted. But their orbits are untilted. The obvious, if unsettling, conclusion was that this interaction never happened—and thus that at the time when it should have happened, Dione and Tethys were simply not there. They must have come into being later. . . .",
+      "question_text": "The main objective of the passage is to:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "establish that Saturn's rings and inner moons have been around since the beginning of time.",
+        "demonstrate how the orbital patterns of Saturn's rings and moons change over time.",
+        "highlight the beauty, finer structures and celestial drama of Saturn's rings and moons.",
+        "provide evidence that Saturn's rings and moons are recent creations."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q17",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "NOT everything looks lovelier the longer and closer its inspection. But Saturn does. It is gorgeous through Earthly telescopes. However, the 13 years of close observation provided by Cassini, an American spacecraft, showed the planet, its moons and its remarkable rings off better and better, revealing finer structures, striking novelties and greater drama. . . .\nBy and large the big things in the solar system—planets and moons—are thought of as having been around since the beginning. The suggestion that rings and moons are new is, though, made even more interesting by the fact that one of those moons, Enceladus, is widely considered the most promising site in the solar system on which to look for alien life. If Enceladus is both young and bears life, that life must have come into being quickly. This is also believed to have been the case on Earth. Were it true on Enceladus, that would encourage the idea that life evolves easily when conditions are right.\nOne reason for thinking Saturn's rings are young is that they are bright. The solar system is suffused with comet dust, and comet dust is dark. Leaving Saturn's ring system (which Cassini has shown to be more than 90% water ice) out in such a mist is like leaving laundry hanging on a line downwind from a smokestack: it will get dirty. The lighter the rings are, the faster this will happen, for the less mass they contain, the less celestial pollution they can absorb before they start to discolour. . . . Jeff Cuzzi, a scientist at America's space agency, NASA, who helped run Cassini, told the Lunar and Planetary Science Conference in Houston that combining the mass estimates with Cassini's measurements of the density of comet-dust near Saturn suggests the rings are no older than the first dinosaurs, nor younger than the last of them—that is, they are somewhere between 200m and 70m years old.\nThat timing fits well with a theory put forward in 2016, by Matija Cuk of the SETI Institute, in California and his colleagues. They suggest that at around the same time as the rings came into being an old set of moons orbiting Saturn destroyed themselves, and from their remains emerged not only the rings but also the planet's current suite of inner moons—Rhea, Dione, Tethys, Enceladus and Mimas. . . .\nDr Cuk and his colleagues used computer simulations of Saturn's moons' orbits as a sort of time machine. Looking at the rate at which tidal friction is causing these orbits to lengthen they extrapolated backwards to find out what those orbits would have looked like in the past. They discovered that about 100m years ago the orbits of two of them, Tethys and Dione, would have interacted in a way that left the planes in which they orbit markedly tilted. But their orbits are untilted. The obvious, if unsettling, conclusion was that this interaction never happened—and thus that at the time when it should have happened, Dione and Tethys were simply not there. They must have come into being later. . . .",
+      "question_text": "Based on information provided in the passage, we can infer that, in addition to water ice, Saturn's rings might also have small amounts of:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "methane and rock particles.",
+        "helium and methane.",
+        "helium and comet dust.",
+        "rock particles and comet dust."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q18",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "NOT everything looks lovelier the longer and closer its inspection. But Saturn does. It is gorgeous through Earthly telescopes. However, the 13 years of close observation provided by Cassini, an American spacecraft, showed the planet, its moons and its remarkable rings off better and better, revealing finer structures, striking novelties and greater drama. . . .\nBy and large the big things in the solar system—planets and moons—are thought of as having been around since the beginning. The suggestion that rings and moons are new is, though, made even more interesting by the fact that one of those moons, Enceladus, is widely considered the most promising site in the solar system on which to look for alien life. If Enceladus is both young and bears life, that life must have come into being quickly. This is also believed to have been the case on Earth. Were it true on Enceladus, that would encourage the idea that life evolves easily when conditions are right.\nOne reason for thinking Saturn's rings are young is that they are bright. The solar system is suffused with comet dust, and comet dust is dark. Leaving Saturn's ring system (which Cassini has shown to be more than 90% water ice) out in such a mist is like leaving laundry hanging on a line downwind from a smokestack: it will get dirty. The lighter the rings are, the faster this will happen, for the less mass they contain, the less celestial pollution they can absorb before they start to discolour. . . . Jeff Cuzzi, a scientist at America's space agency, NASA, who helped run Cassini, told the Lunar and Planetary Science Conference in Houston that combining the mass estimates with Cassini's measurements of the density of comet-dust near Saturn suggests the rings are no older than the first dinosaurs, nor younger than the last of them—that is, they are somewhere between 200m and 70m years old.\nThat timing fits well with a theory put forward in 2016, by Matija Cuk of the SETI Institute, in California and his colleagues. They suggest that at around the same time as the rings came into being an old set of moons orbiting Saturn destroyed themselves, and from their remains emerged not only the rings but also the planet's current suite of inner moons—Rhea, Dione, Tethys, Enceladus and Mimas. . . .\nDr Cuk and his colleagues used computer simulations of Saturn's moons' orbits as a sort of time machine. Looking at the rate at which tidal friction is causing these orbits to lengthen they extrapolated backwards to find out what those orbits would have looked like in the past. They discovered that about 100m years ago the orbits of two of them, Tethys and Dione, would have interacted in a way that left the planes in which they orbit markedly tilted. But their orbits are untilted. The obvious, if unsettling, conclusion was that this interaction never happened—and thus that at the time when it should have happened, Dione and Tethys were simply not there. They must have come into being later. . . .",
+      "question_text": "The phrase “leaving laundry hanging on a line downwind from a smokestack” is used to explain how the ringed planet's:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "atmosphere absorbs comet dust.",
+        "rings discolour and darken over time.",
+        "rings lose mass over time.",
+        "moons create a gap between the rings."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q19",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "NOT everything looks lovelier the longer and closer its inspection. But Saturn does. It is gorgeous through Earthly telescopes. However, the 13 years of close observation provided by Cassini, an American spacecraft, showed the planet, its moons and its remarkable rings off better and better, revealing finer structures, striking novelties and greater drama. . . .\nBy and large the big things in the solar system—planets and moons—are thought of as having been around since the beginning. The suggestion that rings and moons are new is, though, made even more interesting by the fact that one of those moons, Enceladus, is widely considered the most promising site in the solar system on which to look for alien life. If Enceladus is both young and bears life, that life must have come into being quickly. This is also believed to have been the case on Earth. Were it true on Enceladus, that would encourage the idea that life evolves easily when conditions are right.\nOne reason for thinking Saturn's rings are young is that they are bright. The solar system is suffused with comet dust, and comet dust is dark. Leaving Saturn's ring system (which Cassini has shown to be more than 90% water ice) out in such a mist is like leaving laundry hanging on a line downwind from a smokestack: it will get dirty. The lighter the rings are, the faster this will happen, for the less mass they contain, the less celestial pollution they can absorb before they start to discolour. . . . Jeff Cuzzi, a scientist at America's space agency, NASA, who helped run Cassini, told the Lunar and Planetary Science Conference in Houston that combining the mass estimates with Cassini's measurements of the density of comet-dust near Saturn suggests the rings are no older than the first dinosaurs, nor younger than the last of them—that is, they are somewhere between 200m and 70m years old.\nThat timing fits well with a theory put forward in 2016, by Matija Cuk of the SETI Institute, in California and his colleagues. They suggest that at around the same time as the rings came into being an old set of moons orbiting Saturn destroyed themselves, and from their remains emerged not only the rings but also the planet's current suite of inner moons—Rhea, Dione, Tethys, Enceladus and Mimas. . . .\nDr Cuk and his colleagues used computer simulations of Saturn's moons' orbits as a sort of time machine. Looking at the rate at which tidal friction is causing these orbits to lengthen they extrapolated backwards to find out what those orbits would have looked like in the past. They discovered that about 100m years ago the orbits of two of them, Tethys and Dione, would have interacted in a way that left the planes in which they orbit markedly tilted. But their orbits are untilted. The obvious, if unsettling, conclusion was that this interaction never happened—and thus that at the time when it should have happened, Dione and Tethys were simply not there. They must have come into being later. . . .",
+      "question_text": "Based on information provided in the passage, we can conclude all of the following EXCEPT:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Saturn's lighter rings discolour faster than rings with greater mass.",
+        "Saturn's rings were created from the remains of older moons.",
+        "none of Saturn's moons ever had suitable conditions for life to evolve.",
+        "Thethys and Dione are less than 100 million years old."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q20",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Will a day come when India's poor can access government services as easily as drawing cash from an ATM? . . . [N]o country in the world has made accessing education or health or policing or dispute resolution as easy as an ATM, because the nature of these activities requires individuals to use their discretion in a positive way. Technology can certainly facilitate this in a variety of ways if it is seen as one part of an overall approach, but the evidence so far in education, for instance, is that just adding computers alone doesn't make education any better. . .\nThe dangerous illusion of technology is that it can create stronger, top down accountability of service providers in implementation-intensive services within existing public sector organisations. One notion is that electronic management information systems (EMIS) keep better track of inputs and those aspects of personnel that are ‘EMIS visible' can lead to better services. A recent study examined attempts to increase attendance of Auxiliary Nurse Midwife (ANMs) at clinics in Rajasthan, which involved high-tech time clocks to monitor attendance. The study's title says it all: Band-Aids on a Corpse . . . e-governance can be just as bad as any other governance when the real issue is people and their motivation.\nFor services to improve, the people providing the services have to want to do a better job with the skills they have. A study of medical care in Delhi found that even though providers, in the public sector had much better skills than private sector providers their provision of care in actual practice was much worse.\nIn implementation-intensive services the key to success is face-to-face interactions between a teacher, a nurse, a policeman, an extension agent and a citizen. This relationship is about power. Amartya Sen's . . . report on education in West Bengal had a supremely telling anecdote in which the villagers forced the teacher to attend school, but then, when the parents went off to work, the teacher did not teach, but forced the children to massage his feet. . . . As long as the system empowers providers over citizens, technology is irrelevant.\nThe answer to successfully providing basic services is to create systems that provide both autonomy and accountability. In basic education for instance, the answer to poor teaching is not controlling teachers more . . . The key . . . is to hire teachers who want to teach and let them teach, expressing their professionalism and vocation as a teacher through autonomy in the classroom. This autonomy has to be matched with accountability for results—not just narrowly measured through test scores, but broadly for the quality of the education they provide.\nA recent study in Uttar Pradesh showed that if, somehow, all civil service teachers could be replaced with contract teachers, the state could save a billion dollars a year in revenue and double student learning. Just the additional autonomy and accountability of contracts through local groups—even without complementary system changes in information and empowerment—led to that much improvement. The first step to being part of the solution is to create performance information accessible to those outside of the government. . . .",
+      "question_text": "The main purpose of the passage is to:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "argue that some types of services can be improved by providing independence and requiring accountability.",
+        "find a solution to the problem of poor service delivery in education by examining different strategies.",
+        "analyse the shortcomings of government-appointed nurses and their management through technology.",
+        "critique the government's involvement in educational activities and other implementation-intensive services."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q21",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Will a day come when India's poor can access government services as easily as drawing cash from an ATM? . . . [N]o country in the world has made accessing education or health or policing or dispute resolution as easy as an ATM, because the nature of these activities requires individuals to use their discretion in a positive way. Technology can certainly facilitate this in a variety of ways if it is seen as one part of an overall approach, but the evidence so far in education, for instance, is that just adding computers alone doesn't make education any better. . .\nThe dangerous illusion of technology is that it can create stronger, top down accountability of service providers in implementation-intensive services within existing public sector organisations. One notion is that electronic management information systems (EMIS) keep better track of inputs and those aspects of personnel that are ‘EMIS visible' can lead to better services. A recent study examined attempts to increase attendance of Auxiliary Nurse Midwife (ANMs) at clinics in Rajasthan, which involved high-tech time clocks to monitor attendance. The study's title says it all: Band-Aids on a Corpse . . . e-governance can be just as bad as any other governance when the real issue is people and their motivation.\nFor services to improve, the people providing the services have to want to do a better job with the skills they have. A study of medical care in Delhi found that even though providers, in the public sector had much better skills than private sector providers their provision of care in actual practice was much worse.\nIn implementation-intensive services the key to success is face-to-face interactions between a teacher, a nurse, a policeman, an extension agent and a citizen. This relationship is about power. Amartya Sen's . . . report on education in West Bengal had a supremely telling anecdote in which the villagers forced the teacher to attend school, but then, when the parents went off to work, the teacher did not teach, but forced the children to massage his feet. . . . As long as the system empowers providers over citizens, technology is irrelevant.\nThe answer to successfully providing basic services is to create systems that provide both autonomy and accountability. In basic education for instance, the answer to poor teaching is not controlling teachers more . . . The key . . . is to hire teachers who want to teach and let them teach, expressing their professionalism and vocation as a teacher through autonomy in the classroom. This autonomy has to be matched with accountability for results—not just narrowly measured through test scores, but broadly for the quality of the education they provide.\nA recent study in Uttar Pradesh showed that if, somehow, all civil service teachers could be replaced with contract teachers, the state could save a billion dollars a year in revenue and double student learning. Just the additional autonomy and accountability of contracts through local groups—even without complementary system changes in information and empowerment—led to that much improvement. The first step to being part of the solution is to create performance information accessible to those outside of the government. . . .",
+      "question_text": "In the context of the passage, we can infer that the title “Band Aids on a Corpse\" (in paragraph 2) suggests that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "the nurses who attended the clinics were too poorly trained to provide appropriate medical care.",
+        "the electronic monitoring system was a superficial solution to a serious problem.",
+        "the clinics were better funded, but performance monitoring did not result in any improvement.",
+        "the nurses attended the clinics, but the clinics were ill-equipped."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q22",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Will a day come when India's poor can access government services as easily as drawing cash from an ATM? . . . [N]o country in the world has made accessing education or health or policing or dispute resolution as easy as an ATM, because the nature of these activities requires individuals to use their discretion in a positive way. Technology can certainly facilitate this in a variety of ways if it is seen as one part of an overall approach, but the evidence so far in education, for instance, is that just adding computers alone doesn't make education any better. . .\nThe dangerous illusion of technology is that it can create stronger, top down accountability of service providers in implementation-intensive services within existing public sector organisations. One notion is that electronic management information systems (EMIS) keep better track of inputs and those aspects of personnel that are ‘EMIS visible' can lead to better services. A recent study examined attempts to increase attendance of Auxiliary Nurse Midwife (ANMs) at clinics in Rajasthan, which involved high-tech time clocks to monitor attendance. The study's title says it all: Band-Aids on a Corpse . . . e-governance can be just as bad as any other governance when the real issue is people and their motivation.\nFor services to improve, the people providing the services have to want to do a better job with the skills they have. A study of medical care in Delhi found that even though providers, in the public sector had much better skills than private sector providers their provision of care in actual practice was much worse.\nIn implementation-intensive services the key to success is face-to-face interactions between a teacher, a nurse, a policeman, an extension agent and a citizen. This relationship is about power. Amartya Sen's . . . report on education in West Bengal had a supremely telling anecdote in which the villagers forced the teacher to attend school, but then, when the parents went off to work, the teacher did not teach, but forced the children to massage his feet. . . . As long as the system empowers providers over citizens, technology is irrelevant.\nThe answer to successfully providing basic services is to create systems that provide both autonomy and accountability. In basic education for instance, the answer to poor teaching is not controlling teachers more . . . The key . . . is to hire teachers who want to teach and let them teach, expressing their professionalism and vocation as a teacher through autonomy in the classroom. This autonomy has to be matched with accountability for results—not just narrowly measured through test scores, but broadly for the quality of the education they provide.\nA recent study in Uttar Pradesh showed that if, somehow, all civil service teachers could be replaced with contract teachers, the state could save a billion dollars a year in revenue and double student learning. Just the additional autonomy and accountability of contracts through local groups—even without complementary system changes in information and empowerment—led to that much improvement. The first step to being part of the solution is to create performance information accessible to those outside of the government. . . .",
+      "question_text": "The author questions the use of monitoring systems in services that involve face-to-face interaction between service providers and clients because such systems:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "are ineffective because they are managed by the government.",
+        "are not as effective in the public sector as they are in the private sector.",
+        "do not improve services that need committed service providers.",
+        "improve the skills but do not increase the motivation of service providers."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q23",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Will a day come when India's poor can access government services as easily as drawing cash from an ATM? . . . [N]o country in the world has made accessing education or health or policing or dispute resolution as easy as an ATM, because the nature of these activities requires individuals to use their discretion in a positive way. Technology can certainly facilitate this in a variety of ways if it is seen as one part of an overall approach, but the evidence so far in education, for instance, is that just adding computers alone doesn't make education any better. . .\nThe dangerous illusion of technology is that it can create stronger, top down accountability of service providers in implementation-intensive services within existing public sector organisations. One notion is that electronic management information systems (EMIS) keep better track of inputs and those aspects of personnel that are ‘EMIS visible' can lead to better services. A recent study examined attempts to increase attendance of Auxiliary Nurse Midwife (ANMs) at clinics in Rajasthan, which involved high-tech time clocks to monitor attendance. The study's title says it all: Band-Aids on a Corpse . . . e-governance can be just as bad as any other governance when the real issue is people and their motivation.\nFor services to improve, the people providing the services have to want to do a better job with the skills they have. A study of medical care in Delhi found that even though providers, in the public sector had much better skills than private sector providers their provision of care in actual practice was much worse.\nIn implementation-intensive services the key to success is face-to-face interactions between a teacher, a nurse, a policeman, an extension agent and a citizen. This relationship is about power. Amartya Sen's . . . report on education in West Bengal had a supremely telling anecdote in which the villagers forced the teacher to attend school, but then, when the parents went off to work, the teacher did not teach, but forced the children to massage his feet. . . . As long as the system empowers providers over citizens, technology is irrelevant.\nThe answer to successfully providing basic services is to create systems that provide both autonomy and accountability. In basic education for instance, the answer to poor teaching is not controlling teachers more . . . The key . . . is to hire teachers who want to teach and let them teach, expressing their professionalism and vocation as a teacher through autonomy in the classroom. This autonomy has to be matched with accountability for results—not just narrowly measured through test scores, but broadly for the quality of the education they provide.\nA recent study in Uttar Pradesh showed that if, somehow, all civil service teachers could be replaced with contract teachers, the state could save a billion dollars a year in revenue and double student learning. Just the additional autonomy and accountability of contracts through local groups—even without complementary system changes in information and empowerment—led to that much improvement. The first step to being part of the solution is to create performance information accessible to those outside of the government. . . .",
+      "question_text": "According to the author, service delivery in Indian education can be improved in all of the following ways EXCEPT through:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "use of technology.",
+        "access to information on the quality of teaching.",
+        "recruitment of motivated teachers.",
+        "elimination of government involvement."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q24",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Will a day come when India's poor can access government services as easily as drawing cash from an ATM? . . . [N]o country in the world has made accessing education or health or policing or dispute resolution as easy as an ATM, because the nature of these activities requires individuals to use their discretion in a positive way. Technology can certainly facilitate this in a variety of ways if it is seen as one part of an overall approach, but the evidence so far in education, for instance, is that just adding computers alone doesn't make education any better. . .\nThe dangerous illusion of technology is that it can create stronger, top down accountability of service providers in implementation-intensive services within existing public sector organisations. One notion is that electronic management information systems (EMIS) keep better track of inputs and those aspects of personnel that are ‘EMIS visible' can lead to better services. A recent study examined attempts to increase attendance of Auxiliary Nurse Midwife (ANMs) at clinics in Rajasthan, which involved high-tech time clocks to monitor attendance. The study's title says it all: Band-Aids on a Corpse . . . e-governance can be just as bad as any other governance when the real issue is people and their motivation.\nFor services to improve, the people providing the services have to want to do a better job with the skills they have. A study of medical care in Delhi found that even though providers, in the public sector had much better skills than private sector providers their provision of care in actual practice was much worse.\nIn implementation-intensive services the key to success is face-to-face interactions between a teacher, a nurse, a policeman, an extension agent and a citizen. This relationship is about power. Amartya Sen's . . . report on education in West Bengal had a supremely telling anecdote in which the villagers forced the teacher to attend school, but then, when the parents went off to work, the teacher did not teach, but forced the children to massage his feet. . . . As long as the system empowers providers over citizens, technology is irrelevant.\nThe answer to successfully providing basic services is to create systems that provide both autonomy and accountability. In basic education for instance, the answer to poor teaching is not controlling teachers more . . . The key . . . is to hire teachers who want to teach and let them teach, expressing their professionalism and vocation as a teacher through autonomy in the classroom. This autonomy has to be matched with accountability for results—not just narrowly measured through test scores, but broadly for the quality of the education they provide.\nA recent study in Uttar Pradesh showed that if, somehow, all civil service teachers could be replaced with contract teachers, the state could save a billion dollars a year in revenue and double student learning. Just the additional autonomy and accountability of contracts through local groups—even without complementary system changes in information and empowerment—led to that much improvement. The first step to being part of the solution is to create performance information accessible to those outside of the government. . . .",
+      "question_text": "Which of the following, IF TRUE, would undermine the passage's main argument?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Empowerment of service providers leads to increased complacency and rigged performance results.",
+        "If absolute instead of moderate technological surveillance is exercised over the performance of service providers.",
+        "If it were proven that service providers in the private sector have better skills than those in the public sector.",
+        "If it were proven that increase in autonomy of service providers leads to an exponential increase in their work ethic and sense of responsibility."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q25",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.\n1. Much has been recently discovered about the development of songs in birds.\n2. Some species are restricted to a single song learned by all individuals, others have a range of songs.\n3. The most important auditory stimuli for the birds are the sounds of other birds.\n4. For all bird species there is a prescribed path to development of the final song,\n5. A bird begins with the subsong, passes through plastic song, until it achieves the species song.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q26",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1, 2, 3, and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.\n1. It was his taxpayers who had to shell out as much as $1.6bn over 10 years to employees of failed companies.\n2. Companies in many countries routinely engage in such activities which means that the employees are left with unpaid entitlements\n3. Deliberate and systematic liquidation of a company to avoid liabilities and then restarting the business is called phoenixing.\n4. The Australian Minister for Revenue and Services discovered in an audit that phoenixing had cost the Australian economy between 2.9bnand2.9bnand5.1bn last year.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q27",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "The early optimism about sport's deterrent effects on delinquency was premature as researchers failed to find any consistent relationships between sports participation and deviance. As the initial studies were based upon cross-sectional data and the effects captured were short-term, it was problematic to test and verify the temporal sequencing of events suggested by the deterrence theory. The correlation between sport and delinquency could not be disentangled from class and cultural variables known. Choosing individuals to play sports in the first place was problematic, which became more acute in the subsequent decades as researchers began to document just how closely sports participation was linked to social class indicators.",
+      "question_text": "The passage given below is followed by four summaries. Choose the option that best captures the author's position.\n1. Sports participation is linked to class and cultural variables such as education, income, and social capital.\n2. Contradicting the previous optimism, latter researchers have proved that there is no consistent relationship between sports participation and deviance.\n3. Statistical and empirical weaknesses stand in the way of inferring any relationship between sports participation and deviance.\n4. There is a direct relationship between sport participation and delinquency but it needs more empirical evidence.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Sports participation is linked to class and cultural variables such as education, income, and social capital.",
+        "Contradicting the previous optimism, latter researchers have proved that there is no consistent relationship between sports participation and deviance.",
+        "Statistical and empirical weaknesses stand in the way of inferring any relationship between sports participation and deviance.",
+        "There is a direct relationship between sport participation and delinquency but it needs more empirical evidence."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q28",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1,2,3,4) given in this question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the proper sequence of order of the sentences and key in this sequence of four numbers as your answer:\n1. They would rather do virtuous side projects assiduously as long as these would not compel them into doing their day jobs more honourably or reduce the profit margins.\n2. They would fund a million of the buzzwordy programs rather than fundamentally question the rules of their game or alter their own behavior to reduce the harm of the existing distorted, inefficient and unfair rules.\n3. Like the dieter who would rather do anything to lose weight than actually eat less, the business elite would save the world through social-impact-investing and philanthro-capitalism.\n4. Doing the right thing — and moving away from their win-win mentality — would involve real sacrifice; instead, it's easier to focus on their pet projects and initiatives.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q29",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.\n1. As India looks to increase the number of cities, our urban planning must factor in potential natural disasters and work out contingencies in advance.\n2. Authorities must revise data and upgrade infrastructure and mitigation plans even if their local area hasn't been visited by a natural calamity yet.\n3. Extreme temperatures, droughts, and forest fires have more than doubled since 1980.\n4. There is no denying the fact that our baseline normal weather is changing.\n5. It is no longer a question of whether we will be hit by nature's fury but rather when.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q30",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1, 2, 3, and 4) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentences and key in this sequence of four numbers as your answer.\n1. Self-management is thus defined as the ‘individual's ability to manage the symptoms, treatment, physical and psychosocial consequences and lifestyle changes inherent in living with a chronic condition'.\n2. Most people with progressive diseases like dementia prefer to have control over their own lives and health-care for as long as possible.\n3. Having control means, among other things, that patients themselves perform self-management activities.\n4. Supporting people in decisions and actions that promote self-management is called self-management support requiring a cooperative relationship between the patient, the family, and the professionals.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q31",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "A Japanese government panel announced that it recommends regulating only genetically modified organisms that have had foreign genes permanently introduced into their genomes and not those whose endogenous genes have been edited. The only stipulation is that researchers and businesses will have to register their modifications to plants or animals with the government, with the exception of microbes cultured in contained environments. Reactions to the decision are mixed. While lauding the potential benefits of genome editing, an editorial opposes across-the-board permission. Unforeseen risks in gene editing cannot be ruled out. All genetically modified products must go through the same safety and labeling processes regardless of method.",
+      "question_text": "The passage given below is followed by four summaries. Choose the option that best captures the author's position:\n1. A government panel in Japan says transgenic modification and genome editing are not the same.\n2. Excepting microbes cultured in contained environments from the regulations of genome editing is premature.\n3. Exempting from regulations the editing of endogenous genes is not desirable as this procedure might be risk-prone.\n4. Creating categories within genetically modified products in terms of transgenic modification and genome editing advances science but defies laws.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A government panel in Japan says transgenic modification and genome editing are not the same.",
+        "Excepting microbes cultured in contained environments from the regulations of genome editing is premature.",
+        "Exempting from regulations the editing of endogenous genes is not desirable as this procedure might be risk-prone.",
+        "Creating categories within genetically modified products in terms of transgenic modification and genome editing advances science but defies laws."
+      ]
+    },
+    {
+      "id": "2018_S2_VARC_Q32",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1,2,3,4) given in this question, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the proper sequence of order of the sentences and key in this sequence of four numbers as your answer:\n1. In the era of smart world, however, ‘Universal Basic Income' is an ineffective instrument which cannot address the potential breakdown of the social contract when large swathes of the population would effectively be unemployed.\n2. In the era of industrial revolution, the abolition of child labour, poor laws and the growth of trade unions helped families cope with the pressures of mechanised work.\n3. Growing inequality could be matched by a creeping authoritarianism that is bolstered by technology that is increasingly able to peer into the deepest vestiges of our lives.\n4. New institutions emerge which recognise ways in which workers could contribute to and benefit by economic growth when, rather than if, their jobs are automated.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q33",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key the number in:\n1. Our smartphones can now track our diets, our biological cycles, even our digestive systems and sleep-patterns.\n2. Researchers have even coined a new term, “orthosomnia”, to describe the insomnia brought on by paying too much attention to smartphones and sleep-tracking apps.\n3. Sleep, nature's soft nurse, is a blissful, untroubled state all too easily disturbed by earthly worries or a guilty conscience.\n4. The existence of a market for such apps is unsurprising: shift work, a long-hours culture and blue light from screens have conspired to rob many of us of sufficient rest.\n5. A new threat to a good night's rest has emerged – smart-phones, with sleep-tracking apps.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_VARC_Q34",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "VARC",
+      "context_passage": "Should the moral obligation to rescue and aid persons in grave peril, felt by a few, be enforced by the criminal law? Should we follow the lead of a number of European countries and enact bad Samaritan laws? Proponents of bad Samaritan laws must overcome at least three different sorts of obstacles. First, they must show the laws are morally legitimate in principle, that is, that the duty to aid others is a proper candidate for legal enforcement. Second, they must show that this duty to aid can be defined in a way that can be fairly enforced by the courts. Third, they must show that the benefits of the laws are worth their problems, risks and costs.",
+      "question_text": "The passage given below is followed by four summaries. Choose the option that best captures the author's position.\n1. A number of European countries that have successfully enacted bad Samaritan laws may serve as model statutes.\n2. Everyone agrees that people ought to aid others, the only debate is whether to have a law on it.\n3. If bad Samaritan laws are found to be legally sound and enforceable they must be enacted.\n4. Bad Samaritan laws may be desirable but they need to be tested for legal soundness.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A number of European countries that have successfully enacted bad Samaritan laws may serve as model statutes.",
+        "Everyone agrees that people ought to aid others, the only debate is whether to have a law on it.",
+        "If bad Samaritan laws are found to be legally sound and enforceable they must be enacted.",
+        "Bad Samaritan laws may be desirable but they need to be tested for legal soundness."
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q35",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each of the 23 boxes in the picture below represents a product manufactured by one of the following three companies: Alfa, Bravo and Charlie. The area of a box is proportional to the revenue from the corresponding product, while its centre represents the Product popularity and Market potential scores of the product (out of 20). The shadings of some of the boxes have got erased.\n\nProduct classification categories:\nPromising: Product popularity score >10, Market potential score >10\nBlockbuster: Product popularity score >=10, Market potential score <=10\nDoubtful: Product popularity score <10, Market potential score >10\nNo-hope: Product popularity score <10, Market potential score <=10\n\nThe following facts are known:\n1. Alfa and Bravo had the same number of products in the Blockbuster category.\n2. Charlie had more products than Bravo but fewer products than Alfa in the No-hope category.\n3. Each company had an equal number of products in the Promising category.\n4. Charlie did not have any product in the Doubtful category, while Alfa had one product more than Bravo in this category.\n5. Bravo had a higher revenue than Alfa from products in the Doubtful category.\n6. Charlie had a higher revenue than Bravo from products in the Blockbuster category.\n7. Bravo and Charlie had the same revenue from products in the No-hope category.\n8. Alfa and Charlie had the same total revenue considering all products.",
+      "question_text": "Considering all companies' products, which product category had the highest revenue?",
+      "has_image": true,
+      "image_url": "images/2018_S2_DILR_Q35.png",
+      "options": [
+        "Doubtful",
+        "Promising",
+        "No-hope",
+        "Blockbuster"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q36",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each of the 23 boxes in the picture below represents a product manufactured by one of the following three companies: Alfa, Bravo and Charlie. The area of a box is proportional to the revenue from the corresponding product, while its centre represents the Product popularity and Market potential scores of the product (out of 20). The shadings of some of the boxes have got erased.\n\nProduct classification categories:\nPromising: Product popularity score >10, Market potential score >10\nBlockbuster: Product popularity score >=10, Market potential score <=10\nDoubtful: Product popularity score <10, Market potential score >10\nNo-hope: Product popularity score <10, Market potential score <=10\n\nThe following facts are known:\n1. Alfa and Bravo had the same number of products in the Blockbuster category.\n2. Charlie had more products than Bravo but fewer products than Alfa in the No-hope category.\n3. Each company had an equal number of products in the Promising category.\n4. Charlie did not have any product in the Doubtful category, while Alfa had one product more than Bravo in this category.\n5. Bravo had a higher revenue than Alfa from products in the Doubtful category.\n6. Charlie had a higher revenue than Bravo from products in the Blockbuster category.\n7. Bravo and Charlie had the same revenue from products in the No-hope category.\n8. Alfa and Charlie had the same total revenue considering all products.",
+      "question_text": "Which of the following is the correct sequence of numbers of products Bravo had in No-hope, Doubtful, Promising and Blockbuster categories respectively?",
+      "has_image": true,
+      "image_url": "images/2018_S2_DILR_Q36.png",
+      "options": [
+        "1,3,1,3",
+        "1,3,1,2",
+        "2,3,1,2",
+        "3,3,1,2"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q37",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each of the 23 boxes in the picture below represents a product manufactured by one of the following three companies: Alfa, Bravo and Charlie. The area of a box is proportional to the revenue from the corresponding product, while its centre represents the Product popularity and Market potential scores of the product (out of 20). The shadings of some of the boxes have got erased.\n\nProduct classification categories:\nPromising: Product popularity score >10, Market potential score >10\nBlockbuster: Product popularity score >=10, Market potential score <=10\nDoubtful: Product popularity score <10, Market potential score >10\nNo-hope: Product popularity score <10, Market potential score <=10\n\nThe following facts are known:\n1. Alfa and Bravo had the same number of products in the Blockbuster category.\n2. Charlie had more products than Bravo but fewer products than Alfa in the No-hope category.\n3. Each company had an equal number of products in the Promising category.\n4. Charlie did not have any product in the Doubtful category, while Alfa had one product more than Bravo in this category.\n5. Bravo had a higher revenue than Alfa from products in the Doubtful category.\n6. Charlie had a higher revenue than Bravo from products in the Blockbuster category.\n7. Bravo and Charlie had the same revenue from products in the No-hope category.\n8. Alfa and Charlie had the same total revenue considering all products.",
+      "question_text": "Which of the following statements is NOT correct?",
+      "has_image": true,
+      "image_url": "images/2018_S2_DILR_Q37.png",
+      "options": [
+        "Bravo's revenue from Blockbuster products was greater than Alfa's revenue from Doubtful products",
+        "The total revenue from No-hope products was less than the total revenue from Doubtful products",
+        "Bravo and Charlie had the same revenues from No-hope products",
+        "Alfa's revenue from Blockbuster products was the same as Charlie's revenue from Promising products"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q38",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each of the 23 boxes in the picture below represents a product manufactured by one of the following three companies: Alfa, Bravo and Charlie. The area of a box is proportional to the revenue from the corresponding product, while its centre represents the Product popularity and Market potential scores of the product (out of 20). The shadings of some of the boxes have got erased.\n\nProduct classification categories:\nPromising: Product popularity score >10, Market potential score >10\nBlockbuster: Product popularity score >=10, Market potential score <=10\nDoubtful: Product popularity score <10, Market potential score >10\nNo-hope: Product popularity score <10, Market potential score <=10\n\nThe following facts are known:\n1. Alfa and Bravo had the same number of products in the Blockbuster category.\n2. Charlie had more products than Bravo but fewer products than Alfa in the No-hope category.\n3. Each company had an equal number of products in the Promising category.\n4. Charlie did not have any product in the Doubtful category, while Alfa had one product more than Bravo in this category.\n5. Bravo had a higher revenue than Alfa from products in the Doubtful category.\n6. Charlie had a higher revenue than Bravo from products in the Blockbuster category.\n7. Bravo and Charlie had the same revenue from products in the No-hope category.\n8. Alfa and Charlie had the same total revenue considering all products.",
+      "question_text": "If the smallest box on the grid is equivalent to revenue of Rs.1 crore, then what approximately was the total revenue of Bravo in Rs. crore?",
+      "has_image": true,
+      "image_url": "images/2018_S2_DILR_Q38.png",
+      "options": [
+        "40",
+        "24",
+        "30",
+        "34"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q39",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "There are only four brands of entry level smartphones called Azra, Bysi, Cxqi, and Dipq in a country.\nDetails about their market share, unit selling price, and profitability (defined as the profit as a percentage of the revenue) for the year 2016 are given in the table below:\n\n| Brand | Market Share (%) | Unit Selling Price (Rs.) | Profitability (%) |\n|-------|------------------|--------------------------|-------------------|\n| Azra  | 40               | 15,000                   | 10                |\n| Bysi  | 25               | 20,000                   | 30                |\n| Cxqi  | 15               | 30,000                   | 40                |\n| Dipq  | 20               | 25,000                   | 30                |\n\nIn 2017, sales volume of entry level smartphones grew by 40% as compared to that in 2016.\nCxqi offered a 40% discount on its unit selling price in 2017, which resulted in a 15% increase in its market share. Each of the other three brands lost 5% market share. However, the profitability of Cxqi came down to half of its value in 2016. The unit selling prices of the other three brands and their profitability values remained the same in 2017 as they were in 2016.",
+      "question_text": "The brand that had the highest revenue in 2016 is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Dipq",
+        "Bysi",
+        "Cxqi",
+        "Azra"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q40",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "There are only four brands of entry level smartphones called Azra, Bysi, Cxqi, and Dipq in a country.\nDetails about their market share, unit selling price, and profitability (defined as the profit as a percentage of the revenue) for the year 2016 are given in the table below:\n\n| Brand | Market Share (%) | Unit Selling Price (Rs.) | Profitability (%) |\n|-------|------------------|--------------------------|-------------------|\n| Azra  | 40               | 15,000                   | 10                |\n| Bysi  | 25               | 20,000                   | 30                |\n| Cxqi  | 15               | 30,000                   | 40                |\n| Dipq  | 20               | 25,000                   | 30                |\n\nIn 2017, sales volume of entry level smartphones grew by 40% as compared to that in 2016.\nCxqi offered a 40% discount on its unit selling price in 2017, which resulted in a 15% increase in its market share. Each of the other three brands lost 5% market share. However, the profitability of Cxqi came down to half of its value in 2016. The unit selling prices of the other three brands and their profitability values remained the same in 2017 as they were in 2016.",
+      "question_text": "The brand that had the highest profit in 2016 is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Azra",
+        "Bysi",
+        "Cxqi",
+        "Dipq"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q41",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "There are only four brands of entry level smartphones called Azra, Bysi, Cxqi, and Dipq in a country.\nDetails about their market share, unit selling price, and profitability (defined as the profit as a percentage of the revenue) for the year 2016 are given in the table below:\n\n| Brand | Market Share (%) | Unit Selling Price (Rs.) | Profitability (%) |\n|-------|------------------|--------------------------|-------------------|\n| Azra  | 40               | 15,000                   | 10                |\n| Bysi  | 25               | 20,000                   | 30                |\n| Cxqi  | 15               | 30,000                   | 40                |\n| Dipq  | 20               | 25,000                   | 30                |\n\nIn 2017, sales volume of entry level smartphones grew by 40% as compared to that in 2016.\nCxqi offered a 40% discount on its unit selling price in 2017, which resulted in a 15% increase in its market share. Each of the other three brands lost 5% market share. However, the profitability of Cxqi came down to half of its value in 2016. The unit selling prices of the other three brands and their profitability values remained the same in 2017 as they were in 2016.",
+      "question_text": "The brand that had the highest profit in 2017 is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Dipq",
+        "Bysi",
+        "Cxqi",
+        "Azra"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q42",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "There are only four brands of entry level smartphones called Azra, Bysi, Cxqi, and Dipq in a country.\nDetails about their market share, unit selling price, and profitability (defined as the profit as a percentage of the revenue) for the year 2016 are given in the table below:\n\n| Brand | Market Share (%) | Unit Selling Price (Rs.) | Profitability (%) |\n|-------|------------------|--------------------------|-------------------|\n| Azra  | 40               | 15,000                   | 10                |\n| Bysi  | 25               | 20,000                   | 30                |\n| Cxqi  | 15               | 30,000                   | 40                |\n| Dipq  | 20               | 25,000                   | 30                |\n\nIn 2017, sales volume of entry level smartphones grew by 40% as compared to that in 2016.\nCxqi offered a 40% discount on its unit selling price in 2017, which resulted in a 15% increase in its market share. Each of the other three brands lost 5% market share. However, the profitability of Cxqi came down to half of its value in 2016. The unit selling prices of the other three brands and their profitability values remained the same in 2017 as they were in 2016.",
+      "question_text": "The complete list of brands whose profits went up in 2017 from 2016 is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Azra, Bysi, Cxqi",
+        "Bysi, Cxqi, Dipq",
+        "Cxqi, Azra, Dipq",
+        "Azra, Bysi, Dipq"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q43",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as “?”.\n\n| Time    | 7:10 am | 7:15 am | 7:25 am | 7:30 am | 7:40 am | 7:45 am |\n|---------|---------|---------|---------|---------|---------|---------|\n| Person  | Akil, ? | ?       | ?       | Chitra  | Fatima  | ?       |\n\nAdditionally here are some statements from the candidates:\nBalaram: I was the third person to enter Room 101.\nChitra: I was the last person to enter the room I was allotted to.\nErina: I was the only person in the room I was allotted to.\nFatima: Three people including Akil were already in the room that I was allotted to when I entered it.\nGaneshan: I was one among the two candidates allotted to Room 102.",
+      "question_text": "What best can be said about the room to which Divya was allotted?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Definitely Room 102",
+        "Definitely Room 103",
+        "Definitely Room 101",
+        "Either Room 101 or Room 102"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q44",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as “?”.\n\n| Time    | 7:10 am | 7:15 am | 7:25 am | 7:30 am | 7:40 am | 7:45 am |\n|---------|---------|---------|---------|---------|---------|---------|\n| Person  | Akil, ? | ?       | ?       | Chitra  | Fatima  | ?       |\n\nAdditionally here are some statements from the candidates:\nBalaram: I was the third person to enter Room 101.\nChitra: I was the last person to enter the room I was allotted to.\nErina: I was the only person in the room I was allotted to.\nFatima: Three people including Akil were already in the room that I was allotted to when I entered it.\nGaneshan: I was one among the two candidates allotted to Room 102.",
+      "question_text": "Who else was in Room 102 when Ganeshan entered?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "No one",
+        "Divya",
+        "Chitra",
+        "Akil"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q45",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as “?”.\n\n| Time    | 7:10 am | 7:15 am | 7:25 am | 7:30 am | 7:40 am | 7:45 am |\n|---------|---------|---------|---------|---------|---------|---------|\n| Person  | Akil, ? | ?       | ?       | Chitra  | Fatima  | ?       |\n\nAdditionally here are some statements from the candidates:\nBalaram: I was the third person to enter Room 101.\nChitra: I was the last person to enter the room I was allotted to.\nErina: I was the only person in the room I was allotted to.\nFatima: Three people including Akil were already in the room that I was allotted to when I entered it.\nGaneshan: I was one among the two candidates allotted to Room 102.",
+      "question_text": "When did Erina reach the venue?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "7:25 am",
+        "7:45 am",
+        "7:10 am",
+        "7:15 am"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q46",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Seven candidates, Akil, Balaram, Chitra, Divya, Erina, Fatima, and Ganeshan, were invited to interview for a position. Candidates were required to reach the venue before 8 am. Immediately upon arrival, they were sent to one of three interview rooms: 101, 102, and 103. The following venue log shows the arrival times for these candidates. Some of the names have not been recorded in the log and have been marked as “?”.\n\n| Time    | 7:10 am | 7:15 am | 7:25 am | 7:30 am | 7:40 am | 7:45 am |\n|---------|---------|---------|---------|---------|---------|---------|\n| Person  | Akil, ? | ?       | ?       | Chitra  | Fatima  | ?       |\n\nAdditionally here are some statements from the candidates:\nBalaram: I was the third person to enter Room 101.\nChitra: I was the last person to enter the room I was allotted to.\nErina: I was the only person in the room I was allotted to.\nFatima: Three people including Akil were already in the room that I was allotted to when I entered it.\nGaneshan: I was one among the two candidates allotted to Room 102.",
+      "question_text": "If Ganeshan entered the venue before Divya, when did Balaram enter the venue?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "7:45 am",
+        "7:25 am",
+        "7:15 am",
+        "7:10 am"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q47",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "The base exchange rate of a currency X with respect to a currency Y is the number of units of currency Y which is equivalent in value to one unit of currency X. Currency exchange outlets buy currency at buying exchange rates that are lower than base exchange rates, and sell currency at selling exchange rates that are higher than base exchange rates.\nA currency exchange outlet uses the local currency L to buy and sell three international currencies A, B, and C, but does not exchange one international currency directly with another. The base exchange rates of A, B and C with respect to L are in the ratio 100:120:1. The buying exchange rates of each of A, B, and C with respect to L are 5% below the corresponding base exchange rates, and their selling exchange rates are 10% above their corresponding base exchange rates.\nThe following facts are known about the outlet on a particular day:\n1. The amount of L used by the outlet to buy C equals the amount of L it received by selling C.\n2. The amounts of L used by the outlet to buy A and B are in the ratio 5:3.\n3. The amounts of L the outlet received from the sales of A and B are in the ratio 5:9.\n4. The outlet received 88000 units of L by selling A during the day.\n5. The outlet started the day with some amount of L, 2500 units of A, 4800 units of B, and 48000 units of C.\n6. The outlet ended the day with some amount of L, 3300 units of A, 4800 units of B, and 51000 units of C.",
+      "question_text": "How many units of currency A did the outlet buy on that day?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q48",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "The base exchange rate of a currency X with respect to a currency Y is the number of units of currency Y which is equivalent in value to one unit of currency X. Currency exchange outlets buy currency at buying exchange rates that are lower than base exchange rates, and sell currency at selling exchange rates that are higher than base exchange rates.\nA currency exchange outlet uses the local currency L to buy and sell three international currencies A, B, and C, but does not exchange one international currency directly with another. The base exchange rates of A, B and C with respect to L are in the ratio 100:120:1. The buying exchange rates of each of A, B, and C with respect to L are 5% below the corresponding base exchange rates, and their selling exchange rates are 10% above their corresponding base exchange rates.\nThe following facts are known about the outlet on a particular day:\n1. The amount of L used by the outlet to buy C equals the amount of L it received by selling C.\n2. The amounts of L used by the outlet to buy A and B are in the ratio 5:3.\n3. The amounts of L the outlet received from the sales of A and B are in the ratio 5:9.\n4. The outlet received 88000 units of L by selling A during the day.\n5. The outlet started the day with some amount of L, 2500 units of A, 4800 units of B, and 48000 units of C.\n6. The outlet ended the day with some amount of L, 3300 units of A, 4800 units of B, and 51000 units of C.",
+      "question_text": "How many units of currency C did the outlet sell on that day?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "19000",
+        "3000",
+        "6000",
+        "22000"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q49",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "The base exchange rate of a currency X with respect to a currency Y is the number of units of currency Y which is equivalent in value to one unit of currency X. Currency exchange outlets buy currency at buying exchange rates that are lower than base exchange rates, and sell currency at selling exchange rates that are higher than base exchange rates.\nA currency exchange outlet uses the local currency L to buy and sell three international currencies A, B, and C, but does not exchange one international currency directly with another. The base exchange rates of A, B and C with respect to L are in the ratio 100:120:1. The buying exchange rates of each of A, B, and C with respect to L are 5% below the corresponding base exchange rates, and their selling exchange rates are 10% above their corresponding base exchange rates.\nThe following facts are known about the outlet on a particular day:\n1. The amount of L used by the outlet to buy C equals the amount of L it received by selling C.\n2. The amounts of L used by the outlet to buy A and B are in the ratio 5:3.\n3. The amounts of L the outlet received from the sales of A and B are in the ratio 5:9.\n4. The outlet received 88000 units of L by selling A during the day.\n5. The outlet started the day with some amount of L, 2500 units of A, 4800 units of B, and 48000 units of C.\n6. The outlet ended the day with some amount of L, 3300 units of A, 4800 units of B, and 51000 units of C.",
+      "question_text": "What was the base exchange rate of currency B with respect to currency L on that day?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q50",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "The base exchange rate of a currency X with respect to a currency Y is the number of units of currency Y which is equivalent in value to one unit of currency X. Currency exchange outlets buy currency at buying exchange rates that are lower than base exchange rates, and sell currency at selling exchange rates that are higher than base exchange rates.\nA currency exchange outlet uses the local currency L to buy and sell three international currencies A, B, and C, but does not exchange one international currency directly with another. The base exchange rates of A, B and C with respect to L are in the ratio 100:120:1. The buying exchange rates of each of A, B, and C with respect to L are 5% below the corresponding base exchange rates, and their selling exchange rates are 10% above their corresponding base exchange rates.\nThe following facts are known about the outlet on a particular day:\n1. The amount of L used by the outlet to buy C equals the amount of L it received by selling C.\n2. The amounts of L used by the outlet to buy A and B are in the ratio 5:3.\n3. The amounts of L the outlet received from the sales of A and B are in the ratio 5:9.\n4. The outlet received 88000 units of L by selling A during the day.\n5. The outlet started the day with some amount of L, 2500 units of A, 4800 units of B, and 48000 units of C.\n6. The outlet ended the day with some amount of L, 3300 units of A, 4800 units of B, and 51000 units of C.",
+      "question_text": "What was the buying exchange rate of currency C with respect to currency L on that day?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "0.95",
+        "1.10",
+        "1.90",
+        "2.20"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q51",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Fun Sports (FS) provides training in three sports – Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:\n1. The number of students enrolled only in L is double the number of students enrolled in all the three sports.\n2. There are a total of 17 students enrolled in G.\n3. The number of students enrolled only in G is one less than the number of students enrolled only in L.\n4. The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.\n5. The maximum student enrollment is in L.\n6. Ten students enrolled in G are also enrolled in at least one more sport.",
+      "question_text": "What is the minimum number of students enrolled in both G and L but not in K?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q52",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Fun Sports (FS) provides training in three sports – Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:\n1. The number of students enrolled only in L is double the number of students enrolled in all the three sports.\n2. There are a total of 17 students enrolled in G.\n3. The number of students enrolled only in G is one less than the number of students enrolled only in L.\n4. The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.\n5. The maximum student enrollment is in L.\n6. Ten students enrolled in G are also enrolled in at least one more sport.",
+      "question_text": "If the numbers of students enrolled in K and L are in the ratio 19:22, then what is the number of students enrolled in L?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "18",
+        "19",
+        "17",
+        "22"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q53",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Fun Sports (FS) provides training in three sports – Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:\n1. The number of students enrolled only in L is double the number of students enrolled in all the three sports.\n2. There are a total of 17 students enrolled in G.\n3. The number of students enrolled only in G is one less than the number of students enrolled only in L.\n4. The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.\n5. The maximum student enrollment is in L.\n6. Ten students enrolled in G are also enrolled in at least one more sport.",
+      "question_text": "Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and K?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q54",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Fun Sports (FS) provides training in three sports – Gilli-danda (G), Kho-Kho (K), and Ludo (L). Currently it has an enrollment of 39 students each of whom is enrolled in at least one of the three sports. The following details are known:\n1. The number of students enrolled only in L is double the number of students enrolled in all the three sports.\n2. There are a total of 17 students enrolled in G.\n3. The number of students enrolled only in G is one less than the number of students enrolled only in L.\n4. The number of students enrolled only in K is equal to the number of students who are enrolled in both K and L.\n5. The maximum student enrollment is in L.\n6. Ten students enrolled in G are also enrolled in at least one more sport.",
+      "question_text": "Due to academic pressure, students who were enrolled in all three sports were asked to withdraw from one of the three sports. After the withdrawal, the number of students enrolled in G was six less than the number of students enrolled in L, while the number of students enrolled in K went down by one. After the withdrawal, how many students were enrolled in both G and L?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q55",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "An agency entrusted to accredit colleges looks at four parameters: faculty quality (F), reputation (R), placement quality (P), and infrastructure (I). The four parameters are used to arrive at an overall score, which the agency uses to give an accreditation to the colleges. In each parameter, there are five possible letter grades given, each carrying certain points: A (50 points), B (40 points), C (30 points), D (20 points), and F (0 points). The overall score for a college is the weighted sum of the points scored in the four parameters. The weights of the parameters are 0.1, 0.2, 0.3 and 0.4 in some order, but the order is not disclosed. Accreditation is awarded based on the following scheme:\n\n| Range                      | Accreditation |\n|----------------------------|---------------|\n| Overall score ≥ 45         | AAA           |\n| 35 ≤ Overall score < 45    | BAA           |\n| 25 ≤ Overall score < 35    | BBA           |\n| 15 ≤ Overall score < 25    | BBB           |\n| Overall score < 15         | Junk          |\n\nEight colleges apply for accreditation, and receive the following grades in the four parameters (F, R, P, and I):\n\n|           | F | R | P | I |\n|-----------|---|---|---|---|\n| A-one     | A | A | A | B |\n| Best Ed   | B | C | D | D |\n| Cosmopolitan| B | D | D | C |\n| Dominance | D | D | B | C |\n| Education Aid | A | A | B | A |\n| Fancy     | A | A | B | B |\n| Global    | C | F | D | D |\n| High Q    | C | D | D | B |\n\nIt is further known that in terms of overall scores:\n1. High Q is better than Best Ed;\n2. Best Ed is better than Cosmopolitan; and\n3. Education Aid is better than A-one.",
+      "question_text": "What is the weight of the faculty quality parameter?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "0.3",
+        "0.2",
+        "0.4",
+        "0.1"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q56",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "An agency entrusted to accredit colleges looks at four parameters: faculty quality (F), reputation (R), placement quality (P), and infrastructure (I). The four parameters are used to arrive at an overall score, which the agency uses to give an accreditation to the colleges. In each parameter, there are five possible letter grades given, each carrying certain points: A (50 points), B (40 points), C (30 points), D (20 points), and F (0 points). The overall score for a college is the weighted sum of the points scored in the four parameters. The weights of the parameters are 0.1, 0.2, 0.3 and 0.4 in some order, but the order is not disclosed. Accreditation is awarded based on the following scheme:\n\n| Range                      | Accreditation |\n|----------------------------|---------------|\n| Overall score ≥ 45         | AAA           |\n| 35 ≤ Overall score < 45    | BAA           |\n| 25 ≤ Overall score < 35    | BBA           |\n| 15 ≤ Overall score < 25    | BBB           |\n| Overall score < 15         | Junk          |\n\nEight colleges apply for accreditation, and receive the following grades in the four parameters (F, R, P, and I):\n\n|           | F | R | P | I |\n|-----------|---|---|---|---|\n| A-one     | A | A | A | B |\n| Best Ed   | B | C | D | D |\n| Cosmopolitan| B | D | D | C |\n| Dominance | D | D | B | C |\n| Education Aid | A | A | B | A |\n| Fancy     | A | A | B | B |\n| Global    | C | F | D | D |\n| High Q    | C | D | D | B |\n\nIt is further known that in terms of overall scores:\n1. High Q is better than Best Ed;\n2. Best Ed is better than Cosmopolitan; and\n3. Education Aid is better than A-one.",
+      "question_text": "How many colleges receive the accreditation of AAA?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q57",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "An agency entrusted to accredit colleges looks at four parameters: faculty quality (F), reputation (R), placement quality (P), and infrastructure (I). The four parameters are used to arrive at an overall score, which the agency uses to give an accreditation to the colleges. In each parameter, there are five possible letter grades given, each carrying certain points: A (50 points), B (40 points), C (30 points), D (20 points), and F (0 points). The overall score for a college is the weighted sum of the points scored in the four parameters. The weights of the parameters are 0.1, 0.2, 0.3 and 0.4 in some order, but the order is not disclosed. Accreditation is awarded based on the following scheme:\n\n| Range                      | Accreditation |\n|----------------------------|---------------|\n| Overall score ≥ 45         | AAA           |\n| 35 ≤ Overall score < 45    | BAA           |\n| 25 ≤ Overall score < 35    | BBA           |\n| 15 ≤ Overall score < 25    | BBB           |\n| Overall score < 15         | Junk          |\n\nEight colleges apply for accreditation, and receive the following grades in the four parameters (F, R, P, and I):\n\n|           | F | R | P | I |\n|-----------|---|---|---|---|\n| A-one     | A | A | A | B |\n| Best Ed   | B | C | D | D |\n| Cosmopolitan| B | D | D | C |\n| Dominance | D | D | B | C |\n| Education Aid | A | A | B | A |\n| Fancy     | A | A | B | B |\n| Global    | C | F | D | D |\n| High Q    | C | D | D | B |\n\nIt is further known that in terms of overall scores:\n1. High Q is better than Best Ed;\n2. Best Ed is better than Cosmopolitan; and\n3. Education Aid is better than A-one.",
+      "question_text": "What is the highest overall score among the eight colleges?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q58",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "An agency entrusted to accredit colleges looks at four parameters: faculty quality (F), reputation (R), placement quality (P), and infrastructure (I). The four parameters are used to arrive at an overall score, which the agency uses to give an accreditation to the colleges. In each parameter, there are five possible letter grades given, each carrying certain points: A (50 points), B (40 points), C (30 points), D (20 points), and F (0 points). The overall score for a college is the weighted sum of the points scored in the four parameters. The weights of the parameters are 0.1, 0.2, 0.3 and 0.4 in some order, but the order is not disclosed. Accreditation is awarded based on the following scheme:\n\n| Range                      | Accreditation |\n|----------------------------|---------------|\n| Overall score ≥ 45         | AAA           |\n| 35 ≤ Overall score < 45    | BAA           |\n| 25 ≤ Overall score < 35    | BBA           |\n| 15 ≤ Overall score < 25    | BBB           |\n| Overall score < 15         | Junk          |\n\nEight colleges apply for accreditation, and receive the following grades in the four parameters (F, R, P, and I):\n\n|           | F | R | P | I |\n|-----------|---|---|---|---|\n| A-one     | A | A | A | B |\n| Best Ed   | B | C | D | D |\n| Cosmopolitan| B | D | D | C |\n| Dominance | D | D | B | C |\n| Education Aid | A | A | B | A |\n| Fancy     | A | A | B | B |\n| Global    | C | F | D | D |\n| High Q    | C | D | D | B |\n\nIt is further known that in terms of overall scores:\n1. High Q is better than Best Ed;\n2. Best Ed is better than Cosmopolitan; and\n3. Education Aid is better than A-one.",
+      "question_text": "How many colleges have overall scores between 31 and 40, both inclusive?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q59",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "According to a coding scheme the sentence \"Peacock is designated as the national bird of India\" is coded as \"5688999 35 1135556678 56 458 13666689 1334 79 13366\".\nThis coding scheme has the following rules:\n1. The scheme is case-insensitive (does not distinguish between upper case and lower case letters).\n2. Each letter has a unique code which is a single digit from among 1,2,3, ..., 9.\n3. The digit 9 codes two letters, and every other digit codes three letters.\n4. The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.\nAnswer these questions on the basis of this information.",
+      "question_text": "What best can be concluded about the code for the letter L?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1",
+        "1 or 8",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q60",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "According to a coding scheme the sentence \"Peacock is designated as the national bird of India\" is coded as \"5688999 35 1135556678 56 458 13666689 1334 79 13366\".\nThis coding scheme has the following rules:\n1. The scheme is case-insensitive (does not distinguish between upper case and lower case letters).\n2. Each letter has a unique code which is a single digit from among 1,2,3, ..., 9.\n3. The digit 9 codes two letters, and every other digit codes three letters.\n4. The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.\nAnswer these questions on the basis of this information.",
+      "question_text": "What best can be concluded about the code for the letter B?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1 or 3 or 4",
+        "3",
+        "1",
+        "3 or 4"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q61",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "According to a coding scheme the sentence \"Peacock is designated as the national bird of India\" is coded as \"5688999 35 1135556678 56 458 13666689 1334 79 13366\".\nThis coding scheme has the following rules:\n1. The scheme is case-insensitive (does not distinguish between upper case and lower case letters).\n2. Each letter has a unique code which is a single digit from among 1,2,3, ..., 9.\n3. The digit 9 codes two letters, and every other digit codes three letters.\n4. The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.\nAnswer these questions on the basis of this information.",
+      "question_text": "For how many digits can the complete list of letters associated with that digit be identified?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q62",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "According to a coding scheme the sentence \"Peacock is designated as the national bird of India\" is coded as \"5688999 35 1135556678 56 458 13666689 1334 79 13366\".\nThis coding scheme has the following rules:\n1. The scheme is case-insensitive (does not distinguish between upper case and lower case letters).\n2. Each letter has a unique code which is a single digit from among 1,2,3, ..., 9.\n3. The digit 9 codes two letters, and every other digit codes three letters.\n4. The code for a word is constructed by arranging the digits corresponding to its letters in a non-decreasing sequence.\nAnswer these questions on the basis of this information.",
+      "question_text": "Which set of letters CANNOT be coded with the same digit?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "S,U,V",
+        "I,B,M",
+        "X,Y,Z",
+        "S,E,Z"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q63",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each visitor to an amusement park needs to buy a ticket. Tickets can be Platinum, Gold, or Economy. Visitors are classified as Old, Middle-aged, or Young. The following facts are known about visitors and ticket sales on a particular day:\n1. 140 tickets were sold.\n2. The number of Middle-aged visitors was twice the number of Old visitors, while the number of Young visitors was twice the number of Middle-aged visitors.\n3. Young visitors bought 38 of the 55 Economy tickets that were sold, and they bought half the total number of Platinum tickets that were sold.\n4. The number of Gold tickets bought by Old visitors was equal to the number of Economy tickets bought by Old visitors.",
+      "question_text": "If the number of Old visitors buying Platinum tickets was equal to the number of Middle-aged visitors buying Platinum tickets, then which among the following could be the total number of Platinum tickets sold?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "34",
+        "38",
+        "32",
+        "36"
+      ]
+    },
+    {
+      "id": "2018_S2_DILR_Q64",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each visitor to an amusement park needs to buy a ticket. Tickets can be Platinum, Gold, or Economy. Visitors are classified as Old, Middle-aged, or Young. The following facts are known about visitors and ticket sales on a particular day:\n1. 140 tickets were sold.\n2. The number of Middle-aged visitors was twice the number of Old visitors, while the number of Young visitors was twice the number of Middle-aged visitors.\n3. Young visitors bought 38 of the 55 Economy tickets that were sold, and they bought half the total number of Platinum tickets that were sold.\n4. The number of Gold tickets bought by Old visitors was equal to the number of Economy tickets bought by Old visitors.",
+      "question_text": "If the number of Old visitors buying Platinum tickets was equal to the number of Middle-aged visitors buying Economy tickets, then the number of Old visitors buying Gold tickets was",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q65",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each visitor to an amusement park needs to buy a ticket. Tickets can be Platinum, Gold, or Economy. Visitors are classified as Old, Middle-aged, or Young. The following facts are known about visitors and ticket sales on a particular day:\n1. 140 tickets were sold.\n2. The number of Middle-aged visitors was twice the number of Old visitors, while the number of Young visitors was twice the number of Middle-aged visitors.\n3. Young visitors bought 38 of the 55 Economy tickets that were sold, and they bought half the total number of Platinum tickets that were sold.\n4. The number of Gold tickets bought by Old visitors was equal to the number of Economy tickets bought by Old visitors.",
+      "question_text": "If the number of Old visitors buying Gold tickets was strictly greater than the number of Young visitors buying Gold tickets, then the number of Middle-aged visitors buying Gold tickets was",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_DILR_Q66",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "DILR",
+      "context_passage": "Each visitor to an amusement park needs to buy a ticket. Tickets can be Platinum, Gold, or Economy. Visitors are classified as Old, Middle-aged, or Young. The following facts are known about visitors and ticket sales on a particular day:\n1. 140 tickets were sold.\n2. The number of Middle-aged visitors was twice the number of Old visitors, while the number of Young visitors was twice the number of Middle-aged visitors.\n3. Young visitors bought 38 of the 55 Economy tickets that were sold, and they bought half the total number of Platinum tickets that were sold.\n4. The number of Gold tickets bought by Old visitors was equal to the number of Economy tickets bought by Old visitors.",
+      "question_text": "Which of the following statements MUST be FALSE?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The numbers of Old and Middle-aged visitors buying Economy tickets were equal",
+        "The numbers of Old and Middle-aged visitors buying Platinum tickets were equal",
+        "The numbers of Middle-aged and Young visitors buying Gold tickets were equal",
+        "The numbers of Gold and Platinum tickets bought by Young visitors were equal"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q67",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The value of the sum 7 x 11 + 11 x 15 + 15 x 19 + ...+ 95 x 99 is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "80707",
+        "80773",
+        "80730",
+        "80751"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q68",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "How many two-digit numbers, with a non-zero digit in the units place, are there which are more than thrice the number formed by interchanging the positions of its digits?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q69",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The smallest integer n such that n³ - 11n² + 32n - 28 > 0 is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q70",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Gopal borrows Rs. X from Ankit at 8% annual interest. He then adds Rs. Y of his own money and lends Rs. X+Y to Ishan at 10% annual interest. At the end of the year, after returning Ankit's dues, the net interest retained by Gopal is the same as that accrued to Ankit. On the other hand, had Gopal lent Rs. X+2Y to Ishan at 10%, then the net interest retained by him would have increased by Rs. 150. If all interests are compounded annually, then find the value of X + Y.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q71",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "On a long stretch of east-west road, A and B are two points such that B is 350 km west of A. One car starts from A and another from B at the same time. If they move towards each other, then they meet after 1 hour. If they both move towards east, then they meet in 7 hrs. The difference between their speeds, in km per hour, is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q72",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "On a triangle ABC, a circle with diameter BC is drawn, intersecting AB and AC at points P and Q, respectively. If the lengths of AB, AC, and CP are 30 cm, 25 cm, and 20 cm respectively, then the length of BQ, in cm, is",
+      "has_image": true,
+      "image_url": "images/2018_S2_QA_Q72.png",
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q73",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A chord of length 5 cm subtends an angle of 60° at the centre of a circle. The length, in cm, of a chord that subtends an angle of 120° at the centre of the same circle is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "8",
+        "6√2",
+        "5√3",
+        "2π"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q74",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let f(x)=max{5x, 52-2x²}, where x is any positive real number. Then the minimum possible value of f(x) is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q75",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A 20% ethanol solution is mixed with another ethanol solution, say, S of unknown concentration in the proportion 1:3 by volume. This mixture is then mixed with an equal volume of 20% ethanol solution. If the resultant mixture is a 31.25% ethanol solution, then the unknown concentration of S is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "52%",
+        "50%",
+        "55%",
+        "48%"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q76",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A tank is emptied everyday at a fixed time point. Immediately thereafter, either pump A or pump B or both start working until the tank is full. On Monday, A alone completed filling the tank at 8 pm. On Tuesday, B alone completed filling the tank at 6 pm. On Wednesday, A alone worked till 5 pm, and then B worked alone from 5 pm to 7 pm, to fill the tank. At what time was the tank filled on Thursday if both pumps were used simultaneously all along?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "4:36 pm",
+        "4:12 pm",
+        "4:24 pm",
+        "4:48 pm"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q77",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a and b are integers such that 2x² -ax + 2 > 0 and x² -bx + 8 ≥ 0 for all real numbers x, then the largest possible value of 2a-6b is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q78",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A water tank has inlets of two types A and B. All inlets of type A when open, bring in water at the same rate. All inlets of type B, when open, bring in water at the same rate. The empty tank is completely filled in 30 minutes if 10 inlets of type A and 45 inlets of type B are open, and in 1 hour if 8 inlets of type A and 18 inlets of type B are open. In how many minutes will the empty tank get completely filled if 7 inlets of type A and 27 inlets of type B are open?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q79",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If N and x are positive integers such that N^N = 2^160 and N² + 2^N is an integral multiple of 2^x, then the largest possible x is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q80",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let t1, t2,... be real numbers such that t₁+t2+...+tₙ = 2n²+9n+13, for every positive integer n ≥ 2. If tₖ=103, then k equals",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q81",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If p³ = q⁴ = r⁵ = s⁶, then the value of logₛ(pqr) is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "16/5",
+        "1",
+        "24/5",
+        "47/10"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q82",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Ramesh and Ganesh can together complete a work in 16 days. After seven days of working together, Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "13.5",
+        "11",
+        "12",
+        "14.5"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q83",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A jar contains a mixture of 175 ml water and 700 ml alcohol. Gopal takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "35.2",
+        "30.3",
+        "20.5",
+        "25.4"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q84",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In a tournament, there are 43 junior level and 51 senior level participants. Each pair of juniors play one match. Each pair of seniors play one match. There is no junior versus senior match. The number of girl versus girl matches in junior level is 153, while the number of boy versus boy matches in senior level is 276. The number of matches a boy plays against a girl is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q85",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If A = {6^(2n) -35n -1: n = 1,2,3,...} and B = {35(n-1) : n = 1,2,3,...} then which of the following is true?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Neither every member of A is in B nor every member of B is in A",
+        "Every member of A is in B and at least one member of B is not in A",
+        "Every member of B is in A.",
+        "At least one member of A is not in B"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q86",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A parallelogram ABCD has area 48 sqcm. If the length of CD is 8 cm and that of AD is s cm, then which one of the following is necessarily true?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "s≥6",
+        "s≠6",
+        "s≤6",
+        "5≤s≤7"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q87",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let a1, a2, ..., a52 be positive integers such that a₁ < a2 < ... < a52. Suppose, their arithmetic mean is one less than the arithmetic mean of a2, a3, ..., a52. If a52 = 100, then the largest possible value of a₁ is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "20",
+        "23",
+        "48",
+        "45"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q88",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Points A and B are 150 km apart. Cars 1 and 2 travel from A to B, but car 2 starts from A when car 1 is already 20 km away from A. Each car travels at a speed of 100 kmph for the first 50 km, at 50 kmph for the next 50 km, and at 25 kmph for the last 50 km. The distance, in km, between car 2 and B when car 1 reaches B is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q89",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The arithmetic mean of x, y and z is 80, and that of x, y, z, u and v is 75, where u=(x+y)/2 and v=(y+z)/2. If x ≥ z, then the minimum possible value of x is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2018_S2_QA_Q90",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If the sum of squares of two numbers is 97, then which one of the following cannot be their product?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "-32",
+        "48",
+        "64",
+        "16"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q91",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "For two sets A and B, let AΔB denote the set of elements which belong to A or B but not both. If P = {1,2,3,4}, Q = {2,3,5,6,}, R = {1,3,7,8,9}, S = {2,4,9,10}, then the number of elements in (PΔQ)Δ(RΔS) is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q92",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The smallest integer n for which 4ⁿ > 17¹⁹ holds, is closest to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "33",
+        "37",
+        "39",
+        "35"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q93",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The strength of a salt solution is p% if 100 ml of the solution contains p grams of salt. If three salt solutions A, B, C are mixed in the proportion 1 : 2 : 3, then the resulting solution has strength 20%. If instead the proportion is 3 : 2 : 1, then the resulting solution has strength 30%. A fourth solution, D, is produced by mixing B and C in the ratio 2 : 7. The ratio of the strength of D to that of A is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2:5",
+        "1:3",
+        "1:4",
+        "3:10"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q94",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The area of a rectangle and the square of its perimeter are in the ratio 1 : 25. Then the lengths of the shorter and longer sides of the rectangle are in the ratio",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1:4",
+        "2:9",
+        "1:3",
+        "3:8"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q95",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The scores of Amal and Bimal in an examination are in the ratio 11 : 14. After an appeal, their scores increase by the same amount and their new scores are in the ratio 47 : 56. The ratio of Bimal's new score to that of his original score is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "5:4",
+        "8:5",
+        "4:3",
+        "3:2"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q96",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "From a rectangle ABCD of area 768 sq cm, a semicircular part with diameter AB and area 72π sq cm is removed. The perimeter of the leftover portion, in cm, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "80 + 16π",
+        "86 + 8π",
+        "82 + 24π",
+        "88 + 12π"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q97",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A triangle ABC has area 32 sq units and its side BC, of length 8 units, lies on the line x = 4. Then the shortest possible distance between A and the point (0,0) is",
+      "has_image": true,
+      "image_url": "images/2018_S2_QA_Q97.png",
+      "options": [
+        "4 units",
+        "8 units",
+        "4√2 units",
+        "2√2 units"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q98",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "There are two drums, each containing a mixture of paints A and B. In drum 1, A and B are in the ratio 18 : 7. The mixtures from drums 1 and 2 are mixed in the ratio 3 : 4 and in this final mixture, A and B are in the ratio 13 : 7. In drum 2, then A and B were in the ratio",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "229: 141",
+        "220: 149",
+        "239:161",
+        "251:163"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q99",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Points A, P, Q and B lie on the same line such that P, Q and B are, respectively, 100 km, 200 km and 300 km away from A. Cars 1 and 2 leave A at the same time and move towards B. Simultaneously, car 3 leaves B and moves towards A. Car 3 meets car 1 at Q, and car 2 at P. If each car is moving in uniform speed then the ratio of the speed of car 2 to that of car 1 is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1:2",
+        "2:9",
+        "1:4",
+        "2:7"
+      ]
+    },
+    {
+      "id": "2018_S2_QA_Q100",
+      "exam_year": 2018,
+      "exam_slot": 2,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "1/log₂100 + 1/log₄100 + 1/log₅100 + 1/log₁₀100 + 1/log₂₀100 + 1/log₂₅100 + 1/log₅₀100 = ?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1/2",
+        "0",
+        "10",
+        "-4"
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_id": "2018_S2_VARC_Q1",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q2",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q3",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q4",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q5",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q6",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q7",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q8",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q9",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q10",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q11",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q12",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q13",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q14",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q15",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q16",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q17",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q18",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q19",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q20",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q21",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q22",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q23",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q24",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q25",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q26",
+      "correct_option": "3241"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q27",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q28",
+      "correct_option": "3241"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q29",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q30",
+      "correct_option": "2314"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q31",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q32",
+      "correct_option": "4213"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q33",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_VARC_Q34",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q35",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q36",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q37",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q38",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q39",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q40",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q41",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q42",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q43",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q44",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q45",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q46",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q47",
+      "correct_option": "1200"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q48",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q49",
+      "correct_option": "240"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q50",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q51",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q52",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q53",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q54",
+      "correct_option": "6"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q55",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q56",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q57",
+      "correct_option": "48"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q58",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q59",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q60",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q61",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q62",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q63",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q64",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q65",
+      "correct_option": "0"
+    },
+    {
+      "question_id": "2018_S2_DILR_Q66",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q67",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q68",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q69",
+      "correct_option": "8"
+    },
+    {
+      "question_id": "2018_S2_QA_Q70",
+      "correct_option": "4000"
+    },
+    {
+      "question_id": "2018_S2_QA_Q71",
+      "correct_option": "50"
+    },
+    {
+      "question_id": "2018_S2_QA_Q72",
+      "correct_option": "24"
+    },
+    {
+      "question_id": "2018_S2_QA_Q73",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q74",
+      "correct_option": "20"
+    },
+    {
+      "question_id": "2018_S2_QA_Q75",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q76",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q77",
+      "correct_option": "36"
+    },
+    {
+      "question_id": "2018_S2_QA_Q78",
+      "correct_option": "48"
+    },
+    {
+      "question_id": "2018_S2_QA_Q79",
+      "correct_option": "10"
+    },
+    {
+      "question_id": "2018_S2_QA_Q80",
+      "correct_option": "24"
+    },
+    {
+      "question_id": "2018_S2_QA_Q81",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_QA_Q82",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q83",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q84",
+      "correct_option": "1098"
+    },
+    {
+      "question_id": "2018_S2_QA_Q85",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q86",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q87",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q88",
+      "correct_option": "5"
+    },
+    {
+      "question_id": "2018_S2_QA_Q89",
+      "correct_option": "105"
+    },
+    {
+      "question_id": "2018_S2_QA_Q90",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q91",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q92",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q93",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2018_S2_QA_Q94",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q95",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q96",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2018_S2_QA_Q97",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q98",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2018_S2_QA_Q99",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2018_S2_QA_Q100",
+      "correct_option": "1"
+    }
+  ]
+}

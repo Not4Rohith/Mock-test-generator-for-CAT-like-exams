@@ -1,0 +1,1975 @@
+
+{
+  "question_bank": [
+    {
+      "id": "2017_S1_VARC_Q1",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "Which one of the following best describes what the passage is trying to do?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) It questions on explanation about how maps are designed.",
+        "B) It corrects a misconception about the way maps are designed.",
+        "C) It critiques a methodology used to create maps",
+        "D) It explores some myths about maps"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q2",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "Early maps did NOT put north at the top for all the following reasons EXCEPT",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) North was the source of darkness",
+        "B) South was favoured by some emperors.",
+        "C) East and south were more important for religious reasons for some civilisations",
+        "D) East was considered by some civilisations to be a more positive direction"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q3",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "According to the passage, early Chinese maps placed north at the top because Options:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) the Chinese invented the compass and were aware of magnetic north",
+        "B) they wanted to show respect to the emperor.",
+        "C) the Chinese emperor appreciated the winds from the south.",
+        "D) north was considered the most desirable direction."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q4",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "It can be inferred from the passage that European explorers like Columbus and Megellan Options:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) set the precedent for north-up maps.",
+        "B) navigated by the compass.",
+        "C) used an eastward orientation for religious reasons.",
+        "D) navigated with the help of early maps"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q5",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "Which one of the following about the northern orientation of modern maps is asserted in the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) The biggest contributory factor was the understanding of magnetic north",
+        "B) The biggest contributory factor was the role of European explorers",
+        "C) The biggest contributory factor was the influence of Christian maps",
+        "D) The biggest contributory factor is not stated in the passage"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q6",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Understanding where you are in the world is a basic survival skill, which is why we, like most species come hard-wired with specialized brain areas to create congnitive maps of our surroundings. Where humans are unique, though, with the possible exception of honeybees, is that we try to communicate this understanding the world with others. We have along history of doing this by drawing maps – the earliest version yet discovered were scrawled on cave walls 14,000 years ago. Human cultures have been drawing them on stone tablets, papyrus, paper and now computer screens ever since. Given such a long history of human map-making, it perhaps surprising that is only within the last few hundred years that north has been consistently considered to be at the top. In fact, for much of human history, north almost never appeared at the top, according to Jerry Brotton, a map historian... \"North was rarely put at the top for the simple fact that north is where darkness comes from,\" he says. \"West is also very unlikely o be put at the top because west is where the sun disappears.\" Confusingly, early Chinese maps seem to buck this trend. But, Brotton, says, even though they did have compasses at the time, that isn't the reason that they placed north at the top. Early Chinese compasses were actually oriented to point south, which was considered to be more desirable than deepest darkest north. But in Chinese maps, the emperor, who lived in the north of the country was always put at the top of the map, with everyone else, his loyal subjects, looking up towards him. \"In Chinese culture the Emperor looks south because it's where the winds come from, it's a good direction. North is not very good but you are in a position of the subjection to the emperor, so you look up to him,\" says Brotton. Given that each culture has a very different idea of who, or what, they should look upto it's perhaps not surprising that there is very little consistency in which way early maps pointed. In ancient Egyptian times the top of the world was east, the position of sunrise. Early Islamic maps favoured south at the top because most of the early Muslim cultures were north of Mecca, so they imagined looking up (south) towards it Christian maps from the same era (called Mappa Mundi) put east at the top, towards the Garden of Eden and with Jerusalem in the centre. So when did everyone get together and decide that north was the top? It's tempting to put it down to European explorers like Christopher Columbus and Ferdinand Megellan who were navigating by the North Star. But Brotton argues that these early explorers didn't think of the world like that at all. \"When Columbus describes the world it is in accordance with east being at the top,\" he says \"Columbus says he is going towards paradise, so his mentality is from a medieval mappa mundi.\" We've got to remember, adds Brotton, that at the time, \"no one knows what they are doing and where they are going.\"",
+      "question_text": "The role of natural phenomena in influencing map-making conventions is seen most clearly in",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) early Egyptian maps",
+        "B) early Islamic maps",
+        "C) early Chinese maps",
+        "D) early Christian maps"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q7",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "The printing press has been likened to the Internet for which one of the following reasons?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) It enabled rapid access to new information and the sharing of new ideas",
+        "B) It represented new and revolutionary technology compared to the past",
+        "C) It encouraged reading among people by giving them access to thousands of books",
+        "D) It gave people access to pamphlets and literature in several languages"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q8",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "According to the passage, the invention of the printing press did all of the following EXCEPT",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) Promoted the spread of enlightened political views across countries",
+        "B) Gave people direct access to authentic medical information and religious texts",
+        "C) shortened the time taken to produce books and pamphlets.",
+        "D) enabled people to perform various tasks simultaneously."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q9",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "Steve Jobs predicted which one'of the following with the introduction of the iPhone?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) People would switch from reading on the Internet to reading on their iPhones.",
+        "B) People would lose interest in historical and traditional classics.",
+        "C) Reading printed books would become a thing of the past.",
+        "D) The production of e-books would eventually fall."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q10",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "\"I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy.\" The author uses which one of the following to indicate his uncertainty?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) The rise of religious groups in many parts of the world.",
+        "B) The expansion in trolling and narcissism among users of the Internet",
+        "C) The continued suppression of free speech in closed societies",
+        "D) The decline in reading habits among those who use the device"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q11",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "The author attributes the French and American revolutions to the invention of the printing press because",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) maps enabled large numbers of Europeans to travel and settle in the American continent.",
+        "B) the rapid spread of information exposed people to new ideas on freedom and democracy",
+        "C) it encouraged religious freedom among the people by destroying the monopoly of religious leaders on the scriptures.",
+        "D) it made available revolutionary strategies and opinions to the people."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q12",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "I used a smartphone GPS to find my way through the cobblestoned maze of Geneva's Old Town, in search of a handmade machine that changed the world more than any other invention. Near a 13th-century cathedral in this Swiss city on the shores of a lovely lake, I found what I was looking for: a Gutenberg printing press. \"This was the Internet of its day at least as influential as the iPhone,\" said Gabriel de Montmollin, the director of the Museum of the Reformation, toying with the replica of Johann Gutenberg's great invention. [Before the invention of the printing press] it used to take four monks...up to a year to produce a single book. With the advance in movable type in 15th-century Europe, one press could crank out 3,000 pages a day. Before long, average people could travel to places that used to be unknown to them — with maps! Medical information passed more freely and quickly, diminishing the sway of quacks...The printing press offered the prospect that tyrants would never be able to kill a book or suppress an idea. Gutenberg's brainchild broke the monopoly that clerics had on scripture. And later, stirred by pamphlets from a version of that same press, the American colonies rose up against a king and gave birth to a nation. So, a question in the summer of this 10th anniversary of the iPhone: has the device that is perhaps the most revolutionary of all time given us a single magnificent idea? Nearly every advancement of the written word through new technology has also advanced humankind. Sure, you can say the iPhone changed everything. By putting the world's recorded knowledge in the palm of a hand, it revolutionized work, dining, travel and socializing. It made us more narcissistic — here's more of me doing cool stuff! and it unleashed an army of awful trolls. We no longer have the patience to sit through a baseball game without that reach to the pocket. And one more casualty of Apple selling more than a billion phones in a decade's time: daydreaming has become a lost art. For all of that, I'm still waiting to see if the iPhone can do what the printing press did for religion and democracy...the Geneva museum makes a strong case that the printing press opened more minds than anything else...it's hard to imagine the French or American revolutions without those enlightened voices in print... Not long after Steve Jobs introduced his iPhone, he said the bound book was probably headed for history's attic. Not so fast. After a period of rapid growth in e-books, something closer to the medium for Chaucer's volumes has made a great comeback. The hope of the iPhone, and the Internet in general, was that it would free people in closed societies. But the failure of the Arab Spring, and the continued suppression of ideas in North Korea, China and Iran, has not borne that out... The iPhone is still young. It has certainly been \"one of the most important, world-changing and successful products in history, \" as Apple CEO. Tim Cook said. But I'm not sure if the world changed for the better with the iPhone as it did with the printing press or merely, changed.",
+      "question_text": "The main conclusion of the passage is that the new technology has",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) some advantages, but these are outweighed by its disadvantages.",
+        "B) so far not proved as successful as the printing press in opening people's minds",
+        "C) been disappointing because it has changed society too rapidly",
+        "D) been more wasteful than the printing press because people spend more time daydreaming or surfing."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q13",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "The central idea of this passage is that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) the closure of mails has affected the economic and social life of middle-class America",
+        "B) the advantages of malls outweigh their disadvantages.",
+        "C) malls used to perform a social function that has been lost",
+        "D) malls are closing down because people have found alternate ways to shop."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q14",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "Why does the author say in paragraph 2, 'the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter'?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) To highlight the irony of the situation",
+        "B) To indicate that mails and distribution centres are located in the same area",
+        "C) To show that Amazon is helping certain brands go online",
+        "D) To indicate that the shopping habits of the American middle class have changed."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q15",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "In paragraph 1, the phrase \"real estate developers once stumbled over themselves to court\" suggests that they",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) took brand-name anchor outlets to court",
+        "B) collaborated with one another to get brand-name anchor outlets",
+        "C) were eager to get brand-name anchor outlets to set up shop m their mall",
+        "D) malls are closing down because people have found alternate ways to shop."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q16",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "The author calls the mall an ecosystem unto itself because",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) people of all ages and from all walks of life went there",
+        "B) people could shop as well as eat in one place",
+        "C) it was a commercial space as well as a gathering place.",
+        "D) it sold things that were needed as well as those that were not."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q17",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "Why does the author say that the mall has been America's public square?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) Malls did not bar anybody from entering the space",
+        "B) Mails were a great place to shop for a huge section of the middle class",
+        "C) Malls were a hangout place where families grew close to each other",
+        "D) Malls were a great place for everyone to gather and interact."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q18",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "This year alone, more than 8,600 stores could close, according to industry estimates, many of them the brand -name anchor outlets that real estate developers once stumbled over themselves to court. Already there have been 5,300 retail closings this year... Sears Holdings—which owns Kmart—said in March that there's \"substantial doubt\" it can stay in business altogether, and will close 300 stores this year. So far this year, nine national retail chains have filed for bankruptcy. Local jobs are a major casualty of what analysts are calling, with only a hint of hyperbole, the retail apocalypse. Since 2002, department stores have lost 448,000 jobs, a 25% decline, while the number of store closures this year is on pace to surpass the worst depths of the Great Recession. The growth of online retailers, meanwhile, has failed to offset those losses, with the e-commerce sector adding just 178,000 jobs over the past 15 years. Some of those jobs can be found in the massive distribution centers Amazon has opened across the country, often not too far from malls the company helped shutter. But those are workplaces, not gathering places. The mall is both. And in the 61 years since the first enclosed one opened in suburban Minneapolis, the shopping mall has been where a huge swath of middle-class America went for far more than shopping. It was the home of first jobs and blind dates, the place for family photos and ear piercings, where goths and grandmothers could somehow walk through the same doors and find something they all liked. Sure, the food was lousy for you and the oceans of parking lots encouraged car-heavy development, something now scorned by contemporary planners. But for better or worse, the mall has been America's public square for the last 60 years. So what happens when it disappears? Think of your mall. Or think of the one you went to as a kid. Think of the perfume clouds in the department stores. The fountains splashing below the skylights. The cinnamon wafting from the food court. As far back as ancient Greece, societies have congregated around a central marketplace. In medieval Europe, they were outside cathedrals. For half of the 20th century and almost 20 years into the new one, much of America has found their agora on the terrazzo between Orange Julius and Sbarro, Waldenbooks and the Gap, Sunglass Hut and Hot Topic. That mall was an ecosystem unto itself, a combination of community and commercialism peddling everything you needed and everything you didn't: Magic Eye posters, wind catchers. Air Jordans. ... A growing number of Americans, however, don't see the need to go to any Macy's at all. Our digital lives are frictionless and ruthlessly efficient, with retail and romance available at a click. Malls were designed for leisure, abundance, ambling. You parked and planned to spend some time. Today, much of that time has been given over to busier lives and second jobs and apps that let you swipe right instead of haunt the food court. ' Malls, says Harvard business professor Leonard Schlesinger, \"were built for patterns of social interaction that increasingly don't exist.\"",
+      "question_text": "The author describes 'Perfume clouds in the department stores' in order to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) evoke memories by painting a. picture of mails",
+        "B) describe the smells and sights of mails",
+        "C) emphasise that all brands were available under one roof.",
+        "D) show that malls smelt good because of the various stores and food court."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q19",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Scientists have long recognised the incredible diversity within a species. But they thought it reflected evolutionary changes that unfolded imperceptibly, over millions of years. That divergence between populations within a species was enforced, according to Ernst Mayr, the great evolutionary biologist of the 1940s, when a population was separated from the rest of the species by a mountain range or a desert, preventing breeding across the divide over geologic scales of time. Without the separation, gene flow was relentless. But as the separation persisted, the isolated population grew apart and speciation occurred. In the mid-1960s, the biologist Paul Ehrlich - author of The Population Bomb (1968) - and his Stanford University colleague Peter Raven challenged Mayr's ideas about speciation. They had studied checkerspot butterflies living in the Jasper Ridge Biological Preserve in California, and it soon became clear that they were not examining a single population. Through years of capturing, marking and then recapturing the butterflies, they were able to prove that within the population, spread over just 50 acres of suitable checkerspot habitat, there were three groups that rarely interacted despite their very close proximity. Among other ideas, Ehrlich and Raven argued in a now classic paper from 1969 that gene flow was not as predictable and ubiquitous as Mayr and his cohort maintained, and thus evolutionary divergence between neighbouring groups in a population was probably common. They also asserted that isolation and gene flow were less important to evolutionary divergence than natural selection (when factors such as mate choice, weather, disease or predation cause better-adapted individuals to survive and pass on their successful genetic traits). For example, Ehrlich and Raven suggested that, without the force of natural selection, an isolated population would remain unchanged and that, in other scenarios, natural selection could be strong enough to overpower gene flow... ",
+      "question_text": "Which of the following best sums up Ehrlich and Raven's argument in their classic 1969 paper?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) Ernst Mayr was wrong in identifying physical separation as the cause of species diversity",
+        "B) Checkerspot butterflies in the 50-acre Jasper Ridge Preserve formed three groups that rarely interacted with each other",
+        "C) While a factor, isolation was not as important to speciation as natural selection",
+        "D) Gene flow is less common and more erratic than Mayr and his colleagues claimed."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q20",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Scientists have long recognised the incredible diversity within a species. But they thought it reflected evolutionary changes that unfolded imperceptibly, over millions of years. That divergence between populations within a species was enforced, according to Ernst Mayr, the great evolutionary biologist of the 1940s, when a population was separated from the rest of the species by a mountain range or a desert, preventing breeding across the divide over geologic scales of time. Without the separation, gene flow was relentless. But as the separation persisted, the isolated population grew apart and speciation occurred. In the mid-1960s, the biologist Paul Ehrlich - author of The Population Bomb (1968) - and his Stanford University colleague Peter Raven challenged Mayr's ideas about speciation. They had studied checkerspot butterflies living in the Jasper Ridge Biological Preserve in California, and it soon became clear that they were not examining a single population. Through years of capturing, marking and then recapturing the butterflies, they were able to prove that within the population, spread over just 50 acres of suitable checkerspot habitat, there were three groups that rarely interacted despite their very close proximity. Among other ideas, Ehrlich and Raven argued in a now classic paper from 1969 that gene flow was not as predictable and ubiquitous as Mayr and his cohort maintained, and thus evolutionary divergence between neighbouring groups in a population was probably common. They also asserted that isolation and gene flow were less important to evolutionary divergence than natural selection (when factors such as mate choice, weather, disease or predation cause better-adapted individuals to survive and pass on their successful genetic traits). For example, Ehrlich and Raven suggested that, without the force of natural selection, an isolated population would remain unchanged and that, in other scenarios, natural selection could be strong enough to overpower gene flow... ",
+      "question_text": "All of the following statements are true according to the passage EXCEPT",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) Gene flow contributes to evolutionary divergence.",
+        "B) The Population Bomb questioned dominant ideas about species diversity",
+        "C) Evolutionary changes unfold imperceptibly over time.",
+        "D) Checkerspot butterflies are known to exhibit speciation while living in close proximity"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q21",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Scientists have long recognised the incredible diversity within a species. But they thought it reflected evolutionary changes that unfolded imperceptibly, over millions of years. That divergence between populations within a species was enforced, according to Ernst Mayr, the great evolutionary biologist of the 1940s, when a population was separated from the rest of the species by a mountain range or a desert, preventing breeding across the divide over geologic scales of time. Without the separation, gene flow was relentless. But as the separation persisted, the isolated population grew apart and speciation occurred. In the mid-1960s, the biologist Paul Ehrlich - author of The Population Bomb (1968) - and his Stanford University colleague Peter Raven challenged Mayr's ideas about speciation. They had studied checkerspot butterflies living in the Jasper Ridge Biological Preserve in California, and it soon became clear that they were not examining a single population. Through years of capturing, marking and then recapturing the butterflies, they were able to prove that within the population, spread over just 50 acres of suitable checkerspot habitat, there were three groups that rarely interacted despite their very close proximity. Among other ideas, Ehrlich and Raven argued in a now classic paper from 1969 that gene flow was not as predictable and ubiquitous as Mayr and his cohort maintained, and thus evolutionary divergence between neighbouring groups in a population was probably common. They also asserted that isolation and gene flow were less important to evolutionary divergence than natural selection (when factors such as mate choice, weather, disease or predation cause better-adapted individuals to survive and pass on their successful genetic traits). For example, Ehrlich and Raven suggested that, without the force of natural selection, an isolated population would remain unchanged and that, in other scenarios, natural selection could be strong enough to overpower gene flow... ",
+      "question_text": "The author discusses Mayr, Ehrlich and Raven to demonstrate that",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) evolution is a sensitive and controversial topic",
+        "B) Ehrlich and Raven's ideas about evolutionary divergence are widely accepted by scientists.",
+        "C) the causes of speciation are debated by scientists",
+        "D) checkerspot butterflies offer the best example of Ehrlich and Raven's ideas about speciation"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q22",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Do sports mega events like the summer Olympic Games benefit the host city economically? It depends, but the prospects are less than rosy. The trick is converting...several billion dollars in operating costs during the 17-day fiesta of the Games into a basis for long-term economic returns. These days, the summer Olympic Games themselves generate total revenue of $4 billion to $5 billion, but the lion's share of this goes to the International Olympics Committee, the National Olympics Committees and the International Sports Federations. Any economic benefit would have to flow from the value of the Games as an advertisement for the city, the new transportation and communications infrastructure that was created for the Games, or the ongoing use of the new facilities. Evidence suggests that the advertising effect is far from certain. The infrastructure benefit depends on the initial condition of the city and the effectiveness of the planning. The facilities benefit is dubious at best for buildings such as velodromes or natatoriums and problematic for 100,000-seat Olympic stadiums. The latter require a conversion plan for future use, the former are usually doomed to near vacancy. Hosting the summer Games generally requires 30-plus sports venues and dozens of training centers. Today, the Bird's Nest in Beijing sits virtually empty, while the Olympic Stadium in Sydney costs some $30 million a year to operate. Part of the problem is that Olympics planning takes place in a frenzied and time-pressured atmosphere of intense competition with the other prospective host cities not optimal conditions for contemplating the future shape of an urban landscape. Another part of the problem is that urban land is generally scarce and growing scarcer. The new facilities often stand for decades or longer. Even if they have future use, are they the best use of precious urban real estate? Further, cities must consider the human cost. Residential areas often are razed and citizens relocated (without adequate preparation or compensation). Life is made more hectic and congested. There are, after all, other productive uses that can be made of vanishing fiscal resources.",
+      "question_text": "The central point in the first paragraph is that the economic benefits of the Olympic Games",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) are shared equally among the three organising committees",
+        "B) accrue mostly through revenue from advertisements and ticket sales",
+        "C) accrue to host cities, if at all, only in the long term",
+        "D) are usually eroded by expenditure incurred by the host city"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q23",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Do sports mega events like the summer Olympic Games benefit the host city economically? It depends, but the prospects are less than rosy. The trick is converting...several billion dollars in operating costs during the 17-day fiesta of the Games into a basis for long-term economic returns. These days, the summer Olympic Games themselves generate total revenue of $4 billion to $5 billion, but the lion's share of this goes to the International Olympics Committee, the National Olympics Committees and the International Sports Federations. Any economic benefit would have to flow from the value of the Games as an advertisement for the city, the new transportation and communications infrastructure that was created for the Games, or the ongoing use of the new facilities. Evidence suggests that the advertising effect is far from certain. The infrastructure benefit depends on the initial condition of the city and the effectiveness of the planning. The facilities benefit is dubious at best for buildings such as velodromes or natatoriums and problematic for 100,000-seat Olympic stadiums. The latter require a conversion plan for future use, the former are usually doomed to near vacancy. Hosting the summer Games generally requires 30-plus sports venues and dozens of training centers. Today, the Bird's Nest in Beijing sits virtually empty, while the Olympic Stadium in Sydney costs some $30 million a year to operate. Part of the problem is that Olympics planning takes place in a frenzied and time-pressured atmosphere of intense competition with the other prospective host cities not optimal conditions for contemplating the future shape of an urban landscape. Another part of the problem is that urban land is generally scarce and growing scarcer. The new facilities often stand for decades or longer. Even if they have future use, are they the best use of precious urban real estate? Further, cities must consider the human cost. Residential areas often are razed and citizens relocated (without adequate preparation or compensation). Life is made more hectic and congested. There are, after all, other productive uses that can be made of vanishing fiscal resources.",
+      "question_text": "Sports facilities built for the Olympics are not fully utilised after the Games are over because",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) their scale and the costs of operating them are large",
+        "B) their location away from the city centre usually limits easy access.",
+        "C) the authorities do not adapt them to local conditions.",
+        "D) they become outdated having being built with little planning and under time pressure"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q24",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "Do sports mega events like the summer Olympic Games benefit the host city economically? It depends, but the prospects are less than rosy. The trick is converting...several billion dollars in operating costs during the 17-day fiesta of the Games into a basis for long-term economic returns. These days, the summer Olympic Games themselves generate total revenue of $4 billion to $5 billion, but the lion's share of this goes to the International Olympics Committee, the National Olympics Committees and the International Sports Federations. Any economic benefit would have to flow from the value of the Games as an advertisement for the city, the new transportation and communications infrastructure that was created for the Games, or the ongoing use of the new facilities. Evidence suggests that the advertising effect is far from certain. The infrastructure benefit depends on the initial condition of the city and the effectiveness of the planning. The facilities benefit is dubious at best for buildings such as velodromes or natatoriums and problematic for 100,000-seat Olympic stadiums. The latter require a conversion plan for future use, the former are usually doomed to near vacancy. Hosting the summer Games generally requires 30-plus sports venues and dozens of training centers. Today, the Bird's Nest in Beijing sits virtually empty, while the Olympic Stadium in Sydney costs some $30 million a year to operate. Part of the problem is that Olympics planning takes place in a frenzied and time-pressured atmosphere of intense competition with the other prospective host cities not optimal conditions for contemplating the future shape of an urban landscape. Another part of the problem is that urban land is generally scarce and growing scarcer. The new facilities often stand for decades or longer. Even if they have future use, are they the best use of precious urban real estate? Further, cities must consider the human cost. Residential areas often are razed and citizens relocated (without adequate preparation or compensation). Life is made more hectic and congested. There are, after all, other productive uses that can be made of vanishing fiscal resources.",
+      "question_text": "The author feels that the Games place a burden on the host city for all of the following reasons EXCEPT that",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) they divert scarce urban land from more productive uses",
+        "B) they involve the demolition of residential structures to accommodate sports facilities and infrastructure",
+        "C) the finances used to fund the Games could be better used for other purposes.",
+        "D) the influx of visitors during the Games places a huge strain on the urban infrastructure."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q25",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Identify the most appropriate summary for the paragraph. To me, a \"classic\" means precisely the opposite of what my predecessors understood: a work is classical by reason of its resistance to contemporaneity and supposed universality, by reason of its capacity to indicate human particularity and difference in that past epoch. The classic is not what tells me about shared humanity-or, more truthfully put, what lets me recognize myself as already present in the past, what nourishes in me the illusion that everything has been like me and has existed only to prepare the way for me. Instead, the classic is what gives access to radically different forms of human consciousness for any given generation of readers, and thereby expands for them the range of possibilities of what it means to be a human being.",
+      "question_text": "Which of the following is the most appropriate summary of the paragraph?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) A classic is able to focus on the contemporary human condition and a unified experience of human consciousness.",
+        "B) A classical work seeks to resist particularity and temporal difference even as it focuses on a common humanity",
+        "C) A classic is a work exploring the new., going beyond the universal, the contemporary, and the notion of a unified human consciousness",
+        "D) A classic is a work that provides access to a universal experience of the human race as opposed to radically different forms of human consciousness"
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q26",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Identify the most appropriate summary for the paragraph. A translator of literary works needs a secure hold upon the two languages involved, supported by a good measure of familiarity with the two cultures. For an Indian translating works in an Indian language into English, finding satisfactory equivalents in a generalized western culture of practices and symbols in the original would be less difficult than gaining fluent control of contemporary English. When a westerner works on texts in Indian languages the interpretation of cultural elements will be the major challenge, rather than control over the grammar and essential vocabulary of the language concerned. It is much easier to remedy lapses in language in a text translated into English, than flaws of content. Since it is easier for an Indian to learn the English language than it is for a Briton or American to comprehend Indian culture, translations of Indian texts is better left to Indians.",
+      "question_text": "Which of the following is the most appropriate summary of the paragraph?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) While translating, the Indian and the westerner face the same challenges but they have different skill profiles and the former has the advantage.",
+        "B) As preserving cultural meanings is the essence of literary translation Indians' knowledge of the local culture outweighs the initial disadvantage of lower fluency in English.",
+        "C) Indian translators should translate Indian texts into English as their work is less likely to pose cultural problems which are harder to address than the quality of language.",
+        "D) Westerners might be good at gaining reasonable fluency in new languages, but as understanding the culture reflected in literature is crucial, Indians remain better placed."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q27",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Identify the most appropriate summary for the paragraph. For each of the past three years, temperatures have hit peaks not seen since the birth of meteorology, and probably not for more than 110,000 years. The amount of carbon dioxide in the air is at its highest level in 4 million years. This does not cause storms like Harvey - there have always been storms and hurricanes along the Gulf of Mexico - but it makes them wetter and more powerful. As the seas warm, they evaporate more easily and provide energy to storm fronts. As the air above them warms, it holds more water vapour. For every half a degree Celsius in warming, there is about a 3% increase in atmospheric moisture content. Scientists call this the Clausius-Clapeyron equation. This means the skies fill more quickly and have more to dump. The storm surge was greater because sea levels have risen 20 cm as a result of more than 100 years of human -related global warming which has melted glaciers and thermally expanded the volume of sea water.",
+      "question_text": "Which of the following is the most appropriate summary of the paragraph?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) The storm Harvey is one of the regular., annual ones from the Gulf of Mexico; global warming and Harvey are unrelated phenomena.",
+        "B) Global warming does not breed storms but makes them more destructive; the Clausius-Clapeyron equation, though it predicts potential increase in atmospheric moisture content, cannot predict the scale of damage storms might wreck.",
+        "C) Global warming melts glaciers, resulting in sea water volume expansion; this enables more water vapour to fill the air above faster. Thus, modern storms contain more destructive energy.",
+        "D) It is naive to think that rising sea levels and the force of tropical storms are unrelated; Harvey was destructive as global warming has armed with it more moisture content, but this may not be true of all storms."
+      ]
+    },
+    {
+      "id": "2017_S1_VARC_Q28",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: The five sentences (labelled 1,2,3,4, and 5) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentence and key in this sequence of five numbers as your answer. 1. The process of handing down implies not a passive transfer, but some contestation in defining what exactly is to be handed down. 2. Wherever Western scholars have worked on the Indian past, the selection is even more apparent and the inventing of a tradition much more recognizable. 3. Every generation selects what it requires from the past and makes its innovations, some more than others. 4. It is now a truism to say that traditions are not handed down unchanged, but are invented. 5. Just as life has death as its opposite, so is tradition by default the opposite of innovation.",
+      "question_text": "Arrange the sentences in a coherent paragraph and provide the sequence.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q29",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: The five sentences (labelled 1,2,3,4, and 5) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentence and key in this sequence of five numbers as your answer. 1. Scientists have for the first time managed to edit genes in a human embryo to repair a genetic mutation, fuelling hopes that such procedures may one day be available outside laboratory conditions. 2.The cardiac disease causes sudden death in otherwise healthy young athletes and affects about one in 500 people overall. 3. Correcting the mutation in the gene would not only ensure that the child is healthy but also prevents transmission of the mutation to future generations. 4. It is caused by a mutation in a particular gene and a child will suffer from the condition even if it inherits only one copy of the mutated gene. 5. In results announced in Nature this week, scientists fixed a mutation that thickens the heart muscle, a condition called hypertrophic cardiomyopathy.",
+      "question_text": "Arrange the sentences in a coherent paragraph and provide the sequence.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q30",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: The five sentences (labelled 1,2,3,4, and 5) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentence and key in this sequence of five numbers as your answer. 1. The study suggests that the disease did not spread with such intensity, but that it may have driven human migrations across Europe and Asia. 2. The oldest sample came from an individual who lived in southeast Russia about 5,000 years ago. 3. The ages of the skeletons correspond to a time of mass exodus from today's Russia and Ukraine into western Europe and central Asia, suggesting that a pandemic may have driven these migrations. 4. In the analysis of fragments of DNA from 101 Bronze Age skeletons for sequences from Yersinia pestis, the bacterium that causes the disease, seven tested positive. 5. DNA from Bronze Age human skeletons indicate that the black plague could have emerged as early as 3,000 BCE, long before the epidemic that swept through Europe in the mid-1300s.",
+      "question_text": "Arrange the sentences in a coherent paragraph and provide the sequence.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q31",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: The five sentences (labelled 1,2,3,4, and 5) given in this question, when properly sequenced, form a coherent paragraph. Decide on the proper order for the sentence and key in this sequence of five numbers as your answer. 1. This visual turn in social media has merely accentuated this announcing instinct of ours, enabling us with easy-to-create, easy-to-share, easy-to-store and easy-to-consume platforms, gadgets and apps. 2. There is absolutely nothing new about us framing the vision of who we are or what we want, visually or otherwise, in our Facebook page, for example. 3. Turning the pages of most family albums, which belong to a period well before the digital dissemination of self-created and self-curated moments and images, would reconfirm the basic instinct of documenting our presence in a particular space, on a significant occasion, with others who matter. 4. We are empowered to book our faces and act as celebrities within the confinement of our respective friend lists, and communicate our activities, companionship and locations with minimal clicks and touches. 5. What is unprecedented is not the desire to put out news feeds related to the self, but the ease with which this broadcast operation can now be executed, often provoking (un)anticipated responses from beyond one's immediate location.",
+      "question_text": "Arrange the sentences in a coherent paragraph and provide the sequence.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q32",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in. 1. People who study children's language spend a lot of time watching how babies react to the speech they hear around them. 2. They make films of adults and babies interacting, and examine them very carefully to see whether the babies show any signs of understanding what the adults say. 3. They believe that babies begin to react to language from the very moment they are born. 4. Sometimes the signs are very subtle - slight movements of the baby's eyes or the head or the hands. 5. You'd never notice them if you were just sitting with the child, but by watching a recording over and over, you can spot them.",
+      "question_text": "Identify the odd one out among the given sentences.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q33",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in. 1. Neuroscientists have just begun studying exercise's impact within brain cells on the genes themselves. 2. Even there, in the roots of our biology, they've found signs of the body's influence on the mind. 3. It turns out that moving our muscles produces proteins that travel through the bloodstream and into the brain, where they play pivotal roles in the mechanisms of our highest thought processes. 4. In today's technology-driven, plasma-screened-in world, it's easy to forget that we are born movers animals, in fact because we've engineered movement right out of our lives. 5. It's only in the past few years that neuroscientists have begun to describe these factors and how they work, and each new discovery adds awe-inspiring depth to the picture",
+      "question_text": "Identify the odd one out among the given sentences.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_VARC_Q34",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "VARC",
+      "context_passage": "DIRECTIONS for the question: Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in. 1. The water that made up ancient lakes and perhaps an ocean was lost. 2. Particles from the Sun collided with molecules in the atmosphere, knocking them into space or giving them an electric charge that caused them to be swept away by the solar wind. 3. Most of the planet's remaining water is now frozen or buried, but clues over the past decade suggested that some liquid water, a presumed necessity for life, might survive in underground aquifers. 4. Data from NASA's MAVEN orbiter show that solar storms stripped away most of Mars's once-thick atmosphere. 5. A recent study reveals how Mars lost much of its early water, while another indicates that some liquid water remains.",
+      "question_text": "Identify the odd one out among the given sentences.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2017_S1_DILR_Q35",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Healthy Bites is a fast food joint serving three items: burgers, fries and ice cream. It has two employees Anish and Bani who prepare the items ordered by the clients. Preparation time is 10 minutes for a burger and 2 minutes for an order of ice cream. An employee can prepare only one of these items at a time. The fries are prepared in an automatic fryer which can prepare up to 3 portions of fires at a time, and takes 5 minutes irrespective of the number of portions. The fryer does not need an employee to constantly attend to it, and we can ignore the time taken by an employee to start and stop the fryer; thus, an employee can be engaged in preparing other items while the frying is on. However fries cannot be prepared in anticipation of future orders. Healthy Bites wishes to serve the orders as early as possible. The individual items in any order are served as and when ready; however, the order is considered to be completely served only when all the items of that order are served. The table below gives the orders of three clients and the times at which they placed their oders; Client No. Time Order 1 10:0 1 burger, 3 portions of fries, 1 order of ice cream 2 10:05 2 portions of fries, 1 order of ice cream 3 10:07 1 burger, 1 portion of fires",
+      "question_text": "Assume that only one client's order can be processed at any given point of time. So, Anish or Bani cannot start preparing a new order while a previous order is being prepared. At what time is the order placed by Client 1 completely served?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 10:17",
+        "Β) 10:10",
+        "C) 10:15",
+        "D) 10:20"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q36",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Healthy Bites is a fast food joint serving three items: burgers, fries and ice cream. It has two employees Anish and Bani who prepare the items ordered by the clients. Preparation time is 10 minutes for a burger and 2 minutes for an order of ice cream. An employee can prepare only one of these items at a time. The fries are prepared in an automatic fryer which can prepare up to 3 portions of fires at a time, and takes 5 minutes irrespective of the number of portions. The fryer does not need an employee to constantly attend to it, and we can ignore the time taken by an employee to start and stop the fryer; thus, an employee can be engaged in preparing other items while the frying is on. However fries cannot be prepared in anticipation of future orders. Healthy Bites wishes to serve the orders as early as possible. The individual items in any order are served as and when ready; however, the order is considered to be completely served only when all the items of that order are served. The table below gives the orders of three clients and the times at which they placed their oders; Client No. Time Order 1 10:0 1 burger, 3 portions of fries, 1 order of ice cream 2 10:05 2 portions of fries, 1 order of ice cream 3 10:07 1 burger, 1 portion of fires",
+      "question_text": "Assume that only one client's order can be processed at any given point of time. So, Anish or Bani cannot start preparing a new order while a previous order is being prepared. At what time is the order placed by Client 3 completely served?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 10:35",
+        "B) 10:22",
+        "C) 10:25",
+        "D) 10:17"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q37",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Healthy Bites is a fast food joint serving three items: burgers, fries and ice cream. It has two employees Anish and Bani who prepare the items ordered by the clients. Preparation time is 10 minutes for a burger and 2 minutes for an order of ice cream. An employee can prepare only one of these items at a time. The fries are prepared in an automatic fryer which can prepare up to 3 portions of fires at a time, and takes 5 minutes irrespective of the number of portions. The fryer does not need an employee to constantly attend to it, and we can ignore the time taken by an employee to start and stop the fryer; thus, an employee can be engaged in preparing other items while the frying is on. However fries cannot be prepared in anticipation of future orders. Healthy Bites wishes to serve the orders as early as possible. The individual items in any order are served as and when ready; however, the order is considered to be completely served only when all the items of that order are served. The table below gives the orders of three clients and the times at which they placed their oders; Client No. Time Order 1 10:0 1 burger, 3 portions of fries, 1 order of ice cream 2 10:05 2 portions of fries, 1 order of ice cream 3 10:07 1 burger, 1 portion of fires",
+      "question_text": "Suppose the employees are allowed to process multiple orders at a time, but the preference would be to finish orders of clients who placed their orders earlier. At what time is the order placed by Client 2 completely served?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 10:10",
+        "B) 10:12",
+        "C) 10:15",
+        "D) 10:17"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q38",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Healthy Bites is a fast food joint serving three items: burgers, fries and ice cream. It has two employees Anish and Bani who prepare the items ordered by the clients. Preparation time is 10 minutes for a burger and 2 minutes for an order of ice cream. An employee can prepare only one of these items at a time. The fries are prepared in an automatic fryer which can prepare up to 3 portions of fires at a time, and takes 5 minutes irrespective of the number of portions. The fryer does not need an employee to constantly attend to it, and we can ignore the time taken by an employee to start and stop the fryer; thus, an employee can be engaged in preparing other items while the frying is on. However fries cannot be prepared in anticipation of future orders. Healthy Bites wishes to serve the orders as early as possible. The individual items in any order are served as and when ready; however, the order is considered to be completely served only when all the items of that order are served. The table below gives the orders of three clients and the times at which they placed their oders; Client No. Time Order 1 10:0 1 burger, 3 portions of fries, 1 order of ice cream 2 10:05 2 portions of fries, 1 order of ice cream 3 10:07 1 burger, 1 portion of fires",
+      "question_text": "Suppose the employees are allowed to process multiple orders at a time, but the preference would be to finish orders of clients who placed their orders earlier. Also assume that the fourth client came in only at 10:35. Between 10:00 and 10:30, for how many minutes is exactly one of the employees idle?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 7",
+        "B) 10",
+        "C) 15",
+        "D) 23"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q39",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A study to look at the early teaming of rural kids was carried out in a number of villages spanning three states, chosen from the North East (NE), the West (W) and the South (S). 50 four-year old kids each were sampled from each of the 150 villages from NE, 250 villages from W arid 200 villages from S. It was found that of the 30000 surveyed feds 55% studied in primary schools run by government (G), 37% in private schools (P) white the remaining 8% did not go to school (O). The kids surveyed were further divided into two groups based on whether their mothers dropped out of school before completing primary education or not. The table below gives the number of kids in different types of schools for mothers who dropped out- of school before completing primary education:\nNE G P O Total\n4200 500 300 5000\nW 4200 1900 1200 7300\nS 5100 300 300 5700\nTotal 13500 2700 1800 18000\nIt is also known that: 1. In S, 60% of the surveyed kids were m G. Moreover, in S, all surveyed kids whose mothers had completed primary education were in school. 2. In NE, among the O kids, 50% had mothers who had dropped out before completing primary education. 3. The number of kids in G in NE was the same as the number of kids in G in W.",
+      "question_text": "What percentage of kids from S were studying in P?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 37%",
+        "B) 6%",
+        "C) 79%",
+        "D) 56%"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q40",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A study to look at the early teaming of rural kids was carried out in a number of villages spanning three states, chosen from the North East (NE), the West (W) and the South (S). 50 four-year old kids each were sampled from each of the 150 villages from NE, 250 villages from W arid 200 villages from S. It was found that of the 30000 surveyed feds 55% studied in primary schools run by government (G), 37% in private schools (P) white the remaining 8% did not go to school (O). The kids surveyed were further divided into two groups based on whether their mothers dropped out of school before completing primary education or not. The table below gives the number of kids in different types of schools for mothers who dropped out- of school before completing primary education:\nNE G P O Total\n4200 500 300 5000\nW 4200 1900 1200 7300\nS 5100 300 300 5700\nTotal 13500 2700 1800 18000\nIt is also known that: 1. In S, 60% of the surveyed kids were m G. Moreover, in S, all surveyed kids whose mothers had completed primary education were in school. 2. In NE, among the O kids, 50% had mothers who had dropped out before completing primary education. 3. The number of kids in G in NE was the same as the number of kids in G in W.",
+      "question_text": "Among the kids in W whose mothers had completed primary education, how many were not in school?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 300",
+        "B) 1200",
+        "C) 1050",
+        "D) 1500"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q41",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A study to look at the early teaming of rural kids was carried out in a number of villages spanning three states, chosen from the North East (NE), the West (W) and the South (S). 50 four-year old kids each were sampled from each of the 150 villages from NE, 250 villages from W arid 200 villages from S. It was found that of the 30000 surveyed feds 55% studied in primary schools run by government (G), 37% in private schools (P) white the remaining 8% did not go to school (O). The kids surveyed were further divided into two groups based on whether their mothers dropped out of school before completing primary education or not. The table below gives the number of kids in different types of schools for mothers who dropped out- of school before completing primary education:\nNE G P O Total\n4200 500 300 5000\nW 4200 1900 1200 7300\nS 5100 300 300 5700\nTotal 13500 2700 1800 18000\nIt is also known that: 1. In S, 60% of the surveyed kids were m G. Moreover, in S, all surveyed kids whose mothers had completed primary education were in school. 2. In NE, among the O kids, 50% had mothers who had dropped out before completing primary education. 3. The number of kids in G in NE was the same as the number of kids in G in W.\nIn a follow up survey of the same kids two years later, it was found that all the kids were now in school. Of the kids who were not in school earlier, in one region, 25% were in G now, whereas the rest were enrolled in P; in the second region, all such kids were in G now; while in the third region, 50% of such kids had now joined G while the rest had joined P. As a result, in all three regions put together, 50% of the kids who were earlier out of school had joined G. It was also seen that no surveyed kid had changed schools.",
+      "question_text": "What number of the surveyed kids now were in G in W?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 6000",
+        "B) 5250",
+        "C) 6750",
+        "D) 6300"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q42",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A study to look at the early teaming of rural kids was carried out in a number of villages spanning three states, chosen from the North East (NE), the West (W) and the South (S). 50 four-year old kids each were sampled from each of the 150 villages from NE, 250 villages from W arid 200 villages from S. It was found that of the 30000 surveyed feds 55% studied in primary schools run by government (G), 37% in private schools (P) white the remaining 8% did not go to school (O). The kids surveyed were further divided into two groups based on whether their mothers dropped out of school before completing primary education or not. The table below gives the number of kids in different types of schools for mothers who dropped out- of school before completing primary education:\nNE G P O Total\n4200 500 300 5000\nW 4200 1900 1200 7300\nS 5100 300 300 5700\nTotal 13500 2700 1800 18000\nIt is also known that: 1. In S, 60% of the surveyed kids were m G. Moreover, in S, all surveyed kids whose mothers had completed primary education were in school. 2. In NE, among the O kids, 50% had mothers who had dropped out before completing primary education. 3. The number of kids in G in NE was the same as the number of kids in G in W.\nIn a follow up survey of the same kids two years later, it was found that all the kids were now in school. Of the kids who were not in school earlier, in one region, 25% were in G now, whereas the rest were enrolled in P; in the second region, all such kids were in G now; while in the third region, 50% of such kids had now joined G while the rest had joined P. As a result, in all three regions put together, 50% of the kids who were earlier out of school had joined G. It was also seen that no surveyed kid had changed schools.",
+      "question_text": "What percentage of the surveyed kids in S, whose mothers had dropped out before completing primary education, were in G now?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 94.7%",
+        "Β) 89.5%",
+        "C) 93.4%",
+        "D) Cannot be determined from the given information"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q43",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection. For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET: 1. No one is below the 80th percentile in all 3 sections. 2. 150 are at or above the 80th percentile in exactly two sections. 3. The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M. 4. Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1. BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.",
+      "question_text": "What best can be concluded about the number of candidates sitting for the separate test for BIE who were at or above the 90th percentile overall in CET?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q43.png",
+      "options": [
+        "A) 3 or 10",
+        "B) 10",
+        "C) 5",
+        "D) 7 or 10"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q44",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection. For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET: 1. No one is below the 80th percentile in all 3 sections. 2. 150 are at or above the 80th percentile in exactly two sections. 3. The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M. 4. Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1. BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.",
+      "question_text": "If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, what is the number of candidates who are at or above the 90th percentile overall and at or above the 80th percentile in both P and M in CET?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q43.png",
+      "options": [
+        "A) 60",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q45",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection. For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET: 1. No one is below the 80th percentile in all 3 sections. 2. 150 are at or above the 80th percentile in exactly two sections. 3. The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M. 4. Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1. BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.",
+      "question_text": "If the number of candidates who are at or above the 90th percentile overall and also at or above the 80th percentile in all three sections in CET is actually a multiple of 5, then how many candidates were shortlisted for the AET for AIE?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q43.png",
+      "options": [
+        "A) 170",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q46",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Applicants for the doctoral programmes of Ambi Institute of Engineering (AIE) and Bambi Institute of Engineering (BIE) have to appear for a Common Entrance Test (CET). The test has three sections: Physics (P), Chemistry (C), and Maths (M). Among those appearing for CET, those at or above the 80th percentile in at least two sections, and at or above the 90th percentile overall, are selected for Advanced Entrance Test (AET) conducted by AIE. AET is used by AIE for final selection. For the 200 candidates who are at or above the 90th percentile overall based on CET, the following are known about their performance in CET: 1. No one is below the 80th percentile in all 3 sections. 2. 150 are at or above the 80th percentile in exactly two sections. 3. The number of candidates at or above the 80th percentile only in P is the same as the number of candidates at or above the 80th percentile only in C. The same is the number of candidates at or above the 80th percentile only in M. 4. Number of candidates below 80th percentile in P: Number of candidates below 80th percentile in C: Number of candidates below 80th percentile in M = 4:2:1. BIE uses a different process for selection. If any candidate is appearing in the AET by AIE, BIE considers their AET score for final selection provided the candidate is at or above the 80th percentile in P. Any other candidate at or above the 80th percentile in P in CET, but who is not eligible for the AET, is required to appear in a separate test to be conducted by BIE for being considered for final selection. Altogether, there are 400 candidates this year who are at or above the 80th percentile in P.",
+      "question_text": "If the number of candidates who are at or above the 90th percentile overall and also are at or above the 80th percentile in P in CET, is more than 100, how many candidates had to sit for the separate test for BIE?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q43.png",
+      "options": [
+        "A) 299",
+        "B) 310",
+        "C) 321",
+        "D) 330"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q47",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Simple Happiness index (SHI) of a country is computed on the basis of three parameters: social support (S), freedom to life choices (F) and corruption perception (C). Each of these three parameters is measured on a scale of 0 to 8 (integers only). A country is then categorized based on the total score obtained by summing the scores of ail the three parameters, as shown in the following table: Total Score 0-4 5-8 9-13 14-19 20-24 Category Very Unhappy Unhappy Neutral Happy Very Happy Following diagram depicts the frequency distribution of the scores in S, F and C of 10 countries - Amda, Benga, Calla, Delma, Eppa, Varsa, Wanna, Xanda, Yanga and Zoorna; Further, the following are known: 1. Amda and Calls jointly have the lowest total score, 7, with identical scores in all the three parameters. 2. Zooma has a total score of 17. 3. All the 3 countries, which are categorised as happy, have the highest score in exactly one parameter.",
+      "question_text": "What is Amda's score in F?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q47.png",
+      "options": [
+        "A) 1",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q48",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Simple Happiness index (SHI) of a country is computed on the basis of three parameters: social support (S), freedom to life choices (F) and corruption perception (C). Each of these three parameters is measured on a scale of 0 to 8 (integers only). A country is then categorized based on the total score obtained by summing the scores of ail the three parameters, as shown in the following table: Total Score 0-4 5-8 9-13 14-19 20-24 Category Very Unhappy Unhappy Neutral Happy Very Happy Following diagram depicts the frequency distribution of the scores in S, F and C of 10 countries - Amda, Benga, Calla, Delma, Eppa, Varsa, Wanna, Xanda, Yanga and Zoorna; Further, the following are known: 1. Amda and Calls jointly have the lowest total score, 7, with identical scores in all the three parameters. 2. Zooma has a total score of 17. 3. All the 3 countries, which are categorised as happy, have the highest score in exactly one parameter.",
+      "question_text": "What is Zooma's score in S?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q47.png",
+      "options": [
+        "A) 6",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q49",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Simple Happiness index (SHI) of a country is computed on the basis of three parameters: social support (S), freedom to life choices (F) and corruption perception (C). Each of these three parameters is measured on a scale of 0 to 8 (integers only). A country is then categorized based on the total score obtained by summing the scores of ail the three parameters, as shown in the following table: Total Score 0-4 5-8 9-13 14-19 20-24 Category Very Unhappy Unhappy Neutral Happy Very Happy Following diagram depicts the frequency distribution of the scores in S, F and C of 10 countries - Amda, Benga, Calla, Delma, Eppa, Varsa, Wanna, Xanda, Yanga and Zoorna; Further, the following are known: 1. Amda and Calls jointly have the lowest total score, 7, with identical scores in all the three parameters. 2. Zooma has a total score of 17. 3. All the 3 countries, which are categorised as happy, have the highest score in exactly one parameter.",
+      "question_text": "Benga and Delma, two countries categorized as happy, are tied with the same total score. What is the maximum score they can have?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q47.png",
+      "options": [
+        "A) 14",
+        "B) 15",
+        "C) 16",
+        "D) 17"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q50",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Simple Happiness index (SHI) of a country is computed on the basis of three parameters: social support (S), freedom to life choices (F) and corruption perception (C). Each of these three parameters is measured on a scale of 0 to 8 (integers only). A country is then categorized based on the total score obtained by summing the scores of ail the three parameters, as shown in the following table: Total Score 0-4 5-8 9-13 14-19 20-24 Category Very Unhappy Unhappy Neutral Happy Very Happy Following diagram depicts the frequency distribution of the scores in S, F and C of 10 countries - Amda, Benga, Calla, Delma, Eppa, Varsa, Wanna, Xanda, Yanga and Zoorna; Further, the following are known: 1. Amda and Calls jointly have the lowest total score, 7, with identical scores in all the three parameters. 2. Zooma has a total score of 17. 3. All the 3 countries, which are categorised as happy, have the highest score in exactly one parameter.",
+      "question_text": "If Benga scores 16 and Delma scores 15, then what is the maximum number of countries with a score of 13?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q47.png",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 2",
+        "D) 3"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q51",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular-skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are \"challenging\", while the remaining ones are \"standard\". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest. In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows: a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team. b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T 5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T 4 to T2. Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.",
+      "question_text": "The number of times in which the composition of team T 2 and the number of times in which composition of team T 4 remained unchanged in two successive months are:",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q51.png",
+      "options": [
+        "A) (2, 1)",
+        "Β) (1, 0)",
+        "C) (0, 0)",
+        "D) (1, 1)"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q52",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular-skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are \"challenging\", while the remaining ones are \"standard\". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest. In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows: a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team. b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T 5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T 4 to T2. Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.",
+      "question_text": "The number of SE in T1 and T5 for the projects in the third month are, respectively:",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q51.png",
+      "options": [
+        "A) (0, 2)",
+        "Β) (0, 3)",
+        "C) (1, 2)",
+        "D) (1, 3)"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q53",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular-skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are \"challenging\", while the remaining ones are \"standard\". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest. In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows: a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team. b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T 5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T 4 to T2. Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.",
+      "question_text": "Which of the following CANNOT be the total credit points earned by any employee from the projects?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q51.png",
+      "options": [
+        "A) 140",
+        "B) 150",
+        "C) 170",
+        "D) 200"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q54",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "There are 21 employees working in a division, out of whom 10 are special-skilled employees (SE) and the remaining are regular-skilled employees (RE). During the next five months, the division has to complete five projects every month. Out of the 25 projects, 5 projects are \"challenging\", while the remaining ones are \"standard\". Each of the challenging projects has to be completed in different months. Every month, five teams - T1, T2, T3, T4 and T5, work on one project each. T1, T2, T3, T4 and T5 are allotted the challenging project in the first, second, third, fourth and fifth month, respectively. The team assigned the challenging project has one more employee than the rest. In the first month, T1 has one more SE than T2, T2 has one more SE than T3, T3 has one more SE than T4, and T4 has one more SE than T5. Between two successive months, the composition of the teams changes as follows: a. The team allotted the challenging project, gets two SE from the team which was allotted the challenging project in the previous month. In exchange, one RE is shifted from the former team to the latter team. b. After the above exchange, if T1 has any SE and T5 has any RE, then one SE is shifted from T1 to T5, and one RE is shifted from T 5 to T1. Also, if T2 has any SE and T4 has any RE, then one SE is shifted from T2 to T4, and one RE is shifted from T 4 to T2. Each standard project has a total of 100 credit points, while each challenging project has 200 credit points. The credit points are equally shared between the employees included in that team.",
+      "question_text": "One of the employees named Aneek scored 185 points. Which of the following CANNOT be true?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q51.png",
+      "options": [
+        "A) Aneek worked only in teams T1, T2, T3, and T4",
+        "B) Aneek worked only in teams T1, T2, T4, and T5",
+        "C) Aneek worked only in teams T2, T3, T4, and T5",
+        "D) Aneek worked only in teams T1, T3, T4, and T5"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q55",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "In a square layout of size 5m x 5m, 25 equal sized square platforms of different heights are built. The heights (in metres) of individual platforms are as shown below: 6 1 2 4 3 9 5 3 2 8 7 8 4 6 5 3 9 5 1 2 1 7 6 3 9 Individuals (all of same height) are seated on these platforms. We say an individual A can reach art individual B if all the three following conditions are met: (i) A and B are In the same row or column (ii) A is at a lower height than B (iii) If there is/are any individuals (s) between A and B, such individual(s) must be at a height tower than that of A. Thus in the table given above, consider the Individual seated at height 8 on 3rd row and 2nd column. He can be reached by four individuals. He can be reached by the individual on his left at height 7, by the two individuals on his right at heights of 4 and 6 and by the individual above at height 5. Rows in the layout are numbered from top to bottom and columns are numbered from left to right.",
+      "question_text": "How many individuals in this layout can be reached by just one individual?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q55.png",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 7",
+        "D) 8"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q56",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "In a square layout of size 5m x 5m, 25 equal sized square platforms of different heights are built. The heights (in metres) of individual platforms are as shown below: 6 1 2 4 3 9 5 3 2 8 7 8 4 6 5 3 9 5 1 2 1 7 6 3 9 Individuals (all of same height) are seated on these platforms. We say an individual A can reach art individual B if all the three following conditions are met: (i) A and B are In the same row or column (ii) A is at a lower height than B (iii) If there is/are any individuals (s) between A and B, such individual(s) must be at a height tower than that of A. Thus in the table given above, consider the Individual seated at height 8 on 3rd row and 2nd column. He can be reached by four individuals. He can be reached by the individual on his left at height 7, by the two individuals on his right at heights of 4 and 6 and by the individual above at height 5. Rows in the layout are numbered from top to bottom and columns are numbered from left to right.",
+      "question_text": "Which of the following is true for any individual at a platform of height 1 m in this layout?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q55.png",
+      "options": [
+        "A) They can be reached by all the individuals in their own row and column",
+        "B) They can be reached by at least 4 individuals",
+        "C) They can be reached by at least one individual",
+        "D) They cannot be reached by anyone"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q57",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "In a square layout of size 5m x 5m, 25 equal sized square platforms of different heights are built. The heights (in metres) of individual platforms are as shown below: 6 1 2 4 3 9 5 3 2 8 7 8 4 6 5 3 9 5 1 2 1 7 6 3 9 Individuals (all of same height) are seated on these platforms. We say an individual A can reach art individual B if all the three following conditions are met: (i) A and B are In the same row or column (ii) A is at a lower height than B (iii) If there is/are any individuals (s) between A and B, such individual(s) must be at a height tower than that of A. Thus in the table given above, consider the Individual seated at height 8 on 3rd row and 2nd column. He can be reached by four individuals. He can be reached by the individual on his left at height 7, by the two individuals on his right at heights of 4 and 6 and by the individual above at height 5. Rows in the layout are numbered from top to bottom and columns are numbered from left to right.",
+      "question_text": "We can find two individuals who cannot be reached by anyone in",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q55.png",
+      "options": [
+        "A) the last row",
+        "B) the fourth row",
+        "C) the fourth column",
+        "D) the middle column"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q58",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "In a square layout of size 5m x 5m, 25 equal sized square platforms of different heights are built. The heights (in metres) of individual platforms are as shown below: 6 1 2 4 3 9 5 3 2 8 7 8 4 6 5 3 9 5 1 2 1 7 6 3 9 Individuals (all of same height) are seated on these platforms. We say an individual A can reach art individual B if all the three following conditions are met: (i) A and B are In the same row or column (ii) A is at a lower height than B (iii) If there is/are any individuals (s) between A and B, such individual(s) must be at a height tower than that of A. Thus in the table given above, consider the Individual seated at height 8 on 3rd row and 2nd column. He can be reached by four individuals. He can be reached by the individual on his left at height 7, by the two individuals on his right at heights of 4 and 6 and by the individual above at height 5. Rows in the layout are numbered from top to bottom and columns are numbered from left to right.",
+      "question_text": "Which of the following statements is true about this layout?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q55.png",
+      "options": [
+        "A) Each row has an individual who can be reached by 5 or more individuals",
+        "B) Each row has an individual who cannot be reached by anyone",
+        "C) Each row has at least two individuals who can be reached by an equal number of individuals",
+        "D) All individuals at the height of 9 m can be reached by at least 5 individuals"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q59",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule. The underlying principle that they are working on is the following: Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.",
+      "question_text": "If the underlying principle is to be satisfied in such a way that the journey between any two cities can be performed using only direct (non-stop) flights, then the minimum number of direct flights to be scheduled is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 45",
+        "B) 90",
+        "C) 180",
+        "D) 135"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q60",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule. The underlying principle that they are working on is the following: Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.\nSuppose three of the ten cities are to be developed as hubs. A hub is a city which is connected with every other city by direct flights each way, both in the morning as well as in the evening. The only direct flights which will be scheduled are originating and/or terminating in one of the hubs. Then the minimum number of direct flights that need to be scheduled so that the underlying principle of the airline to serve all the ten cities is met without visiting more than one hub during one trip is:",
+      "question_text": "Suppose three of the ten cities are to be developed as hubs. A hub is a city which is connected with every other city by direct flights each way, both in the morning as well as in the evening. The only direct flights which will be scheduled are originating and/or terminating in one of the hubs. Then the minimum number of direct flights that need to be scheduled so that the underlying principle of the airline to serve all the ten cities is met without visiting more than one hub during one trip is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 54",
+        "B) 120",
+        "C) 96",
+        "D) 60"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q61",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule. The underlying principle that they are working on is the following: Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.\nSuppose the 10 cities are divided into 4 distinct groups G1,02,03,04 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following: 1. Both cities are in G1 2. Between A and any city in G2 3. Between B and any city in G3 4. Between C and any city in G4",
+      "question_text": "What would be the total minimum number of direct flights that must be scheduled?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 40",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q62",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule. The underlying principle that they are working on is the following: Any person staying in any of these 10 cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.\nSuppose the 10 cities are divided into 4 distinct groups G1,02,03,04 having 3, 3, 2 and 2 cities respectively and that G1 consists of cities named A, B and C. Further, suppose that direct flights are allowed only between two cities satisfying one of the following: 1. Both cities are in G1 2. Between A and any city in G2 3. Between B and any city in G3 4. Between C and any city in G4\nHowever, due to operational difficulties at A, it was later decided that the only flights that would operate at A would be those to and from B. Cities in G2 would have to be assigned to G3 or to G4.",
+      "question_text": "What would be the maximum reduction in the number of direct flights as compared to the situation before the operational difficulties arose?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 4",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q63",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute. The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.",
+      "question_text": "How many cars would be asked to take the route A-N-B, that is Akala-Nanur-Bakala route, by the police department?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q63.png",
+      "options": [
+        "A) 2",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q64",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute. The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.",
+      "question_text": "If all the cars follow the police order, what is the difference in travel time (in minutes) between a car which takes the route A-N-B and a car that takes the route A-M-B?",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q63.png",
+      "options": [
+        "A) 1",
+        "B) 0.1",
+        "C) 0.2",
+        "D) 0.9"
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q65",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute. The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.\nA new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.",
+      "question_text": "How many cars would the police department order to take the A-M-N-B route so that it is not possible for any car to reduce its travel time by not following the order while the other cars follow the order? (Assume that the police department would never order all the cars to take the same route.)",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q63.png",
+      "options": [
+        "A) 2",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_DILR_Q66",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "DILR",
+      "context_passage": "Four cars need to travel from Akala (A) to Bakala (B). Two routes are available, one via Mamur (M) and the other via Nanur (N). The roads from A to M, and from N to B, are both short and narrow. In each case, one car takes 6 minutes to cover the distance, and each additional car increases the travel time per car by 3 minutes because of congestion. (For example, if only two cars drive from A to M, each car takes 9 minutes.) On the road from A to N, one car takes 20 minutes, and each additional car increases the travel time per car by 1 minute. On the road from M to B, one car takes 20 minutes, and each additional car increases the travel time per car by 0.9 minute. The police department orders each car to take a particular route in such a manner that it is not possible for any car to reduce its travel time by not following the order, while the other cars are following the order.\nA new one-way road is built from M to N. Each car now has three possible routes to travel from A to B: A-M-B, A-N-B and A-M-N-B. On the road from M to N, one car takes 7 minutes and each additional car increases the travel time per car by 1 minute. Assume that any car taking the A-M-N-B route travels the A-M portion at the same time as other cars taking the A-M-B route, and the N-B portion at the same time as other cars taking the A-N-B route.",
+      "question_text": "If all the cars follow the police order, what is the minimum travel time (in minutes) from A to B? (Assume that the police department would never order all the cars to take the same route.)",
+      "has_image": true,
+      "image_url": "images/2017_S1_DILR_Q63.png",
+      "options": [
+        "A) 26",
+        "B) 32",
+        "C) 29.9",
+        "D) 30"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q67",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Arun's present age in years is 40% of Barun's. In another few years, Arun's age will be half of Barun's. By what percentage will Barun's age increase during this period?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 20",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q68",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A person can complete a job in 120 days. He works alone on Day 1. On Day 2, he is joined by another person who also can complete the job in exactly 120 days. On Day 3, they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 15",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q69",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "An elevator has a weight limit of 630 kg. It is carrying a group of people of whom the heaviest weighs 57 kg and the lightest weighs 53 kg. What is the maximum possible number of people in the group?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 11",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q70",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A man leaves his home and walks at a speed of 12 km per hour, reaching the railway station 10 minutes after the train had departed. If instead he had walked at a speed of 15 km per hour, he would have reached the station 10 minutes before the train's departure. The distance (in km) from his home to the railway station is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 20",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    
+
+    {
+      "id": "2017_S1_QA_Q71",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Ravi invests 50% of his monthly savings in fixed deposits. Thirty percent of the rest of his savings is invested in stocks and the rest goes into Ravi's savings bank account. If the total amount deposited by him in the bank (for savings account and fixed deposits) is Rs 59500, then Ravi's total monthly savings (in Rs) is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 70000",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q72",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a seller gives a discount of 15% on retail price, she still makes a profit of 2%. Which of the following ensures that she makes a profit of 20%?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) Give a discount of 5% on retail price",
+        "B) Give a discount of 2% on retail price",
+        "C) Increase the retail price by 2%",
+        "D) Sell at retail price"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q73",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A man travels by a motor boat down a river to his office and back. With the speed of the river unchanged, if he doubles the speed of his motor boat, then his total travel time gets reduced by 75%. The ratio of the original speed of the motor boat to the speed of the river is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) √6:√2",
+        "B) √7:2",
+        "C) 2√5:3",
+        "D) 3:2"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q74",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Suppose, C1, C2, C3, C4, and C5 are five companies. The profits made by C1, C2, and C3 are in the ratio 9: 10: 8 while the profits made by C2, C4, and C5 are in the ratio 18: 19: 20. If C5 has made a profit of Rs 19 crore more than C1, then the total profit (in Rs) made by all five companies is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 438 crore",
+        "B) 435 crore",
+        "C) 348 crore",
+        "D) 345 crore"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q75",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The number of girls appearing for an admission test is twice the number of boys. If 30% of the girls and 45% of the boys get admission, the percentage of candidates who do not get admission is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 35",
+        "B) 50",
+        "C) 60",
+        "D) 65"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q76",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7: 17:16 for popcorn and 6:15:14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 1: 1",
+        "B) 8:7",
+        "C) 4:3",
+        "D) 6:5"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q77",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In a market, the price of medium quality mangoes is half that of good mangoes. A shopkeeper buys 80 kg good mangoes and 40 kg medium quality mangoes from the market and then sells all these at a common price which is 10% less than the price at which he bought the good ones. His overall profit is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 6%",
+        "B) 8%",
+        "C) 10%",
+        "D) 12%"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q78",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If Fatima sells 60 identical toys at a 40% discount on the printed price, then she makes 20% profit. Ten of these toys are destroyed in fire. While selling the rest, how much discount should be given on the printed price so that she can make the same amount of profit?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 30%",
+        "B) 25%",
+        "C) 24%",
+        "D) 28%"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q79",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a and b are integers of opposite signs such that (a + 3)² : b² = 9 : 1 and (a - 1)² : (b - 1)² = 4 : 1, then the ratio a:b is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 9:4",
+        "B) 81:4",
+        "C) 1:4",
+        "D) 25:4"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q80",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was 5 higher than that of the boys. In the final exam, however, the average score of the girls dropped by 3 while the average score of the entire class increased by 2. The increase in the average score of the boys is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 9.5",
+        "B) 10",
+        "C) 4.5",
+        "D) 6"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q81",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The area of the closed region bounded by the equation | x | + | y | = 2 in the two-dimensional plane is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Α) 4π",
+        "Β) 4",
+        "C) 8",
+        "D) 2π"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q82",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "From a triangle ABC with sides of lengths 40 ft, 25 ft and 35 ft, a triangular portion GBC is cut off where G is the centroid of ABC. The area, in sq ft, of the remaining portion of triangle ABC is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 225√3",
+        "B) 500/√3",
+        "C) 275/√3",
+        "D) 250/√3"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q83",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let ABC be a right-angled isosceles triangle with hypotenuse BC. Let BQC be a semi-circle, away from A, with diameter BC. Let BPC be an arc of a circle centered at A and lying between BC and BQC. If AB has length 6 cm then the area, in sq cm, of the region enclosed by BPC and BQC is",
+      "has_image": true,
+      "image_url": "images/2017_S1_QA_Q83.png",
+      "options": [
+        "Α) 9π - 18",
+        "B) 18",
+        "C) 9π",
+        "D) 9"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q84",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A solid metallic cube is melted to form five solid cubes whose volumes are in the ratio 1: 1: 8:27:27. The percentage by which the sum of the surface areas of these five cubes exceeds the surface area of the original cube is nearest to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 10",
+        "B) 50",
+        "C) 60",
+        "D) 20"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q85",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A ball of diameter 4 cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is 3 cm, while its volume is 9 π cm³. Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is",
+      "has_image": true,
+      "image_url": "images/2017_S1_QA_Q85.png",
+      "options": [
+        "A) 6",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q86",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let ABC be a right-angled triangle with BC as the hypotenuse. Lengths of AB and AC are 15 km and 20 km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from A at a speed of 30 km per hour is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 24",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q87",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Suppose, log₃ x = log₁₂ y = a, where x, y are positive numbers. If G is the geometric mean of x and y, and log₆ G is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) a",
+        "B) 2a",
+        "C) a/2",
+        "D) a"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q88",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If x + 1 = x² and x > 0, then 2x⁴ is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 6+4√5",
+        "B) 3 + 5√5",
+        "C) 5+3√5",
+        "D) 7 + 3√5"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q89",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The value of log₀.₀₀₈ √5 + log√₅ 81 is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 1/3",
+        "B) 2/3",
+        "C) 5/3",
+        "D) 7/6"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q90",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If 9^(2x - 1) – 81^(x-1) = 1944, then x is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 3",
+        "B) 9/4",
+        "C) 4/9",
+        "D) 1/3"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q91",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The number of solutions (x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that x ≤ 40, y ≤ 12, and z ≤ 12 is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 101",
+        "B) 99",
+        "C) 87",
+        "D) 105"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q92",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "For how many integers n, will the inequality (n − 5) (n – 10) – 3(n − 2) ≤ 0 be satisfied?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 11",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q93",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If f₁(x) = x² + 11x + n and f₂(x) = x, then the largest positive integer n for which the equation f₁(x) = f₂(x) has two distinct real roots, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 24",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q94",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a, b, c, and d are integers such that a + b + c + d = 30, then the minimum possible value of (a - b)² + (a - c)² + (a - d)² is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 2",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q95",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let AB, CD, EF, GH, and JK be five diameters of a circle with center at O. In how many ways can three points be chosen out of A, B, C, D, E, F, G, H, J, K, and O so as to form a triangle?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 160",
+        "B) ",
+        "C) ",
+        "D) "
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q96",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The shortest distance of the point (1/2, 3/2) from the curve y = |x -1| + |x + 1| is",
+      "has_image": true,
+      "image_url": "images/2017_S1_QA_Q96.png",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) √2",
+        "D) 3/√2"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q97",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 2: 3",
+        "B) 3:2",
+        "C) 3:4",
+        "D) 4:3"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q98",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In how many ways can 7 identical erasers be distributed among 4 kids in such a way that each kid gets at least one eraser but nobody gets more than 3 erasers?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 16",
+        "B) 20",
+        "C) 14",
+        "D) 15"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q99",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If f(x) = (5x + 2) / (3x - 5) and g(x) = x² - 2x - 1, then the value of g(f(f(3))) is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 6",
+        "D) 2/3"
+      ]
+    },
+    {
+      "id": "2017_S1_QA_Q100",
+      "exam_year": 2017,
+      "exam_slot": 1,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let a1, a2,........a3n be an arithmetic progression with a₁ = 3 and a2 = 7. If a₁ + a2 + ....+a3n = 1830, then what is the smallest positive integer m such that m (a1 + a2 + ... + an) > 1830?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "A) 8",
+        "B) 9",
+        "C) 10",
+        "D) 11"
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_id": "2017_S1_VARC_Q1",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q2",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q3",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q4",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q5",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q6",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q7",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q8",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q9",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q10",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q11",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q12",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q13",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q14",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q15",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q16",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q17",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q18",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q19",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q20",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q21",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q22",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q23",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q24",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q25",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q26",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q27",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q28",
+      "correct_option": "54132"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q29",
+      "correct_option": "15243"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q30",
+      "correct_option": "54123"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q31",
+      "correct_option": "32145"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q32",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q33",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2017_S1_VARC_Q34",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q35",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q36",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q37",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q38",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q39",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q40",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q41",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q42",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q43",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q44",
+      "correct_option": "60"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q45",
+      "correct_option": "170"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q46",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q47",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q48",
+      "correct_option": "6"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q49",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q50",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q51",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q52",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q53",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q54",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q55",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q56",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q57",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q58",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q59",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q60",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q61",
+      "correct_option": "40"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q62",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q63",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q64",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q65",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2017_S1_DILR_Q66",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q67",
+      "correct_option": "20"
+    },
+    {
+      "question_id": "2017_S1_QA_Q68",
+      "correct_option": "15"
+    },
+    {
+      "question_id": "2017_S1_QA_Q69",
+      "correct_option": "11"
+    },
+    {
+      "question_id": "2017_S1_QA_Q70",
+      "correct_option": "20"
+    },
+    {
+      "question_id": "2017_S1_QA_Q71",
+      "correct_option": "70000"
+    },
+    {
+      "question_id": "2017_S1_QA_Q72",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q73",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q74",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q75",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q76",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q77",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q78",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q79",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q80",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q81",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_QA_Q82",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q83",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q84",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q85",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q86",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q87",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q88",
+      "correct_option": "D"
+    },
+    {
+      "question_id": "2017_S1_QA_Q89",
+      "correct_option": "C"
+    },
+    {
+      "question_id": "2017_S1_QA_Q90",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q91",
+      "correct_option": "B"
+    },
+    {
+      "question_id": "2017_S1_QA_Q92",
+      "correct_option": "11"
+    },
+    {
+      "question_id": "2017_S1_QA_Q93",
+      "correct_option": "24"
+    },
+    {
+      "question_id": "2017_S1_QA_Q94",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2017_S1_QA_Q95",
+      "correct_option": "160"
+    },
+    {
+      "question_id": "2017_S1_QA_Q96",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q97",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q98",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q99",
+      "correct_option": "A"
+    },
+    {
+      "question_id": "2017_S1_QA_Q100",
+      "correct_option": "B"
+    }
+  ]
+
+}

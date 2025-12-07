@@ -1,0 +1,1256 @@
+{
+  "question_bank": [
+    {
+      "id": "2021_S3_VARC_Q1",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.\n\nNow, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate overwater. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won't be invading our bodies and turning us into Sentinels – which I personally find a little disappointing - but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive....\n\nUnlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it's assembled from two kinds of molecules some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.\n\nSometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.\n\nRobots that are wholly or partly made of gloop aren't the future that I was promised in science fiction. But it's definitely the future I want. I'm especially keen on the nanometre-scale \"soft robots\" that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They're guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.",
+      "question_text": "Which one of the following scenarios, if false, could be seen as supporting the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Some hydrogels turn sticky when an electric current is passed through them; this potentially has very useful applications.",
+        "Robots made from smart materials are likely to become part of our everyday lives in the future.",
+        "Nano-Sentinel-like robots are likely to be used to inject people to convert them into robots, cell by cell.",
+        "There are two kinds of molecules used to make some nano-robots: one that reacts positively to water and the other negatively."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q2",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.\n\nNow, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate overwater. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won't be invading our bodies and turning us into Sentinels – which I personally find a little disappointing - but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive....\n\nUnlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it's assembled from two kinds of molecules some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.\n\nSometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.\n\nRobots that are wholly or partly made of gloop aren't the future that I was promised in science fiction. But it's definitely the future I want. I'm especially keen on the nanometre-scale \"soft robots\" that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They're guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.",
+      "question_text": "Which one of the following statements, if true, would be the most direct extension of the arguments in the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "In the future, robots will be used to search and destroy diseases even in the deepest recesses of the human body.",
+        "X-Men may be created by injecting people with mutant nano-gels that will respond to the brain's magnetic field.",
+        "Sentinel robots will be used in warfare to cause large-scale destructive mutations amongst civilians.",
+        "1-centimetre blobs of gel that have nano-robots in them will be used to send messages."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q3",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.\n\nNow, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate overwater. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won't be invading our bodies and turning us into Sentinels – which I personally find a little disappointing - but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive....\n\nUnlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it's assembled from two kinds of molecules some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.\n\nSometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.\n\nRobots that are wholly or partly made of gloop aren't the future that I was promised in science fiction. But it's definitely the future I want. I'm especially keen on the nanometre-scale \"soft robots\" that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They're guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.",
+      "question_text": "Which one of the following statements best captures the sense of the first paragraph?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The X-Men were mutant heroes who now had to battle tiny robots called Nano-Sentinels.",
+        "People who were infected by Nano-Sentinel robots became mutants who were called X-Men.",
+        "Tiny sentinels called X-Men infected people, turning them into mutant robot overlords.",
+        "None of the options listed here."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q4",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Back in the early 2000s, an awesome thing happened in the New X-Men comics. Our mutant heroes had been battling giant robots called Sentinels for years, but suddenly these mechanical overlords spawned a new threat: Nano-Sentinels! Not content to rule Earth with their metal fists, these tiny robots invaded our bodies at the microscopic level. Infected humans were slowly converted into machines, cell by cell.\n\nNow, a new wave of extremely odd robots is making at least part of the Nano-Sentinels story come true. Using exotic fabrication materials like squishy hydrogels and elastic polymers, researchers are making autonomous devices that are often tiny and that could turn out to be more powerful than an army of Terminators. Some are 1-centimetre blobs that can skate overwater. Others are flat sheets that can roll themselves into tubes, or matchstick-sized plastic coils that act as powerful muscles. No, they won't be invading our bodies and turning us into Sentinels – which I personally find a little disappointing - but some of them could one day swim through our bloodstream to heal us. They could also clean up pollutants in water or fold themselves into different kinds of vehicles for us to drive....\n\nUnlike a traditional robot, which is made of mechanical parts, these new kinds of robots are made from molecular parts. The principle is the same: both are devices that can move around and do things independently. But a robot made from smart materials might be nothing more than a pink drop of hydrogel. Instead of gears and wires, it's assembled from two kinds of molecules some that love water and some that avoid it – which interact to allow the bot to skate on top of a pond.\n\nSometimes these materials are used to enhance more conventional robots. One team of researchers, for example, has developed a different kind of hydrogel that becomes sticky when exposed to a low-voltage zap of electricity and then stops being sticky when the electricity is switched off. This putty-like gel can be pasted right onto the feet or wheels of a robot. When the robot wants to climb a sheer wall or scoot across the ceiling, it can activate its sticky feet with a few volts. Once it is back on a flat surface again, the robot turns off the adhesive like a light switch.\n\nRobots that are wholly or partly made of gloop aren't the future that I was promised in science fiction. But it's definitely the future I want. I'm especially keen on the nanometre-scale \"soft robots\" that could one day swim through our bodies. Metin Sitti, a director at the Max Planck Institute for Intelligent Systems in Germany, worked with colleagues to prototype these tiny, synthetic beasts using various stretchy materials, such as simple rubber, and seeding them with magnetic microparticles. They are assembled into a finished shape by applying magnetic fields. The results look like flowers or geometric shapes made from Tinkertoy ball and stick modelling kits. They're guided through tubes of fluid using magnets, and can even stop and cling to the sides of a tube.",
+      "question_text": "Which one of the following statements best summarises the central point of the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Robots will use nano-robots on their feet and wheels to climb walls or move on ceilings.",
+        "Once the stuff of science fiction, nano-robots now feature in cutting-edge scientific research.",
+        "Nano-robots made from molecules that react to water have become increasingly useful.",
+        "The field of robotics is likely to be feature more and more in comics like the New X-Men"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q5",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock's accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.\n\nThe increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.\n\nThe relationship that the researchers found is a limit on the accuracy of a clock, so it doesn't mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn't more precise than an atomic clock. \"It's a bit like fuel use in a car. Just because I'm using more fuel doesn't mean that I'm going faster or further,\" says Huber.\n\nWhen the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. ... We can't be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven't been tested. “It's still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.",
+      "question_text": "Which one of the following sets of words and phrases serves best as keywords of the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Electric current; Heat; Quantum effects.",
+        "Silicon Nitride; Energy; Grandfather Clock.",
+        "Measuring Time; Accuracy; Entropy.",
+        "Membrane; Arrow of time; Entropy."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q6",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock's accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.\n\nThe increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.\n\nThe relationship that the researchers found is a limit on the accuracy of a clock, so it doesn't mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn't more precise than an atomic clock. \"It's a bit like fuel use in a car. Just because I'm using more fuel doesn't mean that I'm going faster or further,\" says Huber.\n\nWhen the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. ... We can't be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven't been tested. “It's still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.",
+      "question_text": "The author makes all of the following arguments in the passage, EXCEPT that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The relationship between accuracy and entropy may not apply to all clocks.",
+        "Researchers found that the heat produced in a system is the price paid for increased accuracy of measurement.",
+        "There is no difference in accuracy between an inefficient grandfather clock and an atomic clock.",
+        "In designing clocks for quantum computers, both precision and heat have to be be taken into account."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q7",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock's accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.\n\nThe increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.\n\nThe relationship that the researchers found is a limit on the accuracy of a clock, so it doesn't mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn't more precise than an atomic clock. \"It's a bit like fuel use in a car. Just because I'm using more fuel doesn't mean that I'm going faster or further,\" says Huber.\n\nWhen the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. ... We can't be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven't been tested. “It's still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.",
+      "question_text": "None of the following statements can be inferred from the passage EXCEPT that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "the arrow of time has not yet been tested for atomic clocks.",
+        "quantum computers are likely to produce more heat and, hence, more entropy, because of the emphasis on their clocks' accuracy.",
+        "grandfather clocks are likely to produce less heat and, hence, less entropy, because they are not as accurate.",
+        "a clock with a 50-nanometre-thick membrane of silicon nitride has been made to vibrate, producing electric currents."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q8",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Keeping time accurately comes with a price. The maximum accuracy of a clock is directly related to how much disorder, or entropy, it creates every time it ticks. Natalia Ares at the University of Oxford and her colleagues made this discovery using a tiny clock with an accuracy that can be controlled. The clock consists of a 50-nanometre-thick membrane of silicon nitride, vibrated by an electric current. Each time the membrane moved up and down once and then returned to its original position, the researchers counted a tick, and the regularity of the spacing between the ticks represented the accuracy of the clock. The researchers found that as they increased the clock's accuracy, the heat produced in the system grew, increasing the entropy of its surroundings by jostling nearby particles . . . “If a clock is more accurate, you are paying for it somehow,” says Ares. In this case, you pay for it by pouring more ordered energy into the clock, which is then converted into entropy. “By measuring time, we are increasing the entropy of the universe,” says Ares. The more entropy there is in the universe, the closer it may be to its eventual demise. “Maybe we should stop measuring time,” says Ares. The scale of the additional entropy is so small, though, that there is no need to worry about its effects, she says.\n\nThe increase in entropy in timekeeping may be related to the “arrow of time”, says Marcus Huber at the Austrian Academy of Sciences in Vienna, who was part of the research team. It has been suggested that the reason that time only flows forward, not in reverse, is that the total amount of entropy in the universe is constantly increasing, creating disorder that cannot be put in order again.\n\nThe relationship that the researchers found is a limit on the accuracy of a clock, so it doesn't mean that a clock that creates the most possible entropy would be maximally accurate – hence a large, inefficient grandfather clock isn't more precise than an atomic clock. \"It's a bit like fuel use in a car. Just because I'm using more fuel doesn't mean that I'm going faster or further,\" says Huber.\n\nWhen the researchers compared their results with theoretical models developed for clocks that rely on quantum effects, they were surprised to find that the relationship between accuracy and entropy seemed to be the same for both. ... We can't be sure yet that these results are actually universal, though, because there are many types of clocks for which the relationship between accuracy and entropy haven't been tested. “It's still unclear how this principle plays out in real devices such as atomic clocks, which push the ultimate quantum limits of accuracy,” says Mark Mitchison at Trinity College Dublin in Ireland. Understanding this relationship could be helpful for designing clocks in the future, particularly those used in quantum computers and other devices where both accuracy and temperature are crucial, says Ares. This finding could also help us understand more generally how the quantum world and the classical world are similar and different in terms of thermodynamics and the passage of time.",
+      "question_text": "\"It's a bit like fuel use in a car. Just because I'm using more fuel doesn't mean that I'm going faster or further . . .” What is the purpose of this example?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "If you go faster in a car, you will tend to consume more fuel, but the converse is not necessarily true. In the same way, increased entropy does not necessarily mean greater accuracy of a clock.",
+        "The further you go in a car, the more fuel you use. In the same way, the faster you go in a car, the less time you use.",
+        "If you measure the speed of a car with a grandfather clock, the result will be different than if you measured it with an atomic clock.",
+        "The further and faster you go in a car, the greater the amount of fuel you will use, the greater the amount of heat produced and, hence, the greater the entropy."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q9",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.\n\nThe vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled oversleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.\n\nSignificantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane...\n\nStriving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann's attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.",
+      "question_text": "All of the following statements may be considered valid inferences from the passage, EXCEPT:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "New conceptions in the nineteenth century could provide new knowledge because of the establishment of fields such as anaesthesiology.",
+        "Unrelated practices began to be treated as related to each other, as knowledge of the mind grew in the nineteenth century.",
+        "Without the linguistic developments of the nineteenth century, the growth of understanding of the soul and the mind may not have happened.",
+        "Eighteenth century thinkers were the first to perceive a connection between creative genius and insanity."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q10",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.\n\nThe vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled oversleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.\n\nSignificantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane...\n\nStriving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann's attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.",
+      "question_text": "Which one of the following sets of words is closest to mapping the main arguments of the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Language; Unconscious; Psychoanalysis.",
+        "Unconscious; Latent conception; Dreams.",
+        "Literary language; Unconscious; Insanity.",
+        "Imagination; Magnetism; Psychiatry."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q11",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.\n\nThe vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled oversleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.\n\nSignificantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane...\n\nStriving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann's attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.",
+      "question_text": "Which one of the following statements best describes what the passage is about?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The collating of diverse ideas under the single term: unconscious.",
+        "The identification of the unconscious as an object of psychical research.",
+        "The discovery of the unconscious as a part of the human mind.",
+        "The growing vocabulary of the soul and the mind, as diverse processes."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q12",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Today we can hardly conceive of ourselves without an unconscious. Yet between 1700 and1900, this notion developed as a genuinely original thought. The “unconscious” burst the shell of conventional language, coined as it had been to embody the fleeting ideas and the shifting conceptions of several generations until, finally, it became fixed and defined in specialized terms within the realm of medical psychology and Freudian psychoanalysis.\n\nThe vocabulary concerning the soul and the mind increased enormously in the course of the nineteenth century. The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords. At the same time, once coined, powerful new ideas attracted to themselves a whole host of seemingly unrelated issues, practices, and experiences, creating a peculiar network of preoccupations that as a group had not existed before. The drawn-out attempt to approach and define the unconscious brought together the spiritualist and the psychical researcher of borderline phenomena (such as apparitions, spectral illusions, haunted houses, mediums, trance, automatic writing); the psychiatrist or alienist probing the nature of mental disease, of abnormal ideation, hallucination, delirium, melancholia, mania; the surgeon performing operations with the aid of hypnotism; the magnetizer claiming to correct the disequilibrium in the universal flow of magnetic fluids but who soon came to be regarded as a clever manipulator of the imagination; the physiologist and the physician who puzzled oversleep, dreams, sleepwalking, anesthesia, the influence of the mind on the body in health and disease; the neurologist concerned with the functions of the brain and the physiological basis of mental life; the philosopher interested in the will, the emotions, consciousness, knowledge, imagination and the creative genius; and, last but not least, the psychologist.\n\nSignificantly, most if not all of these practices (for example, hypnotism in surgery or psychological magnetism) originated in the waning years of the eighteenth century and during the early decades of the nineteenth century, as did some of the disciplines (such as psychology and psychical research). The majority of topics too were either new or assumed hitherto unknown colors. Thus, before 1790, few if any spoke, in medical terms, of the affinity between creative genius and the hallucinations of the insane...\n\nStriving vaguely and independently to give expression to a latent conception, various lines of thought can be brought together by some novel term. The new concept then serves as a kind of resting place or stocktaking in the development of ideas, giving satisfaction and a stimulus for further discussion or speculation. Thus, the massive introduction of the term unconscious by Hartmann in 1869 appeared to focalize many stray thoughts, affording a temporary feeling that a crucial step had been taken forward, a comprehensive knowledge gained, a knowledge that required only further elaboration, explication, and unfolding in order to bring in a bounty of higher understanding. Ultimately, Hartmann's attempt at defining the unconscious proved fruitless because he extended its reach into every realm of organic and inorganic, spiritual, intellectual, and instinctive existence, severely diluting the precision and compromising the impact of the concept.",
+      "question_text": "\"The enrichments of literary and intellectual language led to an altered understanding of the meanings that underlie time-honored expressions and traditional catchwords.” Which one of the following interpretations of this sentence would be closest in meaning to the original?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Time-honored expressions and traditional catchwords were enriched by literary and intellectual language.",
+        "The meanings of time-honored expressions were changed by innovations in literary and intellectual language.",
+        "All of the options listed here.",
+        "Literary and intellectual language was altered by time-honored expressions and traditional catchwords."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q13",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky's findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so....\n\nFor Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules\" (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half-century ago, this would have been pooh-poohed as a \"black box\" theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] \"blackbox\" is situated in and around Broca's area, on the left side of the forebrain....\n\nUnlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. Itis not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,\" when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .\n\nSo according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a \"grammar gene\" any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioural psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world's cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.",
+      "question_text": "From the passage, it can be inferred that all of the following are true about Pinker's book, \"The Language Instinct\", EXCEPT that Pinker:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "disagrees with Chomsky on certain grounds.",
+        "writes in a different style from Chomsky.",
+        "draws extensively from Chomsky's propositions.",
+        "draws from behavioural psychology theories"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q14",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky's findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so....\n\nFor Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules\" (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half-century ago, this would have been pooh-poohed as a \"black box\" theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] \"blackbox\" is situated in and around Broca's area, on the left side of the forebrain....\n\nUnlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. Itis not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,\" when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .\n\nSo according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a \"grammar gene\" any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioural psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world's cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.",
+      "question_text": "On the basis of the information in the passage, Pinker and Chomsky may disagree with each other on which one of the following points?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The Darwinian explanatory paradigm for language.",
+        "The language instinct.",
+        "The possibility of a universal grammar.",
+        "The inborn language acquisition skills of humans."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q15",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky's findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so....\n\nFor Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules\" (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half-century ago, this would have been pooh-poohed as a \"black box\" theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] \"blackbox\" is situated in and around Broca's area, on the left side of the forebrain....\n\nUnlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. Itis not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,\" when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .\n\nSo according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a \"grammar gene\" any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioural psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world's cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.",
+      "question_text": "According to the passage, all of the following are true about the language instinct EXCEPT that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "all intelligent primates are gifted with it.",
+        "it confers an evolutionary reproductive advantage.",
+        "developments in neuroscience have increased its acceptance.",
+        "not all intelligent primates are gifted with it."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q16",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Starting in 1957, [Noam Chomsky] proclaimed a new doctrine: Language, that most human of all attributes, was innate. The grammatical faculty was built into the infant brain, and your average 3-year-old was not a mere apprentice in the great enterprise of absorbing English from his or her parents, but a “linguistic genius.” Since this message was couched in terms of Chomskyan theoretical linguistics, in discourse so opaque that it was nearly incomprehensible even to some scholars, many people did not hear it. Now, in a brilliant, witty and altogether satisfying book, Mr. Chomsky's colleague Steven Pinker . . . has brought Mr. Chomsky's findings to everyman. In “The Language Instinct” he has gathered persuasive data from such diverse fields as cognitive neuroscience, developmental psychology and speech therapy to make his points, and when he disagrees with Mr. Chomsky he tells you so....\n\nFor Mr. Chomsky and Mr. Pinker, somewhere in the human brain there is a complex set of neural circuits that have been programmed with “super-rules\" (making up what Mr. Chomsky calls “universal grammar”), and that these rules are unconscious and instinctive. A half-century ago, this would have been pooh-poohed as a \"black box\" theory, since one could not actually pinpoint this grammatical faculty in a specific part of the brain, or describe its functioning. But now things are different. Neurosurgeons [have now found that this] \"blackbox\" is situated in and around Broca's area, on the left side of the forebrain....\n\nUnlike Mr. Chomsky, Mr. Pinker firmly places the wiring of the brain for language within the framework of Darwinian natural selection and evolution. He effectively disposes of all claims that intelligent nonhuman primates like chimps have any abilities to learn and use language. Itis not that chimps lack the vocal apparatus to speak; it is just that their brains are unable to produce or use grammar. On the other hand, the “language instinct,\" when it first appeared among our most distant hominid ancestors, must have given them a selective reproductive advantage over their competitors (including the ancestral chimps). . . .\n\nSo according to Mr. Pinker, the roots of language must be in the genes, but there cannot be a \"grammar gene\" any more than there can be a gene for the heart or any other complex body structure. This proposition will undoubtedly raise the hackles of some behavioural psychologists and anthropologists, for it apparently contradicts the liberal idea that human behavior may be changed for the better by improvements in culture and environment, and it might seem to invite the twin bugaboos of biological determinism and racism. Yet Mr. Pinker stresses one point that should allay such fears. Even though there are 4,000 to 6,000languages today, they are all sufficiently alike to be considered one language by an extraterrestrial observer. In other words, most of the diversity of the world's cultures, so beloved to anthropologists, is superficial and minor compared to the similarities. Racial differences are literally only “skin deep.” The fundamental unity of humanity is the theme of Mr. Chomsky's universal grammar, and of this exciting book.",
+      "question_text": "Which one of the following statements best summarises the author's position about Pinker's book?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The evolutionary and deterministic framework of Pinker's book makes it racist.",
+        "Anatomical developments like the voice box play a key role in determining language acquisition skills.",
+        "The universality of the \"language instinct\" counters claims that Pinker's book is racist.",
+        "Culture and environment play a key role in shaping our acquisition of language."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q17",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Directions for Summary: A paragraph is followed by four options which have summarized the passage in their own way. Pick the option that best summarizes the passage:\n\nThe human mind is wired to see patterns. Not only does the brain process information as it comes in, it also stores insights from all our past experiences. Every interaction, happy or sad, is catalogued in our memory. Intuition draws from that deep memory well to inform our decisions going forward. In other words, intuitive decisions are based on data, and not contrary to data as many would like to assume. When we subconsciously spot patterns, the body starts firing neurochemicals in both the brain and gut. These “somatic markers\" are what give us that instant sense that something is right or that it's off. Not only are these automatic processes faster than rational thought, but our intuition draws from decades of diverse qualitative experience (sights, sounds, interactions, etc.) – a wholly human feature that big data alone could never accomplish.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Intuition is infinitely richer than big data which is based on rational thought and accomplishes more than what big data can.",
+        "Intuitions are automatic processes and are therefore faster than rational thought, and so decisions based on them are better.",
+        "Intuition draws from deep memory, and may not be related to data, but to decades of diverse qualitative experience.",
+        "Intuitions are neuro-chemical firings based on pattern recognition and draw upon a rich and vast database of experiences."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q18",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Directions for sentence exclusion: Five sentences are given below; out of these, four come together to form a coherent paragraph, but one sentence does not fit into the sequence. Choose the sentence that does not fit into the sequence.\n\n1. A typical example is Wikipedia, where the overwhelming majority of contributors are male and so the available content is skewed to reflect their interests.\n2. Without diversity of thought and representation, society is left with a distorted picture of future options, which are likely to result in augmenting existing inequalities.\n3. Gross gender inequality in the technology sector is problematic, not only for the industry-wide marginalisation of women, but because technology designs embody the values of their makers.\n4. While redressing unequal representation in the workplace is a step in the right direction, broader social change is needed to address the structural inequalities embedded within the current organisation of work and employment.\n5. If technology merely reflects the perspectives of the male stereotype, then new technologies are unlikely to accommodate the diverse social contexts within which they operate.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q19",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Directions for sentence exclusion: Five sentences are given below; out of these, four come together to form a coherent paragraph, but one sentence does not fit into the sequence. Choose the sentence that does not fit into the sequence.\n\n1. They often include a foundation course on navigating capitalism with Chinese characteristics and have replaced typical cases from US corporates with a focus on how Western theories apply to China's buzzing local firms.\n2. The best Chinese business schools look like their Western rivals but are now growing distinct in terms of what they teach and the career boost they offer.\n3. Western schools have enhanced their offerings with double degrees, popular with domestic and overseas students alike—and boosted the prestige of their Chinese partners.\n4. For students, a big draw is the chance to rub shoulders with captains of China's private sector.\n5. Their business courses now largely cater to the growing demand from China Inc which has become more global, richer and ready to recruit from this sinocentric student body.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q20",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Directions for Summary: A paragraph is followed by four options which have summarized the passage in their own way. Pick the option that best summarizes the passage:\n\nPeople view idleness as a sin and industriousness as a virtue, and in the process have developed an unsatisfactory relationship with their jobs. Work has become a way for them to keep busy, even though many find their work meaningless. In their need for activity people undertake what was once considered work (fishing, gardening) as hobbies. The opposing view is that hard work has made us prosperous and improved our levels of health and education. It has also brought innovation and labour and time-saving devices, which have lessened life's drudgery.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "While the idealisation of hard work has propelled people into meaningless jobs and endless activity, it has also led to tremendous social benefits from prosperity and innovation.",
+        "Some believe that hard work has been glorified to the extent that it has become meaningless, and led to greater idleness, but it has also had enormous positive impacts on everyday life.",
+        "Hard work has overtaken all aspects of our lives and has enabled economic prosperity, but it is important that people reserve their leisure time for some idleness.",
+        "Despite some detractors, hard work is essential in today's world to enable economic progress, for education and health and to propel innovations that make life easier."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q21",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Directions for Summary: A paragraph is followed by four options which have summarized the passage in their own way. Pick the option that best summarizes the passage:\n\nBrazil's growth rate has been low, yet most Brazilians say their financial situation has improved, and they expect it to get even better. This is because most incomes are rising fast, with higher minimum wages and very low unemployment. The result is falling inequality and a growing middle class — the result of economic stabilization, improved social security and universal primary education. But despite recent improvements the Brazilian economy is still painfully unequal, with poor Brazilians paying the biggest share of their income in taxes and getting the least back in government services.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Good economic indicators have masked the unfair taxation of the poor that is likely to destabilise the Brazilian economy in the next few years.",
+        "Economic reforms have benefitted many Brazilians, but they are unaware of the impending problems from rising inequalities in their society.",
+        "Most Brazilians feel they have benefitted from recent economic events, but the poor continue to be dealt unfairly by the state.",
+        "With rising incomes and falling unemployment, most Brazilians are being misled into thinking that their economy is doing well."
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q22",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Four sentences that are a part of paragraph are given below; the sentences may or may not be in the right order; create the sequence that forms a coherent paragraph.\n\n1. Restitution of artefacts to original cultures could faces legal obstacles, as many Western museums are legally prohibited from disposing off their collections.\n2. This is in response to countries like Nigeria, which are pressurising European museums to return their precious artefacts looted by colonisers in the past.\n3. Museums in Europe today are struggling to come to terms with their colonial legacy, some taking steps to return artefacts but not wanting to lose their prized collections.\n4. Legal hurdles notwithstanding, politicians and institutions in France and Germany would now like to defuse the colonial time bombs, and are now backing the return of part of their holdings.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1234",
+        "2314",
+        "3214",
+        "3412"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q23",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Four sentences that are a part of paragraph are given below; the sentences may or may not be in the right order; create the sequence that forms a coherent paragraph.\n\n1. It is regimes of truth that make certain relationships speakable - relationships, like subjectivities, are constituted through discursive formations, which sustain regimes of truth.\n2. Relationships are nothing without the communication that brings them into being; interpersonal communication is connected to knowledge shared by interlocutors, and scholars should attend to relational histories in their analyses.\n3. A Foucauldian approach to relationships goes beyond these conceptions of discourse and history to macro level regimes of truth as constituting relationships.\n4. Reconsidering micropractices within relationships that are constituted within and simultaneously contributors to regimes of truth acknowledges the central position of power/knowledge in the constitution of what has come to be considered true and real.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1234",
+        "2314",
+        "3214",
+        "3412"
+      ]
+    },
+    {
+      "id": "2021_S3_VARC_Q24",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Four sentences that are a part of paragraph are given below; the sentences may or may not be in the right order; create the sequence that forms a coherent paragraph.\n\n1. Businesses find automation, such as robotic employees, a big asset in terms of productivity and efficiency.\n2. But in recent years, robotics has had increasing impacts on unemployment, not just of manual labour, as computers are rapidly handling some white-collar and service-sector work.\n3. For years politicians have promised workers that they would bring back their jobs by clamping down on trade, offshoring and immigration.\n4. Economists, based on their research, say that the bigger threat to jobs now is not globalisation but automation.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "1234",
+        "2314",
+        "3214",
+        "3412"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q1",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "How many questions were DEFINITELY created by Amal?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q2",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "How many questions were DEFINITELY created by Komal?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q3",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "How many questions were DEFINITELY created by the SMEs?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q4",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "How many questions were DEFINITELY disapproved by Bimal?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q5",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "The approval ratio of a reviewer is the ratio of the number of questions (s)he approved to the number of questions (s)he reviewed. Which option best describes Amal's approval ratio?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "lies between 0.25 and 0.50",
+        "either 0.25 or 0.75",
+        "0.25",
+        "lies between 0.25 and 0.75"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q6",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of 13 questions (Q01 to Q13). Questions can be created by external \"subject matter experts\" (SMEs) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.\n\nIf a question is created by an SME, it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.\n\nA question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then itis accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by Komal are first reviewed by Amal, and then, if required, by Bimal.\n\nThe following facts are known about the review process after its completion.\n1. Q02, Q06, Q09, Q11, and Q12 were rejected and the other questions were accepted.\n2. Amal reviewed only Q02, Q03, Q04, Q06, Q08, Q10, Q11, and Q13.\n3. Bimal reviewed only Q02, Q04, Q06 through Q09, Q12, and Q13.\n4. Komal reviewed only Q01 through Q05, Q07, Q08, Q09, Q11, and Q12.",
+      "question_text": "How many questions created by Amal or Bimal were disapproved by at least one of the other reviewers?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2",
+        "7",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q7",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.\n\nFor example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2. the test will not detect any impurity in the resultant mixture.",
+      "question_text": "5 ml of content from bottle A is mixed with 5 ml of content from bottle B. The resultant mixture, when tested, detects the presence of I. If it is known that bottle A contains only P, what BEST can be concluded about the volume of I in bottle B?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "10 ml",
+        "1 ml",
+        "10 ml or more",
+        "Less than 1 ml"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q8",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.\n\nFor example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2. the test will not detect any impurity in the resultant mixture.",
+      "question_text": "There are four bottles. Each bottle is known to contain only P or only I. They will be considered to be \"collectively ready for despatch\" if all of them contain only P. In minimum how many tests, is it possible to ascertain whether these four bottles are“ collectively ready for despatch\"?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q9",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.\n\nFor example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2. the test will not detect any impurity in the resultant mixture.",
+      "question_text": "There are four bottles. It is known that three of these bottles contain only P, while the remaining one contains 80% P and 20% I. What is the minimum number of tests required to definitely identify the bottle containing some amount of I?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_DILR_Q10",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Each of the bottles mentioned in this question contains 50 ml of liquid. The liquid in any bottle can be 100% pure content (P) or can have certain amount of impurity (I). Visually it is not possible to distinguish between P and I. There is a testing device which detects impurity, as long as the percentage of impurity in the content tested is 10% or more.\n\nFor example, suppose bottle 1 contains only P, and bottle 2 contains 80% P and 20% I. If content from bottle 1 is tested, it will be found out that it contains only P. If content of bottle 2is tested, the test will reveal that it contains some amount of I. If 10 ml of content from bottle 1is mixed with 20 ml content from bottle 2, the test will show that the mixture has impurity, and hence we can conclude that at least one of the two bottles has I. However, if 10 ml of content from bottle 1 is mixed with 5 ml of content from bottle 2. the test will not detect any impurity in the resultant mixture.",
+      "question_text": "There are four bottles. It is known that either one or two of these bottles contain(s)only P, while the remaining ones contain 85% P and 15% I. What is the minimum number of tests required to ascertain the exact number of bottles containing only P?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q11",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The figure above shows the schedule of four employees – Abani, Bahni, Danni and Tinni -whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.\n\nFor each employee, his/her total project-month (in 2020) is the sum of the number of months(s)he worked across the five project, while his/her annual completion index is the weightage average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weightage average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.",
+      "question_text": "Which of the following statements is/are true?\n\nI: The total project-month was the same for the four employees.\n\nII: The total employee-month was the same for the five projects.",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q11.png",
+      "options": [
+        "Only I",
+        "Both I and II",
+        "Only II",
+        "Neither I nor II"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q12",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The figure above shows the schedule of four employees – Abani, Bahni, Danni and Tinni -whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.\n\nFor each employee, his/her total project-month (in 2020) is the sum of the number of months(s)he worked across the five project, while his/her annual completion index is the weightage average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weightage average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.",
+      "question_text": "Which employees did not work in multiple projects for any of the months in 2020?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q11.png",
+      "options": [
+        "All four of them",
+        "Only Tinni",
+        "Only Abani and Bahni",
+        "Only Abani, Bahni and Danni"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q13",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The figure above shows the schedule of four employees – Abani, Bahni, Danni and Tinni -whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.\n\nFor each employee, his/her total project-month (in 2020) is the sum of the number of months(s)he worked across the five project, while his/her annual completion index is the weightage average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weightage average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.",
+      "question_text": "The project duration, measured in terms of the number of months, is the time during which at least one employee worked in the project. Which of the following pairs of the projects had the same duration?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q11.png",
+      "options": [
+        "Project 3, Project 5",
+        "Project 4, Project 5",
+        "Project 1, Project 5",
+        "Project 3, Project 4"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q14",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The figure above shows the schedule of four employees – Abani, Bahni, Danni and Tinni -whom Dhoni supervised in 2020. Altogether there were five projects which started and concluded in 2020 in which they were involved. For each of these projects and for each employee, the starting day was at the beginning of a month and the concluding day was the end of a month, and these are indicated by the left and right end points of the corresponding horizontal bars. The number within each bar indicates the percentage of assigned work completed by the employee for that project, as assessed by Dhoni.\n\nFor each employee, his/her total project-month (in 2020) is the sum of the number of months(s)he worked across the five project, while his/her annual completion index is the weightage average of the completion percentage assigned from the different projects, with the weights being the corresponding number of months (s)he worked in these projects. For each project, the total employee-month is the sum of the number of months four employees worked in this project, while its completion index is the weightage average of the completion percentage assigned for the employees who worked in this project, with the weights being the corresponding number of months they worked in this project.",
+      "question_text": "The list of employees in decreasing order of annual completion index is:",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q11.png",
+      "options": [
+        "Danni, Tinni, Bahni, Abani",
+        "Danni, Tinni, Abani, Bahni",
+        "Bahni, Abani, Tinni, Danni",
+        "Tinni, Danni, Abani, Bahni"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q15",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "Which two players got the double?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "P8, P10",
+        "P2, P4",
+        "P1, P8",
+        "P1, P10"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q16",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "Who won the silver medal?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "P5",
+        "P9",
+        "P7",
+        "P1"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q17",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "Who threw the last javelin in the event?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "P1",
+        "P9",
+        "P10",
+        "P7"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q18",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "What was the final score (in m) of the silver-medalist?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "88.6",
+        "88.4",
+        "87.2",
+        "89.6"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q19",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "Which of the following can be the final score (in m) of P8?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "82.7",
+        "85.1",
+        "0",
+        "81.9"
+      ]
+    },
+    {
+      "id": "2021_S3_DILR_Q20",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "10 players - P1, P2, ..., P10 - competed in an international javelin throw event. The number(after P) of a player reflects his rank at the beginning of the event, with rank 1 going to the topmost player. There were two phases in the event with the first phase consisting of rounds 1,2, and 3, and the second phase consisting of rounds 4, 5, and 6. A throw is measured in terms of the distance it covers (in meters, up to one decimal point accuracy), only if the throw is a ‘valid' one. For an invalid throw, the distance is taken as zero. A player's score at the end of around is the maximum distance of all his throws up to that round. Players are re-ranked after every round based on their current scores. In case of a tie in scores, the player with a prevailing higher rank retains the higher rank. This ranking determines the order in which the players go for their throws in the next round.\n\nIn each of the rounds in the first phase, the players throw in increasing order of their latest rank, i.e. the player ranked 1 at that point throws first, followed by the player ranked 2 at that point and so on. The top six players at the end of the first phase qualify for the second phase. In each of the rounds in the second phase, the players throw in decreasing order of their latest rank i.e. the player ranked 6 at that point throws first, followed by the player ranked 5 at that point and so on. The players ranked 1, 2, and 3 at the end of the sixth round receive gold, silver, and bronze medals respectively.\n\nAll the valid throws of the event were of distinct distances (as per stated measurement accuracy). The tables below show distances (in meters) covered by all valid throws in the first and the third round in the event.\n\nDistances covered by all the valid throws in the first round\nPlayer\tDistance (in m)\nP1\t82.9\nP3\t81.5\nP5\t86.4\nP6\t82.5\nP7\t87.2\nP9\t84.1\n\nDistances covered by all the valid throws in the third round\nPlayer\tDistance (in m)\nP1\t88.6\nP3\t79.0\nP9\t81.4\n\nThe following facts are also known.\nI. Among the throws in the second round, only the last two were valid. Both the throws enabled these players to qualify for the second phase, with one of them qualifying with the least score. None of these players won any medal.\nII. If a player throws first in a round AND he was also the last (among the players in the current round) to throw in the previous round, then the player is said to get a double. Two players got a double.\nIII. In each round of the second phase, exactly one player improved his score. Each of these improvements was by the same amount.\nIV. The gold and bronze medalists improved their scores in the fifth and the sixth rounds respectively. One medal winner improved his score in the fourth round.\nV. The difference between the final scores of the gold medalist and the silver medalist, as well as the difference between the final scores of the silver medalist and the bronze medalist was1.0 m.",
+      "question_text": "By how much did the gold medalist improve his score (in m) in the second phase?",
+      "has_image": true,
+      "image_url": "images/2021_S3_DILR_Q15.png",
+      "options": [
+        "2.4",
+        "2.0",
+        "1.0",
+        "1.2"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q1",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A shop owner bought a total of 64 shirts from a wholesale market that came in two sizes, small and large. The price of a small shirt was INR 50 less than that of a large shirt. She paid a total of INR 5000 for the large shirts, and a total of INR 1800 for the small shirts. Then, the price of a large shirt and a small shirt together, in INR, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "175",
+        "150",
+        "200",
+        "225"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q2",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "One day, Rahul started a work at 9 AM and Gautam joined him two hours later. They then worked together and completed the work at 5 PM the same day. If both had started at 9 AM and worked together, the work would have been completed 30 minutes earlier. Working alone, the time Rahul would have taken, in hours, to complete the work is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "11.5",
+        "10",
+        "12.5",
+        "12"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q3",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In a tournament, a team has played 40 matches so far and won 30% of them. If they win 60% of the remaining matches, their overall win percentage will be 50%. Suppose they win 90% of the remaining matches, then the total number of matches won by the team in the tournament will be",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "80",
+        "78",
+        "84",
+        "86"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q4",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The number of distinct pairs of integers (m,n), satisfying | 1+mn|<m+n|<5 is:",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q5",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "For a real number a, if log15 a + log32 a / (log15 a)(log32 a) = 4 then a must lie in the range",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2 < a <3",
+        "3 < a < 4",
+        "4 < a < 5",
+        "a > 5"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q6",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The total of male and female populations in a city increased by 25% from 1970 to 1980. During the same period, the male population increased by 40% while the female population increased by 20%. From 1980 to 1990, the female population increased by 25%. In 1990, if the female population is twice the male population, then the percentage increase in the total of male and female populations in the city from 1970 to 1990 is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "68.25",
+        "68.75",
+        "68.50",
+        "69.25"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q7",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Consider a sequence of real numbers, X1,X2, X3,... such that Xn+1 = X + n−1 for all n ≥ 1. If X₁ = -1 then X100 is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "4849",
+        "4949",
+        "4950",
+        "4850"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q8",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The arithmetic mean of scores of 25 students in an examination is 50. Five of these students top the examination with the same score. If the scores of the other students are distinct integers with the lowest being 30, then the maximum possible score of the toppers is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q9",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "One part of a hostel's monthly expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects 1600 per month from each boarder. When the number of boarders is 50, the profit of the hostel is ₹ 200 per boarder, and when the number of boarders is 75, the profit of the hostel is 250 per boarder. When the number of boarders is 80, the total profit of the hostel, in INR, will be",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "20200",
+        "20500",
+        "20800",
+        "20000"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q10",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The cost of fencing a rectangular plot is 200 per ft along one side, and ₹ 100 per ft along the three other sides. If the area of the rectangular plot is 60000 sq. ft, then the lowest possible cost of fencing all four sides, in INR, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "120000",
+        "90000",
+        "100000",
+        "160000"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q11",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A park is shaped like a rhombus and has area 96 sq m. If 40 m of fencing is needed to enclose the park, the cost, in INR, of laying electric wires along its two diagonals, at the rate of 125 per m, is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q12",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A tea shop offers tea in cups of three different sizes. The product of the prices, in INR, of three different sizes is equal to 800. The prices of the smallest size and the medium size are in the ratio 2: 5. If the shop owner decides to increase the prices of the smallest and the medium ones by INR 6 keeping the price of the largest size unchanged, the product then changes to 3200. The sum of the original prices of three different sizes, in INR, is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q13",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Mira and Amal walk along a circular track, starting from the same point at the same time. If they walk in the same direction, then in 45 minutes, Amal completes exactly 3 more rounds than Mira. If they walk in opposite directions, then they meet for the first time exactly after 3 minutes. The number of rounds Mira walks in one hour is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q14",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a certain weight of an alloy of silver and copper is mixed with 3 kg of pure silver, the resulting alloy will have 90% silver by weight. If the same weight of the initial alloy is mixed with 2 kg of another alloy which has 90% silver by weight, the resulting alloy will have 84% silver by weight. Then, the weight of the initial alloy, in kg, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "3.5",
+        "2.5",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q15",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a triangle ABC, ∠BCA = 50° . D and E are points on AB and AC, respectively, such that AD = DE . If F is a point on BC such that BD = DF, then ∠FDE, in degrees, is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "72",
+        "80",
+        "100",
+        "96"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q16",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Bank A offers 6% interest rate per annum compounded half yearly. Bank B and Bank C offer simple interest but the annual interest rate offered by Bank C is twice that of Bank B. Raju invests a certain amount in Bank B for a certain period and Rupa invests ₹ 10,000 in Bank C for twice that period. The interest that would accrue to Raju during that period is equal to the interest that would have accrued had he invested the same amount in Bank A for one year. The interest accrued, in INR, to Rupa is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "3436",
+        "2436",
+        "2346",
+        "1436"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q17",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If f(x) = x² -7x and g(x)=x+3, then the minimum value of f(g(x))-3x is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "-20",
+        "-12",
+        "-15",
+        "-16"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q18",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Anil can paint a house in 12 days while Barun can paint it in 16 days. Anil, Barun, and Chandu undertake to paint the house for ₹ 24000 and the three of them together complete the painting in 6 days. If Chandu is paid in proportion to the work done by him, then the amount in INR received by him is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q19",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If n is a positive integer such that (√10)(√10)²...(√10)ⁿ >999, then the smallest value of n is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q20",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A four-digit number is formed by using only the digits 1, 2 and 3 such that both 2 and 3 appear at least once. The number of all such four-digit numbers is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2021_S3_QA_Q21",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let ABCD be a parallelogram. The lengths of the side AD and the diagonal AC are 10cm and 20cm, respectively. If the angle ∠ADC is equal to 30º then the area of the parallelogram, in sq.cm is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "25(√5+√15)/2",
+        "25(√3+√15)",
+        "25(√3+√15)/2",
+        "25(√5+√15)"
+      ]
+    },
+    {
+      "id": "2021_S3_QA_Q22",
+      "exam_year": 2021,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If 3x+2|y|+y=7 and x+|x|+3y =1 then x+2y is:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "-4/3",
+        "8/3",
+        "0",
+        "1"
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_id": "2021_S3_VARC_Q1",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q2",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q3",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q4",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q5",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q6",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q7",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q8",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q9",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q10",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q11",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q12",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q13",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q14",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q15",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q16",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q17",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q18",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q19",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q20",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q21",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q22",
+      "correct_option": "3214"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q23",
+      "correct_option": "2314"
+    },
+    {
+      "question_id": "2021_S3_VARC_Q24",
+      "correct_option": "3412"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q1",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q2",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q3",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q4",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q5",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q6",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q7",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q8",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q9",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q10",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q11",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q12",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q13",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q14",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q15",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q16",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q17",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q18",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q19",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_DILR_Q20",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_QA_Q1",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_QA_Q2",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q3",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_QA_Q4",
+      "correct_option": "12"
+    },
+    {
+      "question_id": "2021_S3_QA_Q5",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_QA_Q6",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q7",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_QA_Q8",
+      "correct_option": "92"
+    },
+    {
+      "question_id": "2021_S3_QA_Q9",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q10",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2021_S3_QA_Q11",
+      "correct_option": "3500"
+    },
+    {
+      "question_id": "2021_S3_QA_Q12",
+      "correct_option": "34"
+    },
+    {
+      "question_id": "2021_S3_QA_Q13",
+      "correct_option": "8"
+    },
+    {
+      "question_id": "2021_S3_QA_Q14",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2021_S3_QA_Q15",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q16",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q17",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2021_S3_QA_Q18",
+      "correct_option": "3000"
+    },
+    {
+      "question_id": "2021_S3_QA_Q19",
+      "correct_option": "6"
+    },
+    {
+      "question_id": "2021_S3_QA_Q20",
+      "correct_option": "50"
+    },
+    {
+      "question_id": "2021_S3_QA_Q21",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2021_S3_QA_Q22",
+      "correct_option": "3"
+    }
+  ]
+}

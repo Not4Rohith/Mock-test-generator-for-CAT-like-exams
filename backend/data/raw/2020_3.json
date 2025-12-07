@@ -1,0 +1,1432 @@
+
+{
+  "question_bank": [
+    {
+      "id": "2020_S3_VARC_Q1",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "[There is] a curious new reality: Human contact is becoming a luxury good. As more screens appear in the lives of the poor, screens are disappearing from the lives of the rich. The richer you are, the more you spend to be off-screen....\n\nThe joy at least at first of the internet revolution was its democratic nature. Facebook is the same Facebook whether you are rich or poor. Gmail is the same Gmail. And it's all free. There is something mass market and unappealing about that. And as studies show that time on these advertisement-support platforms is unhealthy, it all starts to seem déclassé, like drinking soda or smoking cigarettes, which wealthy people do less than poor people. The wealthy can afford to opt out of having their data and their attention sold as a product. The poor and middle class don't have the same kind of resources to make that happen.\n\nScreen exposure starts young. And children who spent more than two hours a day looking at a screen got lower scores on thinking and language tests, according to early results of a landmark study on brain development of more than 11,000 children that the National Institutes of Health is supporting. Most disturbingly, the study is finding that the brains of children who spend a lot of time on screens are different. For some kids, there is premature thinning of their cerebral cortex. In adults, one study found an association between screen time and depression....\n\nTech companies worked hard to get public schools to buy into programs that required schools to have one laptop per student, arguing that it would better prepare children for their screenbased future. But this idea isn't how the people who actually build the screen- based future raise their own children. In Silicon Valley, time on screens is increasingly seen as unhealthy. Here, the popular elementary school is the local Waldorf School, which promises a back-to nature, nearly screen-free education. So as wealthy kids are growing up with less screen time, poor kids are growing up with more. How comfortable someone is with human engagement could become a new class marker.\n\nHuman contact is, of course, not exactly like organic food.... But with screen time, there has been a concerted effort on the part of Silicon Valley behemoths to confuse the public. The poor and the middle class are told that screens are good and important for them and their children. There are fleets of psychologists and neuroscientists on staff at big tech companies working to hook eyes and minds to the screen as fast as possible and for as long as possible. And so human contact is rare....\n\nThere is a small movement to pass a \"right to disconnect\" bill, which would allow workers to turn their phones off, but for now a worker can be punished for going offline and not being available. There is also the reality that in our culture of increasing isolation, in which so many of the traditional gathering places and social structures have disappeared, screens are filling a crucial void.",
+      "question_text": "The author is least likely to agree with the view that the increase in screen-time is fuelled by the fact that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "there is a growth in computer-based teaching in public schools.",
+        "some workers face punitive action if they are not online.",
+        "with falling costs, people are streaming more content on their devices.",
+        "screens provide social contact in an increasingly isolating world."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q2",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "[There is] a curious new reality: Human contact is becoming a luxury good. As more screens appear in the lives of the poor, screens are disappearing from the lives of the rich. The richer you are, the more you spend to be off-screen....\n\nThe joy at least at first of the internet revolution was its democratic nature. Facebook is the same Facebook whether you are rich or poor. Gmail is the same Gmail. And it's all free. There is something mass market and unappealing about that. And as studies show that time on these advertisement-support platforms is unhealthy, it all starts to seem déclassé, like drinking soda or smoking cigarettes, which wealthy people do less than poor people. The wealthy can afford to opt out of having their data and their attention sold as a product. The poor and middle class don't have the same kind of resources to make that happen.\n\nScreen exposure starts young. And children who spent more than two hours a day looking at a screen got lower scores on thinking and language tests, according to early results of a landmark study on brain development of more than 11,000 children that the National Institutes of Health is supporting. Most disturbingly, the study is finding that the brains of children who spend a lot of time on screens are different. For some kids, there is premature thinning of their cerebral cortex. In adults, one study found an association between screen time and depression....\n\nTech companies worked hard to get public schools to buy into programs that required schools to have one laptop per student, arguing that it would better prepare children for their screenbased future. But this idea isn't how the people who actually build the screen- based future raise their own children. In Silicon Valley, time on screens is increasingly seen as unhealthy. Here, the popular elementary school is the local Waldorf School, which promises a back-to nature, nearly screen-free education. So as wealthy kids are growing up with less screen time, poor kids are growing up with more. How comfortable someone is with human engagement could become a new class marker.\n\nHuman contact is, of course, not exactly like organic food.... But with screen time, there has been a concerted effort on the part of Silicon Valley behemoths to confuse the public. The poor and the middle class are told that screens are good and important for them and their children. There are fleets of psychologists and neuroscientists on staff at big tech companies working to hook eyes and minds to the screen as fast as possible and for as long as possible. And so human contact is rare....\n\nThere is a small movement to pass a \"right to disconnect\" bill, which would allow workers to turn their phones off, but for now a worker can be punished for going offline and not being available. There is also the reality that in our culture of increasing isolation, in which so many of the traditional gathering places and social structures have disappeared, screens are filling a crucial void.",
+      "question_text": "The author claims that Silicon Valley tech companies have tried to “confuse the public\" by:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "promoting screen time in public schools while opting for a screen-free education for their own children.",
+        "pushing for greater privacy while working with advertisement-support platforms to mine data.",
+        "concealing the findings of psychologists and neuroscientists on screen-time use from the public.",
+        "developing new work-efficiency programmes while lobbying for the \"right to disconnect\" bill."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q3",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "[There is] a curious new reality: Human contact is becoming a luxury good. As more screens appear in the lives of the poor, screens are disappearing from the lives of the rich. The richer you are, the more you spend to be off-screen....\n\nThe joy at least at first of the internet revolution was its democratic nature. Facebook is the same Facebook whether you are rich or poor. Gmail is the same Gmail. And it's all free. There is something mass market and unappealing about that. And as studies show that time on these advertisement-support platforms is unhealthy, it all starts to seem déclassé, like drinking soda or smoking cigarettes, which wealthy people do less than poor people. The wealthy can afford to opt out of having their data and their attention sold as a product. The poor and middle class don't have the same kind of resources to make that happen.\n\nScreen exposure starts young. And children who spent more than two hours a day looking at a screen got lower scores on thinking and language tests, according to early results of a landmark study on brain development of more than 11,000 children that the National Institutes of Health is supporting. Most disturbingly, the study is finding that the brains of children who spend a lot of time on screens are different. For some kids, there is premature thinning of their cerebral cortex. In adults, one study found an association between screen time and depression....\n\nTech companies worked hard to get public schools to buy into programs that required schools to have one laptop per student, arguing that it would better prepare children for their screenbased future. But this idea isn't how the people who actually build the screen- based future raise their own children. In Silicon Valley, time on screens is increasingly seen as unhealthy. Here, the popular elementary school is the local Waldorf School, which promises a back-to nature, nearly screen-free education. So as wealthy kids are growing up with less screen time, poor kids are growing up with more. How comfortable someone is with human engagement could become a new class marker.\n\nHuman contact is, of course, not exactly like organic food.... But with screen time, there has been a concerted effort on the part of Silicon Valley behemoths to confuse the public. The poor and the middle class are told that screens are good and important for them and their children. There are fleets of psychologists and neuroscientists on staff at big tech companies working to hook eyes and minds to the screen as fast as possible and for as long as possible. And so human contact is rare....\n\nThere is a small movement to pass a \"right to disconnect\" bill, which would allow workers to turn their phones off, but for now a worker can be punished for going offline and not being available. There is also the reality that in our culture of increasing isolation, in which so many of the traditional gathering places and social structures have disappeared, screens are filling a crucial void.",
+      "question_text": "The statement “The richer you are, the more you spend to be off-screen” is supported by which other line from the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "\"Gmail is the same Gmail. And it's all free.\"",
+        "\"... screens are filling a crucial void.\"",
+        "\"How comfortable someone is with human engagement could become a new class marker.\"",
+        "\"... studies show that time on these advertisement-support platforms is unhealthy."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q4",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "[There is] a curious new reality: Human contact is becoming a luxury good. As more screens appear in the lives of the poor, screens are disappearing from the lives of the rich. The richer you are, the more you spend to be off-screen....\n\nThe joy at least at first of the internet revolution was its democratic nature. Facebook is the same Facebook whether you are rich or poor. Gmail is the same Gmail. And it's all free. There is something mass market and unappealing about that. And as studies show that time on these advertisement-support platforms is unhealthy, it all starts to seem déclassé, like drinking soda or smoking cigarettes, which wealthy people do less than poor people. The wealthy can afford to opt out of having their data and their attention sold as a product. The poor and middle class don't have the same kind of resources to make that happen.\n\nScreen exposure starts young. And children who spent more than two hours a day looking at a screen got lower scores on thinking and language tests, according to early results of a landmark study on brain development of more than 11,000 children that the National Institutes of Health is supporting. Most disturbingly, the study is finding that the brains of children who spend a lot of time on screens are different. For some kids, there is premature thinning of their cerebral cortex. In adults, one study found an association between screen time and depression....\n\nTech companies worked hard to get public schools to buy into programs that required schools to have one laptop per student, arguing that it would better prepare children for their screenbased future. But this idea isn't how the people who actually build the screen- based future raise their own children. In Silicon Valley, time on screens is increasingly seen as unhealthy. Here, the popular elementary school is the local Waldorf School, which promises a back-to nature, nearly screen-free education. So as wealthy kids are growing up with less screen time, poor kids are growing up with more. How comfortable someone is with human engagement could become a new class marker.\n\nHuman contact is, of course, not exactly like organic food.... But with screen time, there has been a concerted effort on the part of Silicon Valley behemoths to confuse the public. The poor and the middle class are told that screens are good and important for them and their children. There are fleets of psychologists and neuroscientists on staff at big tech companies working to hook eyes and minds to the screen as fast as possible and for as long as possible. And so human contact is rare....\n\nThere is a small movement to pass a \"right to disconnect\" bill, which would allow workers to turn their phones off, but for now a worker can be punished for going offline and not being available. There is also the reality that in our culture of increasing isolation, in which so many of the traditional gathering places and social structures have disappeared, screens are filling a crucial void.",
+      "question_text": "Which of the following statements about the negative effects of screen time is the author least likely to endorse?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "It is designed to be addictive.",
+        "It is shown to have adverse effects on young children's learning.",
+        "It increases human contact as it fills an isolation void.",
+        "It can cause depression in viewers."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q5",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "I've been following the economic crisis for more than two years now. I began working on the subject as part of the background to a novel, and soon realized that I had stumbled across the most interesting story I've ever found. While I was beginning to work on it, the British bank Northern Rock blew up, and it became clear that, as I wrote at the time, “If our laws are not extended to control the new kinds of super-powerful, super-complex, and potentially superrisky investment vehicles, they will one day cause a financial disaster of global-systemic proportions.” . . . I was both right and too late, because all the groundwork for the crisis had already been done—though the sluggishness of the world's governments, in not preparing for the great unraveling of autumn 2008, was then and still is stupefying. But this is the first reason why I wrote this book: because what's happened is extraordinarily interesting. It is an absolutely amazing story, full of human interest and drama, one whose byways of mathematics, economics, and psychology are both central to the story of the last decades and mysteriously unknown to the general public. We have heard a lot about \"the two cultures\" of science and the arts—we heard a particularly large amount about it in 2009, because it was the fiftieth anniversary of the speech during which C. P. Snow first used the phrase. But I'm not sure the idea of a huge gap between science and the arts is as true as it was half a century ago—it's certainly true, for instance, that a general reader who wants to pick up an education in the fundamentals of science will find it easier than ever before. It seems to me that there is a much bigger gap between the world of finance and that of the general public and that there is a need to narrow that gap, if the financial industry is not to be a kind of priesthood, administering to its own mysteries and feared and resented by the rest of us. Many bright, literate people have no idea about all sorts of economic basics, of a type that financial insiders take as elementary facts of how the world works. I am an outsider to finance and economics, and my hope is that I can talk across that gulf.\n\nMy need to understand is the same as yours, whoever you are. That's one of the strangest ironies of this story: after decades in which the ideology of the Western world was personally and economically individualistic, we've suddenly been hit by a crisis which shows in the starkest terms that whether we like it or not—and there are large parts of it that you would have to be crazy to like—we're all in this together. The aftermath of the crisis is going to dominate the economics and politics of our societies for at least a decade to come and perhaps longer.",
+      "question_text": "Which one of the following best captures the main argument of the last paragraph of the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The aftermath of the crisis will strengthen the central ideology of individualism in the Western world.",
+        "Whoever you are, you would be crazy to think that there is no crisis.",
+        "In the decades to come, other ideologies will emerge in the aftermath of the crisis.",
+        "The ideology of individualism must be set aside in order to deal with the crisis."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q6",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "I've been following the economic crisis for more than two years now. I began working on the subject as part of the background to a novel, and soon realized that I had stumbled across the most interesting story I've ever found. While I was beginning to work on it, the British bank Northern Rock blew up, and it became clear that, as I wrote at the time, “If our laws are not extended to control the new kinds of super-powerful, super-complex, and potentially superrisky investment vehicles, they will one day cause a financial disaster of global-systemic proportions.” . . . I was both right and too late, because all the groundwork for the crisis had already been done—though the sluggishness of the world's governments, in not preparing for the great unraveling of autumn 2008, was then and still is stupefying. But this is the first reason why I wrote this book: because what's happened is extraordinarily interesting. It is an absolutely amazing story, full of human interest and drama, one whose byways of mathematics, economics, and psychology are both central to the story of the last decades and mysteriously unknown to the general public. We have heard a lot about \"the two cultures\" of science and the arts—we heard a particularly large amount about it in 2009, because it was the fiftieth anniversary of the speech during which C. P. Snow first used the phrase. But I'm not sure the idea of a huge gap between science and the arts is as true as it was half a century ago—it's certainly true, for instance, that a general reader who wants to pick up an education in the fundamentals of science will find it easier than ever before. It seems to me that there is a much bigger gap between the world of finance and that of the general public and that there is a need to narrow that gap, if the financial industry is not to be a kind of priesthood, administering to its own mysteries and feared and resented by the rest of us. Many bright, literate people have no idea about all sorts of economic basics, of a type that financial insiders take as elementary facts of how the world works. I am an outsider to finance and economics, and my hope is that I can talk across that gulf.\n\nMy need to understand is the same as yours, whoever you are. That's one of the strangest ironies of this story: after decades in which the ideology of the Western world was personally and economically individualistic, we've suddenly been hit by a crisis which shows in the starkest terms that whether we like it or not—and there are large parts of it that you would have to be crazy to like—we're all in this together. The aftermath of the crisis is going to dominate the economics and politics of our societies for at least a decade to come and perhaps longer.",
+      "question_text": "Which one of the following, if true, would be an accurate inference from the first sentence of the passage?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The author has witnessed many economic crises by travelling a lot for two years.",
+        "The author's preoccupation with the economic crisis is not less than two years old.",
+        "The author is preoccupied with the economic crisis because he is being followed.",
+        "The economic crisis outlasted the author's preoccupation with it."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q7",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "I've been following the economic crisis for more than two years now. I began working on the subject as part of the background to a novel, and soon realized that I had stumbled across the most interesting story I've ever found. While I was beginning to work on it, the British bank Northern Rock blew up, and it became clear that, as I wrote at the time, “If our laws are not extended to control the new kinds of super-powerful, super-complex, and potentially superrisky investment vehicles, they will one day cause a financial disaster of global-systemic proportions.” . . . I was both right and too late, because all the groundwork for the crisis had already been done—though the sluggishness of the world's governments, in not preparing for the great unraveling of autumn 2008, was then and still is stupefying. But this is the first reason why I wrote this book: because what's happened is extraordinarily interesting. It is an absolutely amazing story, full of human interest and drama, one whose byways of mathematics, economics, and psychology are both central to the story of the last decades and mysteriously unknown to the general public. We have heard a lot about \"the two cultures\" of science and the arts—we heard a particularly large amount about it in 2009, because it was the fiftieth anniversary of the speech during which C. P. Snow first used the phrase. But I'm not sure the idea of a huge gap between science and the arts is as true as it was half a century ago—it's certainly true, for instance, that a general reader who wants to pick up an education in the fundamentals of science will find it easier than ever before. It seems to me that there is a much bigger gap between the world of finance and that of the general public and that there is a need to narrow that gap, if the financial industry is not to be a kind of priesthood, administering to its own mysteries and feared and resented by the rest of us. Many bright, literate people have no idea about all sorts of economic basics, of a type that financial insiders take as elementary facts of how the world works. I am an outsider to finance and economics, and my hope is that I can talk across that gulf.\n\nMy need to understand is the same as yours, whoever you are. That's one of the strangest ironies of this story: after decades in which the ideology of the Western world was personally and economically individualistic, we've suddenly been hit by a crisis which shows in the starkest terms that whether we like it or not—and there are large parts of it that you would have to be crazy to like—we're all in it together. The aftermath of the crisis is going to dominate the economics and politics of our societies for at least a decade to come and perhaps longer.",
+      "question_text": "Which one of the following, if false, could be seen as supporting the author's claims?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The economic crisis was not a failure of collective action to rectify economic problems.",
+        "Most people are yet to gain any real understanding of the workings of the financial world.",
+        "The huge gap between science and the arts has steadily narrowed over time.",
+        "The global economic crisis lasted for more than two years."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q8",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "I've been following the economic crisis for more than two years now. I began working on the subject as part of the background to a novel, and soon realized that I had stumbled across the most interesting story I've ever found. While I was beginning to work on it, the British bank Northern Rock blew up, and it became clear that, as I wrote at the time, “If our laws are not extended to control the new kinds of super-powerful, super-complex, and potentially superrisky investment vehicles, they will one day cause a financial disaster of global-systemic proportions.” . . . I was both right and too late, because all the groundwork for the crisis had already been done—though the sluggishness of the world's governments, in not preparing for the great unraveling of autumn 2008, was then and still is stupefying. But this is the first reason why I wrote this book: because what's happened is extraordinarily interesting. It is an absolutely amazing story, full of human interest and drama, one whose byways of mathematics, economics, and psychology are both central to the story of the last decades and mysteriously unknown to the general public. We have heard a lot about \"the two cultures\" of science and the arts—we heard a particularly large amount about it in 2009, because it was the fiftieth anniversary of the speech during which C. P. Snow first used the phrase. But I'm not sure the idea of a huge gap between science and the arts is as true as it was half a century ago—it's certainly true, for instance, that a general reader who wants to pick up an education in the fundamentals of science will find it easier than ever before. It seems to me that there is a much bigger gap between the world of finance and that of the general public and that there is a need to narrow that gap, if the financial industry is not to be a kind of priesthood, administering to its own mysteries and feared and resented by the rest of us. Many bright, literate people have no idea about all sorts of economic basics, of a type that financial insiders take as elementary facts of how the world works. I am an outsider to finance and economics, and my hope is that I can talk across that gulf.\n\nMy need to understand is the same as yours, whoever you are. That's one of the strangest ironies of this story: after decades in which the ideology of the Western world was personally and economically individualistic, we've suddenly been hit by a crisis which shows in the starkest terms that whether we like it or not—and there are large parts of it that you would have to be crazy to like—we're all in it together. The aftermath of the crisis is going to dominate the economics and politics of our societies for at least a decade to come and perhaps longer.",
+      "question_text": "All of the following, if true, could be seen as supporting the arguments in the passage, EXCEPT:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "The failure of economic systems does not necessarily mean the failure of their ideologies.",
+        "The story of the economic crisis is also one about international relations, global financial security, and mass psychology.",
+        "The difficulty with understanding financial matters is that they have become so arcane.",
+        "Economic crises could be averted by changing prevailing ideologies and beliefs."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q9",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "I've been following the economic crisis for more than two years now. I began working on the subject as part of the background to a novel, and soon realized that I had stumbled across the most interesting story I've ever found. While I was beginning to work on it, the British bank Northern Rock blew up, and it became clear that, as I wrote at the time, “If our laws are not extended to control the new kinds of super-powerful, super-complex, and potentially superrisky investment vehicles, they will one day cause a financial disaster of global-systemic proportions.” . . . I was both right and too late, because all the groundwork for the crisis had already been done—though the sluggishness of the world's governments, in not preparing for the great unraveling of autumn 2008, was then and still is stupefying. But this is the first reason why I wrote this book: because what's happened is extraordinarily interesting. It is an absolutely amazing story, full of human interest and drama, one whose byways of mathematics, economics, and psychology are both central to the story of the last decades and mysteriously unknown to the general public. We have heard a lot about \"the two cultures\" of science and the arts—we heard a particularly large amount about it in 2009, because it was the fiftieth anniversary of the speech during which C. P. Snow first used the phrase. But I'm not sure the idea of a huge gap between science and the arts is as true as it was half a century ago—it's certainly true, for instance, that a general reader who wants to pick up an education in the fundamentals of science will find it easier than ever before. It seems to me that there is a much bigger gap between the world of finance and that of the general public and that there is a need to narrow that gap, if the financial industry is not to be a kind of priesthood, administering to its own mysteries and feared and resented by the rest of us. Many bright, literate people have no idea about all sorts of economic basics, of a type that financial insiders take as elementary facts of how the world works. I am an outsider to finance and economics, and my hope is that I can talk across that gulf.\n\nMy need to understand is the same as yours, whoever you are. That's one of the strangest ironies of this story: after decades in which the ideology of the Western world was personally and economically individualistic, we've suddenly been hit by a crisis which shows in the starkest terms that whether we like it or not—and there are large parts of it that you would have to be crazy to like—we're all in it together. The aftermath of the crisis is going to dominate the economics and politics of our societies for at least a decade to come and perhaps longer.",
+      "question_text": "According to the passage, the author is likely to be supportive of which one of the following programmes?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "An educational curriculum that promotes developing financial literacy in the masses.",
+        "The complete nationalisation of all financial institutions.",
+        "An educational curriculum that promotes economic research.",
+        "Economic policies that are more sensitively calibrated to the fluctuations of the market."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q10",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Mode of transportation affects the travel experience and thus can produce new types of travel writing and perhaps even new “identities.” Modes of transportation determine the types and duration of social encounters; affect the organization and passage of space and time;.. and also affect perception and knowledge—how and what the traveler comes to know and write about. The completion of the first U.S. transcontinental highway during the 1920s... for example, inaugurated a new genre of travel literature about the United States—the automotive or road narrative. Such narratives highlight the experiences of mostly male protagonists “discovering themselves\" on their journeys, emphasizing the independence of road travel and the value of rural folk traditions.\n\nTravel writing's relationship to empire building— as a type of \"colonialist discourse\"—has drawn the most attention from academicians. Close connections have been observed between European (and American) political, economic, and administrative goals for the colonies and their manifestations in the cultural practice of writing travel books. Travel writers' descriptions of foreign places have been analysed as attempts to validate, promote, or challenge the ideologies and practices of colonial or imperial domination and expansion. Mary Louise Pratt's study of the genres and conventions of 18th- and 19th-century exploration narratives about South America and Africa (e.g., the “monarch of all I survey\" trope) offered ways of thinking about travel writing as embedded within relations of power between metropole and periphery, as did Edward Said's theories of representation and cultural imperialism. Particularly Said's book, Orientalism, helped scholars understand ways in which representations of people in travel texts were intimately bound up with notions of self, in this case, that the Occident defined itself through essentialist, ethnocentric, and racist representations of the Orient. Said's work became a model for demonstrating cultural forms of imperialism in travel texts, showing how the political, economic, or administrative fact of dominance relies on legitimating discourses such as those articulated through travel writing....\n\nFeminist geographers' studies of travel writing challenge the masculinist history of geography by questioning who and what are relevant subjects of geographic study and, indeed, what counts as geographic knowledge itself. Such questions are worked through ideological constructs that posit men as explorers and women as travelers—or, conversely, men as travelers and women as tied to the home. Studies of Victorian women who were professional travel writers, tourists, wives of colonial administrators, and other (mostly) elite women who wrote narratives about their experiences abroad during the 19th century have been particularly revealing. From a \"liberal” feminist perspective, travel presented one means toward female liberation for middle- and upper-class Victorian women. Many studies from the 1970s onward demonstrated the ways in which women's gendered identities were negotiated differently \"at home\" than they were \"away,\" thereby showing women's self-development through travel. The more recent poststructural turn in studies of Victorian travel writing has focused attention on women's diverse and fragmented identities as they narrated their travel experiences, emphasizing women's sense of themselves as women in new locations, but only as they worked through their ties to nation, class, whiteness, and colonial and imperial power structures.",
+      "question_text": "According to the passage, Said's book, “Orientalism”:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "illustrated how narrow minded and racist westerners were.",
+        "demonstrated how cultural imperialism was used to justify colonial domination.",
+        "explained the difference between the representation of people and the actual fact.",
+        "argued that cultural imperialism was more significant than colonial domination."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q11",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Mode of transportation affects the travel experience and thus can produce new types of travel writing and perhaps even new “identities.” Modes of transportation determine the types and duration of social encounters; affect the organization and passage of space and time;.. and also affect perception and knowledge—how and what the traveler comes to know and write about. The completion of the first U.S. transcontinental highway during the 1920s... for example, inaugurated a new genre of travel literature about the United States—the automotive or road narrative. Such narratives highlight the experiences of mostly male protagonists “discovering themselves\" on their journeys, emphasizing the independence of road travel and the value of rural folk traditions.\n\nTravel writing's relationship to empire building— as a type of \"colonialist discourse\"—has drawn the most attention from academicians. Close connections have been observed between European (and American) political, economic, and administrative goals for the colonies and their manifestations in the cultural practice of writing travel books. Travel writers' descriptions of foreign places have been analysed as attempts to validate, promote, or challenge the ideologies and practices of colonial or imperial domination and expansion. Mary Louise Pratt's study of the genres and conventions of 18th- and 19th-century exploration narratives about South America and Africa (e.g., the “monarch of all I survey\" trope) offered ways of thinking about travel writing as embedded within relations of power between metropole and periphery, as did Edward Said's theories of representation and cultural imperialism. Particularly Said's book, Orientalism, helped scholars understand ways in which representations of people in travel texts were intimately bound up with notions of self, in this case, that the Occident defined itself through essentialist, ethnocentric, and racist representations of the Orient. Said's work became a model for demonstrating cultural forms of imperialism in travel texts, showing how the political, economic, or administrative fact of dominance relies on legitimating discourses such as those articulated through travel writing....\n\nFeminist geographers' studies of travel writing challenge the masculinist history of geography by questioning who and what are relevant subjects of geographic study and, indeed, what counts as geographic knowledge itself. Such questions are worked through ideological constructs that posit men as explorers and women as travelers—or, conversely, men as travelers and women as tied to the home. Studies of Victorian women who were professional travel writers, tourists, wives of colonial administrators, and other (mostly) elite women who wrote narratives about their experiences abroad during the 19th century have been particularly revealing. From a \"liberal” feminist perspective, travel presented one means toward female liberation for middle- and upper-class Victorian women. Many studies from the 1970s onward demonstrated the ways in which women's gendered identities were negotiated differently \"at home\" than they were \"away,\" thereby showing women's self-development through travel. The more recent poststructural turn in studies of Victorian travel writing has focused attention on women's diverse and fragmented identities as they narrated their travel experiences, emphasizing women's sense of themselves as women in new locations, but only as they worked through their ties to nation, class, whiteness, and colonial and imperial power structures.",
+      "question_text": "From the passage, it can be inferred that scholars argue that Victorian women experienced self-development through their travels because:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "their identity was redefined when they were away from home.",
+        "they were from the progressive middle- and upper-classes of society.",
+        "they were on a quest to discover their diverse identities.",
+        "they developed a feminist perspective of the world."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q12",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Mode of transportation affects the travel experience and thus can produce new types of travel writing and perhaps even new “identities.” Modes of transportation determine the types and duration of social encounters; affect the organization and passage of space and time;.. and also affect perception and knowledge—how and what the traveler comes to know and write about. The completion of the first U.S. transcontinental highway during the 1920s... for example, inaugurated a new genre of travel literature about the United States—the automotive or road narrative. Such narratives highlight the experiences of mostly male protagonists “discovering themselves\" on their journeys, emphasizing the independence of road travel and the value of rural folk traditions.\n\nTravel writing's relationship to empire building— as a type of \"colonialist discourse\"—has drawn the most attention from academicians. Close connections have been observed between European (and American) political, economic, and administrative goals for the colonies and their manifestations in the cultural practice of writing travel books. Travel writers' descriptions of foreign places have been analysed as attempts to validate, promote, or challenge the ideologies and practices of colonial or imperial domination and expansion. Mary Louise Pratt's study of the genres and conventions of 18th- and 19th-century exploration narratives about South America and Africa (e.g., the “monarch of all I survey\" trope) offered ways of thinking about travel writing as embedded within relations of power between metropole and periphery, as did Edward Said's theories of representation and cultural imperialism. Particularly Said's book, Orientalism, helped scholars understand ways in which representations of people in travel texts were intimately bound up with notions of self, in this case, that the Occident defined itself through essentialist, ethnocentric, and racist representations of the Orient. Said's work became a model for demonstrating cultural forms of imperialism in travel texts, showing how the political, economic, or administrative fact of dominance relies on legitimating discourses such as those articulated through travel writing....\n\nFeminist geographers' studies of travel writing challenge the masculinist history of geography by questioning who and what are relevant subjects of geographic study and, indeed, what counts as geographic knowledge itself. Such questions are worked through ideological constructs that posit men as explorers and women as travelers—or, conversely, men as travelers and women as tied to the home. Studies of Victorian women who were professional travel writers, tourists, wives of colonial administrators, and other (mostly) elite women who wrote narratives about their experiences abroad during the 19th century have been particularly revealing. From a \"liberal” feminist perspective, travel presented one means toward female liberation for middle- and upper-class Victorian women. Many studies from the 1970s onward demonstrated the ways in which women's gendered identities were negotiated differently \"at home\" than they were \"away,\" thereby showing women's self-development through travel. The more recent poststructural turn in studies of Victorian travel writing has focused attention on women's diverse and fragmented identities as they narrated their travel experiences, emphasizing women's sense of themselves as women in new locations, but only as they worked through their ties to nation, class, whiteness, and colonial and imperial power structures.",
+      "question_text": "American travel literature of the 1920s:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "developed the male protagonists' desire for independence.",
+        "presented travellers' discovery of their identity as different from others.",
+        "celebrated the freedom that travel gives.",
+        "showed participation in local traditions."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q13",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Mode of transportation affects the travel experience and thus can produce new types of travel writing and perhaps even new “identities.” Modes of transportation determine the types and duration of social encounters; affect the organization and passage of space and time;.. and also affect perception and knowledge—how and what the traveler comes to know and write about. The completion of the first U.S. transcontinental highway during the 1920s... for example, inaugurated a new genre of travel literature about the United States—the automotive or road narrative. Such narratives highlight the experiences of mostly male protagonists “discovering themselves\" on their journeys, emphasizing the independence of road travel and the value of rural folk traditions.\n\nTravel writing's relationship to empire building— as a type of \"colonialist discourse\"—has drawn the most attention from academicians. Close connections have been observed between European (and American) political, economic, and administrative goals for the colonies and their manifestations in the cultural practice of writing travel books. Travel writers' descriptions of foreign places have been analysed as attempts to validate, promote, or challenge the ideologies and practices of colonial or imperial domination and expansion. Mary Louise Pratt's study of the genres and conventions of 18th- and 19th-century exploration narratives about South America and Africa (e.g., the “monarch of all I survey\" trope) offered ways of thinking about travel writing as embedded within relations of power between metropole and periphery, as did Edward Said's theories of representation and cultural imperialism. Particularly Said's book, Orientalism, helped scholars understand ways in which representations of people in travel texts were intimately bound up with notions of self, in this case, that the Occident defined itself through essentialist, ethnocentric, and racist representations of the Orient. Said's work became a model for demonstrating cultural forms of imperialism in travel texts, showing how the political, economic, or administrative fact of dominance relies on legitimating discourses such as those articulated through travel writing....\n\nFeminist geographers' studies of travel writing challenge the masculinist history of geography by questioning who and what are relevant subjects of geographic study and, indeed, what counts as geographic knowledge itself. Such questions are worked through ideological constructs that posit men as explorers and women as travelers—or, conversely, men as travelers and women as tied to the home. Studies of Victorian women who were professional travel writers, tourists, wives of colonial administrators, and other (mostly) elite women who wrote narratives about their experiences abroad during the 19th century have been particularly revealing. From a \"liberal” feminist perspective, travel presented one means toward female liberation for middle- and upper-class Victorian women. Many studies from the 1970s onward demonstrated the ways in which women's gendered identities were negotiated differently \"at home\" than they were \"away,\" thereby showing women's self-development through travel. The more recent poststructural turn in studies of Victorian travel writing has focused attention on women's diverse and fragmented identities as they narrated their travel experiences, emphasizing women's sense of themselves as women in new locations, but only as they worked through their ties to nation, class, whiteness, and colonial and imperial power structures.",
+      "question_text": "From the passage, we can infer that feminist scholars' understanding of the experiences of Victorian women travellers is influenced by all of the following EXCEPT scholars':",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "perspective that they bring to their research.",
+        "knowledge of class tensions in Victorian society.",
+        "awareness of gender issues in Victorian society.",
+        "awareness of the ways in which identity is formed."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q14",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Mode of transportation affects the travel experience and thus can produce new types of travel writing and perhaps even new “identities.” Modes of transportation determine the types and duration of social encounters; affect the organization and passage of space and time;.. and also affect perception and knowledge—how and what the traveler comes to know and write about. The completion of the first U.S. transcontinental highway during the 1920s... for example, inaugurated a new genre of travel literature about the United States—the automotive or road narrative. Such narratives highlight the experiences of mostly male protagonists “discovering themselves\" on their journeys, emphasizing the independence of road travel and the value of rural folk traditions.\n\nTravel writing's relationship to empire building— as a type of \"colonialist discourse\"—has drawn the most attention from academicians. Close connections have been observed between European (and American) political, economic, and administrative goals for the colonies and their manifestations in the cultural practice of writing travel books. Travel writers' descriptions of foreign places have been analysed as attempts to validate, promote, or challenge the ideologies and practices of colonial or imperial domination and expansion. Mary Louise Pratt's study of the genres and conventions of 18th- and 19th-century exploration narratives about South America and Africa (e.g., the “monarch of all I survey\" trope) offered ways of thinking about travel writing as embedded within relations of power between metropole and periphery, as did Edward Said's theories of representation and cultural imperialism. Particularly Said's book, Orientalism, helped scholars understand ways in which representations of people in travel texts were intimately bound up with notions of self, in this case, that the Occident defined itself through essentialist, ethnocentric, and racist representations of the Orient. Said's work became a model for demonstrating cultural forms of imperialism in travel texts, showing how the political, economic, or administrative fact of dominance relies on legitimating discourses such as those articulated through travel writing....\n\nFeminist geographers' studies of travel writing challenge the masculinist history of geography by questioning who and what are relevant subjects of geographic study and, indeed, what counts as geographic knowledge itself. Such questions are worked through ideological constructs that posit men as explorers and women as travelers—or, conversely, men as travelers and women as tied to the home. Studies of Victorian women who were professional travel writers, tourists, wives of colonial administrators, and other (mostly) elite women who wrote narratives about their experiences abroad during the 19th century have been particularly revealing. From a \"liberal” feminist perspective, travel presented one means toward female liberation for middle- and upper-class Victorian women. Many studies from the 1970s onward demonstrated the ways in which women's gendered identities were negotiated differently \"at home\" than they were \"away,\" thereby showing women's self-development through travel. The more recent poststructural turn in studies of Victorian travel writing has focused attention on women's diverse and fragmented identities as they narrated their travel experiences, emphasizing women's sense of themselves as women in new locations, but only as they worked through their ties to nation, class, whiteness, and colonial and imperial power structures.",
+      "question_text": "From the passage, we can infer that travel writing is most similar to:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "feminist writing.",
+        "historical fiction.",
+        "political journalism.",
+        "autobiographical writing."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q15",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Although one of the most contested concepts in political philosophy, human nature is something on which most people seem to agree. By and large, according to Rutger Bregman in his new book Humankind, we have a rather pessimistic view not of ourselves exactly, but of everyone else. We see other people as selfish, untrustworthy and dangerous and therefore we behave towards them with defensiveness and suspicion. This was how the 17th-century philosopher Thomas Hobbes conceived our natural state to be, believing that all that stood between us and violent anarchy was a strong state and firm leadership.\n\nBut in following Hobbes, argues Bregman, we ensure that the negative view we have of human nature is reflected back at us. He instead puts his faith in Jean-Jacques Rousseau, the 18th-century French thinker, who famously declared that man was born free and it was civilisation - with its coercive powers, social classes and restrictive laws – that put him in chains.\n\nHobbes and Rousseau are seen as the two poles of the human nature argument and it's no surprise that Bregman strongly sides with the Frenchman. He takes Rousseau's intuition and paints a picture of a prelapsarian idyll in which, for the better part of 300,000 years, Homo sapiens lived a fulfilling life in harmony with nature... Then we discovered agriculture and for the next 10,000 years it was all property, war, greed and injustice. . . .\n\nIt was abandoning our nomadic lifestyle and then domesticating animals, says Bregman, that brought about infectious diseases such as measles, smallpox, tuberculosis, syphilis, malaria, cholera and plague. This may be true, but what Bregman never really seems to get to grips with is that pathogens were not the only things that grew with agriculture – so did the number of humans. It's one thing to maintain friendly relations and a property-less mode of living when you're 30 or 40 hunter-gatherers following the food. But life becomes a great deal more complex and knowledge far more extensive when there are settlements of many thousands.\n\n\"Civilisation has become synonymous with peace and progress and wilderness with war and decline,\" writes Bregman. “In reality, for most of human existence, it was the other way around.\" Whereas traditional history depicts the collapse of civilisations as \"dark ages\" in which everything gets worse, modern scholars, he claims, see them more as a reprieve, in which the enslaved gain their freedom and culture flourishes. Like much else in this book, the truth is probably somewhere between the two stated positions.\n\nIn any case, the fear of civilisational collapse, Bregman believes, is unfounded. It's the result of what the Dutch biologist Frans de Waal calls \"veneer theory\" – the idea that just below the surface, our bestial nature is waiting to break out.... There's a great deal of reassuring human decency to be taken from this bold and thought-provoking book and a wealth of evidence in support of the contention that the sense of who we are as a species has been deleteriously distorted. But it seems equally misleading to offer the false choice of Rousseau and Hobbes when, clearly, humanity encompasses both.",
+      "question_text": "According to the author, the main reason why Bregman contrasts life in preagricultural societies with agricultural societies is to:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "bolster his argument that people are basically decent, but progress as we know it can make them selfish.",
+        "make the argument that an environmentally conscious lifestyle is a more harmonious way of living.",
+        "highlight the enormous impact that settled farming had on population growth.",
+        "advocate the promotion of less complex societies as a basis for greater security and prosperity."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q16",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Although one of the most contested concepts in political philosophy, human nature is something on which most people seem to agree. By and large, according to Rutger Bregman in his new book Humankind, we have a rather pessimistic view not of ourselves exactly, but of everyone else. We see other people as selfish, untrustworthy and dangerous and therefore we behave towards them with defensiveness and suspicion. This was how the 17th-century philosopher Thomas Hobbes conceived our natural state to be, believing that all that stood between us and violent anarchy was a strong state and firm leadership.\n\nBut in following Hobbes, argues Bregman, we ensure that the negative view we have of human nature is reflected back at us. He instead puts his faith in Jean-Jacques Rousseau, the 18th-century French thinker, who famously declared that man was born free and it was civilisation - with its coercive powers, social classes and restrictive laws – that put him in chains.\n\nHobbes and Rousseau are seen as the two poles of the human nature argument and it's no surprise that Bregman strongly sides with the Frenchman. He takes Rousseau's intuition and paints a picture of a prelapsarian idyll in which, for the better part of 300,000 years, Homo sapiens lived a fulfilling life in harmony with nature... Then we discovered agriculture and for the next 10,000 years it was all property, war, greed and injustice. . . .\n\nIt was abandoning our nomadic lifestyle and then domesticating animals, says Bregman, that brought about infectious diseases such as measles, smallpox, tuberculosis, syphilis, malaria, cholera and plague. This may be true, but what Bregman never really seems to get to grips with is that pathogens were not the only things that grew with agriculture – so did the number of humans. It's one thing to maintain friendly relations and a property-less mode of living when you're 30 or 40 hunter-gatherers following the food. But life becomes a great deal more complex and knowledge far more extensive when there are settlements of many thousands.\n\n\"Civilisation has become synonymous with peace and progress and wilderness with war and decline,\" writes Bregman. “In reality, for most of human existence, it was the other way around.\" Whereas traditional history depicts the collapse of civilisations as \"dark ages\" in which everything gets worse, modern scholars, he claims, see them more as a reprieve, in which the enslaved gain their freedom and culture flourishes. Like much else in this book, the truth is probably somewhere between the two stated positions.\n\nIn any case, the fear of civilisational collapse, Bregman believes, is unfounded. It's the result of what the Dutch biologist Frans de Waal calls \"veneer theory\" – the idea that just below the surface, our bestial nature is waiting to break out.... There's a great deal of reassuring human decency to be taken from this bold and thought-provoking book and a wealth of evidence in support of the contention that the sense of who we are as a species has been deleteriously distorted. But it seems equally misleading to offer the false choice of Rousseau and Hobbes when, clearly, humanity encompasses both.",
+      "question_text": "None of the following views is expressed in the passage EXCEPT that:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Hobbes and Rousseau disagreed on the fundamental nature of humans, but both believed in the need for a strong state.",
+        "Bregman agrees with Hobbes that firm leadership is needed to ensure property rights and regulate strife.",
+        "the author of the review believes in the veneer theory of human nature.",
+        "most people agree with Hobbes' pessimistic view of human nature as being intrinsically untrustworthy and selfish."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q17",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Although one of the most contested concepts in political philosophy, human nature is something on which most people seem to agree. By and large, according to Rutger Bregman in his new book Humankind, we have a rather pessimistic view not of ourselves exactly, but of everyone else. We see other people as selfish, untrustworthy and dangerous and therefore we behave towards them with defensiveness and suspicion. This was how the 17th-century philosopher Thomas Hobbes conceived our natural state to be, believing that all that stood between us and violent anarchy was a strong state and firm leadership.\n\nBut in following Hobbes, argues Bregman, we ensure that the negative view we have of human nature is reflected back at us. He instead puts his faith in Jean-Jacques Rousseau, the 18th-century French thinker, who famously declared that man was born free and it was civilisation - with its coercive powers, social classes and restrictive laws – that put him in chains.\n\nHobbes and Rousseau are seen as the two poles of the human nature argument and it's no surprise that Bregman strongly sides with the Frenchman. He takes Rousseau's intuition and paints a picture of a prelapsarian idyll in which, for the better part of 300,000 years, Homo sapiens lived a fulfilling life in harmony with nature... Then we discovered agriculture and for the next 10,000 years it was all property, war, greed and injustice. . . .\n\nIt was abandoning our nomadic lifestyle and then domesticating animals, says Bregman, that brought about infectious diseases such as measles, smallpox, tuberculosis, syphilis, malaria, cholera and plague. This may be true, but what Bregman never really seems to get to grips with is that pathogens were not the only things that grew with agriculture – so did the number of humans. It's one thing to maintain friendly relations and a property-less mode of living when you're 30 or 40 hunter-gatherers following the food. But life becomes a great deal more complex and knowledge far more extensive when there are settlements of many thousands.\n\n\"Civilisation has become synonymous with peace and progress and wilderness with war and decline,\" writes Bregman. “In reality, for most of human existence, it was the other way around.\" Whereas traditional history depicts the collapse of civilisations as \"dark ages\" in which everything gets worse, modern scholars, he claims, see them more as a reprieve, in which the enslaved gain their freedom and culture flourishes. Like much else in this book, the truth is probably somewhere between the two stated positions.\n\nIn any case, the fear of civilisational collapse, Bregman believes, is unfounded. It's the result of what the Dutch biologist Frans de Waal calls \"veneer theory\" – the idea that just below the surface, our bestial nature is waiting to break out.... There's a great deal of reassuring human decency to be taken from this bold and thought-provoking book and a wealth of evidence in support of the contention that the sense of who we are as a species has been deleteriously distorted. But it seems equally misleading to offer the false choice of Rousseau and Hobbes when, clearly, humanity encompasses both.",
+      "question_text": "According to the passage, the “collapse of civilisations” is viewed by Bregman as:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "a temporary phase which can be rectified by social action.",
+        "a time that enables changes in societies and cultures.",
+        "a sign of regression in society's trajectory.",
+        "resulting from a breakdown in the veneer of human nature."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q18",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Although one of the most contested concepts in political philosophy, human nature is something on which most people seem to agree. By and large, according to Rutger Bregman in his new book Humankind, we have a rather pessimistic view not of ourselves exactly, but of everyone else. We see other people as selfish, untrustworthy and dangerous and therefore we behave towards them with defensiveness and suspicion. This was how the 17th-century philosopher Thomas Hobbes conceived our natural state to be, believing that all that stood between us and violent anarchy was a strong state and firm leadership.\n\nBut in following Hobbes, argues Bregman, we ensure that the negative view we have of human nature is reflected back at us. He instead puts his faith in Jean-Jacques Rousseau, the 18th-century French thinker, who famously declared that man was born free and it was civilisation - with its coercive powers, social classes and restrictive laws – that put him in chains.\n\nHobbes and Rousseau are seen as the two poles of the human nature argument and it's no surprise that Bregman strongly sides with the Frenchman. He takes Rousseau's intuition and paints a picture of a prelapsarian idyll in which, for the better part of 300,000 years, Homo sapiens lived a fulfilling life in harmony with nature... Then we discovered agriculture and for the next 10,000 years it was all property, war, greed and injustice. . . .\n\nIt was abandoning our nomadic lifestyle and then domesticating animals, says Bregman, that brought about infectious diseases such as measles, smallpox, tuberculosis, syphilis, malaria, cholera and plague. This may be true, but what Bregman never really seems to get to grips with is that pathogens were not the only things that grew with agriculture – so did the number of humans. It's one thing to maintain friendly relations and a property-less mode of living when you're 30 or 40 hunter-gatherers following the food. But life becomes a great deal more complex and knowledge far more extensive when there are settlements of many thousands.\n\n\"Civilisation has become synonymous with peace and progress and wilderness with war and decline,\" writes Bregman. “In reality, for most of human existence, it was the other way around.\" Whereas traditional history depicts the collapse of civilisations as \"dark ages\" in which everything gets worse, modern scholars, he claims, see them more as a reprieve, in which the enslaved gain their freedom and culture flourishes. Like much else in this book, the truth is probably somewhere between the two stated positions.\n\nIn any case, the fear of civilisational collapse, Bregman believes, is unfounded. It's the result of what the Dutch biologist Frans de Waal calls \"veneer theory\" – the idea that just below the surface, our bestial nature is waiting to break out.... There's a great deal of reassuring human decency to be taken from this bold and thought-provoking book and a wealth of evidence in support of the contention that the sense of who we are as a species has been deleteriously distorted. But it seems equally misleading to offer the false choice of Rousseau and Hobbes when, clearly, humanity encompasses both.",
+      "question_text": "The author has differing views from Bregman regarding:",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "the role of pathogens in the spread of infectious diseases.",
+        "a property-less mode of living being socially harmonious.",
+        "the role of agriculture in the advancement of knowledge.",
+        "a civilised society being coercive and unjust."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q19",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:\n\n1. Each one personified a different aspect of good fortune.\n2. The others were versions of popular Buddhist gods, Hindu gods and Daoist gods.\n3. Seven popular Japanese deities, the Shichi Fukujin, were considered to bring good luck and happiness.\n4. Although they were included in the Shinto pantheon, only two of them, Daikoku and Ebisu, were indigenous Japanese gods.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_VARC_Q20",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:\n\n1. The logic of displaying one's inner qualities through outward appearance was based on a distinction between being a woman and being feminine.\n2. 'Appearance' became a signifier of conduct - to look was to be and conformity to the feminine ideal was measured by how well women could use the tools of the fashion and beauty industries.\n3. The makeover-centric media sets out subtly and not-so-subtly, 'good' and 'bad' ways to be a woman, layering these over inequalities of race and class.\n4. The denigration of working-class women and women of colour often centres on their perceived failure to embody feminine beauty.\n5. 'Woman' was considered a biological category, but femininity was a 'process' by which women became specific kinds of women.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_VARC_Q21",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Brown et al. (2001) suggest that 'metabolic theory may provide a conceptual foundation for much of ecology just as genetic theory provides a foundation for much of evolutionary biology'. One of the successes of genetic theory is the diversity of theoretical approaches and models that have been developed and applied. A Web of Science (v. 5.9. Thomson Reuters) search on genetic* + theor* + evol* identifies more than 12000 publications between 2005 and 2012. Considering only the 10 most-cited papers within this 12000 publication set, genetic theory can be seen to focus on genome dynamics, phylogenetic inference, game theory and the regulation of gene expression. There is no one fundamental genetic equation, but rather a wide array of genetic models, ranging from simple to complex, with differing inputs and outputs, and divergent areas of application, loosely connected to each other through the shared conceptual foundation of heritable variation.",
+      "question_text": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Genetic theory has a wide range of theoretical approaches and applications and Metabolic theory must have the same in the field of ecology.",
+        "Genetic theory has evolved to spawn a wide range of theoretical models and applications but Metabolic theory need not evolve in a similar manner in the field of ecology.",
+        "Genetic theory has a wide range of theoretical approaches and application and is foundational to evolutionary biology and Metabolic theory has the potential to do the same for ecology.",
+        "Genetic theory provides an example of how a range of theoretical approaches and applications can make a theory successful."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q22",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:\n\n1. It advocated a conservative approach to antitrust enforcement that espouses faith in efficient markets and voiced suspicion regarding the merits of judicial intervention to correct anticompetitive practices.\n2. Many industries have consistently gained market share, the lion's share – without any official concern; the most successful technology companies have grown into veritable titans, on the premise that they advance 'public interest'.\n3. That the new anticompetitive risks posed by tech giants like Google, Facebook, and Amazon, necessitate new legal solutions could be attributed to the dearth of enforcement actions against monopolies and the few cases challenging mergers in the USA.\n4. The criterion of ‘consumer welfare standard' and the principle that antitrust law should serve consumer interests and that it should protect competition rather than individual competitors was an antitrust law introduced by, and named after, the 'Chicago school'.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_VARC_Q23",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "The dominant hypotheses in modern science believe that language evolved to allow humans to exchange factual information about the physical world. But an alternative view is that language evolved, in modern humans at least, to facilitate social bonding. It increased our ancestors' chances of survival by enabling them to hunt more successfully or to cooperate more extensively. Language meant that things could be explained and that plans and past experiences could be shared efficiently.",
+      "question_text": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "From the belief that humans invented language to process factual information, scholars now think that language was the outcome of the need to ensure social cohesion and thus human survival.",
+        "Since its origin, language has been continuously evolving to higher forms, from being used to identify objects to ensuring human survival by enabling our ancestors to bond and cooperate.",
+        "Most believe that language originated from a need to articulate facts, but others think it emerged from the need to promote social cohesion and cooperation, thus enabling human survival.",
+        "Experts are challenging the narrow view of the origin of language, as being merely used to describe facts and label objects, to being necessary to promote more complex interactions among humans."
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q24",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "The four sentences (labelled 1, 2, 3, 4) below, when properly sequenced would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and key in the sequence of the four numbers as your answer:\n\n1. Complex computational elements of the CNS are organized according to a “nested\" hierarchic criterion; the organization is not permanent and can change dynamically from moment to moment as they carry out a computational task.\n2. Echolocation in bats exemplifies adaptation produced by natural selection; a function not produced by natural selection for its current use is exaptation --feathers might have originally arisen in the context of selection for insulation.\n3. From a structural standpoint, consistent with exaptation, the living organism is organized as a complex of \"Russian Matryoshka Dolls\" smaller structures are contained within larger ones in multiple layers.\n4. The exaptation concept, and the Russian-doll organization concept of living beings deduced from studies on evolution of the various apparatuses in mammals, can be applied for the most complex human organ: the central nervous system (CNS).",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_VARC_Q25",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": "Aesthetic political representation urges us to realize that ‘the representative has autonomy with regard to the people represented' but autonomy then is not an excuse to abandon one's responsibility. Aesthetic autonomy requires cultivation of ‘disinterestedness' on the part of actors which is not indifference. To have disinterestedness, that is, to have comportment towards the beautiful that is devoid of all ulterior references to use – requires a kind of aesthetic commitment; it is the liberation of ourselves for the release of what has proper worth only in itself.",
+      "question_text": "The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage.",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Disinterestedness is different from indifference as the former means a non-subjective evaluation of things which is what constitutes aesthetic political representation.",
+        "Aesthetic political representation advocates autonomy for the representatives manifested through disinterestedness which itself is different from indifference.",
+        "Disinterestedness, as distinct from indifference, is the basis of political representation.",
+        "Aesthetic political representation advocates autonomy for the representatives drawing from disinterestedness, which itself is different from indifference"
+      ]
+    },
+    {
+      "id": "2020_S3_VARC_Q26",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "VARC",
+      "context_passage": null,
+      "question_text": "Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:\n\n1. Machine learning models are prone to learning human-like biases from the training data that feeds these algorithms.\n2. Hate speech detection is part of the on-going effort against oppressive and abusive language on social media.\n3. The current automatic detection models miss out on something vital: context.\n4. It uses complex algorithms to flag racist or violent speech faster and better than human beings alone.\n5. For instance, algorithms struggle to determine if group identifiers like \"gay\" or \"black\" are used in offensive or prejudiced ways because they're trained on imbalanced datasets with unusually high rates of hate speech.",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q27",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "What were the bids by Arun, Bankim, Charu and Dipak, respectively in the first round?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "Hi, Lo, Lo, Lo",
+        "Lo, Lo, Lo, Hi",
+        "Hi, Hi, Lo, Lo",
+        "Hi, Lo, Lo, Hi"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q28",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "In how many rounds did Arun bid Hi?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q29",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "In how many rounds did Bankim bid Lo?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q30",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "In how many rounds did all four players make identical bids?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q31",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "In how many rounds did Dipak gain exactly 1 point?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q32",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "The Hi-Lo game is a four-player game played in six rounds. In every round, each player chooses to bid Hi or Lo. The bids are made simultaneously. If all four bid Hi, then all four lose 1 point each. If three players bid Hi and one bids Lo, then the players bidding Hi gain 1 point each and the player bidding Lo loses 3 points. If two players bid Hi and two bid Lo, then the players bidding Hi gain 2 points each and the players bidding Lo lose 2 points each. If one player bids Hi and three bid Lo, then the player bidding Hi gains 3 points and the players bidding Lo lose 1 point each. If all four bid Lo, then all four gain 1 point each.\n\nFour players Arun, Bankim, Charu, and Dipak played the Hi-Lo game. The following facts are known about their game:\n\n1. At the end of three rounds, Arun had scored 6 points, Dipak had scored 2 points, Bankim and Charu had scored -2 points each.\n2. At the end of six rounds, Arun had scored 7 points, Bankim and Dipak had scored -1 point each, and Charu had scored -5 points.\n3. Dipak's score in the third round was less than his score in the first round but was more than his score in the second round.\n4. In exactly two out of the six rounds, Arun was the only player who bid Hi.",
+      "question_text": "In which of the following rounds, was Arun DEFINITELY the only player to bid Hi?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "First",
+        "Fourth",
+        "Third",
+        "Second"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q33",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A survey of 600 schools in India was conducted to gather information about their online teaching learning processes (OTLP). The following four facilities were studied.\n\nF1: Own software for OTLP\nF2: Trained teachers for OTLP\nF3: Training materials for OTLP\nF4: All students having Laptops\n\nThe following observations were summarized from the survey.\n1. 80 schools did not have any of the four facilities – F1, F2, F3, F4.\n2. 40 schools had all four facilities.\n3. The number of schools with only F1, only F2, only F3, and only F4 was 25, 30, 26 and 20 respectively.\n4. The number of schools with exactly three of the facilities was the same irrespective of which three were considered.\n5. 313 schools had F2.\n6. 26 schools had only F2 and F3 (but neither F1 nor F4).\n7. Among the schools having F4, 24 had only F3, and 45 had only F2.\n8. 162 schools had both F1 and F2.\n9. The number of schools having F1 was the same as the number of schools having F4.",
+      "question_text": "What was the total number of schools having exactly three of the four facilities?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q33_Q36.png",
+      "options": [
+        "200",
+        "50",
+        "80",
+        "64"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q34",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A survey of 600 schools in India was conducted to gather information about their online teaching learning processes (OTLP). The following four facilities were studied.\n\nF1: Own software for OTLP\nF2: Trained teachers for OTLP\nF3: Training materials for OTLP\nF4: All students having Laptops\n\nThe following observations were summarized from the survey.\n1. 80 schools did not have any of the four facilities – F1, F2, F3, F4.\n2. 40 schools had all four facilities.\n3. The number of schools with only F1, only F2, only F3, and only F4 was 25, 30, 26 and 20 respectively.\n4. The number of schools with exactly three of the facilities was the same irrespective of which three were considered.\n5. 313 schools had F2.\n6. 26 schools had only F2 and F3 (but neither F1 nor F4).\n7. Among the schools having F4, 24 had only F3, and 45 had only F2.\n8. 162 schools had both F1 and F2.\n9. The number of schools having F1 was the same as the number of schools having F4.",
+      "question_text": "What was the number of schools having facilities F2 and F4?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q33_Q36.png",
+      "options": [
+        "185",
+        "45",
+        "95",
+        "85"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q35",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A survey of 600 schools in India was conducted to gather information about their online teaching learning processes (OTLP). The following four facilities were studied.\n\nF1: Own software for OTLP\nF2: Trained teachers for OTLP\nF3: Training materials for OTLP\nF4: All students having Laptops\n\nThe following observations were summarized from the survey.\n1. 80 schools did not have any of the four facilities – F1, F2, F3, F4.\n2. 40 schools had all four facilities.\n3. The number of schools with only F1, only F2, only F3, and only F4 was 25, 30, 26 and 20 respectively.\n4. The number of schools with exactly three of the facilities was the same irrespective of which three were considered.\n5. 313 schools had F2.\n6. 26 schools had only F2 and F3 (but neither F1 nor F4).\n7. Among the schools having F4, 24 had only F3, and 45 had only F2.\n8. 162 schools had both F1 and F2.\n9. The number of schools having F1 was the same as the number of schools having F4.",
+      "question_text": "What was the number of schools having only facilities F1 and F3?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q33_Q36.png",
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q36",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A survey of 600 schools in India was conducted to gather information about their online teaching learning processes (OTLP). The following four facilities were studied.\n\nF1: Own software for OTLP\nF2: Trained teachers for OTLP\nF3: Training materials for OTLP\nF4: All students having Laptops\n\nThe following observations were summarized from the survey.\n1. 80 schools did not have any of the four facilities – F1, F2, F3, F4.\n2. 40 schools had all four facilities.\n3. The number of schools with only F1, only F2, only F3, and only F4 was 25, 30, 26 and 20 respectively.\n4. The number of schools with exactly three of the facilities was the same irrespective of which three were considered.\n5. 313 schools had F2.\n6. 26 schools had only F2 and F3 (but neither F1 nor F4).\n7. Among the schools having F4, 24 had only F3, and 45 had only F2.\n8. 162 schools had both F1 and F2.\n9. The number of schools having F1 was the same as the number of schools having F4.",
+      "question_text": "What was the number of schools having only facilities F1 and F4?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q33_Q36.png",
+      "options": null
+    },
+    {
+      "id": "2020_S3_DILR_Q37",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient's blood sample is distributed.\n\nPatient Vials\n1 B, D, F, H\n2 B, D, F, G\n3 B, D, E, H\n4 B, D, E, G\n5 B, C, F, H\n6 B, C, F, G\n7 B, C, E, H\n8 B, C, E, G\n9 A, D, F, H\n10 A, D, F, G\n11 A, D, E, H\n12 A, D, E, G\n13 A, C, F, H\n14 A, C, F, G\n15 A, C, E, H\n16 A, C, E, G\n\nIf a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",
+      "question_text": "Suppose vial C tests positive and vials A, E and H test negative. Which patient has the disease?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q37_Q40.png",
+      "options": [
+        "Patient 14",
+        "Patient 2",
+        "Patient 6",
+        "Patient 8"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q38",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient's blood sample is distributed.\n\nPatient Vials\n1 B, D, F, H\n2 B, D, F, G\n3 B, D, E, H\n4 B, D, E, G\n5 B, C, F, H\n6 B, C, F, G\n7 B, C, E, H\n8 B, C, E, G\n9 A, D, F, H\n10 A, D, F, G\n11 A, D, E, H\n12 A, D, E, G\n13 A, C, F, H\n14 A, C, F, G\n15 A, C, E, H\n16 A, C, E, G\n\nIf a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",
+      "question_text": "Suppose vial A tests positive and vials D and G test negative. Which of the following vials should we test next to identify the patient with the disease?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q37_Q40.png",
+      "options": [
+        "Vial E",
+        "Vial H",
+        "Vial C",
+        "Vial B"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q39",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient's blood sample is distributed.\n\nPatient Vials\n1 B, D, F, H\n2 B, D, F, G\n3 B, D, E, H\n4 B, D, E, G\n5 B, C, F, H\n6 B, C, F, G\n7 B, C, E, H\n8 B, C, E, G\n9 A, D, F, H\n10 A, D, F, G\n11 A, D, E, H\n12 A, D, E, G\n13 A, C, F, H\n14 A, C, F, G\n15 A, C, E, H\n16 A, C, E, G\n\nIf a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",
+      "question_text": "Which of the following combinations of test results is NOT possible?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q37_Q40.png",
+      "options": [
+        "Vials A and G positive, vials D and E negative",
+        "Vials B and D positive, vials F and H negative",
+        "Vial B positive, vials C, F and H negative",
+        "Vials A and E positive, vials C and D negative"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q40",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "Sixteen patients in a hospital must undergo a blood test for a disease. It is known that exactly one of them has the disease. The hospital has only eight testing kits and has decided to pool blood samples of patients into eight vials for the tests. The patients are numbered 1 through 16, and the vials are labelled A, B, C, D, E, F, G, and H. The following table shows the vials into which each patient's blood sample is distributed.\n\nPatient Vials\n1 B, D, F, H\n2 B, D, F, G\n3 B, D, E, H\n4 B, D, E, G\n5 B, C, F, H\n6 B, C, F, G\n7 B, C, E, H\n8 B, C, E, G\n9 A, D, F, H\n10 A, D, F, G\n11 A, D, E, H\n12 A, D, E, G\n13 A, C, F, H\n14 A, C, F, G\n15 A, C, E, H\n16 A, C, E, G\n\nIf a patient has the disease, then each vial containing his/her blood sample will test positive. If a vial tests positive, one of the patients whose blood samples were mixed in the vial has the disease. If a vial tests negative, then none of the patients whose blood samples were mixed in the vial has the disease.",
+      "question_text": "Suppose one of the lab assistants accidentally mixed two patients' blood samples before they were distributed to the vials. Which of the following correctly represents the set of all possible numbers of positive test results out of the eight vials?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q37_Q40.png",
+      "options": [
+        "{4,5}",
+        "{5,6,7,8}",
+        "{4,5,6,7,8}",
+        "{4,5,6,7}"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q41",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "XYZ organization got into the business of delivering groceries to home at the beginning of the last month. They have a two-day delivery promise. However, their deliveries are unreliable. An order booked on a particular day may be delivered the next day or the day after. If the order is not delivered at the end of two days, then the order is declared as lost at the end of the second day. XYZ then does not deliver the order, but informs the customer, marks the order as lost, returns the payment and pays a penalty for non-delivery.\n\nThe following table provides details about the operations of XYZ for a week of the last month. The first column gives the date, the second gives the cumulative number of orders that were booked up to and including that day. The third column represents the number of orders delivered on that day. The last column gives the cumulative number of orders that were lost up to and including that day.\n\nIt is known that the numbers of orders that were booked on the 11th, 12th, and 13th of the last month that took two days to deliver were 4, 6, and 8 respectively.\n\nDay | Cumulative orders booked | Orders delivered on day | Cumulative orders lost\n13th | 219 | 11 | 91\n14th | 249 | 27 | 92\n15th | 277 | 23 | 94\n16th | 302 | 11 | 106\n17th | 327 | 21 | 118\n18th | 332 | 13 | 120\n19th | 337 | 14 | 129",
+      "question_text": "Among the following days, the largest fraction of orders booked on which day was lost?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q41_Q44.png",
+      "options": [
+        "14th",
+        "13th",
+        "15th",
+        "16th"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q42",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "XYZ organization got into the business of delivering groceries to home at the beginning of the last month. They have a two-day delivery promise. However, their deliveries are unreliable. An order booked on a particular day may be delivered the next day or the day after. If the order is not delivered at the end of two days, then the order is declared as lost at the end of the second day. XYZ then does not deliver the order, but informs the customer, marks the order as lost, returns the payment and pays a penalty for non-delivery.\n\nThe following table provides details about the operations of XYZ for a week of the last month. The first column gives the date, the second gives the cumulative number of orders that were booked up to and including that day. The third column represents the number of orders delivered on that day. The last column gives the cumulative number of orders that were lost up to and including that day.\n\nIt is known that the numbers of orders that were booked on the 11th, 12th, and 13th of the last month that took two days to deliver were 4, 6, and 8 respectively.\n\nDay | Cumulative orders booked | Orders delivered on day | Cumulative orders lost\n13th | 219 | 11 | 91\n14th | 249 | 27 | 92\n15th | 277 | 23 | 94\n16th | 302 | 11 | 106\n17th | 327 | 21 | 118\n18th | 332 | 13 | 120\n19th | 337 | 14 | 129",
+      "question_text": "On which of the following days was the number of orders booked the highest?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q41_Q44.png",
+      "options": [
+        "13th",
+        "15th",
+        "12th",
+        "14th"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q43",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "XYZ organization got into the business of delivering groceries to home at the beginning of the last month. They have a two-day delivery promise. However, their deliveries are unreliable. An order booked on a particular day may be delivered the next day or the day after. If the order is not delivered at the end of two days, then the order is declared as lost at the end of the second day. XYZ then does not deliver the order, but informs the customer, marks the order as lost, returns the payment and pays a penalty for non-delivery.\n\nThe following table provides details about the operations of XYZ for a week of the last month. The first column gives the date, the second gives the cumulative number of orders that were booked up to and including that day. The third column represents the number of orders delivered on that day. The last column gives the cumulative number of orders that were lost up to and including that day.\n\nIt is known that the numbers of orders that were booked on the 11th, 12th, and 13th of the last month that took two days to deliver were 4, 6, and 8 respectively.\n\nDay | Cumulative orders booked | Orders delivered on day | Cumulative orders lost\n13th | 219 | 11 | 91\n14th | 249 | 27 | 92\n15th | 277 | 23 | 94\n16th | 302 | 11 | 106\n17th | 327 | 21 | 118\n18th | 332 | 13 | 120\n19th | 337 | 14 | 129",
+      "question_text": "The delivery ratio for a given day is defined as the ratio of the number of orders booked on that day which are delivered on the next day to the number of orders booked on that day which are delivered on the second day after booking. On which of the following days, was the delivery ratio the highest?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q41_Q44.png",
+      "options": [
+        "13th",
+        "16th",
+        "14th",
+        "15th"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q44",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "XYZ organization got into the business of delivering groceries to home at the beginning of the last month. They have a two-day delivery promise. However, their deliveries are unreliable. An order booked on a particular day may be delivered the next day or the day after. If the order is not delivered at the end of two days, then the order is declared as lost at the end of the second day. XYZ then does not deliver the order, but informs the customer, marks the order as lost, returns the payment and pays a penalty for non-delivery.\n\nThe following table provides details about the operations of XYZ for a week of the last month. The first column gives the date, the second gives the cumulative number of orders that were booked up to and including that day. The third column represents the number of orders delivered on that day. The last column gives the cumulative number of orders that were lost up to and including that day.\n\nIt is known that the numbers of orders that were booked on the 11th, 12th, and 13th of the last month that took two days to deliver were 4, 6, and 8 respectively.\n\nDay | Cumulative orders booked | Orders delivered on day | Cumulative orders lost\n13th | 219 | 11 | 91\n14th | 249 | 27 | 92\n15th | 277 | 23 | 94\n16th | 302 | 11 | 106\n17th | 327 | 21 | 118\n18th | 332 | 13 | 120\n19th | 337 | 14 | 129",
+      "question_text": "The average time taken to deliver orders booked on a particular day is computed as follows. Let the number of orders delivered the next day be x and the number of orders delivered the day after be y. Then the average time to deliver order is (x+2y)/(x+y). On which of the following days was the average time taken to deliver orders booked the least?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q41_Q44.png",
+      "options": [
+        "14th",
+        "16th",
+        "15th",
+        "13th"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q45",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "How many mango trees were there in total?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "84",
+        "98",
+        "49",
+        "126"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q46",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "Which of the following is the correct sequence of trees received by Abha, Bina, Chitra and Dipti in that order?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "50, 69, 30, 56",
+        "54, 57, 34, 60",
+        "44, 87, 24, 50",
+        "60, 39, 40, 66"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q47",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "How many pine trees did Chitra receive?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "21",
+        "30",
+        "18",
+        "15"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q48",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "Who got the plot with the smallest number of trees and how many trees did that plot have?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "Dipti, 6 trees",
+        "Bina, 4 trees",
+        "Abha, 4 trees",
+        "Bina, 3 trees"
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q49",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "Which of the following statements is NOT true?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "Dipti got 56 mango trees.",
+        "Bina got 32 pine trees.",
+        "Chitra got 12 mango trees.",
+        "Abha got 41 teak trees."
+      ]
+    },
+    {
+      "id": "2020_S3_DILR_Q50",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "DILR",
+      "context_passage": "A farmer had a rectangular land containing 205 trees. He distributed that land among his four daughters – Abha, Bina, Chitra and Dipti by dividing the land into twelve plots along three rows (X,Y,Z) and four Columns (1,2,3,4) as shown in the figure below:\n\n1 | 2 | 3 | 4\nX | 12 C | | 24 D\nY | 21 A | | A\nZ | B | 9 A | 28 B\n\nThe plots in rows X, Y, Z contained mango, teak and pine trees respectively. Each plot had trees in non-zero multiples of 3 or 4 and none of the plots had the same number of trees. Each daughter got an even number of plots. In the figure, the number mentioned in top left corner of a plot is the number of trees in that plot, while the letter in the bottom right corner is the first letter of the name of the daughter who got that plot (For example, Abha got the plot in row Y and column 1 containing 21 trees). Some information in the figure got erased, but the following is known:\n\n1. Abha got 20 trees more than Chitra but 6 trees less than Dipti.\n2. The largest number of trees in a plot was 32, but it was not with Abha.\n3. The number of teak trees in Column 3 was double of that in Column 2 but was half of that in Column 4.\n4. Both Abha and Bina got a higher number of plots than Dipti.\n5. Only Bina, Chitra and Dipti got corner plots.\n6. Dipti got two adjoining plots in the same row.\n7. Bina was the only one who got a plot in each row and each column.\n8. Chitra and Dipti did not get plots which were adjacent to each other (either in row / column / diagonal).\n9. The number of mango trees was double the number of teak trees.",
+      "question_text": "Which column had the highest number of trees?",
+      "has_image": true,
+      "image_url": "images/2020_S3_DILR_Q45_Q50.png",
+      "options": [
+        "2",
+        "3",
+        "Cannot be determined",
+        "4"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q51",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If log\u208a 30 = A, log\u208a (5 / 3) = −B and log\u2082 a = 1/3, then log\u2083 a equals",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2 / (A+B-3)",
+        "(A+B-3) / 2",
+        "2 / (A+B-3)",
+        "(A+B) / (2-3)"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q52",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Dick is thrice as old as Tom and Harry is twice as old as Dick. If Dick's age is 1 year less than the average age of all three, then Harry's age, in years, is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q53",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A and B are two railway stations 90 km apart. A train leaves A at 9:00 am, heading towards B at a speed of 40 km/hr. Another train leaves B at 10:30 am, heading towards A at a speed of 20 km/hr. The trains meet each other at",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "11:45 am",
+        "10:45 am",
+        "11:20 am",
+        "11:00 am"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q54",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let k be a constant. The equations kx + y = 3 and 4x + ky = 4 have a unique solution if and only if",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "k ≠ 2",
+        "|k| = 2",
+        "k ≠ -2",
+        "k = 2"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q55",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If x\u2081 = −1 and Xm = Xm+1 + (m +1) for every positive integer $m,$ then X100 equals",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "-5151",
+        "-5150",
+        "-5051",
+        "-5050"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q56",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Vimla starts for office every day at 9 am and reaches exactly on time if she drives at her usual speed of 40 km/hr. She is late by 6 minutes if she drives at 35 km/hr. One day, she covers two-thirds of her distance to office in one-thirds of her usual time to reach office, and then stops for 8 minutes. The speed, in km/hr, at which she should drive the remaining distance to reach office exactly on time is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q57",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "31",
+        "22",
+        "35",
+        "25"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q58",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If f (x + y) = f(x)f(y) and f (5) = 4, then f (10) − f(−10) is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "0",
+        "15.9375",
+        "3",
+        "14.0625"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q59",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "If a, b, c are non-zero and 14\u207f = 36\u207b = 84\u207a, then 6b (1/c - 1/a) is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q60",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A contractor agreed to construct a 6 km road in 200 days. He employed 140 persons for the work. After 60 days, he realized that only 1.5 km road has been completed. How many additional people would he need to employ in order to finish the work exactly on time?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q61",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let m and n be positive integers, If x\u00b2 + mx + 2n = 0 and x\u00b2 + 2nx + m = 0 have real roots, then the smallest possible value of m + n is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "7",
+        "8",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q62",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A person invested a certain amount of money at 10% annual interest, compounded half-yearly. After one and a half years, the interest and principal together became Rs 18522. The amount, in rupees, that the person had invested is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q63",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Anil, Sunil, and Ravi run along a circular path of length 3 km, starting from the same point at the same time, and going in the clockwise direction. If they run at speeds of 15 km/hr, 10 km/hr, and 8 km/hr, respectively, how much distance in km will Ravi have run when Anil and Sunil meet again for the first time at the starting point?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "4.2",
+        "5.2",
+        "4.8",
+        "4.6"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q64",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The area, in sq. units, enclosed by the lines x = 2, y =|x-2|+4, the X-axis and the Y -axis is equal to",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "8",
+        "12",
+        "10",
+        "6"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q65",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The vertices of a triangle are (0,0), (4,0) and (3,9). The area of the circle passing through these three points is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "14π / 3",
+        "12π / 5",
+        "123π / 7",
+        "205π / 9"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q66",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "How many integers in the set {100, 101, 102, ..., 999} have at least one digit repeated?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q67",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let N, x and y be positive integers such that N = x+y, 2 < x < 10 and 14 < y < 23. If N > 25, then how many distinct values are possible for N?",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q68",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "The points (2,1) and (-3,-4) are opposite vertices of a parallelogram. If the other two vertices lie on the line x + 9y + c = 0, then c is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "12",
+        "14",
+        "13",
+        "15"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q69",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "How many pairs (a, b) of positive integers are there such that a ≤ b and ab = 4\u00b2\u2070\u00b9\u2077 ?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2017",
+        "2019",
+        "2020",
+        "2018"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q70",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In a trapezium ABCD, AB is parallel to DC, BC is perpendicular to DC and ∠BAD = 45°. If DC=5 cm, BC=4 cm, the area of the trapezium in sq cm is",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q71",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "How many of the integers 1, 2, ..., 120, are divisible by none of 2, 5 and 7?",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "40",
+        "42",
+        "43",
+        "41"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q72",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Two alcohol solutions, A and B, are mixed in the proportion 1:3 by volume. The volume of the mixture is then doubled by adding solution A such that the resulting mixture has 72% alcohol. If solution A has 60% alcohol, then the percentage of alcohol in solution B is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "94%",
+        "92%",
+        "90%",
+        "89%"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q73",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "2×4×8×16 / ((log\u2082 4)\u00b2 (log\u2084 8)\u00b3 (log\u2088 16)\u2074) equals",
+      "has_image": false,
+      "image_url": null,
+      "options": null
+    },
+    {
+      "id": "2020_S3_QA_Q74",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "A batsman played n + 2 innings and got out on all occasions. His average score in these n + 2 innings was 29 runs and he scored 38 and 15 runs in the last two innings. The batsman scored less than 38 runs in each of the first n innings. In these n innings, his average score was 30 runs and lowest score was x runs. The smallest possible value of x is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q75",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks scored 84%, is",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "439",
+        "399",
+        "357",
+        "417"
+      ]
+    },
+    {
+      "id": "2020_S3_QA_Q76",
+      "exam_year": 2020,
+      "exam_slot": 3,
+      "section": "QA",
+      "context_passage": null,
+      "question_text": "Let m and n be natural numbers such that n is even and 0.2 < (n/20) < 0.5. Then m-2n equals",
+      "has_image": false,
+      "image_url": null,
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "answer_keys": [
+    {
+      "question_id": "2020_S3_VARC_Q1",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q2",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q3",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q4",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q5",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q6",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q7",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q8",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q9",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q10",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q11",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q12",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q13",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q14",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q15",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q16",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q17",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q18",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q19",
+      "correct_option": "3142"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q20",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q21",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q22",
+      "correct_option": "4123"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q23",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q24",
+      "correct_option": "2431"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q25",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_VARC_Q26",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q27",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q28",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q29",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q30",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q31",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q32",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q33",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q34",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q35",
+      "correct_option": "42"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q36",
+      "correct_option": "20"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q37",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q38",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q39",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q40",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q41",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q42",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q43",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q44",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q45",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q46",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q47",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q48",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q49",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_DILR_Q50",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q51",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_QA_Q52",
+      "correct_option": "18"
+    },
+    {
+      "question_id": "2020_S3_QA_Q53",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q54",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_QA_Q55",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q56",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_QA_Q57",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q58",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_QA_Q59",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_QA_Q60",
+      "correct_option": "40"
+    },
+    {
+      "question_id": "2020_S3_QA_Q61",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q62",
+      "correct_option": "16000"
+    },
+    {
+      "question_id": "2020_S3_QA_Q63",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_QA_Q64",
+      "correct_option": "3"
+    },
+    {
+      "question_id": "2020_S3_QA_Q65",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q66",
+      "correct_option": "252"
+    },
+    {
+      "question_id": "2020_S3_QA_Q67",
+      "correct_option": "6"
+    },
+    {
+      "question_id": "2020_S3_QA_Q68",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_QA_Q69",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q70",
+      "correct_option": "28"
+    },
+    {
+      "question_id": "2020_S3_QA_Q71",
+      "correct_option": "4"
+    },
+    {
+      "question_id": "2020_S3_QA_Q72",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_QA_Q73",
+      "correct_option": "24"
+    },
+    {
+      "question_id": "2020_S3_QA_Q74",
+      "correct_option": "1"
+    },
+    {
+      "question_id": "2020_S3_QA_Q75",
+      "correct_option": "2"
+    },
+    {
+      "question_id": "2020_S3_QA_Q76",
+      "correct_option": "3"
+    }
+  ]
+}
