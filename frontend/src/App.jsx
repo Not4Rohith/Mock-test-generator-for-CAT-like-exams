@@ -136,8 +136,8 @@ function App() {
             </div>
             {examType === 'MAT' && (
                 <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
-                    <p className="text-gray-500 text-sm">MAT Questions sourced from <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a></p>
-                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">Credits: Rohith N R</p>
+                    <p className="text-gray-500 text-sm">Thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a></p>
+                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold"> -Rohith </p>
                 </div>
             )}
         </>
