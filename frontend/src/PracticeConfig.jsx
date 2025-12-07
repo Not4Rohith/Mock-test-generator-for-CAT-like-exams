@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Target, Clock, Hash, BookOpen, Play, Filter } from 'lucide-react';
 
-export default function PracticeConfig({ onStart, examType }) { // <--- Receive examType prop
-  
-  // Define Section Options based on Exam
+export default function PracticeConfig({ onStart, examType }) {
+  // --- 1. DEFINE API URL ---
+  const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+
   const SECTIONS = examType === 'MAT' 
     ? [
         { label: "Math", value: "Mathematical Skills" },
@@ -22,7 +23,7 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
       ];
 
   const [settings, setSettings] = useState({
-    section: SECTIONS[0].value, // Default to first valid option
+    section: SECTIONS[0].value,
     count: 10,
     timeLimit: 15,
     yearStart: 2017,
@@ -32,15 +33,14 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
 
   const [availableTopics, setAvailableTopics] = useState([]);
 
-  // Reset section when Exam Type changes
   useEffect(() => {
     setSettings(prev => ({ ...prev, section: SECTIONS[0].value, topic: "ALL" }));
   }, [examType]);
 
-  // Fetch topics
   useEffect(() => {
     const fetchTopics = async () => {
         try {
+            // USE BACKTICKS HERE
             const res = await axios.get(`${API_URL}/get-topics`, {
                 params: { section: settings.section, exam_type: examType }
             });
@@ -62,8 +62,6 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
       </div>
 
       <div className="space-y-6">
-        
-        {/* Dynamic Section Selector */}
         <div>
           <label className="flex items-center gap-2 text-sm text-gray-400 font-bold uppercase mb-2">
             <BookOpen size={16} /> Section
@@ -84,7 +82,6 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
           </div>
         </div>
 
-        {/* TOPIC SELECTOR */}
         <div>
           <label className="flex items-center gap-2 text-sm text-gray-400 font-bold uppercase mb-2">
             <Filter size={16} /> Topic
@@ -100,7 +97,6 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
           </select>
         </div>
 
-        {/* Count & Time (Same as before) */}
         <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="flex items-center gap-2 text-sm text-gray-400 font-bold uppercase mb-2">
