@@ -5,8 +5,9 @@ import { Trophy, RefreshCcw, Download } from 'lucide-react';
 
 export default function ResultScreen({ testData, userAnswers, onRestart }) {
   
-  // --- 1. DETECT EXAM TYPE & MARKING SCHEME ---
-  const isMAT = testData.id && testData.id.startsWith("MAT");
+  // --- 1. DETECT EXAM TYPE & MARKING SCHEME (FIXED) ---
+  // We check if "MAT" appears anywhere in the ID (e.g., "MAT_MOCK..." or "PRAC_MAT...")
+  const isMAT = testData.id && testData.id.includes("MAT");
   
   const markingScheme = isMAT 
     ? { correct: 1, wrong: 0.25 }  // MAT: +1 / -0.25
@@ -25,7 +26,7 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
     const userAns = userAnswers[q.id];
     if (!userAns) return; // Unattempted
 
-    // Normalize for comparison
+    // Normalize comparison
     if (String(userAns).trim() === String(q.correct_option).trim()) {
         totalScore += markingScheme.correct;
         correctCount++;
@@ -123,6 +124,8 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
                 content += `[PASSAGE]:\n${clean(q.context_passage)}\n\n`;
             }
             content += `[QUESTION]:\n${clean(q.question_text)}\n\n`;
+            
+            // Image handling in PDF
             if (q.images && q.images.length > 0) content += `(See Images)\n\n`;
             else if (q.image_url) content += `(See Image)\n\n`;
 
