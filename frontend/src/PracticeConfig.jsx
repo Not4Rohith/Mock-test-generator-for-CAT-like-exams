@@ -41,7 +41,7 @@ export default function PracticeConfig({ onStart, examType }) { // <--- Receive 
   useEffect(() => {
     const fetchTopics = async () => {
         try {
-            const res = await axios.get(`http://127.0.0.1:8000/get-topics`, {
+            const res = await axios.get(`${API_URL}/get-topics`, {
                 params: { section: settings.section, exam_type: examType }
             });
             setAvailableTopics(["ALL", ...res.data.topics]);

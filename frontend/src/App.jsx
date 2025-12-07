@@ -15,12 +15,12 @@ function App() {
   
   const [practiceSettings, setPracticeSettings] = useState(null)
   const [mockConfig, setMockConfig] = useState({ startYear: 2017, endYear: 2024 });
-
+  const API_URL = import.meta.env.VITE_API_URL;
   // --- API HELPERS (Same as before) ---
   const startMock = async () => {
     setLoading(true);
     try {
-      const res = await axios.get('http://127.0.0.1:8000/generate-mock', {
+      const res = await axios.get('${API_URL}/generate-mock', {
         params: { 
             exam_type: examType, 
             year_start: examType === 'MAT' ? 0 : mockConfig.startYear, 
