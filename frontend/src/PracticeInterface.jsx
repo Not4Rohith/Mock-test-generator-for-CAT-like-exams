@@ -44,30 +44,28 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const isSubmitting = useRef(false);
 
   // --- RESIZABLE STATES ---
-  const [sidebarWidth, setSidebarWidth] = useState(260); // Default 260px
-  const [passageWidth, setPassageWidth] = useState(50);  // Default 50%
-  const [isResizing, setIsResizing] = useState(null);    // 'sidebar' | 'passage' | null
+  const [sidebarWidth, setSidebarWidth] = useState(260); 
+  const [passageWidth, setPassageWidth] = useState(50);
+  const [isResizing, setIsResizing] = useState(null);
 
   const questions = testData.questions;
   const currentQuestion = questions[currentQIndex];
 
-  // --- MOUSE HANDLERS FOR RESIZING ---
+  // --- MOUSE HANDLERS ---
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
 
   const resize = useCallback((e) => {
     if (isResizing === 'sidebar') {
       const newWidth = e.clientX;
-      if (newWidth > 180 && newWidth < 500) setSidebarWidth(newWidth);
+      // UPDATED: Allow shrinking down to 70px (approx 1 column)
+      if (newWidth > 70 && newWidth < 600) setSidebarWidth(newWidth);
     } 
     else if (isResizing === 'passage') {
-        // Calculate percentage relative to the content area
-        // We approximate the content area start by subtracting sidebarWidth
         const contentLeft = sidebarWidth;
         const totalContentWidth = window.innerWidth - contentLeft;
         const relativeX = e.clientX - contentLeft;
         const newPercent = (relativeX / totalContentWidth) * 100;
-        
         if (newPercent > 20 && newPercent < 80) setPassageWidth(newPercent);
     }
   }, [isResizing, sidebarWidth]);
@@ -76,8 +74,8 @@ export default function PracticeInterface({ testData, settings, onExit }) {
     if (isResizing) {
       window.addEventListener('mousemove', resize);
       window.addEventListener('mouseup', stopResizing);
-      document.body.style.userSelect = 'none'; // Prevent text selection while dragging
-      document.body.style.cursor = isResizing === 'sidebar' ? 'col-resize' : 'col-resize';
+      document.body.style.userSelect = 'none';
+      document.body.style.cursor = 'col-resize';
     } else {
       window.removeEventListener('mousemove', resize);
       window.removeEventListener('mouseup', stopResizing);
@@ -90,7 +88,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
     };
   }, [isResizing, resize, stopResizing]);
 
-  // --- EXISTING LOGIC ---
+  // --- LOGIC ---
   useEffect(() => {
       setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
   }, [currentQIndex, questions]);
@@ -133,14 +131,16 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
       
-      {/* --- RESIZABLE SIDEBAR --- */}
-      <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20 transition-none">
+      {/* SIDEBAR */}
+      <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
-              <h2 className="font-bold text-white mb-1">Question Palette</h2>
-              <p className="text-xs text-gray-500">Jump to any question</p>
+              <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
+              <p className="text-xs text-gray-500 truncate">Questions</p>
           </div>
+          
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-              <div className="grid grid-cols-4 gap-2">
+              {/* UPDATED: Dynamic Grid */}
+              <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
                   {questions.map((q, idx) => (
                       <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
                           {idx + 1}
@@ -148,29 +148,21 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                   ))}
               </div>
           </div>
+
           <div className="p-4 border-t border-subtle bg-black/20">
               <div className="grid grid-cols-2 gap-2 text-xs text-gray-400 mb-4">
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> Ans</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> Skip</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> Unseen</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> Now</div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> <span className="truncate">Ans</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> <span className="truncate">Skip</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> <span className="truncate">New</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> <span className="truncate">Now</span></div>
               </div>
-              <button onClick={() => { if(window.confirm("Submit Practice Session?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors">Submit Test</button>
+              <button onClick={() => { if(window.confirm("Submit Practice?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">Submit</button>
           </div>
       </div>
 
-      {/* --- SIDEBAR RESIZER HANDLE --- */}
-      <div 
-        onMouseDown={() => startResizing('sidebar')}
-        className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"
-      >
-        <div className="h-8 w-0.5 bg-gray-600 rounded-full" /> 
-      </div>
+      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><div className="h-8 w-0.5 bg-gray-600 rounded-full" /></div>
 
-      {/* --- MAIN CONTENT --- */}
       <div className="flex-1 flex flex-col min-w-0">
-          
-          {/* HEADER */}
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
             <div><h2 className="font-bold text-white text-lg">Practice Mode</h2><span className="text-xs text-accent uppercase tracking-widest">{settings.section}</span></div>
             {settings.timeLimit > 0 && (
@@ -181,33 +173,20 @@ export default function PracticeInterface({ testData, settings, onExit }) {
             )}
           </div>
 
-          {/* SPLIT SCREEN CONTENT */}
           <div className="flex-1 overflow-hidden flex flex-row">
-            
             {hasPassage && (
                 <>
-                    {/* LEFT: PASSAGE (Adjustable Width) */}
                     <div style={{ width: `${passageWidth}%` }} className="border-r border-subtle h-full overflow-y-auto p-8 bg-[#161616] custom-scrollbar">
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-
-                    {/* PASSAGE RESIZER HANDLE */}
-                    <div 
-                        onMouseDown={() => startResizing('passage')}
-                        className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"
-                    >
-                        <GripVertical size={12} className="text-gray-500" />
-                    </div>
+                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><GripVertical size={12} className="text-gray-500" /></div>
                 </>
             )}
-
-            {/* RIGHT: QUESTION (Takes remaining space) */}
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">
                 <div className="flex justify-between items-end mb-6 border-b border-gray-800 pb-4"><span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span></div>
                 <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
                 {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
-
                 <div className="space-y-4 mb-10 mt-6">
                     {currentQuestion.options && currentQuestion.options.length > 0 ? (
                         currentQuestion.options.map((opt, idx) => {
@@ -222,15 +201,14 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                         })
                     ) : (
                         <div className="bg-black/30 p-6 rounded-xl border border-dashed border-gray-700">
-                            <label className="text-gray-400 text-sm block mb-3">Type your answer:</label>
-                            <input type="text" className="w-full bg-charcoal border border-subtle p-4 rounded text-white font-mono text-xl" placeholder="Enter value..." onChange={(e) => handleOptionSelect(e.target.value)} value={answers[currentQuestion.id] || ''} />
+                            <label className="text-gray-400 text-sm block mb-3">TITA / No Options:</label>
+                            <input type="text" className="w-full bg-charcoal border border-subtle p-4 rounded text-white font-mono text-xl" placeholder="Enter answer..." onChange={(e) => handleOptionSelect(e.target.value)} value={answers[currentQuestion.id] || ''} />
                         </div>
                     )}
                 </div>
             </div>
           </div>
 
-          {/* FOOTER NAV */}
           <div className="h-20 border-t border-subtle bg-charcoal flex items-center justify-between px-8 shrink-0">
             <button onClick={() => setCurrentQIndex(Math.max(0, currentQIndex-1))} disabled={currentQIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
             <button onClick={() => setCurrentQIndex(Math.min(questions.length-1, currentQIndex+1))} disabled={currentQIndex === questions.length-1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2 hover:bg-emerald-400 shadow-lg shadow-emerald-900/20 transition-all">Save & Next <ChevronRight size={20} /></button>

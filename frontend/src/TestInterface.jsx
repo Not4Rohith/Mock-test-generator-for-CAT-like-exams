@@ -59,7 +59,8 @@ export default function TestInterface({ testData, onExit }) {
   const resize = useCallback((e) => {
     if (isResizing === 'sidebar') {
       const newWidth = e.clientX;
-      if (newWidth > 180 && newWidth < 500) setSidebarWidth(newWidth);
+      // UPDATED: Allow shrinking down to 70px
+      if (newWidth > 70 && newWidth < 600) setSidebarWidth(newWidth);
     } 
     else if (isResizing === 'passage') {
         const contentLeft = sidebarWidth;
@@ -151,14 +152,15 @@ export default function TestInterface({ testData, onExit }) {
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
       
-      {/* --- RESIZABLE SIDEBAR --- */}
+      {/* RESIZABLE SIDEBAR */}
       <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
-              <h2 className="font-bold text-white mb-1">Question Palette</h2>
+              <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
               <div className="text-xs text-gray-500 truncate">{currentSectionName}</div>
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-              <div className="grid grid-cols-4 gap-2">
+              {/* UPDATED: Dynamic Grid */}
+              <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
                   {questions.map((q, idx) => (
                       <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
                           {idx + 1}
@@ -168,19 +170,18 @@ export default function TestInterface({ testData, onExit }) {
           </div>
           <div className="p-4 border-t border-subtle bg-black/20">
               <div className="grid grid-cols-2 gap-2 text-xs text-gray-400 mb-4">
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> Ans</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> Skip</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> New</div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> Now</div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> <span className="truncate">Ans</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> <span className="truncate">Skip</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> <span className="truncate">New</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> <span className="truncate">Now</span></div>
               </div>
-              <button onClick={() => { if(window.confirm("Submit Test?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors">Submit Test</button>
+              <button onClick={() => { if(window.confirm("Submit Test?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">Submit Test</button>
           </div>
       </div>
 
-      {/* --- SIDEBAR HANDLE --- */}
       <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><div className="h-8 w-0.5 bg-gray-600 rounded-full" /></div>
 
-      {/* --- MAIN CONTENT --- */}
+      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
             <div><h2 className="font-bold text-white text-lg tracking-wide">{isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
@@ -204,7 +205,6 @@ export default function TestInterface({ testData, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    {/* PASSAGE HANDLE */}
                     <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-obsidian hover:bg-accent cursor-col-resize z-30 flex items-center justify-center transition-colors opacity-50 hover:opacity-100"><GripVertical size={12} className="text-gray-500" /></div>
                 </>
             )}
