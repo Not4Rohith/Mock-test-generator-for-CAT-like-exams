@@ -96,9 +96,11 @@ function App() {
 
   if (mode === 'landing') {
       return (
-        <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white font-sans">
+        // Added 'relative' here so the footer can stick to the bottom
+        <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white font-sans relative">
             <h1 className="text-6xl font-bold mb-4 tracking-tighter">Exam Engine</h1>
             <p className="text-gray-400 mb-12 text-xl">Select your target exam</p>
+            
             <div className="flex gap-8">
                 <button onClick={() => { setExamType('CAT'); setMode('home'); }} className="group bg-charcoal p-10 rounded-3xl border border-subtle hover:border-blue-500 hover:scale-105 transition-all text-center w-64">
                     <div className="bg-blue-900/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 transition-colors">
@@ -107,6 +109,7 @@ function App() {
                     <h2 className="text-3xl font-bold">CAT</h2>
                     <p className="text-gray-500 mt-2 text-sm">IIM Entrance</p>
                 </button>
+
                 <button onClick={() => { setExamType('MAT'); setMode('home'); }} className="group bg-charcoal p-10 rounded-3xl border border-subtle hover:border-emerald-500 hover:scale-105 transition-all text-center w-64">
                     <div className="bg-emerald-900/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-600 transition-colors">
                         <BookOpen className="text-emerald-400 group-hover:text-white" size={40} />
@@ -114,10 +117,16 @@ function App() {
                     <h2 className="text-3xl font-bold">MAT</h2>
                     <p className="text-gray-500 mt-2 text-sm">AIMA Management</p>
                 </button>
-                    <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
-                        <p className="text-gray-500 text-sm"> Made with ❤️</p>
-                        <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">- rohith</p>
-                    </div>
+            </div>
+
+            {/* --- NEW FOOTER --- */}
+            <div className="absolute bottom-8 text-center opacity-50 hover:opacity-100 transition-opacity duration-300">
+                <p className="text-sm font-medium text-gray-400">
+                    Made with <span className="text-red-500 animate-pulse">❤️</span>
+                </p>
+                <p className="text-xs text-gray-500 mt-1 font-bold tracking-[0.2em] uppercase">
+                    - Rohith
+                </p>
             </div>
         </div>
       )

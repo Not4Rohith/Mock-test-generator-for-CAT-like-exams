@@ -14,3 +14,41 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... (any other css you have) ... */
+
+/* --- DARK NAVY SCROLLBAR --- */
+
+/* 1. Target the class .custom-scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #172554 #111; /* Firefox: Navy Thumb, Dark Track */
+}
+
+/* 2. Target Webkit (Chrome, Edge, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Width of vertical scrollbar */
+  height: 10px; /* Height of horizontal scrollbar */
+}
+
+/* The Track (Background) */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f0f0f; /* Very dark grey, almost black */
+  border-left: 1px solid #333;
+}
+
+/* The Thumb (The moving part) - NAVY BLUE */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #1e3a8a; /* Tailwind blue-900 (Navy) */
+  border-radius: 6px;
+  border: 2px solid #0f0f0f; /* Adds a padding effect */
+}
+
+/* Hover Effect */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #2563eb; /* Brighter Blue on Hover */
+}
