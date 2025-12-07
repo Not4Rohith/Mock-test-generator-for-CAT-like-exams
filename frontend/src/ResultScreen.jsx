@@ -5,8 +5,14 @@ import { Trophy, RefreshCcw, Download } from 'lucide-react';
 
 export default function ResultScreen({ testData, userAnswers, onRestart }) {
   
-  // --- 1. DYNAMIC DATA FLATTENING ---
-  // Works for CAT (VARC/DILR/QA), MAT (5 Sections), and Practice Mode (List)
+  // --- 1. DETECT EXAM TYPE & MARKING SCHEME ---
+  const isMAT = testData.id && testData.id.startsWith("MAT");
+  
+  const markingScheme = isMAT 
+    ? { correct: 1, wrong: 0.25 }  // MAT: +1 / -0.25
+    : { correct: 3, wrong: 1 };    // CAT: +3 / -1
+
+  // --- 2. DYNAMIC DATA FLATTENING ---
   const allQuestions = testData.sections 
     ? Object.values(testData.sections).flat() 
     : testData.questions || [];
@@ -17,14 +23,24 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
 
   allQuestions.forEach(q => {
     const userAns = userAnswers[q.id];
-    if (!userAns) return;
+    if (!userAns) return; // Unattempted
 
+    // Normalize for comparison
     if (String(userAns).trim() === String(q.correct_option).trim()) {
-        totalScore += 3;
+        totalScore += markingScheme.correct;
         correctCount++;
     } else {
         wrongCount++;
-        if (q.options) totalScore -= 1;
+        // Negative marking logic
+        if (isMAT) {
+            // MAT always has negative marking
+            totalScore -= markingScheme.wrong;
+        } else {
+            // CAT only has negative marking for MCQs (if options exist)
+            if (q.options) {
+                totalScore -= markingScheme.wrong;
+            }
+        }
     }
   });
 
@@ -36,12 +52,12 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
   const clean = (text) => {
       if (!text) return "";
       return String(text)
-        .replace(/<[^>]*>/g, '') // Remove HTML
+        .replace(/<[^>]*>/g, '') 
         .replace(/&nbsp;/g, ' ') 
-        .replace(/[$]/g, '')     // Remove Math delimiters
-        .replace(/\\/g, '')      // Remove backslashes
-        .replace(/â€™/g, "'")    // Fix quotes
-        .replace(/\s+/g, ' ')    // Collapse spaces
+        .replace(/[$]/g, '')     
+        .replace(/\\/g, '')      
+        .replace(/â€™/g, "'")    
+        .replace(/\s+/g, ' ')    
         .trim();
   };
 
@@ -49,19 +65,17 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
     try {
         const doc = new jsPDF();
 
-        // ===========================
-        // PAGE 1: SUMMARY SCORECARD
-        // ===========================
+        // HEADER
         doc.setFontSize(22);
         doc.setTextColor(16, 185, 129);
-        doc.text(`Analysis Report`, 14, 20);
+        doc.text(`${isMAT ? "MAT" : "CAT"} Analysis Report`, 14, 20);
         
         doc.setFontSize(10);
         doc.setTextColor(100);
         doc.text(`Exam ID: ${testData.id}`, 14, 28);
         doc.text(`Date: ${new Date().toLocaleDateString()}`, 14, 33);
 
-        // Score Box
+        // SCORE BOX
         doc.setFillColor(240, 240, 240);
         doc.roundedRect(14, 40, 180, 25, 3, 3, 'F');
         doc.setFontSize(14);
@@ -70,7 +84,7 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
         doc.text(`Accuracy: ${accuracy}%`, 85, 55);
         doc.text(`Attempts: ${correctCount + wrongCount}/${allQuestions.length}`, 145, 55);
 
-        // Summary Table
+        // TABLE
         const summaryRows = allQuestions.map((q, index) => {
             const userAns = userAnswers[q.id] ? String(userAnswers[q.id]) : "-";
             const correctAns = q.correct_option ? String(q.correct_option) : "(TITA)";
@@ -97,26 +111,21 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
             }
         });
 
-        // ===========================
-        // PAGE 2+: DETAILED SOLUTIONS
-        // ===========================
+        // DETAILED SOLUTIONS (Page 2)
         doc.addPage();
         doc.setFontSize(16);
         doc.setTextColor(0);
         doc.text("Detailed Solutions", 14, 20);
 
         const detailRows = allQuestions.map((q, index) => {
-            // 1. Format Passage
             let content = "";
             if (q.context_passage && q.context_passage.length > 50) {
                 content += `[PASSAGE]:\n${clean(q.context_passage)}\n\n`;
             }
-
-            // 2. Format Question
             content += `[QUESTION]:\n${clean(q.question_text)}\n\n`;
-            if (q.image_url) content += `(See Image: ${q.image_url})\n\n`;
+            if (q.images && q.images.length > 0) content += `(See Images)\n\n`;
+            else if (q.image_url) content += `(See Image)\n\n`;
 
-            // 3. Format Options
             if (q.options && q.options.length > 0) {
                 content += `[OPTIONS]:\n`;
                 q.options.forEach((opt, i) => {
@@ -126,7 +135,6 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
                 content += "\n";
             }
 
-            // 4. Format Result
             const userAns = userAnswers[q.id] || "Unattempted";
             const correctAns = q.correct_option || "TITA";
             const isCorrect = String(userAns).trim() === String(correctAns).trim();
@@ -146,12 +154,8 @@ export default function ResultScreen({ testData, userAnswers, onRestart }) {
             body: detailRows,
             theme: 'grid',
             headStyles: { fillColor: [16, 185, 129] },
-            columnStyles: {
-                0: { cellWidth: 15 },
-                1: { cellWidth: 120 }, 
-                2: { cellWidth: 55 }
-            },
-            styles: { fontSize: 9, cellPadding: 4, overflow: 'linebreak' }, // Wrap text
+            columnStyles: { 0: { cellWidth: 15 }, 1: { cellWidth: 120 }, 2: { cellWidth: 55 } },
+            styles: { fontSize: 9, cellPadding: 4, overflow: 'linebreak' }, 
         });
 
         doc.save(`Analysis_${testData.id}.pdf`);
