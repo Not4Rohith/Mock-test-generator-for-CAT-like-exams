@@ -122,10 +122,10 @@ function App() {
             {/* --- NEW FOOTER --- */}
             <div className="absolute bottom-8 text-center opacity-50 hover:opacity-100 transition-opacity duration-300">
                 <p className="text-sm font-medium text-gray-400">
-                    Made with <span className="text-red-500 animate-pulse">❤️</span>
+                    Made with <span className="text-red-600 animate-pulse">❤️</span>
                 </p>
                 <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">
-                    -Rohith
+                    -rohith
                 </p>
             </div>
         </div>
@@ -171,7 +171,7 @@ function App() {
           <button onClick={() => setMode('landing')} className="text-gray-500 hover:text-white flex items-center gap-2">&larr; Switch Exam</button>
       </div>
       <div className="mb-12 text-center">
-        <h1 className="text-5xl font-bold tracking-tighter text-white mb-2">{examType} Engine <span className="text-accent text-lg">Pro</span></h1>
+        <h1 className="text-5xl font-bold tracking-tighter text-white mb-2">{examType} Engine <span className="text-accent text-lg">Giggle</span></h1>
         <p className="text-gray-400">Current Mode: {examType} Preparation</p>
       </div>
       {mode === 'home' && (
@@ -191,7 +191,7 @@ function App() {
             {examType === 'MAT' && (
                 <div className="mt-16 text-center border-t border-gray-800 pt-6 max-w-2xl">
                     <p className="text-gray-500 text-sm">thanks for the questions <a href="https://cdquestions.com/exams/mat-questions" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">cdquestions.com</a> 🤗</p>
-                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">- rohith</p>
+                    <p className="text-gray-600 text-xs mt-1 uppercase tracking-widest font-bold">-rohith</p>
                 </div>
             )}
         </>
