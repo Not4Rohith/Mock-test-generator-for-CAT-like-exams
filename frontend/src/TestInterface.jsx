@@ -10,21 +10,43 @@ class SafeLatex extends Component {
 }
 
 const ImageDisplay = ({ images, singleUrl }) => {
-  const imgs = (images && images.length > 0) ? images : (singleUrl ? [singleUrl] : []);
+  // --- IMPROVED LOGIC ---
+  // 1. Use 'images' if it exists and is an array.
+  // 2. If not, check if 'singleUrl' is already an array.
+  // 3. If it's a string, wrap it in an array.
+  const imgs = (images && Array.isArray(images)) ? images : 
+               (Array.isArray(singleUrl) ? singleUrl : 
+               (singleUrl ? [singleUrl] : []));
+
   if (imgs.length === 0) return null;
+
   return (
     <div className="flex flex-col gap-4 my-6">
-      {imgs.map((src, idx) => (
-        <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
-          <img src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} alt={`Figure ${idx + 1}`} className="max-w-full h-auto" onError={(e) => { e.target.style.display = 'none'; }} />
-        </div>
-      ))}
+      {imgs.map((src, idx) => {
+        if (!src) return null;
+        // Ensure path starts with / for local assets
+        const fullSrc = src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`;
+        
+        return (
+          <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
+            <img 
+              src={fullSrc} 
+              alt={`Figure ${idx + 1}`} 
+              className="max-w-full h-auto" 
+              onError={(e) => { e.target.style.display = 'none'; }} 
+            />
+          </div>
+        );
+      })}
     </div>
   );
 };
 
 export default function TestInterface({ testData, onExit }) {
   const isMAT = testData.id && testData.id.startsWith("MAT");
+  const isCMAT = testData.id && testData.id.startsWith("CMAT");
+  const isFreeSwitch = isMAT || isCMAT; // CMAT and MAT allow free switching
+  
   const SECTIONS = testData.sections ? Object.keys(testData.sections) : [];
   const SESSION_KEY = `session_${testData.id}`;
 
@@ -34,11 +56,14 @@ export default function TestInterface({ testData, onExit }) {
   };
   const initialSession = loadSession() || {};
 
+  // CMAT: 180m (10800s), MAT: 120m (7200s), CAT: 40m (2400s)
+  const defaultTime = isCMAT ? 10800 : (isMAT ? 7200 : 2400);
+
   const [currentSectionIndex, setCurrentSectionIndex] = useState(initialSession.currentSectionIndex || 0);
   const [currentQIndex, setCurrentQIndex] = useState(initialSession.currentQIndex || 0);
   const [answers, setAnswers] = useState(initialSession.answers || {});
   const [visited, setVisited] = useState(initialSession.visited || {}); 
-  const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : (isMAT ? 7200 : 2400));
+  const [timeLeft, setTimeLeft] = useState(initialSession.timeLeft !== undefined ? initialSession.timeLeft : defaultTime);
   const isSubmitting = useRef(false);
 
   const [sidebarWidth, setSidebarWidth] = useState(260); 
@@ -104,7 +129,7 @@ export default function TestInterface({ testData, onExit }) {
     const timer = setInterval(() => {
         setTimeLeft((prev) => {
             if (prev <= 1) {
-                if (isMAT) { alert("Time's up!"); handleSubmit(); return 0; }
+                if (isFreeSwitch) { alert("Time's up!"); handleSubmit(); return 0; }
                 else {
                     if (currentSectionIndex < SECTIONS.length - 1) { handleSectionSwitch(); return 2400; }
                     else { handleSubmit(); return 0; }
@@ -114,7 +139,7 @@ export default function TestInterface({ testData, onExit }) {
         });
     }, 1000);
     return () => clearInterval(timer);
-  }, [currentSectionIndex, isMAT]);
+  }, [currentSectionIndex, isFreeSwitch]);
 
   const clean = (text) => { if(!text) return ""; return String(text).replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, ''); };
   const RenderText = ({ text }) => { if (!text) return null; return <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span>; };
@@ -122,13 +147,19 @@ export default function TestInterface({ testData, onExit }) {
   const handleOptionSelect = (optId) => { setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId })); };
   const handleNext = () => { if (currentQIndex < questions.length - 1) setCurrentQIndex(currentQIndex + 1); };
   const handlePrev = () => { if (currentQIndex > 0) setCurrentQIndex(currentQIndex - 1); };
-  const handleTabClick = (idx) => { if (isMAT) { setCurrentSectionIndex(idx); setCurrentQIndex(0); } };
+  
+  const handleTabClick = (idx) => { 
+    if (isFreeSwitch) { 
+        setCurrentSectionIndex(idx); 
+        setCurrentQIndex(0); 
+    } 
+  };
 
   const handleSectionSwitch = () => {
     if (currentSectionIndex < SECTIONS.length - 1) {
       setCurrentSectionIndex(currentSectionIndex + 1);
       setCurrentQIndex(0);
-      if (!isMAT) setTimeLeft(2400); 
+      if (!isFreeSwitch) setTimeLeft(2400); 
     } else {
       if(window.confirm("Submit Test?")) handleSubmit();
     }
@@ -153,7 +184,6 @@ export default function TestInterface({ testData, onExit }) {
               <div className="text-xs text-gray-500 truncate">{currentSectionName}</div>
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
-              {/* Dynamic Grid */}
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
                   {questions.map((q, idx) => (
                       <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
@@ -173,18 +203,14 @@ export default function TestInterface({ testData, onExit }) {
           </div>
       </div>
 
-      {/* SIDEBAR HANDLE (NAVY BLUE) */}
-      <div 
-        onMouseDown={() => startResizing('sidebar')} 
-        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
-      >
+      {/* RESIZER */}
+      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors">
         <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
       </div>
 
-      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
-            <div><h2 className="font-bold text-white text-lg tracking-wide">{isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
+            <div><h2 className="font-bold text-white text-lg tracking-wide">{isCMAT ? "CMAT" : isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
             <div className="flex items-center gap-8">
                 <div className={`px-4 py-2 rounded-lg border border-gray-800 flex items-center gap-3 ${timeLeft < 300 ? 'bg-red-900/30 border-red-500' : 'bg-black/40'}`}>
                     <Timer size={20} className={timeLeft < 300 ? 'text-red-400' : 'text-accent'} />
@@ -192,7 +218,7 @@ export default function TestInterface({ testData, onExit }) {
                 </div>
                 <div className="flex gap-1 bg-black/20 p-1 rounded-lg overflow-x-auto max-w-md custom-scrollbar">
                     {SECTIONS.map((sec, idx) => (
-                        <button key={sec} onClick={() => handleTabClick(idx)} disabled={!isMAT && idx !== currentSectionIndex} className={`px-4 py-1.5 rounded text-sm font-medium whitespace-nowrap transition-colors ${idx === currentSectionIndex ? 'bg-accent text-black shadow-lg' : 'text-gray-500 hover:text-gray-300'} ${!isMAT && idx !== currentSectionIndex ? 'opacity-50 cursor-not-allowed' : ''}`}>{sec}</button>
+                        <button key={sec} onClick={() => handleTabClick(idx)} disabled={!isFreeSwitch && idx !== currentSectionIndex} className={`px-4 py-1.5 rounded text-sm font-medium whitespace-nowrap transition-colors ${idx === currentSectionIndex ? 'bg-accent text-black shadow-lg' : 'text-gray-500 hover:text-gray-300'} ${!isFreeSwitch && idx !== currentSectionIndex ? 'opacity-50 cursor-not-allowed' : ''}`}>{sec}</button>
                     ))}
                 </div>
             </div>
@@ -205,11 +231,7 @@ export default function TestInterface({ testData, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    {/* PASSAGE HANDLE (NAVY BLUE) */}
-                    <div 
-                        onMouseDown={() => startResizing('passage')} 
-                        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
-                    >
+                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors">
                         <GripVertical size={12} className="text-blue-400/50" />
                     </div>
                 </>
@@ -218,15 +240,27 @@ export default function TestInterface({ testData, onExit }) {
                 <div className="flex justify-between items-end mb-6 border-b border-gray-800 pb-4"><span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span></div>
                 <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
                 {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
+                
                 <div className="space-y-4 mb-10 mt-6">
                     {currentQuestion.options && currentQuestion.options.length > 0 ? (
                         currentQuestion.options.map((opt, idx) => {
                             const optText = typeof opt === 'string' ? opt : opt.text; 
                             const isSelected = answers[currentQuestion.id] === (opt.id || optText); 
+                            
+                            // DETECTION FOR IMAGE OPTIONS
+                            const isImageOption = typeof optText === 'string' && 
+                                (optText.match(/\.(jpeg|jpg|gif|png|webp)$/i) || optText.startsWith('images/'));
+
                             return (
                                 <button key={idx} onClick={() => handleOptionSelect(opt.id || optText)} className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}>
                                     <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${isSelected ? 'bg-accent border-accent text-black' : 'border-gray-600'}`}>{String.fromCharCode(65 + idx)}</div>
-                                    <div className="text-lg pt-0.5"><RenderText text={optText} /></div>
+                                    <div className="text-lg pt-0.5 flex-1">
+                                        {isImageOption ? (
+                                            <img src={optText.startsWith('http') ? optText : `/${optText.startsWith('/') ? optText.slice(1) : optText}`} alt={`Option ${idx}`} className="max-h-32 w-auto rounded bg-white/5 p-1" />
+                                        ) : (
+                                            <RenderText text={optText} />
+                                        )}
+                                    </div>
                                 </button>
                             )
                         })

@@ -10,15 +10,34 @@ class SafeLatex extends Component {
 }
 
 const ImageDisplay = ({ images, singleUrl }) => {
-  const imgs = (images && images.length > 0) ? images : (singleUrl ? [singleUrl] : []);
+  // --- IMPROVED LOGIC ---
+  // 1. Use 'images' if it exists and is an array.
+  // 2. If not, check if 'singleUrl' is already an array.
+  // 3. If it's a string, wrap it in an array.
+  const imgs = (images && Array.isArray(images)) ? images : 
+               (Array.isArray(singleUrl) ? singleUrl : 
+               (singleUrl ? [singleUrl] : []));
+
   if (imgs.length === 0) return null;
+
   return (
     <div className="flex flex-col gap-4 my-6">
-      {imgs.map((src, idx) => (
-        <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
-          <img src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} alt={`Figure ${idx + 1}`} className="max-w-full h-auto" onError={(e) => { e.target.style.display = 'none'; }} />
-        </div>
-      ))}
+      {imgs.map((src, idx) => {
+        if (!src) return null;
+        // Ensure path starts with / for local assets
+        const fullSrc = src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`;
+        
+        return (
+          <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
+            <img 
+              src={fullSrc} 
+              alt={`Figure ${idx + 1}`} 
+              className="max-w-full h-auto" 
+              onError={(e) => { e.target.style.display = 'none'; }} 
+            />
+          </div>
+        );
+      })}
     </div>
   );
 };
@@ -81,7 +100,9 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   }, [isResizing, resize, stopResizing]);
 
   useEffect(() => {
-      setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
+      if (questions[currentQIndex]) {
+          setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
+      }
   }, [currentQIndex, questions]);
 
   useEffect(() => {
@@ -148,11 +169,8 @@ export default function PracticeInterface({ testData, settings, onExit }) {
           </div>
       </div>
 
-      {/* --- SIDEBAR RESIZER (NAVY BLUE) --- */}
-      <div 
-        onMouseDown={() => startResizing('sidebar')} 
-        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
-      >
+      {/* --- SIDEBAR RESIZER --- */}
+      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20">
         <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
       </div>
 
@@ -175,11 +193,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    {/* --- PASSAGE RESIZER (NAVY BLUE) --- */}
-                    <div 
-                        onMouseDown={() => startResizing('passage')} 
-                        className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20"
-                    >
+                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20">
                         <GripVertical size={12} className="text-blue-400/50" />
                     </div>
                 </>
@@ -188,15 +202,39 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                 <div className="flex justify-between items-end mb-6 border-b border-gray-800 pb-4"><span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span></div>
                 <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
                 {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
+                
+                {/* --- OPTIONS LOOP WITH IMAGE DETECTION --- */}
                 <div className="space-y-4 mb-10 mt-6">
                     {currentQuestion.options && currentQuestion.options.length > 0 ? (
                         currentQuestion.options.map((opt, idx) => {
                             const optText = typeof opt === 'string' ? opt : opt.text; 
                             const isSelected = answers[currentQuestion.id] === (opt.id || optText); 
+                            
+                            // Check if this option is a path to an image (common in CMAT Logical Reasoning)
+                            const isImageOption = typeof optText === 'string' && 
+                                (optText.match(/\.(jpeg|jpg|gif|png|webp)$/i) || optText.startsWith('images/'));
+
                             return (
-                                <button key={idx} onClick={() => handleOptionSelect(opt.id || optText)} className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}>
-                                    <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${isSelected ? 'bg-accent border-accent text-black' : 'border-gray-600'}`}>{String.fromCharCode(65 + idx)}</div>
-                                    <div className="text-lg pt-0.5"><RenderText text={optText} /></div>
+                                <button 
+                                    key={idx} 
+                                    onClick={() => handleOptionSelect(opt.id || optText)} 
+                                    className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}
+                                >
+                                    <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${isSelected ? 'bg-accent border-accent text-black' : 'border-gray-600'}`}>
+                                        {String.fromCharCode(65 + idx)}
+                                    </div>
+                                    <div className="text-lg pt-0.5 flex-1">
+                                        {isImageOption ? (
+                                            <img 
+                                                src={optText.startsWith('http') ? optText : `/${optText.startsWith('/') ? optText.slice(1) : optText}`} 
+                                                alt={`Option ${String.fromCharCode(65 + idx)}`}
+                                                className="max-h-32 w-auto rounded border border-gray-700 bg-white/5 p-2"
+                                                onError={(e) => { e.target.style.display = 'none'; }}
+                                            />
+                                        ) : (
+                                            <RenderText text={optText} />
+                                        )}
+                                    </div>
                                 </button>
                             )
                         })
