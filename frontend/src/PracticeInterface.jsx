@@ -48,7 +48,8 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const [isResizing, setIsResizing] = useState(null);
 
   const questions = testData.questions;
-  const currentQuestion = questions[currentQIndex];
+  // SAFE GUARD: Ensure currentQuestion is never undefined during switches
+  const currentQuestion = questions[currentQIndex] || questions[0] || {};
 
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
@@ -85,6 +86,13 @@ export default function PracticeInterface({ testData, settings, onExit }) {
     };
   }, [isResizing, resize, stopResizing]);
 
+  // RESET PROTECTION: Prevents numbers bugging when new data is smaller than old data
+  useEffect(() => {
+    if (currentQIndex >= questions.length) {
+      setCurrentQIndex(0);
+    }
+  }, [questions.length, currentQIndex]);
+
   useEffect(() => {
       if (questions[currentQIndex]) {
           setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
@@ -102,16 +110,22 @@ export default function PracticeInterface({ testData, settings, onExit }) {
       onExit(answers);
   };
 
+  // STABLE TIMER: Removed side-effects from functional update to prevent "jumping"
   useEffect(() => {
     if (settings.timeLimit === 0) return; 
     const timer = setInterval(() => {
-        setTimeLeft((prev) => {
-            if (prev <= 1) { alert("Time's up!"); handleSubmit(); return 0; }
-            return prev - 1;
-        });
+        setTimeLeft((prev) => (prev > 0 ? prev - 1 : 0));
     }, 1000);
     return () => clearInterval(timer);
   }, [settings.timeLimit]);
+
+  // SEPARATE EXPIRY HANDLER
+  useEffect(() => {
+    if (timeLeft === 0 && settings.timeLimit > 0 && !isSubmitting.current) {
+        alert("Time's up!");
+        handleSubmit();
+    }
+  }, [timeLeft, settings.timeLimit]);
 
   const clean = (text) => String(text || "").replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, '');
   const RenderText = ({ text }) => text ? <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span> : null;
