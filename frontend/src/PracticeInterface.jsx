@@ -10,31 +10,18 @@ class SafeLatex extends Component {
 }
 
 const ImageDisplay = ({ images, singleUrl }) => {
-  // --- IMPROVED LOGIC ---
-  // 1. Use 'images' if it exists and is an array.
-  // 2. If not, check if 'singleUrl' is already an array.
-  // 3. If it's a string, wrap it in an array.
   const imgs = (images && Array.isArray(images)) ? images : 
                (Array.isArray(singleUrl) ? singleUrl : 
                (singleUrl ? [singleUrl] : []));
-
   if (imgs.length === 0) return null;
-
   return (
     <div className="flex flex-col gap-4 my-6">
       {imgs.map((src, idx) => {
         if (!src) return null;
-        // Ensure path starts with / for local assets
         const fullSrc = src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`;
-        
         return (
           <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
-            <img 
-              src={fullSrc} 
-              alt={`Figure ${idx + 1}`} 
-              className="max-w-full h-auto" 
-              onError={(e) => { e.target.style.display = 'none'; }} 
-            />
+            <img src={fullSrc} alt={`Figure ${idx + 1}`} className="max-w-full h-auto" onError={(e) => { e.target.style.display = 'none'; }} />
           </div>
         );
       })}
@@ -100,9 +87,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   }, [isResizing, resize, stopResizing]);
 
   useEffect(() => {
-      if (questions[currentQIndex]) {
-          setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
-      }
+      if (questions[currentQIndex]) setVisited(prev => ({ ...prev, [questions[currentQIndex].id]: true }));
   }, [currentQIndex, questions]);
 
   useEffect(() => {
@@ -120,7 +105,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
     if (settings.timeLimit === 0) return; 
     const timer = setInterval(() => {
         setTimeLeft((prev) => {
-            if (prev <= 1) { alert("Time's up!"); handleSubmit(); return 0; }
+            if (prev <= 1) { alert("Practice finished!"); handleSubmit(); return 0; }
             return prev - 1;
         });
     }, 1000);
@@ -133,13 +118,6 @@ export default function PracticeInterface({ testData, settings, onExit }) {
   const handleOptionSelect = (optId) => setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId }));
   const hasPassage = currentQuestion?.context_passage && String(currentQuestion.context_passage).length > 50;
 
-  const getStatusColor = (qId, idx) => {
-      if (currentQIndex === idx) return "border-blue-500 border-2 bg-blue-900/30 text-white";
-      if (answers[qId]) return "bg-emerald-600 text-white border-emerald-600";
-      if (visited[qId]) return "bg-red-900/50 text-red-200 border-red-800";
-      return "bg-charcoal text-gray-500 border-gray-700";
-  };
-
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
       
@@ -147,41 +125,37 @@ export default function PracticeInterface({ testData, settings, onExit }) {
       <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
               <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
-              <p className="text-xs text-gray-500 truncate">Questions</p>
+              <p className="text-xs text-gray-500 truncate">Practice Questions</p>
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
-                  {questions.map((q, idx) => (
-                      <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
-                          {idx + 1}
-                      </button>
-                  ))}
+                  {questions.map((q, idx) => {
+                      let color = "bg-charcoal text-gray-500 border-gray-700";
+                      if (currentQIndex === idx) color = "border-blue-500 border-2 bg-blue-900/30 text-white";
+                      else if (answers[q.id]) color = "bg-emerald-600 text-white border-emerald-600";
+                      else if (visited[q.id]) color = "bg-red-900/50 text-red-200 border-red-800";
+                      return (
+                          <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${color}`}>
+                              {idx + 1}
+                          </button>
+                      );
+                  })}
               </div>
           </div>
           <div className="p-4 border-t border-subtle bg-black/20">
-              <div className="grid grid-cols-2 gap-2 text-xs text-gray-400 mb-4">
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> <span className="truncate">Ans</span></div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> <span className="truncate">Skip</span></div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> <span className="truncate">New</span></div>
-                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> <span className="truncate">Now</span></div>
-              </div>
-              <button onClick={() => { if(window.confirm("Submit Practice?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">Submit</button>
+              <button onClick={() => { if(window.confirm("Submit Session?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">End Session</button>
           </div>
       </div>
 
-      {/* --- SIDEBAR RESIZER --- */}
-      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20">
-        <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
-      </div>
+      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30" />
 
-      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
             <div><h2 className="font-bold text-white text-lg">Practice Mode</h2><span className="text-xs text-accent uppercase tracking-widest">{settings.section}</span></div>
             {settings.timeLimit > 0 && (
                 <div className="bg-black/40 px-4 py-2 rounded-lg border border-gray-800 flex items-center gap-3">
                     <Timer size={20} className="text-accent" />
-                    <span className={`font-mono text-xl font-bold ${timeLeft < 60 ? 'text-red-500' : 'text-white'}`}>{Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}</span>
+                    <span className="font-mono text-xl text-white font-bold">{Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}</span>
                 </div>
             )}
           </div>
@@ -193,44 +167,42 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                         <div className="text-lg leading-8 text-gray-300 font-serif"><RenderText text={currentQuestion.context_passage} /></div>
                         <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />
                     </div>
-                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors border-l border-r border-black/20">
+                    <div onMouseDown={() => startResizing('passage')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center">
                         <GripVertical size={12} className="text-blue-400/50" />
                     </div>
                 </>
             )}
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">
-                <div className="flex justify-between items-end mb-6 border-b border-gray-800 pb-4"><span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span></div>
+                <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-4">
+                    <div className="flex items-center gap-3">
+                        <span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span>
+                        {/* YEAR BADGE */}
+                        {currentQuestion.exam_year && currentQuestion.exam_year !== 0 && (
+                            <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">
+                                Source: {currentQuestion.exam_year}
+                            </span>
+                        )}
+                    </div>
+                </div>
+
                 <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
                 {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
                 
-                {/* --- OPTIONS LOOP WITH IMAGE DETECTION --- */}
                 <div className="space-y-4 mb-10 mt-6">
                     {currentQuestion.options && currentQuestion.options.length > 0 ? (
                         currentQuestion.options.map((opt, idx) => {
                             const optText = typeof opt === 'string' ? opt : opt.text; 
                             const isSelected = answers[currentQuestion.id] === (opt.id || optText); 
                             
-                            // Check if this option is a path to an image (common in CMAT Logical Reasoning)
                             const isImageOption = typeof optText === 'string' && 
                                 (optText.match(/\.(jpeg|jpg|gif|png|webp)$/i) || optText.startsWith('images/'));
 
                             return (
-                                <button 
-                                    key={idx} 
-                                    onClick={() => handleOptionSelect(opt.id || optText)} 
-                                    className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}
-                                >
-                                    <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${isSelected ? 'bg-accent border-accent text-black' : 'border-gray-600'}`}>
-                                        {String.fromCharCode(65 + idx)}
-                                    </div>
+                                <button key={idx} onClick={() => handleOptionSelect(opt.id || optText)} className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}>
+                                    <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${isSelected ? 'bg-accent border-accent text-black' : 'border-gray-600'}`}>{String.fromCharCode(65 + idx)}</div>
                                     <div className="text-lg pt-0.5 flex-1">
                                         {isImageOption ? (
-                                            <img 
-                                                src={optText.startsWith('http') ? optText : `/${optText.startsWith('/') ? optText.slice(1) : optText}`} 
-                                                alt={`Option ${String.fromCharCode(65 + idx)}`}
-                                                className="max-h-32 w-auto rounded border border-gray-700 bg-white/5 p-2"
-                                                onError={(e) => { e.target.style.display = 'none'; }}
-                                            />
+                                            <img src={optText.startsWith('http') ? optText : `/${optText.startsWith('/') ? optText.slice(1) : optText}`} alt={`Option ${idx}`} className="max-h-32 w-auto rounded border border-gray-700 bg-white/5 p-2" />
                                         ) : (
                                             <RenderText text={optText} />
                                         )}
@@ -240,7 +212,6 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                         })
                     ) : (
                         <div className="bg-black/30 p-6 rounded-xl border border-dashed border-gray-700">
-                            <label className="text-gray-400 text-sm block mb-3">TITA / No Options:</label>
                             <input type="text" className="w-full bg-charcoal border border-subtle p-4 rounded text-white font-mono text-xl" placeholder="Enter answer..." onChange={(e) => handleOptionSelect(e.target.value)} value={answers[currentQuestion.id] || ''} />
                         </div>
                     )}
