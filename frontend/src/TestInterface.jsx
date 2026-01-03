@@ -31,7 +31,7 @@ const ImageDisplay = ({ images, singleUrl }) => {
 export default function TestInterface({ testData, onExit }) {
   const isMAT = testData.id && testData.id.startsWith("MAT");
   const isCMAT = testData.id && testData.id.startsWith("CMAT");
-  const isFreeSwitch = isMAT || isCMAT; 
+  const isFreeSwitch = isMAT || isCMAT; // CMAT and MAT allow free switching
   
   const SECTIONS = testData.sections ? Object.keys(testData.sections) : [];
   const SESSION_KEY = `session_${testData.id}`;
@@ -42,6 +42,7 @@ export default function TestInterface({ testData, onExit }) {
   };
   const initialSession = loadSession() || {};
 
+  // CMAT: 180m (10800s), MAT: 120m (7200s), CAT: 40m (2400s)
   const defaultTime = isCMAT ? 10800 : (isMAT ? 7200 : 2400);
 
   const [currentSectionIndex, setCurrentSectionIndex] = useState(initialSession.currentSectionIndex || 0);
@@ -55,14 +56,10 @@ export default function TestInterface({ testData, onExit }) {
   const [passageWidth, setPassageWidth] = useState(50);
   const [isResizing, setIsResizing] = useState(null);
 
-  if (!testData || !SECTIONS.length) return <div className="p-10 text-white font-bold text-center">Error: Empty Test Data</div>;
-  
+  if (!testData || !SECTIONS.length) return <div className="p-10 text-white">Error: Empty Test Data</div>;
   const currentSectionName = SECTIONS[currentSectionIndex];
   const questions = testData.sections[currentSectionName] || [];
-  
-  // FIX: Safety index prevents "buggy numbers" when moving from large to small sections
-  const safeIndex = currentQIndex >= questions.length ? 0 : currentQIndex;
-  const currentQuestion = questions[safeIndex] || questions[0];
+  const currentQuestion = questions[currentQIndex];
 
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
@@ -100,16 +97,14 @@ export default function TestInterface({ testData, onExit }) {
   }, [isResizing, resize, stopResizing]);
 
   useEffect(() => {
-      if(currentQuestion && currentQuestion.id) {
-          setVisited(prev => ({ ...prev, [currentQuestion.id]: true }));
-      }
-  }, [safeIndex, currentQuestion]);
+      if(currentQuestion) setVisited(prev => ({ ...prev, [currentQuestion.id]: true }));
+  }, [currentQIndex, currentQuestion]);
 
   useEffect(() => {
       if (!isSubmitting.current) {
-          localStorage.setItem(SESSION_KEY, JSON.stringify({ currentSectionIndex, currentQIndex: safeIndex, answers, visited, timeLeft }));
+          localStorage.setItem(SESSION_KEY, JSON.stringify({ currentSectionIndex, currentQIndex, answers, visited, timeLeft }));
       }
-  }, [currentSectionIndex, safeIndex, answers, visited, timeLeft, SESSION_KEY]);
+  }, [currentSectionIndex, currentQIndex, answers, visited, timeLeft, SESSION_KEY]);
 
   const handleSubmit = () => {
       isSubmitting.current = true;
@@ -135,21 +130,21 @@ export default function TestInterface({ testData, onExit }) {
   const clean = (text) => { if(!text) return ""; return String(text).replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, ''); };
   const RenderText = ({ text }) => { if (!text) return null; return <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span>; };
 
-  const handleOptionSelect = (optId) => { if(currentQuestion) setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId })); };
-  const handleNext = () => { if (safeIndex < questions.length - 1) setCurrentQIndex(safeIndex + 1); };
-  const handlePrev = () => { if (safeIndex > 0) setCurrentQIndex(safeIndex - 1); };
+  const handleOptionSelect = (optId) => { setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId })); };
+  const handleNext = () => { if (currentQIndex < questions.length - 1) setCurrentQIndex(currentQIndex + 1); };
+  const handlePrev = () => { if (currentQIndex > 0) setCurrentQIndex(currentQIndex - 1); };
   
   const handleTabClick = (idx) => { 
     if (isFreeSwitch) { 
-        setCurrentQIndex(0); // Batch reset index
         setCurrentSectionIndex(idx); 
+        setCurrentQIndex(0); 
     } 
   };
 
   const handleSectionSwitch = () => {
     if (currentSectionIndex < SECTIONS.length - 1) {
-      setCurrentQIndex(0); // Batch reset index
       setCurrentSectionIndex(currentSectionIndex + 1);
+      setCurrentQIndex(0);
       if (!isFreeSwitch) setTimeLeft(2400); 
     } else {
       if(window.confirm("Submit Test?")) handleSubmit();
@@ -157,7 +152,7 @@ export default function TestInterface({ testData, onExit }) {
   };
 
   const getStatusColor = (qId, idx) => {
-      if (safeIndex === idx) return "border-blue-500 border-2 bg-blue-900/30 text-white";
+      if (currentQIndex === idx) return "border-blue-500 border-2 bg-blue-900/30 text-white";
       if (answers[qId]) return "bg-emerald-600 text-white border-emerald-600";
       if (visited[qId]) return "bg-red-900/50 text-red-200 border-red-800";
       return "bg-charcoal text-gray-500 border-gray-700";
@@ -167,11 +162,12 @@ export default function TestInterface({ testData, onExit }) {
 
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
+      
       {/* SIDEBAR */}
       <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
               <h2 className="font-bold text-white mb-1 truncate">Palette</h2>
-              <div className="text-xs text-gray-500 truncate uppercase">{currentSectionName}</div>
+              <div className="text-xs text-gray-500 truncate">{currentSectionName}</div>
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
@@ -183,6 +179,12 @@ export default function TestInterface({ testData, onExit }) {
               </div>
           </div>
           <div className="p-4 border-t border-subtle bg-black/20">
+              <div className="grid grid-cols-2 gap-2 text-xs text-gray-400 mb-4">
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-emerald-600"></div> <span className="truncate">Ans</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-red-900/50 border border-red-800"></div> <span className="truncate">Skip</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded bg-charcoal border border-gray-700"></div> <span className="truncate">New</span></div>
+                  <div className="flex items-center gap-2"><div className="w-3 h-3 rounded border-2 border-blue-500"></div> <span className="truncate">Now</span></div>
+              </div>
               <button onClick={() => { if(window.confirm("Submit Test?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">Submit Test</button>
           </div>
       </div>
@@ -192,10 +194,9 @@ export default function TestInterface({ testData, onExit }) {
         <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
       </div>
 
-      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
-            <div><h2 className="font-bold text-white text-lg tracking-wide uppercase">{isCMAT ? "CMAT" : isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
+            <div><h2 className="font-bold text-white text-lg tracking-wide">{isCMAT ? "CMAT" : isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
             <div className="flex items-center gap-8">
                 <div className={`px-4 py-2 rounded-lg border border-gray-800 flex items-center gap-3 ${timeLeft < 300 ? 'bg-red-900/30 border-red-500' : 'bg-black/40'}`}>
                     <Timer size={20} className={timeLeft < 300 ? 'text-red-400' : 'text-accent'} />
@@ -222,9 +223,10 @@ export default function TestInterface({ testData, onExit }) {
                 </>
             )}
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">
+                {/* YEAR BADGE INTEGRATED BELOW */}
                 <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-4">
                   <div className="flex items-center gap-3">
-                    <span className="text-accent font-mono font-bold text-lg">Q.{safeIndex + 1}</span>
+                    <span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span>
                     {currentQuestion.exam_year && currentQuestion.exam_year !== 0 && (
                       <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">Year: {currentQuestion.exam_year}</span>
                     )}
@@ -238,7 +240,10 @@ export default function TestInterface({ testData, onExit }) {
                         currentQuestion.options.map((opt, idx) => {
                             const optText = typeof opt === 'string' ? opt : opt.text; 
                             const isSelected = answers[currentQuestion.id] === (opt.id || optText); 
-                            const isImageOption = typeof optText === 'string' && (optText.match(/\.(jpeg|jpg|gif|png|webp)$/i) || optText.startsWith('images/'));
+                            
+                            // DETECTION FOR IMAGE OPTIONS
+                            const isImageOption = typeof optText === 'string' && 
+                                (optText.match(/\.(jpeg|jpg|gif|png|webp)$/i) || optText.startsWith('images/'));
 
                             return (
                                 <button key={idx} onClick={() => handleOptionSelect(opt.id || optText)} className={`w-full text-left p-5 rounded-xl border transition-all flex items-start gap-4 ${isSelected ? 'bg-emerald-900/20 border-accent text-white shadow-[0_0_15px_rgba(16,185,129,0.2)]' : 'bg-charcoal border-subtle text-gray-400 hover:bg-[#252525]'}`}>
@@ -264,9 +269,9 @@ export default function TestInterface({ testData, onExit }) {
           </div>
 
           <div className="h-20 border-t border-subtle bg-charcoal flex items-center justify-between px-8 shrink-0">
-            <button onClick={handlePrev} disabled={safeIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
+            <button onClick={handlePrev} disabled={currentQIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
             <button onClick={handleSectionSwitch} className="text-red-400 border border-red-900/50 px-4 py-2 rounded hover:bg-red-900/20">{currentSectionIndex === SECTIONS.length - 1 ? "Finish Exam" : "Next Section"}</button>
-            <button onClick={handleNext} disabled={safeIndex === questions.length - 1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2 hover:bg-emerald-400 shadow-lg shadow-emerald-900/20 transition-all">Save & Next <ChevronRight size={20} /></button>
+            <button onClick={handleNext} disabled={currentQIndex === questions.length - 1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2 hover:bg-emerald-400 shadow-lg shadow-emerald-900/20 transition-all">Save & Next <ChevronRight size={20} /></button>
           </div>
       </div>
     </div>
