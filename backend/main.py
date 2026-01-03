@@ -9,11 +9,12 @@ import os
 CAT_DB = []
 MAT_DB = []
 XAT_DB = []
+CMAT_DB = [] # New: CMAT Store
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """ Modern way to handle startup and shutdown events """
-    global CAT_DB, MAT_DB, XAT_DB
+    global CAT_DB, MAT_DB, XAT_DB, CMAT_DB
     
     # Load CAT
     if os.path.exists("data/master_db.json"):
@@ -29,12 +30,16 @@ async def lifespan(app: FastAPI):
     if os.path.exists("data/xat_db.json"):
         with open("data/xat_db.json", "r", encoding="utf-8") as f:
             XAT_DB = json.load(f)
+
+    # New: Load CMAT
+    if os.path.exists("data/cmat_db.json"):
+        with open("data/cmat_db.json", "r", encoding="utf-8") as f:
+            CMAT_DB = json.load(f)
     
-    print(f"✅ Databases Loaded: CAT({len(CAT_DB)}), MAT({len(MAT_DB)}), XAT({len(XAT_DB)})")
+    print(f"✅ Databases Loaded: CAT({len(CAT_DB)}), MAT({len(MAT_DB)}), XAT({len(XAT_DB)}), CMAT({len(CMAT_DB)})")
     yield
     print("👋 Shutting down...")
 
-# Initialize FastAPI with the lifespan handler
 app = FastAPI(lifespan=lifespan)
 
 app.add_middleware(
@@ -45,6 +50,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# --- HELPER: SELECT DB ---
+def get_db(exam_type):
+    if exam_type == "MAT": return MAT_DB
+    if exam_type == "XAT": return XAT_DB
+    if exam_type == "CMAT": return CMAT_DB # New: CMAT selection
+    return CAT_DB
+
 @app.get("/")
 def read_root():
     return {
@@ -53,27 +65,19 @@ def read_root():
         "stats": {
             "cat_loaded": len(CAT_DB) > 0,
             "mat_loaded": len(MAT_DB) > 0,
-            "xat_loaded": len(XAT_DB) > 0
-        },
-        "docs_url": "/docs"
+            "xat_loaded": len(XAT_DB) > 0,
+            "cmat_loaded": len(CMAT_DB) > 0
+        }
     }
-
-# --- HELPER: SELECT DB ---
-def get_db(exam_type):
-    if exam_type == "MAT": return MAT_DB
-    if exam_type == "XAT": return XAT_DB
-    return CAT_DB
 
 @app.get("/get-topics")
 def get_topics(section: str = Query("ALL"), exam_type: str = Query("CAT")):
     db = get_db(exam_type)
     unique_topics = set()
-    
     for item in db:
         if section != "ALL" and item['section'] != section: continue
         for q in item['questions']:
             if q.get('topic'): unique_topics.add(q['topic'])
-                
     return {"topics": sorted(list(unique_topics))}
 
 @app.get("/generate-mock")
@@ -84,11 +88,10 @@ def generate_mock(
 ):
     print(f"--- GENERATING {exam_type} MOCK ---")
     db = get_db(exam_type)
-    
     if not db:
         raise HTTPException(status_code=500, detail=f"Database for {exam_type} is empty.")
 
-    # 1. Filter by Year
+    # Filter by Year
     filtered_pool = []
     for item in db:
         if not item.get('questions'): continue
@@ -97,41 +100,61 @@ def generate_mock(
             filtered_pool.append(item)
 
     if not filtered_pool:
-        raise HTTPException(status_code=404, detail="No questions found in this year range.")
+        raise HTTPException(status_code=404, detail="No questions found in this range.")
 
-    # 2. Exam Pattern Logic
-    if exam_type == "XAT":
-        # XAT Pattern: VALR (~26), BDM (~21), QADI (~26)
-        sections = [
-            ("VALR", 26), 
-            ("BDM", 21), 
-            ("QADI", 26)
+    # --- CMAT PATTERN LOGIC ---
+    if exam_type == "CMAT":
+        # CMAT: 5 Sections, 20 Qs each
+        cmat_pattern = [
+            ("Quantitative Techniques and Data Interpretation", 20),
+            ("Logical Reasoning", 20),
+            ("Language Comprehension", 20),
+            ("General Awareness", 20),
+            ("Innovation and Entrepreneurship", 20)
         ]
+        test_structure = {}
+        for sec_name, count in cmat_pattern:
+            # Filter pool for exact section name
+            sec_pool = [i for i in filtered_pool if i['section'] == sec_name]
+            if sec_pool:
+                # CMAT often has RC sets. We sample 'items' and then flatten.
+                # To get exactly 20, we may need to trim after flattening.
+                selected_items = random.sample(sec_pool, min(len(sec_pool), count))
+                flat = []
+                for s in selected_items:
+                    # Inject passage into question if it's a set
+                    for q in s['questions']:
+                        q['context_passage'] = s.get('passage_text')
+                    flat.extend(s['questions'])
+                test_structure[sec_name] = flat[:count] # Strict 20 count
+        return {"id": f"CMAT_MOCK_{random.randint(100,999)}", "sections": test_structure}
+
+    elif exam_type == "XAT":
+        sections = [("VALR", 26), ("BDM", 21), ("QADI", 26)]
         test_structure = {}
         for sec_name, count in sections:
             sec_pool = [i for i in filtered_pool if sec_name in i['section']]
             if sec_pool:
                 selected = random.sample(sec_pool, min(len(sec_pool), count))
                 flat = []
-                for s in selected: flat.extend(s['questions'])
-                test_structure[sec_name] = flat
+                for s in selected: 
+                    for q in s['questions']: q['context_passage'] = s.get('passage_text')
+                    flat.extend(s['questions'])
+                test_structure[sec_name] = flat[:count]
         return {"id": f"XAT_MOCK_{random.randint(100,999)}", "sections": test_structure}
 
     elif exam_type == "MAT":
-        sections = [
-            "Language Comprehension", "Mathematical Skills", 
-            "Data Analysis & Sufficiency", "Intelligence & Critical Reasoning", 
-            "Indian & Global Environment"
-        ]
+        sections = ["Language Comprehension", "Mathematical Skills", "Data Analysis & Sufficiency", "Intelligence & Critical Reasoning", "Indian & Global Environment"]
         test_structure = {}
         for sec in sections:
             sec_pool = [i for i in filtered_pool if i['section'] == sec]
-            count = min(len(sec_pool), 30) 
-            if count > 0:
-                selected = random.sample(sec_pool, count)
-                flat_questions = []
-                for s in selected: flat_questions.extend(s['questions'])
-                test_structure[sec] = flat_questions
+            if sec_pool:
+                selected = random.sample(sec_pool, min(len(sec_pool), 30))
+                flat = []
+                for s in selected: 
+                    for q in s['questions']: q['context_passage'] = s.get('passage_text')
+                    flat.extend(s['questions'])
+                test_structure[sec] = flat[:40] # MAT is usually 40, adjust based on your needs
         return {"id": f"MAT_MOCK_{random.randint(100,999)}", "sections": test_structure}
 
     else:
@@ -142,11 +165,15 @@ def generate_mock(
         qa_standalone = [q for q in filtered_pool if q['section'] == 'QA']
 
         varc = []
-        for s in random.sample(rc_sets, min(4, len(rc_sets))): varc.extend(s['questions'])
+        for s in random.sample(rc_sets, min(4, len(rc_sets))):
+            for q in s['questions']: q['context_passage'] = s.get('passage_text')
+            varc.extend(s['questions'])
         for q in random.sample(va_standalone, min(8, len(va_standalone))): varc.extend(q['questions'])
         
         dilr = []
-        for s in random.sample(dilr_sets, min(4, len(dilr_sets))): dilr.extend(s['questions'])
+        for s in random.sample(dilr_sets, min(4, len(dilr_sets))):
+            for q in s['questions']: q['context_passage'] = s.get('passage_text')
+            dilr.extend(s['questions'])
         
         qa = []
         for q in random.sample(qa_standalone, min(22, len(qa_standalone))): qa.extend(q['questions'])
@@ -179,13 +206,15 @@ def generate_practice(
             if not any(q.get('topic') == topic for q in item['questions']): continue
         pool.append(item)
 
-    if not pool: raise HTTPException(status_code=404, detail="No questions found matching criteria.")
+    if not pool: raise HTTPException(status_code=404, detail="No questions found.")
 
     random.shuffle(pool)
     practice_questions = []
     for item in pool:
         for q in item['questions']:
             if len(practice_questions) >= count: break
+            # Inject passage for display
+            q['context_passage'] = item.get('passage_text')
             if topic and topic != "ALL":
                 if q.get('topic') == topic: practice_questions.append(q)
             else:
@@ -193,6 +222,5 @@ def generate_practice(
 
     return {
         "id": f"PRAC_{exam_type}_{random.randint(1000,9999)}",
-        "mode": "practice",
         "questions": practice_questions[:count]
     }
