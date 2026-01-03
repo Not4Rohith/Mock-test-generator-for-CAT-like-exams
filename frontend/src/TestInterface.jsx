@@ -224,7 +224,7 @@ export default function TestInterface({ testData, onExit }) {
                         {/* YEAR BADGE */}
                         {currentQuestion.exam_year && currentQuestion.exam_year !== 0 && (
                             <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">
-                                Source: {currentQuestion.exam_year}
+                                Year: {currentQuestion.exam_year}
                             </span>
                         )}
                     </div>
