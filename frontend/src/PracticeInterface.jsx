@@ -190,7 +190,7 @@ export default function PracticeInterface({ testData, settings, onExit }) {
                   <div className="flex items-center gap-3">
                     <span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span>
                     {currentQuestion.exam_year && currentQuestion.exam_year !== 0 && (
-                      <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">Source: {currentQuestion.exam_year}</span>
+                      <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">Year: {currentQuestion.exam_year}</span>
                     )}
                   </div>
                 </div>
