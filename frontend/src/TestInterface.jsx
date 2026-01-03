@@ -10,21 +10,20 @@ class SafeLatex extends Component {
 }
 
 const ImageDisplay = ({ images, singleUrl }) => {
-  const imgs = (images && Array.isArray(images)) ? images : 
-               (Array.isArray(singleUrl) ? singleUrl : 
-               (singleUrl ? [singleUrl] : []));
+  const imgs = (images && images.length > 0) ? images : (singleUrl ? [singleUrl] : []);
   if (imgs.length === 0) return null;
   return (
     <div className="flex flex-col gap-4 my-6">
-      {imgs.map((src, idx) => {
-        if (!src) return null;
-        const fullSrc = src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`;
-        return (
-          <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
-            <img src={fullSrc} alt={`Figure ${idx + 1}`} className="max-w-full h-auto" onError={(e) => { e.target.style.display = 'none'; }} />
-          </div>
-        );
-      })}
+      {imgs.map((src, idx) => (
+        <div key={idx} className="border border-gray-700 rounded p-2 bg-black inline-block self-start">
+          <img 
+            src={src.startsWith('http') ? src : `/${src.startsWith('/') ? src.slice(1) : src}`} 
+            alt={`Figure ${idx + 1}`} 
+            className="max-w-full h-auto" 
+            onError={(e) => { e.target.style.display = 'none'; }} 
+          />
+        </div>
+      ))}
     </div>
   );
 };
@@ -56,10 +55,14 @@ export default function TestInterface({ testData, onExit }) {
   const [passageWidth, setPassageWidth] = useState(50);
   const [isResizing, setIsResizing] = useState(null);
 
-  // Safety fallbacks
+  if (!testData || !SECTIONS.length) return <div className="p-10 text-white font-bold text-center">Error: Empty Test Data</div>;
+  
   const currentSectionName = SECTIONS[currentSectionIndex];
   const questions = testData.sections[currentSectionName] || [];
-  const currentQuestion = questions[currentQIndex] || questions[0];
+  
+  // FIX: Safety index prevents "buggy numbers" when moving from large to small sections
+  const safeIndex = currentQIndex >= questions.length ? 0 : currentQIndex;
+  const currentQuestion = questions[safeIndex] || questions[0];
 
   const startResizing = useCallback((type) => setIsResizing(type), []);
   const stopResizing = useCallback(() => setIsResizing(null), []);
@@ -83,9 +86,12 @@ export default function TestInterface({ testData, onExit }) {
       window.addEventListener('mousemove', resize);
       window.addEventListener('mouseup', stopResizing);
       document.body.style.userSelect = 'none';
+      document.body.style.cursor = 'col-resize';
     } else {
       window.removeEventListener('mousemove', resize);
       window.removeEventListener('mouseup', stopResizing);
+      document.body.style.userSelect = '';
+      document.body.style.cursor = '';
     }
     return () => {
       window.removeEventListener('mousemove', resize);
@@ -93,22 +99,17 @@ export default function TestInterface({ testData, onExit }) {
     };
   }, [isResizing, resize, stopResizing]);
 
-  // RESET Q INDEX WHEN SECTION CHANGES (Prevents bugging)
   useEffect(() => {
-    if (currentQIndex >= questions.length) {
-        setCurrentQIndex(0);
-    }
-  }, [currentSectionIndex, questions.length]);
-
-  useEffect(() => {
-      if(currentQuestion) setVisited(prev => ({ ...prev, [currentQuestion.id]: true }));
-  }, [currentQIndex, currentQuestion]);
+      if(currentQuestion && currentQuestion.id) {
+          setVisited(prev => ({ ...prev, [currentQuestion.id]: true }));
+      }
+  }, [safeIndex, currentQuestion]);
 
   useEffect(() => {
       if (!isSubmitting.current) {
-          localStorage.setItem(SESSION_KEY, JSON.stringify({ currentSectionIndex, currentQIndex, answers, visited, timeLeft }));
+          localStorage.setItem(SESSION_KEY, JSON.stringify({ currentSectionIndex, currentQIndex: safeIndex, answers, visited, timeLeft }));
       }
-  }, [currentSectionIndex, currentQIndex, answers, visited, timeLeft, SESSION_KEY]);
+  }, [currentSectionIndex, safeIndex, answers, visited, timeLeft, SESSION_KEY]);
 
   const handleSubmit = () => {
       isSubmitting.current = true;
@@ -131,35 +132,41 @@ export default function TestInterface({ testData, onExit }) {
     return () => clearInterval(timer);
   }, [currentSectionIndex, isFreeSwitch]);
 
-  const clean = (text) => String(text || "").replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, '');
-  const RenderText = ({ text }) => text ? <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span> : null;
+  const clean = (text) => { if(!text) return ""; return String(text).replace(/â€™/g, "'").replace(/â€œ/g, '"').replace(/â€/g, '"').replace(/&nbsp;/g, " ").replace(/<[^>]+>/g, ''); };
+  const RenderText = ({ text }) => { if (!text) return null; return <span className="leading-7 tracking-wide whitespace-pre-line"><SafeLatex>{clean(text)}</SafeLatex></span>; };
 
-  const handleOptionSelect = (optId) => { setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId })); };
+  const handleOptionSelect = (optId) => { if(currentQuestion) setAnswers(prev => ({ ...prev, [currentQuestion.id]: optId })); };
+  const handleNext = () => { if (safeIndex < questions.length - 1) setCurrentQIndex(safeIndex + 1); };
+  const handlePrev = () => { if (safeIndex > 0) setCurrentQIndex(safeIndex - 1); };
   
   const handleTabClick = (idx) => { 
     if (isFreeSwitch) { 
+        setCurrentQIndex(0); // Batch reset index
         setCurrentSectionIndex(idx); 
-        setCurrentQIndex(0); 
     } 
   };
 
   const handleSectionSwitch = () => {
     if (currentSectionIndex < SECTIONS.length - 1) {
+      setCurrentQIndex(0); // Batch reset index
       setCurrentSectionIndex(currentSectionIndex + 1);
-      setCurrentQIndex(0);
       if (!isFreeSwitch) setTimeLeft(2400); 
     } else {
       if(window.confirm("Submit Test?")) handleSubmit();
     }
   };
 
-  if (!currentQuestion) return <div className="p-10 text-white">Loading Question...</div>;
+  const getStatusColor = (qId, idx) => {
+      if (safeIndex === idx) return "border-blue-500 border-2 bg-blue-900/30 text-white";
+      if (answers[qId]) return "bg-emerald-600 text-white border-emerald-600";
+      if (visited[qId]) return "bg-red-900/50 text-red-200 border-red-800";
+      return "bg-charcoal text-gray-500 border-gray-700";
+  };
 
   const hasPassage = currentQuestion?.context_passage && String(currentQuestion.context_passage).length > 50;
 
   return (
     <div className="flex h-screen bg-obsidian text-gray-200 font-sans overflow-hidden">
-      
       {/* SIDEBAR */}
       <div style={{ width: sidebarWidth }} className="bg-charcoal border-r border-subtle flex flex-col shrink-0 z-20">
           <div className="p-4 border-b border-subtle">
@@ -168,30 +175,27 @@ export default function TestInterface({ testData, onExit }) {
           </div>
           <div className="flex-1 overflow-y-auto p-4 custom-scrollbar">
               <div className="grid gap-2" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(40px, 1fr))' }}>
-                  {questions.map((q, idx) => {
-                      let color = "bg-charcoal text-gray-500 border-gray-700";
-                      if (currentQIndex === idx) color = "border-blue-500 border-2 bg-blue-900/30 text-white";
-                      else if (answers[q.id]) color = "bg-emerald-600 text-white border-emerald-600";
-                      else if (visited[q.id]) color = "bg-red-900/50 text-red-200 border-red-800";
-                      return (
-                        <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${color}`}>
-                            {idx + 1}
-                        </button>
-                      )
-                  })}
+                  {questions.map((q, idx) => (
+                      <button key={q.id} onClick={() => setCurrentQIndex(idx)} className={`h-10 w-10 rounded-lg flex items-center justify-center text-sm font-bold border transition-all hover:scale-105 ${getStatusColor(q.id, idx)}`}>
+                          {idx + 1}
+                      </button>
+                  ))}
               </div>
           </div>
-          <div className="p-4 border-t border-subtle bg-black/20 text-center">
-              <button onClick={() => { if(window.confirm("Submit Test?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate text-sm">Submit Test</button>
+          <div className="p-4 border-t border-subtle bg-black/20">
+              <button onClick={() => { if(window.confirm("Submit Test?")) handleSubmit(); }} className="w-full bg-red-600 hover:bg-red-500 text-white font-bold py-3 rounded-lg transition-colors truncate">Submit Test</button>
           </div>
       </div>
 
       {/* RESIZER */}
-      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30" />
+      <div onMouseDown={() => startResizing('sidebar')} className="w-1.5 bg-blue-950 hover:bg-blue-600 cursor-col-resize z-30 flex items-center justify-center transition-colors">
+        <div className="h-8 w-0.5 bg-blue-400/30 rounded-full" />
+      </div>
 
+      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col min-w-0">
           <div className="h-16 border-b border-subtle flex items-center justify-between px-8 bg-charcoal shrink-0">
-            <div><h2 className="font-bold text-white text-lg tracking-wide">{isCMAT ? "CMAT" : isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
+            <div><h2 className="font-bold text-white text-lg tracking-wide uppercase">{isCMAT ? "CMAT" : isMAT ? "MAT" : "CAT"} MOCK</h2><span className="text-xs text-gray-500 uppercase">{testData.id}</span></div>
             <div className="flex items-center gap-8">
                 <div className={`px-4 py-2 rounded-lg border border-gray-800 flex items-center gap-3 ${timeLeft < 300 ? 'bg-red-900/30 border-red-500' : 'bg-black/40'}`}>
                     <Timer size={20} className={timeLeft < 300 ? 'text-red-400' : 'text-accent'} />
@@ -220,13 +224,12 @@ export default function TestInterface({ testData, onExit }) {
             <div className="flex-1 h-full overflow-y-auto p-8 flex flex-col custom-scrollbar">
                 <div className="flex justify-between items-center mb-6 border-b border-gray-800 pb-4">
                   <div className="flex items-center gap-3">
-                    <span className="text-accent font-mono font-bold text-lg">Q.{currentQIndex + 1}</span>
+                    <span className="text-accent font-mono font-bold text-lg">Q.{safeIndex + 1}</span>
                     {currentQuestion.exam_year && currentQuestion.exam_year !== 0 && (
                       <span className="bg-white/5 px-2 py-1 rounded text-[10px] font-bold text-gray-500 border border-gray-800 tracking-widest uppercase">Year: {currentQuestion.exam_year}</span>
                     )}
                   </div>
                 </div>
-                
                 <div className="text-xl font-medium text-white mb-2 leading-relaxed"><RenderText text={currentQuestion.question_text} /></div>
                 {!hasPassage && <ImageDisplay images={currentQuestion.images} singleUrl={currentQuestion.image_url} />}
                 
@@ -252,6 +255,7 @@ export default function TestInterface({ testData, onExit }) {
                         })
                     ) : (
                         <div className="bg-black/30 p-6 rounded-xl border border-dashed border-gray-700">
+                            <label className="text-gray-400 text-sm block mb-3">TITA / No Options:</label>
                             <input type="text" className="w-full bg-charcoal border border-subtle p-4 rounded text-white font-mono text-xl" placeholder="Enter answer..." onChange={(e) => handleOptionSelect(e.target.value)} value={answers[currentQuestion.id] || ''} />
                         </div>
                     )}
@@ -260,9 +264,9 @@ export default function TestInterface({ testData, onExit }) {
           </div>
 
           <div className="h-20 border-t border-subtle bg-charcoal flex items-center justify-between px-8 shrink-0">
-            <button onClick={() => setCurrentQIndex(Math.max(0, currentQIndex-1))} disabled={currentQIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
+            <button onClick={handlePrev} disabled={safeIndex === 0} className="text-gray-400 hover:text-white flex items-center gap-2"><ChevronLeft size={20} /> Previous</button>
             <button onClick={handleSectionSwitch} className="text-red-400 border border-red-900/50 px-4 py-2 rounded hover:bg-red-900/20">{currentSectionIndex === SECTIONS.length - 1 ? "Finish Exam" : "Next Section"}</button>
-            <button onClick={() => setCurrentQIndex(Math.min(questions.length-1, currentQIndex+1))} disabled={currentQIndex === questions.length-1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2 hover:bg-emerald-400 shadow-lg shadow-emerald-900/20 transition-all">Save & Next <ChevronRight size={20} /></button>
+            <button onClick={handleNext} disabled={safeIndex === questions.length - 1} className="bg-accent text-black font-bold px-8 py-3 rounded-full flex items-center gap-2 hover:bg-emerald-400 shadow-lg shadow-emerald-900/20 transition-all">Save & Next <ChevronRight size={20} /></button>
           </div>
       </div>
     </div>
