@@ -101,7 +101,7 @@ function App() {
         
         <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-obsidian text-white font-sans relative">
             <h1 className="text-6xl font-bold mb-4 tracking-tighter">Exam Engine</h1>
-            <p className="text-gray-400 mb-12 text-xl">Select your target exam</p>
+            <p className="text-gray-400 mb-12 text-xl">Select your target exam <br> (Backend has been shut down temporarily)</></p>
             
             <div className="flex gap-6 flex-wrap justify-center max-w-5xl">
                 <button onClick={() => { setExamType('CAT'); setMode('home'); }} className="group bg-charcoal p-8 rounded-3xl border border-subtle hover:border-blue-500 hover:scale-105 transition-all text-center w-60">
